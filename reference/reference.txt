@@ -22,3 +22,10 @@ Dixon, E., Enos, E. and Brodmerkle, S., Fmr Llc, 2015. A/B testing. U.S. Patent 
 Xu, Y., Chen, N., Fernandez, A., Sinno, O. and Bhasin, A., 2015, August. From infrastructure to culture: A/b testing challenges in large scale social networks. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 2227-2236). ACM.
 
 Kohavi, R., Deng, A., Frasca, B., Walker, T., Xu, Y. and Pohlmann, N., 2013, August. Online controlled experiments at large scale. In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 1168-1176). ACM.
+
+Ron Kohavi. 2015. Online Controlled Experiments: Lessons from Running A/B/n Tests for 12 Years. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '15). ACM, New York, NY, USA, 1-1. http://bit.ly/KDD2015Kohavi.  DOI=http://dx.doi.org/10.1145/2783258.2785464
+
+ab testing website
+https://www.omniconvert.com/how-to-create-an-a-b-test
+http://drjasondavis.com/2013/09/12/eight-ways-youve-misconfigured-your-ab-test/
+https://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/
