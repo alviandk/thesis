@@ -1,0 +1,360 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{peniti2,
+  Title                    = {Assessing the Quality of M-Learning Systems using ISO/IEC 25010},
+  Author                   = {Anal Acharya and Devadatta Sinha},
+  Journal                  = {International Journal of Advanced Computer Research},
+  Year                     = {2013},
+
+  Month                    = {September},
+  Number                   = {3},
+  Volume                   = {3},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.10.04}
+}
+
+@Conference{Al-Kilidar,
+  Title                    = {The Use and Usefulness of the ISO/IEC 9126 Quality Standard},
+  Author                   = {H. Al-Kilidar and B. Kitchenham},
+  Booktitle                = {In International Symposium on Empirical Software Engineering},
+  Year                     = {2005},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.16}
+}
+
+@InProceedings{andrew,
+  Title                    = {Real-time ridesharing
+: The opportunities and challenges of utilizing mobile phone technology
+to improve rideshare services.},
+  Author                   = {Andrew Amey, J. A and Mishalani, R.},
+  Year                     = {2010},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.08.01}
+}
+
+@Conference{botella,
+  Title                    = {ISO/IEC 9126 in practice: what do we need to know?},
+  Author                   = {P. Botella},
+  Booktitle                = {Software Measurement European Forum (SMEF)},
+  Year                     = {2004},
+
+  Address                  = {Rome},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.11}
+}
+
+@Book{Eriyanto,
+  Title                    = {Teknik Sampling Analisis Opini Publik},
+  Author                   = {Eriyanto},
+  Editor                   = {Aindoble},
+  Publisher                = {LKiS Yogyakarta},
+  Year                     = {2007},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.16}
+}
+
+@Conference{Franca,
+  Title                    = {Quality Model for SOA Applications based on ISO 25010.},
+  Author                   = {Franca, Joyce M. S. and Soares, Michel S.},
+  Year                     = {2015},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.16}
+}
+
+@Article{peniti5,
+  Title                    = {SOAQM: Quality Model for SOA Applications based on ISO 25010},
+  Author                   = {Joyce M. S. Franca and Michel S. Soares},
+  Journal                  = {Proceedings of the 17th International Conference on Enterprise Information Systems},
+  Year                     = {2015},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.10.04}
+}
+
+@Book{Galin,
+  Title                    = {Software Quality Assurance from Theory to Implementation , 5th ed.},
+  Author                   = {D. Galin},
+  Publisher                = {England: Pearson Education Limited},
+  Year                     = {2004},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.11}
+}
+
+@Book{Guritno,
+  Title                    = {Theory and Application of IT Research Metode Penelitian Teknologi Informasi},
+  Author                   = {Guritno and Sudaryono and Rahardja},
+  Editor                   = {Andi},
+  Publisher                = {Yogyakarta},
+  Year                     = {2011},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.22}
+}
+
+@Book{Guttman,
+  Title                    = {Theory and Application of IT Research Metode Penelitian Teknologi Informasi.},
+  Author                   = {Suryo Guritno and Sudaryono and Untung Rahardja},
+  Editor                   = {-},
+  Publisher                = {Yogyakarta: Andi},
+  Year                     = {2011},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.19}
+}
+
+@InProceedings{hoxmei,
+  Title                    = {System Response Time and User Satisfaction: An Experimental Study of Browser-based Aplications},
+  Author                   = {John A. Hoxmeier and Chris DiCesare},
+  Booktitle                = {AMCIS Proceedings},
+  Year                     = {2014},
+  Pages                    = {347},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.22}
+}
+
+@Article{peniti4,
+  Title                    = {An Application of The ISO/IEC 25010 Standard in The QUALITY-IN-USE Assesment of An Online Health Awareness System},
+  Author                   = {Azham Hussain and Emmanuel O.C. Mkpojiogu},
+  Journal                  = {Jurnal Teknologi (Sciences \& Engineering},
+  Year                     = {2015},
+
+  Month                    = {September},
+  Number                   = {5},
+  Pages                    = {9-13},
+  Volume                   = {77},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.10.04}
+}
+
+@Booklet{maturity,
+  Title                    = {Software Testing Maturity
+ModelSM (SW-TMMSM)},
+  Author                   = {Duy Huynh},
+  Year                     = {2002},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.22}
+}
+
+@Electronic{SPSS,
+  Title                    = {IBM SPSS Statistics 23 Core System User's Guide},
+
+  Address                  = {United States},
+  Author                   = {Corporation IBM},
+  Year                     = {2015},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.16}
+}
+
+@Article{security,
+  Title                    = {Measuring Security Requirements for Software Security},
+  Author                   = {Shareeful Islam and Paolo Falcarin},
+  Journal                  = {Cybernetic Intelligent Systems (CIS), IEEE 10th International Conference},
+  Year                     = {2012},
+  Pages                    = {70- 75},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.22}
+}
+
+@Article{ISO,
+  Title                    = {ISO/IEC 25010: 2011, System and software quality models},
+  Author                   = {ISO/IEC},
+  Journal                  = {Systems and software engineering--Systems and software Quality Requirements and Evaluation (SQuaRE)--},
+  Year                     = {Switzerland, 2011},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{ISO2,
+  Title                    = {ISO/IEC 25000:2014, Guide to SQuaRE},
+  Author                   = {ISO/IEC},
+  Journal                  = {Software and system engineering--Software product Quality Requirements and Evaluation (SQuaRE)},
+  Year                     = {Switzerland, 2011},
+  Volume                   = {214AD},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.13}
+}
+
+@InProceedings{Milicic,
+  Title                    = {Software Quality Models and Philosophies},
+  Author                   = {D. Milicic},
+  Booktitle                = {Software Quality Attributes and Trade-Offs},
+  Year                     = {2005},
+  Publisher                = {Blekinge Institute of Technology},
+  Volume                   = {pp. 3-13},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.11}
+}
+
+@Electronic{viva,
+  Title                    = {GO-JEK ungguli Grab},
+  Author                   = {Amal Nur Ngazis and Mitra Angelia},
+  Month                    = {Maret},
+  Note                     = {http://teknologi.news.viva.co.id/news/read/748464-survei-gojek-ungguli-grab Accessed on 14th of June 2016},
+  Url                      = {http://teknologi.news.viva.co.id/news/read/748464-survei-gojek-ungguli-grab},
+  Year                     = {2016},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.08.01}
+}
+
+@Article{peniti3,
+  Title                    = {Applying ISO/IEC 25010 on Mobile Personal
+Health Records},
+  Author                   = {Sofia Ouhbi and Ali Idri and Jos´e Luis Fern´andez-Alem´an and Ambrosio Toval and Halima Benjelloun},
+  Journal                  = {Proceedings of the International Conference on Health Informatics},
+  Year                     = {2016},
+
+  Month                    = {May},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.10.04}
+}
+
+@Book{APJII,
+  Title                    = {Profil Pengguna Jasa Internet 2014},
+  Author                   = {Parlindungan Marius, Sapto Anggoro},
+  Editor                   = {Puskakom UI},
+  Publisher                = {Asosiasi Penyelenggara Jasa Internet Indonesia},
+  Year                     = {2015},
+
+  Owner                    = {izzatimilla},
+  Timestamp                = {2016.02.20}
+}
+
+@Article{funcsuit,
+  Title                    = {Evaluation of Software Product Functional Suitability: A Case Study},
+  Author                   = {Mioses Rodriguez and Mario Piattini},
+  Journal                  = {Software Quality Management},
+  Year                     = {2016},
+  Number                   = {3},
+  Volume                   = {SQP Vol 18},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.19}
+}
+
+@Article{peniti1,
+  Title                    = {Measuring Public Value UX based on ISO/IEC 25010 Quality Attributes},
+  Author                   = {Ashok Sivaji and Noorfarhana Abdollah and Soo Shi Tzuaan and Siti Hamimah Rasidi andYoong SIew Wai},
+  Journal                  = {User Science and Engineering (i-USEr), IEEE},
+  Year                     = {2015},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.10.04}
+}
+
+@Booklet{sugiyono2,
+  Title                    = {Metode Penelitian Pendidikan : Pendekatan Kuantitatif, Kualitatif,dan R\&D.},
+  Author                   = {Sugiyono},
+  Note                     = {Bandung:PT.Alfabeta},
+  Year                     = {2010},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.22}
+}
+
+@Booklet{sugiyono,
+  Title                    = {Metode Penelitian Kunatitatif Kualitatif dan R\&D},
+  Author                   = {Sugiyono},
+  Note                     = {Bandung:PT.Alfabeta},
+  Year                     = {2008},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.22}
+}
+
+@Book{jefftian,
+  Title                    = {Software Quality Engineering: Testing Quality Assurance and Quantifiable Improvement},
+  Author                   = {Jeff Tian},
+  Editor                   = {Donald F. Shafer},
+  Publisher                = {Wiley Interscience},
+  Year                     = {2005},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.08.01}
+}
+
+@Article{venendal,
+  Title                    = {The New Standard for Software Product Quality. Testing Experience},
+  Author                   = {Veenendaal, E. v.},
+  Year                     = {2014},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.08.01}
+}
+
+@PhdThesis{jurnalbobot,
+  Title                    = {A Software Assurance Model for
+Mobile Applications},
+  Author                   = {Luis Ricardo CORRAL VELÁZQUEZ},
+  School                   = {University of Bozen · Bolzano},
+  Year                     = {2014},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.18}
+}
+
+@Booklet{bbox,
+  Title                    = {Testing Overview and Black-Box Testing Techniques},
+  Author                   = {Laurie Williams},
+  Year                     = {2006},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.19}
+}
+
+@Electronic{gfk,
+  Title                    = {Mobile Apps Market Study},
+  Month                    = {June},
+  Note                     = {http://arenalte.com/berita/industri/ini-dia-aplikasi-dan-games-mobile-paling-populer-di-indonesia/ Accessed on 18th of June 2016},
+  Url                      = {http://arenalte.com/berita/industri/ini-dia-aplikasi-dan-games-mobile-paling-populer-di-indonesia/},
+  Year                     = {2016},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.07.28}
+}
+
+@Electronic{Googleplay,
+  Title                    = {What's New on GO-JEK},
+  Note                     = {https://play.google.com/store/apps/details?id=com.gojek.app Accessed on 3rd of September 2016},
+  Year                     = {2016},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.09.11}
+}
+
+@Electronic{GOJEK,
+  Title                    = {GO-JEK},
+  Note                     = {http://www.go-jek.com/ Accessed on 16th of May 2016},
+  Url                      = {http://www.go-jek.com/},
+  Year                     = {2014},
+
+  Owner                    = {millatiizzatillah},
+  Timestamp                = {2016.07.28}
+}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+

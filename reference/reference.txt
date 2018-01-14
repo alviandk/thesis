@@ -1,0 +1,24 @@
+https://github.com/pymc-devs/pymc3
+https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers#pymc3
+
+pymc3 paper
+[3] Salvatier, J, Wiecki TV, and Fonnesbeck C. (2016) Probabilistic programming in Python using PyMC3. PeerJ Computer Science 2:e55 https://doi.org/10.7717/peerj-cs.55
+
+Al-Rfou, R., Alain, G., Almahairi, A., Angermueller, C., Bahdanau, D., Ballas, N., Bastien, F., Bayer, J., Belikov, A., Belopolsky, A. and Bengio, Y., 2016. Theano: A Python framework for fast computation of mathematical expressions. arXiv preprint.
+
+Pan, I. and Bester, D., 2017. Fuzzy bayesian learning. IEEE Transactions on Fuzzy Systems.
+
+Pourzanjani, A.A., Jiang, R.M., Atzberger, P.J. and Petzold, L.R., 2017. General Bayesian Inference over the Stiefel Manifold via the Givens Transform. arXiv preprint arXiv:1710.09443.
+
+Jiménez, J. and Ginebra, J., 2017. pyGPGO: Bayesian Optimization for Python. The Journal of Open Source Software.
+
+a/b testing paper
+Kohavi, R. and Longbotham, R., 2017. Online controlled experiments and a/b testing. In Encyclopedia of Machine Learning and Data Mining (pp. 922-929). Springer US.
+
+Kaufmann, E., Cappé, O. and Garivier, A., 2014, May. On the complexity of A/B testing. In Conference on Learning Theory (pp. 461-481).
+
+Dixon, E., Enos, E. and Brodmerkle, S., Fmr Llc, 2015. A/B testing. U.S. Patent 9,077,780.
+
+Xu, Y., Chen, N., Fernandez, A., Sinno, O. and Bhasin, A., 2015, August. From infrastructure to culture: A/b testing challenges in large scale social networks. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (pp. 2227-2236). ACM.
+
+Kohavi, R., Deng, A., Frasca, B., Walker, T., Xu, Y. and Pohlmann, N., 2013, August. Online controlled experiments at large scale. In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 1168-1176). ACM.
