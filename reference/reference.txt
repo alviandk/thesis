@@ -29,3 +29,6 @@ ab testing website
 https://www.omniconvert.com/how-to-create-an-a-b-test
 http://drjasondavis.com/2013/09/12/eight-ways-youve-misconfigured-your-ab-test/
 https://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/
+
+bayesian book
+Gelman, A., Carlin, J.B., Stern, H.S., Dunson, D.B., Vehtari, A. and Rubin, D.B., 2014. Bayesian data analysis (Vol. 3). Boca Raton, FL: CRC press.
