@@ -1,0 +1,2233 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+%% \renewcommand{\chapter}[1]{\chapter[#1]{\centering #1}}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{notoccite}
+\usepackage{lscape}
+\usepackage[titletoc]{appendix}
+\usepackage[nottoc]{tocbibind}
+\usepackage {textcomp}
+\usepackage{bbding}
+\usepackage{xparse}
+\usepackage{url}
+\usepackage{notoccite}
+\usepackage[flushleft]{threeparttable}
+\usepackage{newunicodechar} 
+\usepackage[section]{placeins}
+\usepackage{longtable}
+\usepackage{indentfirst}
+\usepackage[justification=centering]{caption}
+\captionsetup{width=0.9\linewidth}
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{colortbl}
+\usepackage{color}
+
+\definecolor{lineno}{rgb}{0.5,0.5,0.5}
+\definecolor{bcolor}{rgb}{0.98,0.98,0.98}
+\definecolor{code}{rgb}{0,0.1,0.6}
+
+\definecolor{codesty}{rgb}{0.7,0.1,0.1}
+\definecolor{commandsty}{rgb}{0.1,0.5,0.0}
+\definecolor{keywordsty}{rgb}{0.4,0.0,0.4}
+\definecolor{stringsty}{rgb}{1.0,0.5,0.0}
+
+
+%\titleformat{\chapter}[display]
+%{\normalfont\Large\bfseries\centering}{\chaptertitlename\ \thechapter}{14pt}{\Huge}
+%\titleformat{\section}
+%{\normalfont\normalsize\bfseries}{\thesection}{14pt}{\normalsize}
+%\titleformat{\subsection}
+%{\normalfont\normalsize\bfseries}{\thesubsection}{14pt}{\normalsize}
+%\titleformat{\subsubsection}
+%{\normalfont\normalsize\bfseries}{\thesubsubsection}{14pt}{\normalsize}
+%%-------------
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\newcommand{\Judul}{}
+\newcommand{\JudulInggris}{"Design and Implementation of Soundcloud API Music Player Application (SCAMPER)"}
+\newcommand{\Name}{Kenneth Mohammad Albani Hakim, S.T.}
+\newcommand{\NPM}{92315016}
+\newcommand{\NIRM}{}
+\newcommand{\JenisTulisan}{Thesis}
+%\newcommand{\Gelar}{Jenjang DIII / Setara Sarjana Muda}
+\newcommand{\Fakultas}{Information System Management}
+\newcommand{\Department}{Information System Software}
+%\newcommand{\Prodi}{Direktorat Program Diploma Tiga Teknologi Informasi}
+\newcommand{\Program}{Master Degree Program}
+\newcommand{\Tahun}{2017}
+\newcommand{\Bulan}{May}
+\newcommand{\Tanggal}{12}
+\newcommand{\Kota}{Jakarta}
+\newcommand{\KataKunci}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
+\newcommand{\KeyWords}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
+\newcommand{\KoordinatorPI}{}
+\newcommand{\KetuaJurusan}{Haryanto, SSi, MM}
+\newcommand{\Supervisor}{Dr. Novrina}
+\newcommand{\AnggotaPembimbingA}{}
+\newcommand{\Supervisors}{Dr. Novrina}
+\newcommand{\AnggotaPembimbingB}{}
+\newcommand{\KetuaUjian}{}
+\newcommand{\SekUjian}{ }
+\newcommand{\AnggotaUjianA}{Prof. Dr. Yuhara Sukra., M.Sc.}
+\newcommand{\AnggotaUjianB}{Dr. Tb. Maulana Kusuma, S.Kom., MEngSc.}
+\newcommand{\AnggotaUjianC}{}
+\newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
+\newcommand{\JumlahPustaka}{1}
+\newcommand{\JumlahHalaman}{54}
+\newcommand{\JumlahHalamanDepan}{xiii}
+\newcommand{\TahunPustaka}{2008-2017}
+%%
+%% Keterangan administratif sidang sarjana
+%%
+\newcommand{\TanggalSidang}{}
+\newcommand{\TanggalLulus}{}
+\newcommand{\TanggalSah}{6 April 1998}
+\newcommand{\PejabatBagianSidang}{Dr. Edi Sukirman, MM}
+
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Source:} #2%
+  }%
+}
+
+\setlength{\headheight}{15pt}
+%%-----------
+%%-----------
+% The following commands set the page numbers on the top right
+% except in the beginning of chapters
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "charter" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 4cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\listings_params "backgroundcolor={\color{bcolor}},basicstyle={\ttfamily\small\color{codesty}},breaklines=true,commentstyle={\color{commandsty}},deletekeywords={alter},firstnumber=1,frame=tb,identifierstyle={\color{black}},keywordstyle={\color{blue}\bfseries},language=C,morekeywords={dosync,if},numberfirstline=true,numbers=left,numberstyle={\color{lineno}\sffamily\scriptsize},showspaces=false,showstringspaces=false,stringstyle={\itshape\color{stringsty}}"
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Program}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{12mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/LogoGunadarma.png
+	width 35mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{6mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+Design and Implementation of Soundcloud API Music Player Application (SCAMPER)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="13cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Written by:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Student Id
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Supervisor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Supervisor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vspace*{1cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Submitted as a Partial Fulllment of the Requirements for
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Magister Degree of Information System Management
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Concentrating on Information System Software
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{2mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Kota
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Page of Approval
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="35mm">
+<column alignment="center" valignment="top" width="1mm">
+<column alignment="left" valignment="top" width="80mm">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Title
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JudulInggris
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+NIM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Date of Graduation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M
+\size small
+ay, 12 2017
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+Approved by:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size small
+Board of Advisors
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+...............................................
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Supervisor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+(Chair Person)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+...............................................
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaUjianA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+(Member)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+...............................................
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaUjianB
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size small
+(Director)
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\series bold
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+ 
+\series bold
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\series bold
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+JudulInggris}
+\end_layout
+
+\end_inset
+
+
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Master Thesis, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Fakultas
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Department
+\end_layout
+
+\end_inset
+
+ , Gunadarma University, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Keyword : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KeyWords
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalamanDepan
+\end_layout
+
+\end_inset
+
+ + 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalaman
+\end_layout
+
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The popularity of music streaming service has highly developed in almost
+ a decade.
+ The streaming music service is running into a new season replacing the
+ conventional way of listening to music by purchasing whole album of the
+ artist.
+ Along with that, from the perspective of music industry, Satria Ramadhan,
+ Manager of SRM Bands, reveals that there is a change of strategy in the
+ publication of musicians has shifted into the digital media.
+ The strategy in the digital media of modern band management have generally
+ driven by social media, personal websites, and music that can be heard
+ in streaming music service platform.
+ The publication is mostly release about the introduction of the managed
+ bands, news related to the bands, The events, merchandises, how to book,
+ and listen to the sample songs from the bands.
+ Viewed from various angles, the authors concluded that smartphone applications
+ can be appropriate platform to help publicize the band's management of
+ its bands.
+ Trends uses streaming music services on a band management in an exclusive
+ android application becomes a potential solution to re-engage the fans
+ of bands in the application.
+ As for the features that can be implemented is related band news, schedule
+ of performing, booking bands, and listen to songs from the band-band streaming.
+ That, is the proposed solution that is implemented, tested, and measured
+ on this thesis.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ References (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TahunPustaka
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Chapter*
+Curriculum Vitae
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Curriculum Vitae}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The author’s name is Kenneth Mohammad Albani Hakim.
+ He was born in Depok on 1st August 1993.
+ The educational background started from SDN Sukmajaya V elementary school
+ from 1999 until 2005.
+ He continued his education to SMPN 3 Depok Junior High School and graduated
+ in 2008.
+ On 2008, he was accepted in SMAN 1 Depok Senior High school.
+ He finished his Senior High School education in 2011 and accepted in Gunadarma
+ University majoring in Informatics Engineering in 2011.
+ In 2012, he joined SarMag (Sarjana Magister) program which is a scholarship
+ program from Gunadarma University.
+ He finished his Undergraduate Degree in 2015.
+ At the present, he is taking magister program majoring in Information System
+ Management.
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Depok, 11 May 2017
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Acknowledgements}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Praise and thanks raised to Allah SWT for all blessing and also utterance
+ and good wishes sent to the prophet of Muhammad SAW so, with all the grants,
+ author have finished this thesis, which is titled 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JudulInggris
+\end_layout
+
+\end_inset
+
+.
+ This undergraduate thesis is intended to complete the requirement to finish
+ my study in the Informatics Engineering Department, Gunadarma University.
+ This writing would not have been possible without the support and encouragement
+ from people around me.
+ Therefore, I would like to say thank to:
+\end_layout
+
+\begin_layout Enumerate
+Prof.
+ Dr.
+ E.
+ S.
+ Margianti, SE., MM.
+ Rector of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+Prof.
+ Suryadi Harmanto, SSi, MMSI.
+ as 2nd Rector Assistant of Gunadarma University who gave me the opportunity
+ to join SARMAG Program.
+\end_layout
+
+\begin_layout Enumerate
+Prof.
+ Dr.
+ Ir.
+ Bambang Suryawan, MT.
+ as dean of Industrial Technology Faculty.
+\end_layout
+
+\begin_layout Enumerate
+Dr.-Ing.
+ Adang Suhendra, SSi, SKom, MSc.
+ as head of Informatics Engineering Program.
+\end_layout
+
+\begin_layout Enumerate
+Drs.
+ Haryanto, MMSI.
+ as director of SARMAG program who gave me a chance to join SARMAG program.
+\end_layout
+
+\begin_layout Enumerate
+Dr.
+ Edi Sukirman, SSi, MM as Departement Head of Bachelor’s Defense Examination.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Supervisor
+\end_layout
+
+\end_inset
+
+ as my supervisor.
+ For her endless guidance, direction, support and encouragements during
+ the reasearch I will never forget.
+\end_layout
+
+\begin_layout Enumerate
+Remi Sanjaya, ST., MMSI.
+ SARMAG coordinator who is always supportive in pushing SARMAG students
+ forward.
+\end_layout
+
+\begin_layout Enumerate
+All of SARMAG lecturers, for their knowledge, effort and experience given
+ to the author
+\end_layout
+
+\begin_layout Enumerate
+Satria Ramadhan and SRM Bands, for the support and great atmosphere brought
+ along the discussion and interview sessions about the implementation of
+ my thesis.
+\end_layout
+
+\begin_layout Enumerate
+All resources and refferences listed in bibliography.
+\end_layout
+
+\begin_layout Enumerate
+My beloved family, My mother (Indira Sari), My father (Diansyah Hakim),
+ My brother and sister (Keanu Giffary Hakim) and (Kesya Putri Diandra Hakim).
+ Including the entire list of my big family members for their exceptional
+ prayers, support, affection, wisdom, and patience that can not be disclosed
+ by words and encouragement to finish this writting in time, my sister for
+ her support that keeps me going, and to all of my family members for their
+ prayers.
+\end_layout
+
+\begin_layout Enumerate
+My special friend Deviana Sariputri for her help and encourage during the
+ hard times.
+\end_layout
+
+\begin_layout Enumerate
+My Best friends in communities I follow : Crowdoves, Kreavi and Kibar for
+ toleration, support, and encouragement during my thesis period.
+\end_layout
+
+\begin_layout Enumerate
+Dani Mahadhika and Ersa Dimitri for a great contribution during the app
+ development.
+\end_layout
+
+\begin_layout Enumerate
+All of my friends in SARMAG, mostly SMTI06, SMSI02, SMTI05, and SMSI01 for
+ the help around thesis and encouragement to finish it.
+\end_layout
+
+\begin_layout Standard
+I am looking forward to get some critiques and suggestions from anyone for
+ developing this thesis.
+ Hopefully, this work can bring some advantages especially to readers.
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Depok, 11 May 2017
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Standard
+The popularity of music streaming service has highly developed in almost
+ a decade.
+ It relieves optimism with its impact on the music industry.
+ The streaming music service is running into a new season replacing the
+ conventional way of listening to music by purchasing whole album of the
+ artist.
+\end_layout
+
+\begin_layout Standard
+Taking the example of two giant streaming music services globally, Soundcloud,
+ founded in 2007, in 2010 has 5 million listeners, in 2012, SoundCloud has
+ 15 million listeners, and in 2016 had 175 million registered listeners.
+ While Spotify, founded in 2008 in 2010 has 500,000 listeners, in 2012 has
+ 5 million listeners, and in 2016 had 30 million registered listeners.
+ The data concluded that interest of consuming streaming music services
+ globally will continue to rise 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bloomberg"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Increasing audience interest is aligns with the large demand of streaming
+ music service.
+ Based on the survey from statista about streaming music lovers in Indonesia
+ stated that in May 2014, SoundCloud is a streaming music service that is
+ most demanded by the people of Indonesia with a 31% market share, followed
+ by a 21% market share owned by MelOn, and 12% owned by Shazam
+\begin_inset CommandInset citation
+LatexCommand citep
+key "statista"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The reason why the demand of streaming music services increases year by
+ year is, generally due to technological developments that have been spread
+ evenly throughout the population.
+ In Indonesia, the International Data Corporation (IDC) recorded an increase
+ in market share of smartphones with Android platform from the third quarter
+ of 2011 until the end of the fourth quarter of 2011 was 28% 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "nugraha"
+
+\end_inset
+
+.
+ Until 2016, these values ​​continue to rise consistently, this is due to
+ the price in themarket that is affordable and many variations of the devices
+ that support the needs of each user.
+ With this, it’s just a matter of time, way of people enjoy the music shifted
+ from conventional to digital medium.
+\end_layout
+
+\begin_layout Standard
+Experiments that is comparing the bitrate of the two giant streaming music
+ platform Spotify and Soundcloud premium provided by 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "brianli"
+
+\end_inset
+
+ with a sample of a song shows the difference frequency filter that is visually
+ described in following spectrograms:
+\end_layout
+
+\begin_layout Standard
+Brianli experiment shows differences in quality of the audio file at a premium
+ Spotify and Soundcloud.
+ In the experiment, there are trimming frequency range of SoundCloud until
+ at 16kHz, where SoundCloud save audio files with a bitrate of 128kbps and
+ provide compression produces files with smaller sizes with different sound
+ coverage that is not too different than the audio file with a bitrate of
+ 320 kbps from Spotify.
+ This affects how small the size of the music files and the number of data
+ packets at the time a song is played.
+ With the circumtances of Indonesian society as the target users with less
+ stable internet access, SoundCloud is a potential solution to be a streaming
+ music service on to fit users from indonesia.
+\end_layout
+
+\begin_layout Standard
+Along with that, from the perspective of music industry, Satria Ramadhan,
+ Manager of SRM Bands which manages 11 large indie bands such as Sore, rumahsaki
+t and The Trees and The Wild, reveals that a change of strategy in the publicati
+on of musicians has shifted into the digital media.
+ The strategy in the digital media of modern band management have generally
+ driven by social media, personal websites, and music that can be heard
+ in streaming music service platform.
+ The publication is mostly release about the introduction of the managed
+ bands, news related to the bands, The events, merchandises, how to book,
+ and listen to the sample songs from the bands.
+ To publish the sample songs of the band he manages, Satria uses SoundCloud
+ and Bandpage to promote his bands.
+ Satria stated that SoundCloud is a platform that is most easily reached
+ by his bands’ listeners.
+ This opinion further strengthens the conclusion of a survey conducted statista
+ stated earlier 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ramadhan"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Viewed from various angles, the authors concluded that smartphone applications
+ can be appropriate container to help publicize the band's management of
+ its bands.
+ Trends uses streaming music services on a band management in an exclusive
+ android application becomes a potential solution to re-engage the fans
+ of bands in the application.
+ As for the features that can be implemented is related band news, schedule
+ of performing, booking bands, and listen to songs from the band-band streaming.
+\end_layout
+
+\begin_layout Standard
+Thus, fans can easily access the latest information from the cell phone.
+ In addition, streaming music playback features can help them to get to
+ know the music from bands that are available in the application, so that
+ the fans can be increasingly drawn to the ease listening to music in the
+ exclusive application.
+ Regarding the streaming music service, services giants like SoundCloud
+ and Spotify have provided API allows developers to use the streaming music
+ service in their applications.
+\end_layout
+
+\begin_layout Standard
+Referring to the paper of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "giovanni"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "edisonjimenez"
+
+\end_inset
+
+, And 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "romanbelda"
+
+\end_inset
+
+ The author compared the deals with streaming applications made by the source
+ on the table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Comparison-of-the-papers"
+
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Comparison-of-the-papers"
+
+\end_inset
+
+Comparison of the papers written by Giovani et all,.
+ Jimenez et al., and Belda et al.,
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true" endfirsthead="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Application /parameter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Giovani et all.,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jimenez et al.,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Belda et al.,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Media Format 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Audio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Audio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Audio
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Data transaction method
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Streaming via peer-to-peer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Streaming via Drupal CMS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Streaming via wireless network
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Implemented platform
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(tidak disebutkan) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Android
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Android
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An exclusive application with streaming music service using SoundCloud API
+ in android platform will be the solution proposed in this thesis.
+\end_layout
+
+\begin_layout Section
+Formulation of the Problem
+\end_layout
+
+\begin_layout Standard
+Formulation of the problem in this paper is how to integrate the android
+ application to play songs streamed using the SoundCloud API streaming music
+ service in the application and measure the quality of the application by
+ the Likert scale questionnaire.
+\end_layout
+
+\begin_layout Section
+Scope of Problem
+\end_layout
+
+\begin_layout Standard
+Making music streaming applications exclusively on the writing stage has
+ some guidelines and restrictions, namely:
+\end_layout
+
+\begin_layout Itemize
+Application refers to the music that is managed by the SRM Bands, with songs
+ that have received permission from the labels to be played.
+\end_layout
+
+\begin_layout Itemize
+Applications will contain news, schedules appear, the order form, related
+ info that refers Bands from the official website of SRM Bands.
+\end_layout
+
+\begin_layout Itemize
+Collectively, applications written in the Java programming language with
+ the Android SDK library for Native-Android, SoundCloud API with a library
+ of Reverbmaster, picasso Library, library Gson, and material design library.
+ With the support of the Android app studio and graphics processors using
+ Inkscape.
+\end_layout
+
+\begin_layout Itemize
+Limitation of music playback on SoundCloud API, based on the rule of SoundCloud
+ for one day is restricted to 15000 times play a song.
+\end_layout
+
+\begin_layout Itemize
+Testing is done with a demonstration application to the band's management
+ to assess whether the functions already meet the application requirements
+ for the publication of his band.
+\end_layout
+
+\begin_layout Itemize
+Measuring the quality of applications assessed from questionnaires filled
+ out users.
+\end_layout
+
+\begin_layout Section
+Research Purposes
+\end_layout
+
+\begin_layout Standard
+The purpose of this paper is to produce applications that can provide informatio
+n on news, descriptions of each band, the registration form, schedule of
+ performing, and the ability to play songs streamed to enjoy the fans on
+ his mobile device.
+\end_layout
+
+\begin_layout Section
+Research Methods
+\end_layout
+
+\begin_layout Standard
+The research methodology used was Prototyping.
+ Prototyping is a software design methods commonly used.
+ Prototype serves as a mechanism to identify software needs.
+ Prototype method selected for a short processing time and thus require
+ flexibility between needs and implementations that can not be met sequential
+ waterfall model and irreversible.
+ Broadly speaking there are four stages that walked iteratively in this
+ prototyping method.
+\end_layout
+
+\begin_layout Enumerate
+Requirements collection.
+ The first stage is done is collecting needs.
+ At this stage the collection of registered needs to be analyzed so as to
+ get the specification requirements validated by the source, in this paper
+ is a reference restaurant.
+\end_layout
+
+\begin_layout Enumerate
+Analysis and Design.
+ After getting the requirements specification, at this stage of the design
+ flow of fire in an application to play streaming songs.
+\end_layout
+
+\begin_layout Enumerate
+Implementation.
+ Plans are being implemented into aplikasiutuh that the workmanship is done
+ so that the feature per feature in this process produced a prototype.
+\end_layout
+
+\begin_layout Enumerate
+Experiment, Measurement and Evaluation.
+ After the application is completed it at this stage will be tested and
+ the calculation of the quality of the user when using the application for
+ the evaluation of the existing deficiencies in the application in accordance
+ with the specification requirements.
+ It is the last stage which is on prototyping, when the general purpose
+ of the making of the application has been reached.
+ If not reached, the next step to do is go back to the earliest stages to
+ a common goal can be achieved.
+ Measurement of the performance will be measured in terms of how applications
+ use the GPU, CPU, and network of multiple test device.
+ Quality measurement in perspective of user is implemented using Likert
+ scale questionnaire.
+\end_layout
+
+\begin_layout Section
+Writing Structure
+\end_layout
+
+\begin_layout Standard
+Systematics writing done in the completion of this thesis consists of five
+ chapters are organized as follows:
+\end_layout
+
+\begin_layout Itemize
+Chapter 1: Introduction, covers the background to the problem, problem definitio
+n, objectives, research methods and systematic writing.
+\end_layout
+
+\begin_layout Itemize
+Chapter 2: Basis Theory, includes the foundation of the theory provides
+ a theory - a theory that relates to the title of the writing and discussion
+ of the equipment used in completing the application.
+\end_layout
+
+\begin_layout Itemize
+Chapter 3: Analysis and Design, include system design and development being
+ done, and the design of the test method.
+\end_layout
+
+\begin_layout Itemize
+Chapter 4: Implementation, discusses the workings, usage of applications
+ and testing methods and measurements.
+\end_layout
+
+\begin_layout Itemize
+Chapter 5: Conclusion, include a description of the conclusion of the test
+ results followed the advice of the author.
+\end_layout
+
+\begin_layout Chapter
+Literature Review
+\end_layout
+
+\begin_layout Chapter
+Analysis and Design
+\end_layout
+
+\begin_layout Chapter
+Implementation, Testing, and Measurement
+\end_layout
+
+\begin_layout Chapter
+Conclusion and Suggestions
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Section
+Suggestions
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "Thesis_Alvian"
+options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

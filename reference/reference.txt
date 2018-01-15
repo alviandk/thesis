@@ -32,3 +32,30 @@ https://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/
 
 bayesian book
 Gelman, A., Carlin, J.B., Stern, H.S., Dunson, D.B., Vehtari, A. and Rubin, D.B., 2014. Bayesian data analysis (Vol. 3). Boca Raton, FL: CRC press.
+
+stat paper
+@article{minh2015understanding,
+  title={Understanding the Hastings algorithm},
+  author={Minh, David DL and Minh, Do Le},
+  journal={Communications in Statistics-Simulation and Computation},
+  volume={44},
+  number={2},
+  pages={332--349},
+  year={2015},
+  publisher={Taylor \& Francis}
+}
+
+@techreport{walck1996hand,
+  title={Hand-book on statistical distributions for experimentalists},
+  author={Walck, Christian},
+  year={1996}
+}
+
+tambahan:
+- google analytic
+- python
+- matplotlib
+- numpy
+- scipy
+- ipython
+- jupyter notebook
