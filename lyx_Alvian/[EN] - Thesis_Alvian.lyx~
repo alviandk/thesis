@@ -56,27 +56,26 @@
   {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 
 \newcommand{\Judul}{}
-\newcommand{\JudulInggris}{"Design and Implementation of Soundcloud API Music Player Application (SCAMPER)"}
-\newcommand{\Name}{Kenneth Mohammad Albani Hakim, S.T.}
-\newcommand{\NPM}{92315016}
+\newcommand{\JudulInggris}{"A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha Using Bayesian Inference"}
+\newcommand{\Name}{Alvian Dwi Kurnianto, S.Kom.}
+\newcommand{\NPM}{99999999}
 \newcommand{\NIRM}{}
-\newcommand{\JenisTulisan}{Thesis}
+\newcommand{\JenisTulisan}{Postgraduate Thesis}
 %\newcommand{\Gelar}{Jenjang DIII / Setara Sarjana Muda}
 \newcommand{\Fakultas}{Information System Management}
 \newcommand{\Department}{Information System Software}
 %\newcommand{\Prodi}{Direktorat Program Diploma Tiga Teknologi Informasi}
 \newcommand{\Program}{Master Degree Program}
-\newcommand{\Tahun}{2017}
-\newcommand{\Bulan}{May}
+\newcommand{\Tahun}{2018}
+\newcommand{\Bulan}{February}
 \newcommand{\Tanggal}{12}
-\newcommand{\Kota}{Jakarta}
+\newcommand{\Kota}{Depok}
 \newcommand{\KataKunci}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
 \newcommand{\KeyWords}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
 \newcommand{\KoordinatorPI}{}
 \newcommand{\KetuaJurusan}{Haryanto, SSi, MM}
-\newcommand{\Supervisor}{Dr. Novrina}
+\newcommand{\Supervisor}{Dr. Setia Wirawan}
 \newcommand{\AnggotaPembimbingA}{}
-\newcommand{\Supervisors}{Dr. Novrina}
 \newcommand{\AnggotaPembimbingB}{}
 \newcommand{\KetuaUjian}{}
 \newcommand{\SekUjian}{ }
@@ -87,7 +86,7 @@
 \newcommand{\JumlahPustaka}{1}
 \newcommand{\JumlahHalaman}{54}
 \newcommand{\JumlahHalamanDepan}{xiii}
-\newcommand{\TahunPustaka}{2008-2017}
+\newcommand{\TahunPustaka}{2013-2017}
 %%
 %% Keterangan administratif sidang sarjana
 %%
@@ -344,7 +343,8 @@ vspace*{6mm}
 
 \series bold
 \size large
-Design and Implementation of Soundcloud API Music Player Application (SCAMPER)
+A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha Using Bayesian
+ Inference
 \end_layout
 
 \begin_layout Standard
@@ -653,7 +653,7 @@ Tahun
 \end_layout
 
 \begin_layout Chapter*
-Page of Approval
+PAGE OF APPROVAL
 \end_layout
 
 \begin_layout Standard
@@ -982,7 +982,7 @@ AnggotaUjianB
 \end_layout
 
 \begin_layout Chapter*
-Abstract
+ABSTRACT
 \end_layout
 
 \begin_layout Standard
@@ -1234,33 +1234,6 @@ JumlahHalaman
 \end_layout
 
 \begin_layout Standard
-The popularity of music streaming service has highly developed in almost
- a decade.
- The streaming music service is running into a new season replacing the
- conventional way of listening to music by purchasing whole album of the
- artist.
- Along with that, from the perspective of music industry, Satria Ramadhan,
- Manager of SRM Bands, reveals that there is a change of strategy in the
- publication of musicians has shifted into the digital media.
- The strategy in the digital media of modern band management have generally
- driven by social media, personal websites, and music that can be heard
- in streaming music service platform.
- The publication is mostly release about the introduction of the managed
- bands, news related to the bands, The events, merchandises, how to book,
- and listen to the sample songs from the bands.
- Viewed from various angles, the authors concluded that smartphone applications
- can be appropriate platform to help publicize the band's management of
- its bands.
- Trends uses streaming music services on a band management in an exclusive
- android application becomes a potential solution to re-engage the fans
- of bands in the application.
- As for the features that can be implemented is related band news, schedule
- of performing, booking bands, and listen to songs from the band-band streaming.
- That, is the proposed solution that is implemented, tested, and measured
- on this thesis.
-\end_layout
-
-\begin_layout Standard
 \paragraph_spacing single
 \begin_inset VSpace bigskip
 \end_inset
@@ -1299,88 +1272,7 @@ TahunPustaka
 \end_layout
 
 \begin_layout Chapter*
-Curriculum Vitae
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Curriculum Vitae}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The author’s name is Kenneth Mohammad Albani Hakim.
- He was born in Depok on 1st August 1993.
- The educational background started from SDN Sukmajaya V elementary school
- from 1999 until 2005.
- He continued his education to SMPN 3 Depok Junior High School and graduated
- in 2008.
- On 2008, he was accepted in SMAN 1 Depok Senior High school.
- He finished his Senior High School education in 2011 and accepted in Gunadarma
- University majoring in Informatics Engineering in 2011.
- In 2012, he joined SarMag (Sarjana Magister) program which is a scholarship
- program from Gunadarma University.
- He finished his Undergraduate Degree in 2015.
- At the present, he is taking magister program majoring in Information System
- Management.
- 
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align right
-Depok, 11 May 2017
-\end_layout
-
-\begin_layout Standard
-\align right
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{10mm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align right
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Name
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter*
-Acknowledgements
+ACKNOWLEDGEMENTS
 \end_layout
 
 \begin_layout Standard
@@ -1423,120 +1315,8 @@ JudulInggris
  Therefore, I would like to say thank to:
 \end_layout
 
-\begin_layout Enumerate
-Prof.
- Dr.
- E.
- S.
- Margianti, SE., MM.
- Rector of Gunadarma University.
-\end_layout
-
-\begin_layout Enumerate
-Prof.
- Suryadi Harmanto, SSi, MMSI.
- as 2nd Rector Assistant of Gunadarma University who gave me the opportunity
- to join SARMAG Program.
-\end_layout
-
-\begin_layout Enumerate
-Prof.
- Dr.
- Ir.
- Bambang Suryawan, MT.
- as dean of Industrial Technology Faculty.
-\end_layout
-
-\begin_layout Enumerate
-Dr.-Ing.
- Adang Suhendra, SSi, SKom, MSc.
- as head of Informatics Engineering Program.
-\end_layout
-
-\begin_layout Enumerate
-Drs.
- Haryanto, MMSI.
- as director of SARMAG program who gave me a chance to join SARMAG program.
-\end_layout
-
-\begin_layout Enumerate
-Dr.
- Edi Sukirman, SSi, MM as Departement Head of Bachelor’s Defense Examination.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Supervisor
-\end_layout
-
-\end_inset
-
- as my supervisor.
- For her endless guidance, direction, support and encouragements during
- the reasearch I will never forget.
-\end_layout
-
-\begin_layout Enumerate
-Remi Sanjaya, ST., MMSI.
- SARMAG coordinator who is always supportive in pushing SARMAG students
- forward.
-\end_layout
-
-\begin_layout Enumerate
-All of SARMAG lecturers, for their knowledge, effort and experience given
- to the author
-\end_layout
-
-\begin_layout Enumerate
-Satria Ramadhan and SRM Bands, for the support and great atmosphere brought
- along the discussion and interview sessions about the implementation of
- my thesis.
-\end_layout
-
-\begin_layout Enumerate
-All resources and refferences listed in bibliography.
-\end_layout
-
-\begin_layout Enumerate
-My beloved family, My mother (Indira Sari), My father (Diansyah Hakim),
- My brother and sister (Keanu Giffary Hakim) and (Kesya Putri Diandra Hakim).
- Including the entire list of my big family members for their exceptional
- prayers, support, affection, wisdom, and patience that can not be disclosed
- by words and encouragement to finish this writting in time, my sister for
- her support that keeps me going, and to all of my family members for their
- prayers.
-\end_layout
-
-\begin_layout Enumerate
-My special friend Deviana Sariputri for her help and encourage during the
- hard times.
-\end_layout
-
-\begin_layout Enumerate
-My Best friends in communities I follow : Crowdoves, Kreavi and Kibar for
- toleration, support, and encouragement during my thesis period.
-\end_layout
-
-\begin_layout Enumerate
-Dani Mahadhika and Ersa Dimitri for a great contribution during the app
- development.
-\end_layout
-
-\begin_layout Enumerate
-All of my friends in SARMAG, mostly SMTI06, SMSI02, SMTI05, and SMSI01 for
- the help around thesis and encouragement to finish it.
-\end_layout
-
 \begin_layout Standard
-I am looking forward to get some critiques and suggestions from anyone for
- developing this thesis.
- Hopefully, this work can bring some advantages especially to readers.
+.
 \begin_inset Separator latexpar
 \end_inset
 
@@ -1545,7 +1325,7 @@ I am looking forward to get some critiques and suggestions from anyone for
 
 \begin_layout Standard
 \align right
-Depok, 11 May 2017
+Depok, February 2017
 \end_layout
 
 \begin_layout Standard
@@ -1607,7 +1387,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Chapter
-Introduction
+INTRODUCTION
 \end_layout
 
 \begin_layout Standard
@@ -1684,7 +1464,7 @@ Menjelaskan kegunaan dari pemecahan masalah pada penelitian.
 \end_layout
 
 \begin_layout Chapter
-Literature Review
+LITERATURE REVIEW
 \end_layout
 
 \begin_layout Chapter
@@ -1704,7 +1484,15 @@ Research Object
 \end_layout
 
 \begin_layout Standard
-Website Mekargo Mekar Pt bla bla, tempat dan waktu.]
+Website Mekargo Mekar Pt bla bla, tempat dan waktu.
+\end_layout
+
+\begin_layout Section
+Data Collection Method
+\end_layout
+
+\begin_layout Standard
+Google Analytics...
 \end_layout
 
 \begin_layout Section
@@ -1712,7 +1500,8 @@ Research Methodology
 \end_layout
 
 \begin_layout Standard
-diagram 4 langkah besar, tulis 4.1.1-4.1.4
+diagram 4 langkah besar, tulis 4.1.1-4.1.4.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1723,12 +1512,24 @@ Identifying Problems
 lihat kata2 dari website
 \end_layout
 
+\begin_layout Standard
+Latar belakang masalah awal dibuatnya A/B testing disertai dengan penjelasan
+ poin indikator bisnis yang terdiri dari business objective, website goal,
+ key performance metric, dan target metric dari pembuatan A/B testing ini.
+\end_layout
+
 \begin_layout Subsection
 Develop a Hypothesis 
 \end_layout
 
 \begin_layout Standard
 lihat kata2 dari website
+\end_layout
+
+\begin_layout Standard
+Asumsi awal yang menjadi penyebab masalah pada point 3.3.1 disertai dengan
+ pengajuan solusi yang akan diterapkan.
+ Menyebutkan hasil akhir dari solusi yang diajukan disertai alasannya.
 \end_layout
 
 \begin_layout Subsection
@@ -1740,11 +1541,15 @@ develop, menjelasin tool analytic, penjelasan proses percobaan
 \end_layout
 
 \begin_layout Subsection
-Analyze Test Results and Implement Changes
+Analyze Test Results
 \end_layout
 
 \begin_layout Standard
 menjelasin metode, algoritma, dan tools program di pymc jupyter
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Chapter
@@ -1765,6 +1570,10 @@ Penyajian dapat dibantu dengan menggunakan tabel, gambar, diagram atau grafik
  ke sumber pustaka yang relevan.
 \end_layout
 
+\begin_layout Standard
+Adapun hasil dan pembahasan dari penelitian ini adalah sebagai berikut:
+\end_layout
+
 \begin_layout Section
 Identifying Problems
 \end_layout
@@ -1775,20 +1584,20 @@ presentase pendaftar yang menyelesaikan pengisian data masih belum mencapai
 \end_layout
 
 \begin_layout Subsection
-Business Objectives
+Business Objective
 \end_layout
 
 \begin_layout Standard
-Menambah jumlah peminjam 
+Menambah jumlah peminjam yang akan diberikan pinjaman peer-to-peer lending.
 \end_layout
 
 \begin_layout Subsection
-Website Goals
+Website Goal
 \end_layout
 
 \begin_layout Standard
-Meningkatkan jumlah pendaftar untuk peminjam, meningkatkan presentase penyelesai
-an pengisian form pendaftaran oleh peminjam.
+Meningkatkan jumlah peminjam yang mendaftar, meningkatkan presentase penyelesaia
+n pengisian form pendaftaran oleh peminjam.
 \end_layout
 
 \begin_layout Subsection
@@ -1805,7 +1614,7 @@ Target Metric
 \end_layout
 
 \begin_layout Standard
-1000 pendaftar per bulan, presentase penyelesaian data di atas 10%
+1000 pendaftar per bulan, presentase penyelesaian data di atas 10%.
 \end_layout
 
 \begin_layout Section
@@ -1815,7 +1624,11 @@ Develop a Hypothesis
 \begin_layout Standard
 Presentase penyelesaian pengisian form pendaftaran dipengaruhi oleh urutan
  pengisian form.
- Apabila diubah akan meningkatkan presentasenya
+ Apabila diubah akan meningkatkan presentasenya.
+ Solusi yang diajukan adalah melakukan pengujian A/B testing terhadap dua
+ versi baru disertai dengan penyederhanaan dan penyingkatan pengisian data.
+ Asumsi awal, salah satu dari dua versi baru ini akan lebih baik daripada
+ versi yang sebelumnya.
 \end_layout
 
 \begin_layout Section
@@ -1829,15 +1642,311 @@ menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
 \end_layout
 
 \begin_layout Section
-Analyze Test Results and Implement Changes
+Analyze Test Results
 \end_layout
 
 \begin_layout Standard
 hasil dari pymc3
 \end_layout
 
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+import pymc3 as pm 
+\end_layout
+
+\begin_layout Plain Layout
+
+import numpy as np 
+\end_layout
+
+\begin_layout Plain Layout
+
+import figsize 
+\end_layout
+
+\begin_layout Plain Layout
+
+import matplotlib.pyplot as plt 
+\end_layout
+
+\begin_layout Plain Layout
+
+import scipy.stats as stats
+\end_layout
+
+\begin_layout Plain Layout
+
+from IPython.core.pylabtools 
+\end_layout
+
+\begin_layout Plain Layout
+
+%matplotlib inline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, figsize,
+ matplotlib, scipy, dan IPython.
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+true_A = 120 
+\end_layout
+
+\begin_layout Plain Layout
+
+true_B = 129 
+\end_layout
+
+\begin_layout Plain Layout
+
+true_C = 84
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+N_sample = 1156
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inisialisasi nilai pada versi A, B, dan C serta banyaknya sample yang digunakan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+true_p_A = true_A/float(N_A) 
+\end_layout
+
+\begin_layout Plain Layout
+
+true_p_B = true_B/float(N_B) 
+\end_layout
+
+\begin_layout Plain Layout
+
+true_p_C = true_C/float(N_C)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Menghitung nilai peluang A, B, dan C.
+ Hasilnya adalah:
+\end_layout
+
+\begin_layout Standard
+true_p_A = 0.10380622837370242 
+\end_layout
+
+\begin_layout Standard
+true_p_B = 0.1115916955017301 
+\end_layout
+
+\begin_layout Standard
+true_p_C = 0.0726643598615917
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+observations_A = stats.bernoulli.rvs(true_p_A, size=N_A) 
+\end_layout
+
+\begin_layout Plain Layout
+
+observations_B = stats.bernoulli.rvs(true_p_B, size=N_B) 
+\end_layout
+
+\begin_layout Plain Layout
+
+observations_C = stats.bernoulli.rvs(true_p_C, size=N_C)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Melakukan observasi bernoulli terhadap nilai peluang A, B, dan C menggunakan
+ method stats pada library scipy
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+print("Obs from Site A: ", observations_A[:30], "...") 
+\end_layout
+
+\begin_layout Plain Layout
+
+print("Obs from Site B: ", observations_B[:30], "...") 
+\end_layout
+
+\begin_layout Plain Layout
+
+print("Obs from Site C: ", observations_C[:30], "...")
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mencetak hasil observasi dengan bernoulli untuk 30 hasil pertama untuk melihat
+ pola data yang dihasilkan
+\end_layout
+
+\begin_layout Standard
+Obs from Site A: [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+ 0 0 0] ...
+ 
+\end_layout
+
+\begin_layout Standard
+Obs from Site B: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+ 0 0 0] ...
+ 
+\end_layout
+
+\begin_layout Standard
+Obs from Site C: [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0] ...
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+print(np.sum(observations_A)) 
+\end_layout
+
+\begin_layout Plain Layout
+
+print(np.sum(observations_B)) 
+\end_layout
+
+\begin_layout Plain Layout
+
+print(np.sum(observations_C))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mencetak nilai jumlah dari nilai true yang dihasilkan oleh observasi bernoulli,
+ dengan hasil sebagai berikut
+\end_layout
+
+\begin_layout Standard
+sum_true_p_A = 114 
+\end_layout
+
+\begin_layout Standard
+sum_true_p_B = 138 
+\end_layout
+
+\begin_layout Standard
+sum_true_p_C = 86
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+print(np.mean(observations_A)) 
+\end_layout
+
+\begin_layout Plain Layout
+
+print(np.mean(observations_B)) 
+\end_layout
+
+\begin_layout Plain Layout
+
+print(np.mean(observations_C))
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Mencetak hasil nilai rata-rata observasi bernoulli dengan bantuan method
+ mean pada library numpy.
+ Nilai yang dihasilkan adalah:
+\end_layout
+
+\begin_layout Standard
+mean_p_A = 0.098615916955 
+\end_layout
+
+\begin_layout Standard
+mean_p_B = 0.11937716263 
+\end_layout
+
+\begin_layout Standard
+mean_p_C = 0.0743944636678
+\end_layout
+
+\begin_layout Standard
+Nilai rata rata ini sekaligus menjadi nilai true frequency
+\end_layout
+
 \begin_layout Chapter
-Conclusion and Suggestions
+CONCLUSION AND SUGGESTIONS
 \end_layout
 
 \begin_layout Section
@@ -1850,6 +1959,13 @@ Kesimpulan merupakan jawaban menyeluruh terhadap persoalan yang dipertanyakan
  Angka-angka yang dihasilkan dari analisis data (jika penelitian merupakan
  analisis data) tidak perlu diulang lagi pada bab terakhir ini.
  Yang diperlukan adalah analisis sebab dihasilkannya angka-angka tersebut.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1867,6 +1983,78 @@ Saran dapat berupa saran yang diajukan terhadap persoalan yang diamati dan
 LatexCommand bibtex
 bibfiles "Thesis_Alvian"
 options "apalike"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+APPENDIX
+\end_layout
+
+\begin_layout Chapter*
+CURRICULUM VITAE
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Curriculum Vitae}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The author’s name is Alvian Dwi Kurnianto.
+ 
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Depok, 11 May 2017
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
 
 \end_inset
 

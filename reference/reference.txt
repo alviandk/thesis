@@ -87,6 +87,8 @@ Ron Kohavi. 2015. Online Controlled Experiments: Lessons from Running A/B/n Test
 
 ab testing website
 https://www.omniconvert.com/how-to-create-an-a-b-test (accessed 17 januari 2018, 10.28)
+https://conversionxl.com/blog/how-to-build-a-strong-ab-testing-plan-that-gets-results/
+
 http://drjasondavis.com/2013/09/12/eight-ways-youve-misconfigured-your-ab-test/ 
 https://blog.dominodatalab.com/ab-testing-with-hierarchical-models-in-python/
 
@@ -130,6 +132,24 @@ tambahan:
   year={2014},
   publisher={Taylor \& Francis}
 }
+
+https://www.safaribooksonline.com/library/view/getting-started-with/9781785285110/ch01s03.html
+@book{vo2015getting,
+  title={Getting started with Python data analysis: learn to use powerful Python libraries for effective data processing and analysis},
+  author={Vo, TH and Czygan, Martin and others},
+  year={2015},
+  publisher={Packt Publ.}
+}
+@book{lutz2013learning,
+  title={Learning Python: Powerful Object-Oriented Programming},
+  author={Lutz, M.},
+  isbn={9781449355692},
+  series={Safari Books Online},
+  url={https://books.google.co.id/books?id=4pgQfXQvekcC},
+  year={2013},
+  publisher={O'Reilly Media}
+}
+
 @misc{hunter2014matplotlib,
   title={The Matplotlib Development Team. Matplotlib: Python Plotting—Documentation. 2013},
   author={Hunter, J and Dale, D and Firing, E and Droettboom, M},
@@ -151,6 +171,7 @@ https://matplotlib.org/1.3.1/
 }
 https://www.scipy.org/
 
+Jupyter
 @inproceedings{ragan2014jupyter,
   title={The Jupyter/IPython architecture: a unified view of computational research, from interactive exploration to communication and publication.},
   author={Ragan-Kelley, M and Perez, F and Granger, B and Kluyver, T and Ivanov, P and Frederic, J and Bussonnier, M},
@@ -164,3 +185,14 @@ http://adsabs.harvard.edu/abs/2014AGUFM.H44D..07R
   author={Kluyver, T and Ragan-Kelley, B and P{\'e}rez, F and Granger, B and Bussonnier, M and Frederic, J and Kelley, K and Hamrick, J and Grout, J and Corlay, S and others},
   organization={a publishing format for reproducible computational workflows. In: Positioning and power in academic publishing: players, agents and agendas: proceedings of the 20th international conference on electronic publishing. Amsterdam. IOS Press}
 }
+
+https://www.safaribooksonline.com/library/view/python-data-analysis/9781787127487/ch01s04.html
+@book{fandango2017python,
+  title={Python Data Analysis - Second Edition},
+  author={Fandango, A. and Idris, I.},
+  isbn={9781787127487},
+  url={https://books.google.co.id/books?id=YaFFMQAACAAJ},
+  year={2017},
+  publisher={Packt Publishing}
+}
+
