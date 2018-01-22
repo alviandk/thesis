@@ -150,6 +150,14 @@ https://www.safaribooksonline.com/library/view/getting-started-with/978178528511
   publisher={O'Reilly Media}
 }
 
+@book{lubanovic2014introducing,
+  title={Introducing Python: Modern Computing in Simple Packages},
+  author={Lubanovic, B.},
+  isbn={9781449361181},
+  url={https://books.google.co.id/books?id=yxZOBQAAQBAJ},
+  year={2014},
+  publisher={O'Reilly Media}
+}
 @misc{hunter2014matplotlib,
   title={The Matplotlib Development Team. Matplotlib: Python Plotting—Documentation. 2013},
   author={Hunter, J and Dale, D and Firing, E and Droettboom, M},

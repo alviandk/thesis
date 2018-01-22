@@ -1434,6 +1434,14 @@ Mengenali hal-hal yang menjadi permasalahan dengan mengangkat masalah-masalah
  yang diuraikan dari latar belakang masalah.
 \end_layout
 
+\begin_layout Standard
+Bagaimana metode yang dilakukan untuk melakukan a/b testing website mekargo.id
+ pada PT Mekar Sampoerna Wirausaha.
+ Bagaimana cara menganalis hasil a/b testing dengan metode bayesian inference
+ dengan pymc3.
+ Variant manakah pada A/B testing yang menjadi varian terbaik.
+\end_layout
+
 \begin_layout Section
 Scope of Problem
 \end_layout
@@ -1443,6 +1451,27 @@ Memberikan batasan yang jelas bagian mana dari masalah yang dikaji dan bagian
  mana yang tidak.
  Pembatasan dapat dilihat dari lingkungan konsep, model, lokasi, waktu dan
  obyek penelitian.
+\end_layout
+
+\begin_layout Standard
+A/B testing Website mekargo.id
+\end_layout
+
+\begin_layout Standard
+Di PT Mekar Sampoerna Wirausaha
+\end_layout
+
+\begin_layout Standard
+Waktu penelitian antara september 2017 sampai januarin 2018
+\end_layout
+
+\begin_layout Standard
+Analisis hasil A/B testing dengan metode bayesian inference
+\end_layout
+
+\begin_layout Standard
+Menggunakan tools library pymc3, numpy, figsize, matplotlib, scipy, jupyter
+ dan IPython dengan bahasa pemrograman python
 \end_layout
 
 \begin_layout Section
@@ -1465,6 +1494,229 @@ Menjelaskan kegunaan dari pemecahan masalah pada penelitian.
 
 \begin_layout Chapter
 LITERATURE REVIEW
+\end_layout
+
+\begin_layout Section
+Python
+\end_layout
+
+\begin_layout Standard
+Python is a good general-purpose, high-level language.
+ Its design makes it very readable, which is more important than it sounds.
+ Every computer program is written only once, but read and revised many
+ times, often by many people.
+ Being readable also makes it easier to learn and remember, hence more writeable.
+ Compared with other popular languages, Python has a gentle learning curve
+ that makes you productive sooner, yet it has depths that you can explore
+ as you gain expertise
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lubanovic2014introducing"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+People use python because have these several advantages: software quality,
+ developer productivity, program portability, support libraries, component
+ integration, and enjoyment
+\begin_inset CommandInset citation
+LatexCommand citep
+key "lutz2013learning"
+
+\end_inset
+
+.
+ Python is a multi-platform, general-purpose programming language that can
+ run on Windows, Linux/Unix, and Mac OS X, and has been ported to Java and
+ .NET virtual machines as well.
+ It has a powerful standard library.
+ In addition, it has many libraries for data analysis such as Numpy, Pandas,
+ Matplotlib, PyMongo, and Scikit 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "vo2015getting"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Python in this research is used as probabilistic programming tools for bayesian
+ method to build probabilistic models.
+ Probabilistic programming offers an effective way to build complex models
+ and allows us to focus more on model design, evaluation, and interpretation,
+ and less on mathematical or computational details 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "martin2016bayesian"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Numpy
+\end_layout
+
+\begin_layout Standard
+Numpy is one of the fundamental packages used for scientific computing in
+ Python.
+ Numpy is used as an efficient multidimensional container of generic data.
+ Arbitrary data types can be defined and integrated with a wide variety
+ of databases 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "vo2015getting"
+
+\end_inset
+
+.
+ The NumPy package, which comprises the NumPy array as well as a set of
+ accompanying mathematical functions, has found wide-spread adoption in
+ academia, national laboratories, and industry, with applications ranging
+ from gaming to space exploration 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "van2016numpy"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Matplotlib
+\end_layout
+
+\begin_layout Standard
+Matplotlib is a python 2D plotting library which produces publication quality
+ figures in a variety of hardcopy formats and interactive environments across
+ platforms.
+ Matplotlib can be used in python scripts, the python and ipython shell,
+ web application servers, and six graphical user interface toolkits 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hunter2014matplotlib"
+
+\end_inset
+
+.
+ Matplotlib provides both a very quick way to visualize data from Python
+ and publication-quality figures in many formats: line plots, contour plots,
+ scatter plots, and Basemap plots.
+ It comes with a set of default settings, but allows customization of all
+ kinds of properties.
+ However, we can easily create our chart with the defaults of almost every
+ property in Matplotlib 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "vo2015getting"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Scipy
+\end_layout
+
+\begin_layout Standard
+SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source
+ software for mathematics, science, and engineering.
+ SciPy ecosystem includes general and specialised tools for data management
+ and computation, productive experimentation and high-performance computing.
+ The SciPy library, a collection of numerical algorithms and domain-specific
+ toolboxes, including signal processing, optimization, statistics and much
+ more 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jones2014scipy"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Ipython
+\end_layout
+
+\begin_layout Standard
+IPython is an interactive browser-based environment where you can combine
+ code execution, text, mathematics, plots, and rich media into a single
+ document.
+ Originally designed for use as an electronic lab notebook for computational
+ science, it is increasingly being used in teaching as well, and a rich
+ ecosystem of open source plugins and extensions for teaching is growing
+ around it 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wilson2014teaching"
+
+\end_inset
+
+.
+ IPython has provided terminal-based tools for interactive computing in
+ Python since 2001.
+ The notebook document format and multi-process architecture introduced
+ in 2011 have expanded the applicable scope of IPython into teaching, presenting
+, and sharing computational work, in addition to interactive exploration
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ragan2014jupyter"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Jupyter
+\end_layout
+
+\begin_layout Standard
+Jupyter Notebook, provides a tool to create and share web pages with text,
+ charts, and Python code in a special format.
+ Often, the notebooks are used as an educational tool, or to demonstrate
+ Python software.
+ We can import or export notebooks either from plain Python code or from
+ the special notebook format.
+ The notebooks can be run locally, or we can make them available online
+ by running a dedicated notebook server 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "fandango2017python"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Jupyter Notebook is accessed through a modern web browser.
+ This makes it practical to use the same interface running locally like
+ a desktop application, or running on a remote server.
+ In the latter case, the only software the user needs locally is a web browser;
+ so, for instance, a teacher can set up the software on a server and easily
+ give students access.
+ The notebook files it creates are a simple, documented JSON format, with
+ the extension ‘.ipynb’.
+ It is simple to write other software tools which access and manipulate
+ these files 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kluyver2016jupyter"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Chapter
@@ -1558,8 +1810,7 @@ RESULTS AND DISCUSSION
 
 \begin_layout Standard
 Bab ini menjelaskan kegiatan hasil penelitian yang diperoleh seperti variabel
- yang diteliti, hasil analisis dan pengujian hipotesis (bila ada), atau
- hasil perancangan, pemrogramannya, dan uji coba.
+ yang diteliti, hasil analisis dan pengujian hipotesis dan pemrogramannya.
 \end_layout
 
 \begin_layout Standard
@@ -1643,6 +1894,11 @@ menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
 
 \begin_layout Section
 Analyze Test Results
+\end_layout
+
+\begin_layout Standard
+Data yang didapat dari google analytic dilakukan pemrosesan dan analisa
+ dengan metode bayesian inference dengan pymc
 \end_layout
 
 \begin_layout Standard
