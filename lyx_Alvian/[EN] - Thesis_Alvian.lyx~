@@ -1739,12 +1739,15 @@ Research Object
 Website Mekargo Mekar Pt bla bla, tempat dan waktu.
 \end_layout
 
-\begin_layout Section
-Data Collection Method
-\end_layout
-
 \begin_layout Standard
-Google Analytics...
+Waktu penelitian dilakukan antara bulan September 2017 sampai Januari 2018.
+ Objek pada peneltian ini adalah website mekargo.id PT Mekar Investama Sampoerna.
+ Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
+ Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
+sing versi a/b testing.
+ Pengumpulan data dilakukan dengan tools google analytics.
+ Data yang didapatkan selanjutnya akan dianalisis dengan metode bayesian
+ inference dan tools pymc3.
 \end_layout
 
 \begin_layout Section
@@ -1754,6 +1757,23 @@ Research Methodology
 \begin_layout Standard
 diagram 4 langkah besar, tulis 4.1.1-4.1.4.
  
+\end_layout
+
+\begin_layout Standard
+Metode penelitian yang dilakukan meliputi: identifying problems, develop
+ a hypothesis, developing and testing page variants, dan analyze test results.
+ Gambaran langkah metode penelitian yang dilakukan dapat diilustrasikan
+ oleh figure xx.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/Research Methodology.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -2119,17 +2139,17 @@ status open
 
 \begin_layout Plain Layout
 
-print(np.sum(observations_A)) 
+np.sum(observations_A)
 \end_layout
 
 \begin_layout Plain Layout
 
-print(np.sum(observations_B)) 
+np.sum(observations_B)
 \end_layout
 
 \begin_layout Plain Layout
 
-print(np.sum(observations_C))
+np.sum(observations_C)
 \end_layout
 
 \end_inset
@@ -2161,17 +2181,17 @@ status open
 
 \begin_layout Plain Layout
 
-print(np.mean(observations_A)) 
+np.mean(observations_A)
 \end_layout
 
 \begin_layout Plain Layout
 
-print(np.mean(observations_B)) 
+np.mean(observations_B)
 \end_layout
 
 \begin_layout Plain Layout
 
-print(np.mean(observations_C))
+np.mean(observations_C)
 \end_layout
 
 \end_inset
@@ -2215,13 +2235,6 @@ Kesimpulan merupakan jawaban menyeluruh terhadap persoalan yang dipertanyakan
  Angka-angka yang dihasilkan dari analisis data (jika penelitian merupakan
  analisis data) tidak perlu diulang lagi pada bab terakhir ini.
  Yang diperlukan adalah analisis sebab dihasilkannya angka-angka tersebut.
-\begin_inset CommandInset citation
-LatexCommand citep
-key "goldberg2017decision"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
