@@ -2724,11 +2724,25 @@ Analyze Test Results
 
 \begin_layout Standard
 Data yang didapat dari google analytic dilakukan pemrosesan dan analisa
- dengan metode bayesian inference dengan pymc
+ dengan metode bayesian inference dengan pymc.Mengimport seluruh library
+ python yang dibutuhkan yaitu pymc3, numpy, figsize, matplotlib, scipy,
+ dan IPython.
 \end_layout
 
 \begin_layout Standard
-hasil dari pymc3
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2752,8 +2766,8 @@ centering
 
 
 \begin_inset Graphics
-	filename /home/technonatura/Desktop/bayes model2.png
-	scale 45
+	filename images/jupyter_code/1.png
+	scale 70
 
 \end_inset
 
@@ -2764,10 +2778,10 @@ centering
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bayesian model
+Import python library
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Bayesian-model"
+name "fig:import-library"
 
 \end_inset
 
@@ -2789,82 +2803,14 @@ name "fig:Bayesian-model"
 \end_layout
 
 \begin_layout Standard
-\begin_inset listings
-inline false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-import pymc3 as pm 
-\end_layout
 
-\begin_layout Plain Layout
-
-import numpy as np 
-\end_layout
-
-\begin_layout Plain Layout
-
-import figsize 
-\end_layout
-
-\begin_layout Plain Layout
-
-import matplotlib.pyplot as plt 
-\end_layout
-
-\begin_layout Plain Layout
-
-import scipy.stats as stats
-\end_layout
-
-\begin_layout Plain Layout
-
-from IPython.core.pylabtools 
-\end_layout
-
-\begin_layout Plain Layout
-
-%matplotlib inline
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, figsize,
- matplotlib, scipy, dan IPython.
-\end_layout
-
-\begin_layout Standard
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-true_A = 120 
-\end_layout
-
-\begin_layout Plain Layout
-
-true_B = 129 
-\end_layout
-
-\begin_layout Plain Layout
-
-true_C = 84
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-
-N_sample = 1156
+\backslash
+FloatBarrier
 \end_layout
 
 \end_inset
@@ -2877,23 +2823,71 @@ Inisialisasi nilai pada versi A, B, dan C serta banyaknya sample yang digunakan.
 \end_layout
 
 \begin_layout Standard
-\begin_inset listings
-inline false
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-true_p_A = true_A/float(N_A) 
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/2.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Initialize sample
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Initialize-sample"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
 
-true_p_B = true_B/float(N_B) 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
-true_p_C = true_C/float(N_C)
+
+\backslash
+FloatBarrier
 \end_layout
 
 \end_inset
@@ -2919,23 +2913,67 @@ true_p_C = 0.0726643598615917
 \end_layout
 
 \begin_layout Standard
-\begin_inset listings
-inline false
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-observations_A = stats.bernoulli.rvs(true_p_A, size=N_A) 
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/3.png
+	scale 70
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Caption Standard
 
-observations_B = stats.bernoulli.rvs(true_p_B, size=N_B) 
+\begin_layout Plain Layout
+Calculate probability
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Calculate-probability"
+
+\end_inset
+
+
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
-observations_C = stats.bernoulli.rvs(true_p_C, size=N_C)
+
+\backslash
+FloatBarrier
 \end_layout
 
 \end_inset
@@ -2949,23 +2987,46 @@ Melakukan observasi bernoulli terhadap nilai peluang A, B, dan C menggunakan
 \end_layout
 
 \begin_layout Standard
-\begin_inset listings
-inline false
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-print("Obs from Site A: ", observations_A[:30], "...") 
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/4.png
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
-
-print("Obs from Site B: ", observations_B[:30], "...") 
-\end_layout
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
+Bernoulli observation
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Bernoulli-observation"
 
-print("Obs from Site C: ", observations_C[:30], "...")
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2973,46 +3034,17 @@ print("Obs from Site C: ", observations_C[:30], "...")
 
 \end_layout
 
-\begin_layout Standard
-Mencetak hasil observasi dengan bernoulli untuk 30 hasil pertama untuk melihat
- pola data yang dihasilkan
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Obs from Site A: [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
- 0 0 0] ...
- 
-\end_layout
 
-\begin_layout Standard
-Obs from Site B: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
- 0 0 0] ...
- 
-\end_layout
-
-\begin_layout Standard
-Obs from Site C: [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0] ...
-\end_layout
-
-\begin_layout Standard
-\begin_inset listings
-inline false
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-np.sum(observations_A)
-\end_layout
 
-\begin_layout Plain Layout
-
-np.sum(observations_B)
-\end_layout
-
-\begin_layout Plain Layout
-
-np.sum(observations_C)
+\backslash
+FloatBarrier
 \end_layout
 
 \end_inset
@@ -3038,31 +3070,6 @@ sum_true_p_C = 86
 \end_layout
 
 \begin_layout Standard
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-np.mean(observations_A)
-\end_layout
-
-\begin_layout Plain Layout
-
-np.mean(observations_B)
-\end_layout
-
-\begin_layout Plain Layout
-
-np.mean(observations_C)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Mencetak hasil nilai rata-rata observasi bernoulli dengan bantuan method
  mean pada library numpy.
  Nilai yang dihasilkan adalah:
@@ -3082,6 +3089,427 @@ mean_p_C = 0.0743944636678
 
 \begin_layout Standard
 Nilai rata rata ini sekaligus menjadi nilai true frequency
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/5.png
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Sum and mean of bernoulli observation
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sum-and-mean"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pymc probability models, jelasin dari model uniform sampling, deterministik
+ nilai posterior a-b, a-c, bc.
+ deterministik bernouli ke model, metropolis dan sampling total data 20000
+ diambil 1000 awal
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/6.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pymc probabilistic model
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pymc-probabilistic-model"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+menyimpan hasil processing pymc probabilistik model ke variable - variable
+ sebagai bentuk visualisasi dan hasil analisis data
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/7.png
+	scale 70
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Pymc probabilistic model results
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pymc-probabilistik-model"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+posterior distribution probabilistik A, deskripsiin isi codingan
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/8.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Posteriror distribution P_A
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriror-distribution-P_A"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+posterior distribution probabilistik B, deskripsiin isi codingan
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/9.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Posteriror distribution P_B
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriror-distribution-P_B"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+posterior distribution probabilistik C, deskripsiin isi codingan
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/10.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Posteriror distribution P_C
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriror-distribution-P_C"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
