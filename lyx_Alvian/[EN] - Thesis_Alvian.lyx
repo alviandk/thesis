@@ -3722,6 +3722,76 @@ FloatBarrier
 
 \end_layout
 
+\begin_layout Standard
+hasil akhir analisis data, deskripsiin isi codingan
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/14.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Final results
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Final-results"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 CONCLUSION AND SUGGESTIONS
 \end_layout
