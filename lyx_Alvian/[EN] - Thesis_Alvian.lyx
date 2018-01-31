@@ -1425,6 +1425,69 @@ Memberikan uraian yang relevan mengapa penulis sampai kepada pemilihan topik
  rumusan masalah.
 \end_layout
 
+\begin_layout Standard
+Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
+ perekonomian Indonesia.
+ Dengan adanya sektor UKM, pengangguran akibat angkatan kerja yang tidak
+ terserap dalam dunia kerja menjadi berkurang.
+ Sektor UKM pun telah terbukti menjadi pilar perekonomian yang tangguh.
+ Kontribusi sektor UKM dalam menentukan Produk Domestik Bruto (PDB) dan
+ sektor penghasil devisa negara juga tak perlu diragukan lagi.
+ Saat ini, UKM telah dijadikan agenda utama pembangunan ekonomi Indonesia
+ (Kemenkeu, 2015).
+ 
+\end_layout
+
+\begin_layout Standard
+Masalah mendasar UKM yang paling menonjol menyangkut menyediakan pembiayaan
+ usaha alias modal usaha.
+ Kebutuhan modal sangat terasa pada saat seseorang ingin memulai usaha baru.
+ Alhasil, biasanya bila motivasinya kuat, seseorang akan tetap memulai usaha
+ dengan modal seadanya.
+ Pada usaha yang sudah berjalan, modal tetap menjadi kendala lanjutan untuk
+ berkembang.
+ Masalah yang menghadang UKM menyangkut kemampuan akses pembiayaan, akses
+ pasar dan pemasaran, tata kelola manajemen usaha kecil serta akses informasi.
+ Kesulitan UKM mengakses sumber-sumber modal karena keterbatasan informasi
+ dan kemampuan menembus sumber modal tersebut.
+ Padahal pilihan sumber modal sangat banyak dan beragam.
+ Lembaga keuangan bank adalah sumber modal terbesar yang dapat dimanfaatkan
+ oleh pelaku usaha kecil.
+ Namun untuk bermitra dengan bank, usaha kecil dituntut menyajikan proposal
+ usaha yang feasible atau layak usaha dan menguntungkan.
+ 
+\end_layout
+
+\begin_layout Standard
+Mekar (PT Sampoerna Wirausaha) didirikan pada 2010 dan dimiliki secara penuh
+ oleh Putera Sampoerna Foundation, Mekar bertujuan untuk mempermudah akses
+ finansial bagi para pelaku UKM Indonesia sehingga memiliki dampak sosial
+ dan ekonomi yang positif di Indonesia (Mekar, 2017).
+ Mekar memberikan solusi dalam membantu Pelaku Usaha Mikro Kecil dan Menengah
+ (UMKM) dan Konsumen lainnya untuk mendapatkan Akses Layanan Keuangan atau
+ Permodalan di Indonesia.
+ Beberapa produk yang dimiliki Mekar diantaranya website utama Mekar.id,
+ chat bot dan website Mekar Go.
+ Website Mekar Go dengan alamat web https://mekargo.id/ merupakan website
+ untuk menghimpun data UKM dan karyawan yang ingin mengajukan pinjaman ke
+ MEKAR.
+ Data yang telah dihimpun pada versi web saat ini menunjukkan konversi hanya
+ sekitar 10% peminjam yang melengkapi pengisian data dari awal sampai akhir.
+ Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
+kan.
+ 
+\end_layout
+
+\begin_layout Standard
+Untuk meningkatkan presentase konversi pelengkapan data, tim marketing mengusulk
+an perubahan urutan pengisian data.
+ Perubahan urutan pengisian data dibuat menjadi dua versi baru yang selanjutnya
+ disebut sebagai versi B dan versi C, dan versi saat ini disebut sebagai
+ versi A.
+ Ketiga versi tersebut akan dilakukan A/B testing untuk mengetahui versi
+ manakah yang menghasilkan presentasi konversi pelengkapan data terbanyak.
+\end_layout
+
 \begin_layout Section
 Formulation of the Problem
 \end_layout
@@ -1474,12 +1537,29 @@ Menggunakan tools library pymc3, numpy, figsize, matplotlib, scipy, jupyter
  dan IPython dengan bahasa pemrograman python
 \end_layout
 
+\begin_layout Standard
+Yang tidak dibahas adalah fitur lain dari website mekargo seperti homepage,
+ contact us, about, dll
+\end_layout
+
+\begin_layout Standard
+tidak membahas software development dari website mekargo.id
+\end_layout
+
 \begin_layout Section
 Research Purposes
 \end_layout
 
 \begin_layout Standard
 Menjelaskan tujuan dari pemecahan masalah
+\end_layout
+
+\begin_layout Standard
+Tujuan dari penelitian ini adalah melakukan a/b testing website mekargo.id
+ pada PT Mekar Sampoerna Wirausaha.
+ Melakukan analisis hasil a/b testing dengan metode bayesian inference dengan
+ pymc3.
+ Mengetahui variant pada A/B testing yang menjadi varian terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1490,6 +1570,16 @@ Research Benefits
 Menjelaskan kegunaan dari pemecahan masalah pada penelitian.
  Kegunaan adalah untuk bidang ilmu, instansi/institusi yang bersangkutan,
  dan masyarakat.
+\end_layout
+
+\begin_layout Standard
+kontribusi bagi ilmu pengetahuan tentang metodologi melakukan ab testing
+ pada aplikasi web.
+\end_layout
+
+\begin_layout Standard
+kontribusi bagi perusahaan mekar, memberikan saran perbaikan dengan terpilihnya
+ 
 \end_layout
 
 \begin_layout Chapter
@@ -1885,7 +1975,7 @@ menjelasin metode, algoritma, dan tools program di pymc jupyter
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="25" columns="3">
+<lyxtabular version="3" rows="6" columns="3">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -1980,557 +2070,6 @@ sadada
 
 \begin_layout Plain Layout
 asdsadasdad
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -2713,9 +2252,162 @@ Developing and Testing Page Variants
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
  penerapan data collection dengan google analytic.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/grafik sebulan.png
+	scale 39
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Graphic google analytics mekargo.id
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Graphic-google-analytics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+menjelaskan gambar.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/tabel sebulan.png
+	scale 39
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Table google analytics mekargo.id
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Table-google-analytics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -3582,216 +3274,6 @@ FloatBarrier
 
 \end_layout
 
-\begin_layout Standard
-posterior distribution delta A-C, deskripsiin isi codingan
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/jupyter_code/12.png
-	scale 48
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Posteriror distribution delta A-C
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Posteriror-distribution-deltaAC"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-FloatBarrier
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-posterior distribution delta B-C, deskripsiin isi codingan
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/jupyter_code/13.png
-	scale 48
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Posteriror distribution delta B-C
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Posteriror-distribution-deltaBC"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-FloatBarrier
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-hasil akhir analisis data, deskripsiin isi codingan
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/jupyter_code/14.png
-	scale 48
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Final results
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Final-results"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-FloatBarrier
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter
 CONCLUSION AND SUGGESTIONS
 \end_layout
@@ -3833,6 +3315,22 @@ options "apalike"
 APPENDIX
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Appendix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter*
 CURRICULUM VITAE
 \end_layout
@@ -3853,18 +3351,80 @@ addcontentsline{toc}{chapter}{Curriculum Vitae}
 
 \end_layout
 
+\begin_layout Subsubsection*
+IDENTITAS DIRI
+\end_layout
+
 \begin_layout Standard
-The author’s name is Alvian Dwi Kurnianto.
- 
+Nama : 
+\end_layout
+
+\begin_layout Standard
+Tempat/Tanggal Lahir : 
+\end_layout
+
+\begin_layout Standard
+Jenis Kelamin : 
+\end_layout
+
+\begin_layout Standard
+NIM : 
+\end_layout
+
+\begin_layout Standard
+Alamat Rumah : 
+\end_layout
+
+\begin_layout Standard
+No Telpon / Hp : 
+\end_layout
+
+\begin_layout Standard
+Email : 
+\end_layout
+
+\begin_layout Subsubsection*
+PENDIDIKAN FORMAL 
+\end_layout
+
+\begin_layout Standard
+(tahun) – (tahun) : 
+\end_layout
+
+\begin_layout Standard
+___ – ___ : 
+\end_layout
+
+\begin_layout Standard
+___ – ___ : 
+\end_layout
+
+\begin_layout Subsubsection*
+PENGALAMAN KERJA 
+\end_layout
+
+\begin_layout Standard
+(tahun) – (tahun) : 
+\end_layout
+
+\begin_layout Standard
+___ – ___ : 
+\end_layout
+
+\begin_layout Standard
+___ – ___ : 
+\end_layout
+
+\begin_layout Subsubsection*
+PUBLIKASI ILMIAH (tahun) 
+\end_layout
+
+\begin_layout Standard
+_____ _____ : 
 \begin_inset Separator latexpar
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\align right
-Depok, 11 May 2017
 \end_layout
 
 \begin_layout Standard
