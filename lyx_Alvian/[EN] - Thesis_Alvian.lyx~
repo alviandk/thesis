@@ -1557,9 +1557,9 @@ Menjelaskan tujuan dari pemecahan masalah
 \begin_layout Standard
 Tujuan dari penelitian ini adalah melakukan a/b testing website mekargo.id
  pada PT Mekar Sampoerna Wirausaha.
- Bagaimana cara menganalis hasil a/b testing dengan metode bayesian inference
- dengan pymc3.
- Variant manakah pada A/B testing yang menjadi varian terbaik.
+ Melakukan analisis hasil a/b testing dengan metode bayesian inference dengan
+ pymc3.
+ Mengetahui variant pada A/B testing yang menjadi varian terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1866,10 +1866,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -1934,13 +1930,22 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-lihat kata2 dari website
+Masalah yang diidentifikasi adalah yang berhubungan dengan website yang
+ akan dilakukan a/b testing.
+ Masalah yang diangkat biasanya berhubungan dengan bisnis, marketing, atau
+ convertion rate.
+ Tergantung pada tujuan apa yang ingin dicapai pada pembuatan a/b testing
+ pada website tersebut.
+ Identifikasi masalah juga dapat disertai dengan penjelasan poin indikator
+ bisnis yang terdiri dari business objective, website goal, key performance
+ metric, dan target metric.
 \end_layout
 
 \begin_layout Standard
-Latar belakang masalah awal dibuatnya A/B testing disertai dengan penjelasan
- poin indikator bisnis yang terdiri dari business objective, website goal,
- key performance metric, dan target metric dari pembuatan A/B testing ini.
+Business objective adalah bla bal bla.
+ Website goal adalah bla bla.
+ Key performance metric adalah bla bla.
+ Target metric adalah bla bla bla.
 \end_layout
 
 \begin_layout Subsection
@@ -1962,7 +1967,7 @@ Developing and Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-develop, menjelasin tool analytic, penjelasan proses percobaan
+develop, menjelasin tool analytic, penjelasan proses percobaan.
 \end_layout
 
 \begin_layout Subsection
@@ -2195,8 +2200,13 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
+jelaskan versi sebelum ab testing seperti apa, kondisinya bagaimana, yang
+ dihasilkan, dan masalahnya apa, yang timbul dan penyebab kira kira 
+\end_layout
+
+\begin_layout Standard
 presentase pendaftar yang menyelesaikan pengisian data masih belum mencapai
- presentase minimal yang ditetapkan
+ presentase minimal yang ditetapkan.
 \end_layout
 
 \begin_layout Subsection
@@ -2207,6 +2217,11 @@ Business Objective
 Menambah jumlah peminjam yang akan diberikan pinjaman peer-to-peer lending.
 \end_layout
 
+\begin_layout Standard
+To test which site is the highest successfully completed Loan Access and
+ Survey submitted? 
+\end_layout
+
 \begin_layout Subsection
 Website Goal
 \end_layout
@@ -2214,6 +2229,8 @@ Website Goal
 \begin_layout Standard
 Meningkatkan jumlah peminjam yang mendaftar, meningkatkan presentase penyelesaia
 n pengisian form pendaftaran oleh peminjam.
+ Macro Goal: visitors completed submitting on loan access; Micro Goal: visitors
+ completed submitting survey; 
 \end_layout
 
 \begin_layout Subsection
@@ -2225,12 +2242,21 @@ jumlah pendaftar per bulan, presentase penyelesaian pengisian form oleh
  peminjam saat pengisian form pendaftaran.
 \end_layout
 
+\begin_layout Standard
+Traffic Level, High and Low Traffic during the test period.
+ 
+\end_layout
+
+\begin_layout Standard
+conversion level 
+\end_layout
+
 \begin_layout Subsection
 Target Metric
 \end_layout
 
 \begin_layout Standard
-1000 pendaftar per bulan, presentase penyelesaian data di atas 10%.
+500 pendaftar selama sebulan, presentase penyelesaian data di atas 10%.
 \end_layout
 
 \begin_layout Section
@@ -2251,6 +2277,417 @@ Presentase penyelesaian pengisian form pendaftaran dipengaruhi oleh urutan
 Developing and Testing Page Variants
 \end_layout
 
+\begin_layout Subsection
+Developing Page Variants
+\end_layout
+
+\begin_layout Standard
+menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
+\end_layout
+
+\begin_layout Standard
+perubahan yang dilakukan: Remove unnecessary data fields and some data fields
+ are changed to optional 
+\end_layout
+
+\begin_layout Standard
+Untuk membedakan versi a/b testing, digunakan suffik satu huruf alfabet
+ (a atau b atau c) sesuai dengan jenis varian.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Url definition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true" endfirsthead="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Step
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Site A (/a/)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Site B (/b/)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Site C (/c/)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Survey Page 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/survei
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/b/survei 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/c/survei 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Detail Needs Page 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/detil-survei
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/b/detil-survei
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/c/detil-survei
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Personal Information Page
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/data-diri 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/b/data-diri 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/c/data-diri 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Thanks Page
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/terima-kasih 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/b/terima-kasih 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/c/terima-kasih 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Detail Loan Access Page
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/pinjaman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/b/pinjaman
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/c/pinjaman
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ekstra Pesonal Detail Information Page
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/tambahan-data-diri
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Congrats Page 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/a/selamat 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/b/selamat 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/c/selamat 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+jelaskan dan sebutkan setiap alur url a/b/c (bisa dalam bentuk chart)
+\end_layout
+
+\begin_layout Standard
+kasih reference ke lampiran gambar
+\end_layout
+
+\begin_layout Standard
+pembagian traffic round robbin
+\end_layout
+
+\begin_layout Subsection
+Testing Page Variants
+\end_layout
+
+\begin_layout Standard
+pengujian a/b testing dilakukan dari tanggal 24 September 2017 sampai 23
+ Oktober 2017.
+ Traffic tinggi terjadi pada tanggal ..., ..., dan ...
+ Yang tertinggi pada tanggal ...
+ dan yang terendah pada tanggal ...
+\end_layout
+
+\begin_layout Standard
+cleaning data membuang dari bot
+\end_layout
+
 \begin_layout Standard
 \begin_inset ERT
 status open
@@ -2268,8 +2705,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
- penerapan data collection dengan google analytic.
+penerapan data collection dengan google analytic.
  
 \end_layout
 
@@ -3324,6 +3760,25 @@ status open
 
 \backslash
 addcontentsline{toc}{chapter}{Appendix}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
