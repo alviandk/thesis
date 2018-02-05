@@ -1975,7 +1975,7 @@ Analyze Test Results
 \end_layout
 
 \begin_layout Standard
-menjelasin metode, algoritma, dan tools program di pymc jupyter
+menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter
 \end_layout
 
 \begin_layout Standard
@@ -2288,6 +2288,16 @@ menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
 \begin_layout Standard
 perubahan yang dilakukan: Remove unnecessary data fields and some data fields
  are changed to optional 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename images/remove field.png
+	scale 45
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

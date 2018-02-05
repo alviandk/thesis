@@ -1975,7 +1975,7 @@ Analyze Test Results
 \end_layout
 
 \begin_layout Standard
-menjelasin metode, algoritma, dan tools program di pymc jupyter
+menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter
 \end_layout
 
 \begin_layout Standard
@@ -2373,7 +2373,7 @@ Step
 \begin_inset Text
 
 \begin_layout Plain Layout
-Site A (/a/)
+Site A (/ukm/a/)
 \end_layout
 
 \end_inset
@@ -2382,7 +2382,7 @@ Site A (/a/)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Site B (/b/)
+Site B (/ukm/b/)
 \end_layout
 
 \end_inset
@@ -2391,7 +2391,7 @@ Site B (/b/)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Site C (/c/)
+Site C (/ukm/c/)
 \end_layout
 
 \end_inset
@@ -2411,7 +2411,7 @@ Survey Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/survei
+/ukm/a/survei
 \end_layout
 
 \end_inset
@@ -2420,7 +2420,7 @@ Survey Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/b/survei 
+/ukm/b/survei 
 \end_layout
 
 \end_inset
@@ -2429,7 +2429,7 @@ Survey Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/c/survei 
+/ukm/c/survei 
 \end_layout
 
 \end_inset
@@ -2449,7 +2449,7 @@ Detail Needs Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/detil-survei
+/ukm/a/detil-survei
 \end_layout
 
 \end_inset
@@ -2458,7 +2458,7 @@ Detail Needs Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/b/detil-survei
+/ukm/b/detil-survei
 \end_layout
 
 \end_inset
@@ -2467,7 +2467,7 @@ Detail Needs Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/c/detil-survei
+/ukm/c/detil-survei
 \end_layout
 
 \end_inset
@@ -2487,7 +2487,7 @@ Personal Information Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/data-diri 
+/ukm/a/data-diri 
 \end_layout
 
 \end_inset
@@ -2496,7 +2496,7 @@ Personal Information Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/b/data-diri 
+/ukm/b/data-diri 
 \end_layout
 
 \end_inset
@@ -2505,7 +2505,7 @@ Personal Information Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/c/data-diri 
+/ukm/c/data-diri 
 \end_layout
 
 \end_inset
@@ -2525,7 +2525,7 @@ Thanks Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/terima-kasih 
+/ukm/a/terima-kasih 
 \end_layout
 
 \end_inset
@@ -2534,7 +2534,7 @@ Thanks Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/b/terima-kasih 
+/ukm/b/terima-kasih 
 \end_layout
 
 \end_inset
@@ -2543,7 +2543,7 @@ Thanks Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/c/terima-kasih 
+/ukm/c/terima-kasih 
 \end_layout
 
 \end_inset
@@ -2563,7 +2563,7 @@ Detail Loan Access Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/pinjaman
+/ukm/a/ pinjaman
 \end_layout
 
 \end_inset
@@ -2572,7 +2572,7 @@ Detail Loan Access Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/b/pinjaman
+/ukm/b/ pinjaman
 \end_layout
 
 \end_inset
@@ -2581,7 +2581,7 @@ Detail Loan Access Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/c/pinjaman
+/ukm/c/ pinjaman
 \end_layout
 
 \end_inset
@@ -2601,7 +2601,7 @@ Ekstra Pesonal Detail Information Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/tambahan-data-diri
+/ukm/a/ tambahan-data-diri
 \end_layout
 
 \end_inset
@@ -2639,7 +2639,7 @@ Congrats Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/a/selamat 
+/ukm/a/selamat 
 \end_layout
 
 \end_inset
@@ -2648,7 +2648,7 @@ Congrats Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/b/selamat 
+/ukm/b/selamat 
 \end_layout
 
 \end_inset
@@ -2657,7 +2657,7 @@ Congrats Page
 \begin_inset Text
 
 \begin_layout Plain Layout
-/c/selamat 
+/ukm/c/selamat 
 \end_layout
 
 \end_inset
