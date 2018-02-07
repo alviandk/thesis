@@ -58,7 +58,7 @@
 \newcommand{\Judul}{}
 \newcommand{\JudulInggris}{"A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha Using Bayesian Inference"}
 \newcommand{\Name}{Alvian Dwi Kurnianto, S.Kom.}
-\newcommand{\NPM}{99999999}
+\newcommand{\NPM}{92216007}
 \newcommand{\NIRM}{}
 \newcommand{\JenisTulisan}{Postgraduate Thesis}
 %\newcommand{\Gelar}{Jenjang DIII / Setara Sarjana Muda}
@@ -1420,12 +1420,6 @@ Background
 \end_layout
 
 \begin_layout Standard
-Memberikan uraian yang relevan mengapa penulis sampai kepada pemilihan topik
- permasalahan tersebut yang mencakup semua faktor yang akan dibahas pada
- rumusan masalah.
-\end_layout
-
-\begin_layout Standard
 Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
  perekonomian Indonesia.
  Dengan adanya sektor UKM, pengangguran akibat angkatan kerja yang tidak
@@ -1471,8 +1465,8 @@ Mekar (PT Sampoerna Wirausaha) didirikan pada 2010 dan dimiliki secara penuh
  Website Mekar Go dengan alamat web https://mekargo.id/ merupakan website
  untuk menghimpun data UKM dan karyawan yang ingin mengajukan pinjaman ke
  MEKAR.
- Data yang telah dihimpun pada versi web saat ini menunjukkan konversi hanya
- sekitar 10% peminjam yang melengkapi pengisian data dari awal sampai akhir.
+ Data yang telah dihimpun pada versi web saat ini menunjukkan konversi peminjam
+ yang melengkapi pengisian data dari awal sampai akhir kurang dari 10%.
  Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
 kan.
  
@@ -1486,6 +1480,9 @@ an perubahan urutan pengisian data.
  versi A.
  Ketiga versi tersebut akan dilakukan A/B testing untuk mengetahui versi
  manakah yang menghasilkan presentasi konversi pelengkapan data terbanyak.
+ Pengumpulan data dibantu dengan tools Google Analytics.
+ Setelah data yang diinginkan terpenuhi, dilakukan proses analisis hasil
+ data dengan metode bayessian inference dan tools pymc3.
 \end_layout
 
 \begin_layout Section
@@ -1493,16 +1490,11 @@ Formulation of the Problem
 \end_layout
 
 \begin_layout Standard
-Mengenali hal-hal yang menjadi permasalahan dengan mengangkat masalah-masalah
- yang diuraikan dari latar belakang masalah.
-\end_layout
-
-\begin_layout Standard
-Bagaimana metode yang dilakukan untuk melakukan a/b testing website mekargo.id
- pada PT Mekar Sampoerna Wirausaha.
- Bagaimana cara menganalis hasil a/b testing dengan metode bayesian inference
- dengan pymc3.
- Variant manakah pada A/B testing yang menjadi varian terbaik.
+Adapun masalah yang dibahas pada penelitian ini adalah bagaimana metode
+ yang dilakukan untuk melakukan a/b testing website mekargo.id pada PT Mekar
+ Sampoerna Wirausaha, bagaimana cara menganalis hasil a/b testing dengan
+ metode bayesian inference dan tools pymc3, dan varian manakah dari A/B
+ testing yang menjadi varian terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1510,40 +1502,40 @@ Scope of Problem
 \end_layout
 
 \begin_layout Standard
-Memberikan batasan yang jelas bagian mana dari masalah yang dikaji dan bagian
- mana yang tidak.
- Pembatasan dapat dilihat dari lingkungan konsep, model, lokasi, waktu dan
- obyek penelitian.
+Adapun batasan masalah dari penelitian ini adalah sebagai berikut:
 \end_layout
 
-\begin_layout Standard
-A/B testing Website mekargo.id
+\begin_layout Enumerate
+Objek penelitian adalah website mekargo.id
 \end_layout
 
-\begin_layout Standard
-Di PT Mekar Sampoerna Wirausaha
+\begin_layout Enumerate
+Penelitian dilakukan di PT Mekar Sampoerna Wirausaha
 \end_layout
 
-\begin_layout Standard
-Waktu penelitian antara september 2017 sampai januarin 2018
+\begin_layout Enumerate
+Waktu penelitian antara agustus 2017 sampai januari 2018
 \end_layout
 
-\begin_layout Standard
-Analisis hasil A/B testing dengan metode bayesian inference
+\begin_layout Enumerate
+Penelitian menerapkan taknik a/b testing pada website mekargo.id dengan bantuan
+ tools Google Analytics
 \end_layout
 
-\begin_layout Standard
-Menggunakan tools library pymc3, numpy, figsize, matplotlib, scipy, jupyter
- dan IPython dengan bahasa pemrograman python
+\begin_layout Enumerate
+Data yang dihasilkan dari A/B testing dilakukan analisis dengan metode bayesian
+ inference menggunakan tools library pymc3, numpy, figsize, matplotlib,
+ scipy, jupyter dan IPython dengan bahasa pemrograman python
 \end_layout
 
-\begin_layout Standard
-Yang tidak dibahas adalah fitur lain dari website mekargo seperti homepage,
- contact us, about, dll
+\begin_layout Enumerate
+Fitur website mekargo.id yang dibahas adalah fitur pengisian data peminjam.
 \end_layout
 
-\begin_layout Standard
-tidak membahas software development dari website mekargo.id
+\begin_layout Enumerate
+Fitur website mekargo.id yang tidak dibahas adalah fitur static page yang
+ berisi halaman home, about us, terms and conditions, privacy policy dan
+ contact us.
 \end_layout
 
 \begin_layout Section
@@ -1551,15 +1543,10 @@ Research Purposes
 \end_layout
 
 \begin_layout Standard
-Menjelaskan tujuan dari pemecahan masalah
-\end_layout
-
-\begin_layout Standard
 Tujuan dari penelitian ini adalah melakukan a/b testing website mekargo.id
- pada PT Mekar Sampoerna Wirausaha.
- Melakukan analisis hasil a/b testing dengan metode bayesian inference dengan
- pymc3.
- Mengetahui variant pada A/B testing yang menjadi varian terbaik.
+ pada PT Mekar Sampoerna Wirausaha, melakukan analisis hasil a/b testing
+ dengan metode bayesian inference dengan pymc3, mengetahui variant pada
+ A/B testing yang menjadi varian terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1567,19 +1554,21 @@ Research Benefits
 \end_layout
 
 \begin_layout Standard
-Menjelaskan kegunaan dari pemecahan masalah pada penelitian.
- Kegunaan adalah untuk bidang ilmu, instansi/institusi yang bersangkutan,
- dan masyarakat.
+Manfaat yang didapat dari penelitian ini adalah:
 \end_layout
 
-\begin_layout Standard
-kontribusi bagi ilmu pengetahuan tentang metodologi melakukan ab testing
- pada aplikasi web.
+\begin_layout Enumerate
+Bagi peneliti, menjadi panduan atau referensi penelitian di bidang sistem
+ informasi pada penelitian selanjutnya.
 \end_layout
 
-\begin_layout Standard
-kontribusi bagi perusahaan mekar, memberikan saran perbaikan dengan terpilihnya
- 
+\begin_layout Enumerate
+Bagi peneliti lain, sebagai sumber literatur untuk penelitian yang sejenis.
+\end_layout
+
+\begin_layout Enumerate
+Bagi perusahaan yang diteliti, memberikan saran perbaikan dengan terpilihnya
+ varian a/b testing yang terbaik.
 \end_layout
 
 \begin_layout Chapter
