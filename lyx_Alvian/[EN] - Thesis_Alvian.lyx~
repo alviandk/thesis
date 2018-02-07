@@ -1428,7 +1428,14 @@ Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
  Kontribusi sektor UKM dalam menentukan Produk Domestik Bruto (PDB) dan
  sektor penghasil devisa negara juga tak perlu diragukan lagi.
  Saat ini, UKM telah dijadikan agenda utama pembangunan ekonomi Indonesia
- (Kemenkeu, 2015).
+ (Kemenkeu, 2015)
+\begin_inset CommandInset citation
+LatexCommand citep
+key "http://jakutkota.bps.go.id"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1493,8 +1500,8 @@ Formulation of the Problem
 Adapun masalah yang dibahas pada penelitian ini adalah bagaimana metode
  yang dilakukan untuk melakukan a/b testing website mekargo.id pada PT Mekar
  Sampoerna Wirausaha, bagaimana cara menganalis hasil a/b testing dengan
- metode bayesian inference dengan pymc3, dan varian manakah dari A/B testing
- yang menjadi varian terbaik.
+ metode bayesian inference dan tools pymc3, dan varian manakah dari A/B
+ testing yang menjadi varian terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1803,7 +1810,11 @@ Bayesian Inference
 \end_layout
 
 \begin_layout Section
-Pymc
+Bernoulli Observation
+\end_layout
+
+\begin_layout Section
+Pymc3
 \end_layout
 
 \begin_layout Section
