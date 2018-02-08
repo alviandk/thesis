@@ -4694,8 +4694,10 @@ addcontentsline{toc}{chapter}{Curriculum Vitae}
 
 \end_layout
 
-\begin_layout Subsubsection*
-IDENTITAS DIRI
+\begin_layout Standard
+
+\series bold
+PERSONAL INFORMATION
 \end_layout
 
 \begin_layout Standard
@@ -4712,22 +4714,39 @@ Sex : Male
 
 \begin_layout Standard
 NIM : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Address : 
+Address : Depok, West Java
 \end_layout
 
 \begin_layout Standard
-Phone Number : 
+Phone Number : 085840002746
 \end_layout
 
 \begin_layout Standard
 Email : alviandk@gmail.com
 \end_layout
 
-\begin_layout Subsubsection*
-FORMAL EDUCATION 
+\begin_layout Standard
+
+\series bold
+FORMAL EDUCATION
+\series default
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4742,23 +4761,33 @@ ___ – ___ :
 ___ – ___ : 
 \end_layout
 
-\begin_layout Subsubsection*
-WORK EXPERIENCE 
+\begin_layout Standard
+
+\series bold
+WORK EXPERIENCE
+\series default
+ 
 \end_layout
 
 \begin_layout Standard
-(tahun) – (tahun) : 
+2016 - now : Mekar, Sampoerna Wirausaha - Remote Django Developer
 \end_layout
 
 \begin_layout Standard
-___ – ___ : 
+2015 - 2017 : Coassets​ - ​Remote Django Developer 
 \end_layout
 
 \begin_layout Standard
-___ – ___ : 
+2014 - 2015 : Macroad​ - Django Developer Internship
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+2014 - 2015 : Coding Indonesia​ - Programming Tutor
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 SCIENCE PUBLICATION (2016) 
 \end_layout
 
