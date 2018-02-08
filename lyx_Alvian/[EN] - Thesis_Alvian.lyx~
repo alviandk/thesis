@@ -1856,7 +1856,7 @@ The Bayesian modeling paradigm involves setting up a probabilistic model
  describing how data was gen- erated, assigning prior distributions over
  unknown model parameters, and then calculating a posterior distribution
  over these parameters.
- In prac- tice, this posterior distribution is often intractable to compute
+ In practice, this posterior distribution is often intractable to compute
  exactly except for the simplest models.
  This often requires one to resort to approximate posterior inference algorithms
  based on Monte-Carlo sampling or Variational Inference (VI).
@@ -1875,10 +1875,8 @@ key "pourzanjani2017general"
 
 .
  Bayesian inference had been applied in many areas such as automatic machine-lea
-rning hyperparameter optimization (Snoek, Larochelle, and Adams 2012), A/B
- testing (Chapelle and Li 2011) or recommender systems (Vanchinathan et
- al.
- 2014), among others
+rning hyperparameter optimization, A/B testing or recommender systems, among
+ others
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jimenez2017pygpgo"
@@ -1907,8 +1905,7 @@ key "salvatier2016probabilistic"
 .
  Running PyMC3 requires a working Python interpreter (Python Software Foundation
 , 2010), either version 2.7 (or more recent) or 3.4 (or more recent).
- PyMC3 can be installed using ‘pip‘: pip install git+https://github.com/pymc-devs
-/pymc3.
+ PyMC3 can be installed using ‘pip‘: pip install pymc3.
  PyMC3 depends on several third-party Python packages which will be automaticall
 y installed when installing via pip
 \begin_inset CommandInset citation
@@ -2007,8 +2004,120 @@ key "al2016theano"
 Google Analytics
 \end_layout
 
+\begin_layout Standard
+Google Analytics (GA) is an easy-to-use tool to measure activity on a website.
+ A basic setup might take as little as a few minutes, and many of the standard
+ reports are quite accessible and understandable without any special training
+ or prior knowledge of web analytics.
+ Because of this, many users jump into GA without knowing much about its
+ underpinnings—how the data is structured and gathered—and that’s fine for
+ the basics.
+ But eventually, users can outgrow this intuitive understanding of GA and
+ its data, and need deeper insight into how it works and what it can do
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "weber2015practical"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Google Analytics is free, and it is always increasing in power, to rival
+ and in some cases exceed the performance of the “paid” tools 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kelsey2017introduction"
+
+\end_inset
+
+.
+ Google Analytics has another advantages such as has tremendous features,
+ and ease of use.
+ Unlike other Web analytics tools that use server log files, Google collects
+ information by inserting simple Javascript codes into Web pages.
+ The advantage of this method is that Google Analytics can capture technical
+ and demographic information that log files do not normally provide, such
+ as the user’s browser, operating system, screen size, resolution, and so
+ on 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "yang2014tutorials"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 A/B Testing
+\end_layout
+
+\begin_layout Standard
+A/B testing has widely become the standard controlled experimentation framework
+ for network driven companies like Facebook, LinkedIn, Twitter, Google,
+ and Yahoo 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wilson2017power"
+
+\end_inset
+
+.
+ A/B testing is ubiquitous within the machine learning and data science
+ operations of internet companies.
+ Generically, the idea is to perform a statistical test of the hypothesis
+ that a new feature is better than the existing platform—for example, it
+ results in higher revenue 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A/B testing started to be used in the late 1990s with the growth of the
+ Internet.
+ Many large companies run thousands to tens of thousands of A/B testing
+ each year testing user interface (UI) changes, enhancements to algorithms
+ (search, ads, personalization, recommendation, etc.), changes to apps, content
+ management system, etc.
+ In an A/B testing, users are randomly split between the variants (e.g., the
+ two different ads layouts) in a persistent manner (a user receives the
+ same experience in multiple visits).
+ Their interactions with the site are instrumented and key metrics computed
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kohavi2017online"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In A/B testing, one has a proposed new version of a software platform and
+ wants to decide whether or not to ship the new version.
+ The classical way of conceiving of this problem is the following.
+ We divide users into two groups: treatment and control.
+ We then roll out the proposed update to the treatment group while leaving
+ the control group with the current version.
+ Using data gathered from this randomized trial, we then ask whether the
+ new version performed “better” with respect to some metric 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section

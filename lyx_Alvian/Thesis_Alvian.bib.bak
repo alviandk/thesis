@@ -87,6 +87,16 @@
   Pages                    = {461--481}
 }
 
+@Book{kelsey2017introduction,
+  Title                    = {Introduction to Google Analytics: A Guide for Absolute Beginners},
+  Author                   = {Kelsey, T.},
+  Publisher                = {Apress},
+  Year                     = {2017},
+
+  ISBN                     = {9781484228296},
+  Url                      = {https://books.google.co.id/books?id=-PEoDwAAQBAJ}
+}
+
 @InProceedings{kluyver2016jupyter,
   Title                    = {Jupyter Notebooks-a publishing format for reproducible computational workflows.},
   Author                   = {Kluyver, Thomas and Ragan-Kelley, Benjamin and P{\'e}rez, Fernando and Granger, Brian E and Bussonnier, Matthias and Frederic, Jonathan and Kelley, Kyle and Hamrick, Jessica B and Grout, Jason and Corlay, Sylvain and others},
@@ -155,6 +165,13 @@
   Publisher                = {Taylor \& Francis}
 }
 
+@Article{pourzanjani2017general,
+  Title                    = {General Bayesian Inference over the Stiefel Manifold via the Givens Transform},
+  Author                   = {Pourzanjani, Arya A and Jiang, Richard M and Atzberger, Paul J and Petzold, Linda R},
+  Journal                  = {arXiv preprint arXiv:1710.09443},
+  Year                     = {2017}
+}
+
 @InProceedings{ragan2014jupyter,
   Title                    = {The Jupyter/IPython architecture: a unified view of computational research, from interactive exploration to communication and publication.},
   Author                   = {Ragan-Kelley, M and Perez, F and Granger, B and Kluyver, T and Ivanov, P and Frederic, J and Bussonnier, M},
@@ -187,6 +204,17 @@
   Author                   = {Vo, TH and Czygan, Martin and others},
   Publisher                = {Packt Publ.},
   Year                     = {2015}
+}
+
+@Book{weber2015practical,
+  Title                    = {Practical Google Analytics and Google Tag Manager for Developers},
+  Author                   = {Weber, J.},
+  Publisher                = {Apress},
+  Year                     = {2015},
+
+  ISBN                     = {9781484202654},
+  Lccn                     = {2017385162},
+  Url                      = {https://books.google.co.id/books?id=YszjCgAAQBAJ}
 }
 
 @InProceedings{wilson2014teaching,

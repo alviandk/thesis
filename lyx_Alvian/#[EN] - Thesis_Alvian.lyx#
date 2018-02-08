@@ -2022,102 +2022,13 @@ key "weber2015practical"
 \end_inset
 
 .
+ Google Analytics is free, and it is always increasing in power, to rival
+ and in some cases exceed the performance of the “paid” tools.
  
-\end_layout
-
-\begin_layout Standard
-Google Analytics is free, and it is always increasing in power, to rival
- and in some cases exceed the performance of the “paid” tools 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "kelsey2017introduction"
-
-\end_inset
-
-.
- Google Analytics has another advantages such as has tremendous features,
- and ease of use.
- Unlike other Web analytics tools that use server log files, Google collects
- information by inserting simple Javascript codes into Web pages.
- The advantage of this method is that Google Analytics can capture technical
- and demographic information that log files do not normally provide, such
- as the user’s browser, operating system, screen size, resolution, and so
- on 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "yang2014tutorials"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Section
 A/B Testing
-\end_layout
-
-\begin_layout Standard
-A/B testing has widely become the standard controlled experimentation framework
- for network driven companies like Facebook, LinkedIn, Twitter, Google,
- and Yahoo 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "wilson2017power"
-
-\end_inset
-
-.
- A/B testing is ubiquitous within the machine learning and data science
- operations of internet companies.
- Generically, the idea is to perform a statistical test of the hypothesis
- that a new feature is better than the existing platform.
- For example, it results in higher revenue 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "goldberg2017decision"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-A/B testing started to be used in the late 1990s with the growth of the
- Internet.
- Many large companies run thousands to tens of thousands of A/B testing
- each year testing user interface (UI) changes, enhancements to algorithms
- (search, ads, personalization, recommendation, etc.), changes to apps, content
- management system, etc.
- In an A/B testing, users are randomly split between the variants (e.g., the
- two different ads layouts) in a persistent manner (a user receives the
- same experience in multiple visits).
- Their interactions with the site are instrumented and key metrics computed
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "kohavi2017online"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-In A/B testing, one has a proposed new version of a software platform and
- wants to decide whether or not to ship the new version.
- The classical way of conceiving of this problem is the following.
- We divide users into two groups: treatment and control.
- We then roll out the proposed update to the treatment group while leaving
- the control group with the current version.
- Using data gathered from this randomized trial, we then ask whether the
- new version performed “better” with respect to some metric 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "goldberg2017decision"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Section
