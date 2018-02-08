@@ -1970,7 +1970,11 @@ Theano is a Python library that allows to define, optimize, and evaluate
  To achieve this, the mathematical expressions defined by the user are stored
  as a graph of variables and operations, that is pruned and optimized at
  compilation time.
- The interface to Theano is Python, a powerful and flexible language that
+ 
+\end_layout
+
+\begin_layout Standard
+The interface to Theano is Python, a powerful and flexible language that
  allows for rapid prototyping and provides a fast and easy way to interact
  with the data.
  The downside of Python is its interpreter, that is in many cases a poor

@@ -2070,8 +2070,8 @@ key "wilson2017power"
  A/B testing is ubiquitous within the machine learning and data science
  operations of internet companies.
  Generically, the idea is to perform a statistical test of the hypothesis
- that a new feature is better than the existing platform—for example, it
- results in higher revenue 
+ that a new feature is better than the existing platform.
+ For example, it results in higher revenue 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "goldberg2017decision"
