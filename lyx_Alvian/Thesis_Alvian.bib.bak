@@ -9,20 +9,6 @@
   Year                     = {2016}
 }
 
-@Misc{http://jakutkota.bps.go.id,
-  Title                    = {Jumlah sekolah, guru, dan murid menurut tingkat pendidikan dan
-kecamatan tahun 2013/2014},
-
-  Author                   = {BPS},
-  HowPublished             = {[Online]},
-  Note                     = {[Accessed 22 Juni 2015]},
-  Year                     = {2014},
-
-  Owner                    = {alvian},
-  Timestamp                = {2018.02.08},
-  Url                      = {http://jakutkota.bps.go.id}
-}
-
 @Book{davidson2015bayesian,
   Title                    = {Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference},
   Author                   = {Davidson-Pilon, C.},

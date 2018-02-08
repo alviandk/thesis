@@ -1580,13 +1580,14 @@ Python
 \end_layout
 
 \begin_layout Standard
-Python is a good general-purpose, high-level language.
- Its design makes it very readable, which is more important than it sounds.
+Python is a general-purpose, high-level programming language.
+ Pyuthon syntax is designed very readable, which is important for software
+ development.
  Every computer program is written only once, but read and revised many
  times, often by many people.
  Being readable also makes it easier to learn and remember, hence more writeable.
  Compared with other popular languages, Python has a gentle learning curve
- that makes you productive sooner, yet it has depths that you can explore
+ that makes developer more productive, yet it has depths that you can explore
  as you gain expertise
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1687,7 +1688,7 @@ key "hunter2014matplotlib"
 .
  Matplotlib provides both a very quick way to visualize data from Python
  and publication-quality figures in many formats: line plots, contour plots,
- scatter plots, and Basemap plots.
+ scatter plots, and basemap plots.
  It comes with a set of default settings, but allows customization of all
  kinds of properties.
  However, we can easily create our chart with the defaults of almost every
@@ -1802,12 +1803,204 @@ key "kluyver2016jupyter"
 Bayesian Inference
 \end_layout
 
-\begin_layout Section
-Bernoulli Observation
+\begin_layout Standard
+Bayesian inference is the process of fitting a probability model to a set
+ of data and summarizing the result by a probability distribution on the
+ parameters of the model and on unobserved quantities such as predictions
+ for new observations
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gelman2014bayesian"
+
+\end_inset
+
+.
+ Bayesian inference differs from more traditional statistical inference
+ by preserving uncertainty.
+ The Bayesian world-view interprets probability as measure of believability
+ in an event, that is, how confident we are in an event occurring.
+ In fact, we will see in a moment that this is the natural interpretation
+ of probability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "davidson2015bayesian"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Bayesian inference departs from the approach to statistical inference described
+ in many textbooks, which is based on a retrospective evaluation of the
+ procedure used to estimate θ (or ỹ) over the distribution of possible y
+ values conditional on the true unknown value of θ.
+ Despite this difference, it will be seen that in many simple analyses,
+ superficially similar conclusions result from the two approaches to statistical
+ inference.
+ However, analyses obtained using Bayesian methods can be easily extended
+ to more complex problems
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gelman2014bayesian"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The Bayesian modeling paradigm involves setting up a probabilistic model
+ describing how data was gen- erated, assigning prior distributions over
+ unknown model parameters, and then calculating a posterior distribution
+ over these parameters.
+ In prac- tice, this posterior distribution is often intractable to compute
+ exactly except for the simplest models.
+ This often requires one to resort to approximate posterior inference algorithms
+ based on Monte-Carlo sampling or Variational Inference (VI).
+ Fortunately, a lot of progress has been made recently in this area including
+ state-of-the-art algorithms such as Hamiltonian Monte Carlo sampling (HMC),
+ the No-U-Turn Sampler (NUTS), Automatic Differentiation VI (ADVI) and Black
+ Box VI.
+ These algorithms are applica- ble to a wide class of models and are readily
+ available in popular Probabilistic Programming languages such as Stan,
+ Edward, and PyMC3 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "pourzanjani2017general"
+
+\end_inset
+
+.
+ Bayesian inference had been applied in many areas such as automatic machine-lea
+rning hyperparameter optimization (Snoek, Larochelle, and Adams 2012), A/B
+ testing (Chapelle and Li 2011) or recommender systems (Vanchinathan et
+ al.
+ 2014), among others
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jimenez2017pygpgo"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
 Pymc3
+\end_layout
+
+\begin_layout Standard
+PyMC3 is a new, open-source probabilistic programming framework with an
+ intuitive and readable, yet powerful, syntax that is close to the natural
+ syntax statisticians use to describe models.
+ It features next-generation Markov chain Monte Carlo (MCMC) sampling algorithms
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "salvatier2016probabilistic"
+
+\end_inset
+
+.
+ Running PyMC3 requires a working Python interpreter (Python Software Foundation
+, 2010), either version 2.7 (or more recent) or 3.4 (or more recent).
+ PyMC3 can be installed using ‘pip‘: pip install git+https://github.com/pymc-devs
+/pymc3.
+ PyMC3 depends on several third-party Python packages which will be automaticall
+y installed when installing via pip
+\begin_inset CommandInset citation
+LatexCommand citep
+key "salvatier2016probabilistic"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The majority of the heavy lifting done by PyMC3 is taken care of with the
+ theano package.
+ The notation in theano is remarkably similar to NumPy.
+ It also supports many of the familiar computational elements of NumPy.
+ However, while NumPy directly executes computations, e.g.
+ when you run a + b, theano instead builds up a "compute graph" that tracks
+ that you want to perform the + operation on the elements a and b.
+ Only when you eval() a theano expression does the computation take place
+ (i.e.
+ theano is lazy evaluated).
+ Once the compute graph is built, we can perform all kinds of mathematical
+ optimizations (e.g.
+ simplifications), compute gradients via autodiff, compile the entire graph
+ to C to run at machine speed, and also compile it to run on the GPU.
+ PyMC3 is basically a collection of theano symbolic expressions for various
+ probability distributions that are combined to one big compute graph making
+ up the whole model log probability, and a collection of inference algorithms
+ that use that graph to compute probabilities and gradients 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "davidson2015bayesian"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Theano
+\end_layout
+
+\begin_layout Standard
+Theano is a Python library that allows to define, optimize, and evaluate
+ mathematical expressions involving multi-dimensional arrays efficiently.
+ Since its introduction in it has been one of the most used CPU and GPU
+ mathematical compilers – especially in the machine learning community and
+ has shown steady performance improvements.
+ Theano is being actively and continuously developed since 2008, multiple
+ frameworks have been built on top of it and it has been used to produce
+ many state-of-the-art machine learning models.
+ Theano allows a user to symbolically define mathematical expressions and
+ have them compiled in a highly optimized fashion either on CPUs or GPUs
+ (the latter using CUDA) 1 , just by modifying a configuration flag.
+ Furthermore, Theano can automatically compute symbolic differentiation
+ of complex expressions, ignore the variables that are not required to compute
+ the final output, reuse partial results to avoid redundant computations,
+ apply mathematical simplifications, compute operations in place when possible
+ to minimize the memory usage, and apply numerical stability optimization
+ to overcome or minimize the error due to hardware approximations.
+ To achieve this, the mathematical expressions defined by the user are stored
+ as a graph of variables and operations, that is pruned and optimized at
+ compilation time.
+ The interface to Theano is Python, a powerful and flexible language that
+ allows for rapid prototyping and provides a fast and easy way to interact
+ with the data.
+ The downside of Python is its interpreter, that is in many cases a poor
+ engine for executing mathematical calculations both in terms of memory
+ usage and speed.
+ Theano overcomes this limitation, by exploiting the compactness and ductility
+ of the Python language and combining them with a fast and optimized computation
+ engine.
+ Theano’s API mimics NumPy, a widely adopted Python library that provides
+ an n-dimensional array data type and many functions for indexing, reshaping,
+ and performing elementary computations (exp, log, sin, etc.) on entire arrays
+ at once.
+ This allows Python users to rapidly switch to Theano using a familiar syntax
+ and set of instructions – extended with advanced features, such as automatic
+ gradient computation, numerical stability improvements and optimization
+ – and generate a high-performance code for CPU as well as for GPU, without
+ requiring changes to the user code.
+ Theano has also been designed for easy and fast extensibility through the
+ definition of custom graph expressions written in Python, C++, or CUDA
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "al2016theano"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -2102,7 +2295,7 @@ Research Object
 \end_layout
 
 \begin_layout Standard
-Waktu penelitian dilakukan antara bulan September 2017 sampai Januari 2018.
+Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
  Objek pada peneltian ini adalah website mekargo.id PT Mekar Investama Sampoerna.
  Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
  Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
@@ -4694,8 +4887,10 @@ addcontentsline{toc}{chapter}{Curriculum Vitae}
 
 \end_layout
 
-\begin_layout Subsubsection*
-IDENTITAS DIRI
+\begin_layout Standard
+
+\series bold
+PERSONAL INFORMATION-
 \end_layout
 
 \begin_layout Standard
@@ -4712,22 +4907,39 @@ Sex : Male
 
 \begin_layout Standard
 NIM : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Address : 
+Address : Depok, West Java
 \end_layout
 
 \begin_layout Standard
-Phone Number : 
+Phone Number : 085840002746
 \end_layout
 
 \begin_layout Standard
 Email : alviandk@gmail.com
 \end_layout
 
-\begin_layout Subsubsection*
-FORMAL EDUCATION 
+\begin_layout Standard
+
+\series bold
+FORMAL EDUCATION
+\series default
+ 
 \end_layout
 
 \begin_layout Standard
@@ -4742,30 +4954,33 @@ ___ – ___ :
 ___ – ___ : 
 \end_layout
 
-\begin_layout Subsubsection*
-WORK EXPERIENCE 
-\end_layout
-
 \begin_layout Standard
-August 2016 - PRESENT : Mekar, Sampoerna Wirausaha, Jakarta - Remote Django
- Developer
-\end_layout
 
-\begin_layout Standard
-May 2015 - August 2017 : Coassets, Singapore​ - ​ Remote Django Developer
+\series bold
+WORK EXPERIENCE
+\series default
  
 \end_layout
 
 \begin_layout Standard
-October 2014 - March 2015 : Macroad, Pulau-Pulau Media, Jakarta​ - ​ Django
- Developer Internship
+2016 - now : Mekar, Sampoerna Wirausaha - Remote Django Developer
 \end_layout
 
 \begin_layout Standard
-June 2014 - October 2015 : Coding Indonesia, Jakarta​ - ​ Programming Tutor
+2015 - 2017 : Coassets​ - ​Remote Django Developer 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+2014 - 2015 : Macroad​ - Django Developer Internship
+\end_layout
+
+\begin_layout Standard
+2014 - 2015 : Coding Indonesia​ - Programming Tutor
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 SCIENCE PUBLICATION (2016) 
 \end_layout
 
