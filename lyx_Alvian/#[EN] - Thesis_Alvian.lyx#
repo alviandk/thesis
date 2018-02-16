@@ -1428,7 +1428,14 @@ Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
  Kontribusi sektor UKM dalam menentukan Produk Domestik Bruto (PDB) dan
  sektor penghasil devisa negara juga tak perlu diragukan lagi.
  Saat ini, UKM telah dijadikan agenda utama pembangunan ekonomi Indonesia
- (Kemenkeu, 2015).
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kemenkeu"
+
+\end_inset
+
+(Kemenkeu, 2015).
  
 \end_layout
 
@@ -1970,7 +1977,11 @@ Theano is a Python library that allows to define, optimize, and evaluate
  To achieve this, the mathematical expressions defined by the user are stored
  as a graph of variables and operations, that is pruned and optimized at
  compilation time.
- The interface to Theano is Python, a powerful and flexible language that
+ 
+\end_layout
+
+\begin_layout Standard
+The interface to Theano is Python, a powerful and flexible language that
  allows for rapid prototyping and provides a fast and easy way to interact
  with the data.
  The downside of Python is its interpreter, that is in many cases a poor
@@ -2022,13 +2033,102 @@ key "weber2015practical"
 \end_inset
 
 .
- Google Analytics is free, and it is always increasing in power, to rival
- and in some cases exceed the performance of the “paid” tools.
  
+\end_layout
+
+\begin_layout Standard
+Google Analytics is free, and it is always increasing in power, to rival
+ and in some cases exceed the performance of the “paid” tools 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kelsey2017introduction"
+
+\end_inset
+
+.
+ Google Analytics has another advantages such as has tremendous features,
+ and ease of use.
+ Unlike other Web analytics tools that use server log files, Google collects
+ information by inserting simple Javascript codes into Web pages.
+ The advantage of this method is that Google Analytics can capture technical
+ and demographic information that log files do not normally provide, such
+ as the user’s browser, operating system, screen size, resolution, and so
+ on 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "yang2014tutorials"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
 A/B Testing
+\end_layout
+
+\begin_layout Standard
+A/B testing has widely become the standard controlled experimentation framework
+ for network driven companies like Facebook, LinkedIn, Twitter, Google,
+ and Yahoo 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wilson2017power"
+
+\end_inset
+
+.
+ A/B testing is ubiquitous within the machine learning and data science
+ operations of internet companies.
+ Generically, the idea is to perform a statistical test of the hypothesis
+ that a new feature is better than the existing platform.
+ For example, it results in higher revenue 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A/B testing started to be used in the late 1990s with the growth of the
+ Internet.
+ Many large companies run thousands to tens of thousands of A/B testing
+ each year testing user interface (UI) changes, enhancements to algorithms
+ (search, ads, personalization, recommendation, etc.), changes to apps, content
+ management system, etc.
+ In an A/B testing, users are randomly split between the variants (e.g., the
+ two different ads layouts) in a persistent manner (a user receives the
+ same experience in multiple visits).
+ Their interactions with the site are instrumented and key metrics computed
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kohavi2017online"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In A/B testing, one has a proposed new version of a software platform and
+ wants to decide whether or not to ship the new version.
+ The classical way of conceiving of this problem is the following.
+ We divide users into two groups: treatment and control.
+ We then roll out the proposed update to the treatment group while leaving
+ the control group with the current version.
+ Using data gathered from this randomized trial, we then ask whether the
+ new version performed “better” with respect to some metric 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -2036,18 +2136,25 @@ Previous Researches
 \end_layout
 
 \begin_layout Standard
-Penelitian sebelumnya 
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Previous-research"
+
+\end_inset
+
+ contains previous research on A/B testing.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
+<lyxtabular version="3" rows="8" columns="5">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="3.5cm">
+<column alignment="center" valignment="top" width="2.7cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
 <row caption="true">
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -2057,6 +2164,13 @@ Penelitian sebelumnya
 
 \begin_layout Plain Layout
 Previous research
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Previous-research"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2155,7 +2269,33 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
+1
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Decision Theoretic Approach to A/B Testing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+David Goldberg (eBay) and James E.
+ Johndrow (Stanford University)
 \end_layout
 
 \end_inset
@@ -2169,11 +2309,48 @@ Weakness
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Always Valid Inference: Bringing Sequential Analysis to A/B Testing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "johari2015always"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ramesh Johari, Leo Pekelis and David J.
+ Walsh
 \end_layout
 
 \end_inset
@@ -2202,7 +2379,32 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
+3
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Online Controlled Experiments and A/B Testing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kohavi2017online"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ron Kohavi (Microsoft) and Roger Longbotham (Microsoft)
 \end_layout
 
 \end_inset
@@ -2216,11 +2418,104 @@ Weakness
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Online Controlled Experiments at Large Scale 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kohavi2013online"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ron Kohavi (Microsoft), Alex Deng (Microsoft), Brian Frasca (Microsoft),
+ Toby Walker (Microsoft), Ya Xu (Microsoft), and Nils Pohlmann (Microsoft)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+On the Complexity of A/B Testing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kaufmann2014complexity"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Emilie Kaufmann (LTCI, Télécom ParisTech & CNRS) , Olivier Cappé (LTCI,
+ Télécom ParisTech & CNRS), and Aurélien Garivier (Institut de Mathématiques
+ de Toulouse, Université Paul Sabatier)
 \end_layout
 
 \end_inset
@@ -2249,6 +2544,22 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The Power of A/B Testing under Interference 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wilson2017power"
+
+\end_inset
+
 
 \end_layout
 
@@ -2258,16 +2569,10 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+James D.
+ Wilson (Department of Mathematics and Statistics University of San Francisco)
+ and David T.
+ Uminsky (Department of Mathematics and Statistics University of San Francisco)
 \end_layout
 
 \end_inset

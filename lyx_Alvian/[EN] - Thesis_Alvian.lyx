@@ -1428,7 +1428,14 @@ Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
  Kontribusi sektor UKM dalam menentukan Produk Domestik Bruto (PDB) dan
  sektor penghasil devisa negara juga tak perlu diragukan lagi.
  Saat ini, UKM telah dijadikan agenda utama pembangunan ekonomi Indonesia
- (Kemenkeu, 2015).
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kemenkeu"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1456,7 +1463,14 @@ Masalah mendasar UKM yang paling menonjol menyangkut menyediakan pembiayaan
 Mekar (PT Sampoerna Wirausaha) didirikan pada 2010 dan dimiliki secara penuh
  oleh Putera Sampoerna Foundation, Mekar bertujuan untuk mempermudah akses
  finansial bagi para pelaku UKM Indonesia sehingga memiliki dampak sosial
- dan ekonomi yang positif di Indonesia (Mekar, 2017).
+ dan ekonomi yang positif di Indonesia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mekar"
+
+\end_inset
+
+.
  Mekar memberikan solusi dalam membantu Pelaku Usaha Mikro Kecil dan Menengah
  (UMKM) dan Konsumen lainnya untuk mendapatkan Akses Layanan Keuangan atau
  Permodalan di Indonesia.
@@ -2129,18 +2143,25 @@ Previous Researches
 \end_layout
 
 \begin_layout Standard
-Penelitian sebelumnya 
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Previous-research"
+
+\end_inset
+
+ contains previous researches on A/B testing.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
+<lyxtabular version="3" rows="8" columns="5">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="3.5cm">
+<column alignment="center" valignment="top" width="2.7cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
 <row caption="true">
 <cell multicolumn="1" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -2150,6 +2171,13 @@ Penelitian sebelumnya
 
 \begin_layout Plain Layout
 Previous research
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Previous-research"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2248,7 +2276,33 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
+1
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A Decision Theoretic Approach to A/B Testing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "goldberg2017decision"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+David Goldberg (eBay) and James E.
+ Johndrow (Stanford University)
 \end_layout
 
 \end_inset
@@ -2262,11 +2316,48 @@ Weakness
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Always Valid Inference: Bringing Sequential Analysis to A/B Testing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "johari2015always"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ramesh Johari, Leo Pekelis and David J.
+ Walsh
 \end_layout
 
 \end_inset
@@ -2295,7 +2386,32 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
+3
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Online Controlled Experiments and A/B Testing
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kohavi2017online"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ron Kohavi (Microsoft) and Roger Longbotham (Microsoft)
 \end_layout
 
 \end_inset
@@ -2309,11 +2425,104 @@ Weakness
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Online Controlled Experiments at Large Scale 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kohavi2013online"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ron Kohavi (Microsoft), Alex Deng (Microsoft), Brian Frasca (Microsoft),
+ Toby Walker (Microsoft), Ya Xu (Microsoft), and Nils Pohlmann (Microsoft)
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+On the Complexity of A/B Testing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kaufmann2014complexity"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Emilie Kaufmann (LTCI, Télécom ParisTech & CNRS) , Olivier Cappé (LTCI,
+ Télécom ParisTech & CNRS), and Aurélien Garivier (Institut de Mathématiques
+ de Toulouse, Université Paul Sabatier)
 \end_layout
 
 \end_inset
@@ -2342,6 +2551,22 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The Power of A/B Testing under Interference 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wilson2017power"
+
+\end_inset
+
 
 \end_layout
 
@@ -2351,16 +2576,10 @@ Weakness
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+James D.
+ Wilson (Department of Mathematics and Statistics University of San Francisco)
+ and David T.
+ Uminsky (Department of Mathematics and Statistics University of San Francisco)
 \end_layout
 
 \end_inset
