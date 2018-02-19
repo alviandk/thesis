@@ -71,7 +71,7 @@
 \newcommand{\Tanggal}{12}
 \newcommand{\Kota}{Depok}
 \newcommand{\KataKunci}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
-\newcommand{\KeyWords}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
+\newcommand{\KeyWords}{A/B Testing, Bayesian Inference, Pymc3, Website, Google Analytics.}
 \newcommand{\KoordinatorPI}{}
 \newcommand{\KetuaJurusan}{Haryanto, SSi, MM}
 \newcommand{\Supervisor}{Dr. Setia Wirawan}
@@ -1463,7 +1463,14 @@ Masalah mendasar UKM yang paling menonjol menyangkut menyediakan pembiayaan
 Mekar (PT Sampoerna Wirausaha) didirikan pada 2010 dan dimiliki secara penuh
  oleh Putera Sampoerna Foundation, Mekar bertujuan untuk mempermudah akses
  finansial bagi para pelaku UKM Indonesia sehingga memiliki dampak sosial
- dan ekonomi yang positif di Indonesia (Mekar, 2017).
+ dan ekonomi yang positif di Indonesia 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "mekar"
+
+\end_inset
+
+.
  Mekar memberikan solusi dalam membantu Pelaku Usaha Mikro Kecil dan Menengah
  (UMKM) dan Konsumen lainnya untuk mendapatkan Akses Layanan Keuangan atau
  Permodalan di Indonesia.
@@ -1487,9 +1494,45 @@ an perubahan urutan pengisian data.
  versi A.
  Ketiga versi tersebut akan dilakukan A/B testing untuk mengetahui versi
  manakah yang menghasilkan presentasi konversi pelengkapan data terbanyak.
- Pengumpulan data dibantu dengan tools Google Analytics.
- Setelah data yang diinginkan terpenuhi, dilakukan proses analisis hasil
- data dengan metode bayessian inference dan tools pymc3.
+ A/B testing adalah prosedur populer yang digunakan untuk pengoptimalan
+ situs web: dua versi halaman web, katakanlah A dan B, secara empiris dibandingk
+an dengan disajikan kepada pengguna.
+ Setiap pengguna hanya melihat salah satu dari dua versi, dan tujuannya
+ adalah untuk menentukan versi mana yang lebih baik.
+ Tujuan yang ingin dicapai pada umumnya adalah untuk menentukan halaman
+ web mana yang memiliki tingkat konversi tertinggi (kemungkinan pengguna
+ benar-benar menjadi pelanggan) dengan menerima umpan balik dari pengguna
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kaufmann2014complexity"
+
+\end_inset
+
+.
+ Dalam penelitian ini, pengumpulan data umpan balik dari pengguna dibantu
+ dengan tools Google Analytics.
+ Google Analytics merupakan analytics tool yang dibuat oleh Google, digunakan
+ untuk mengukur performa website dan perilaku pengguna saat mengunjungi
+ website 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "yang2014tutorials"
+
+\end_inset
+
+.
+ Setelah data yang dikumpulkan oleh Google Analytics terpenuhi, dilakukan
+ proses analisis data dengan metode bayessian inference dan tools pymc3.
+ Pymc3 adalah framework probabilistik programming dengan bayessian inference
+ yang ditulis dalam bahasa pemrograman python 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "salvatier2016probabilistic"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -2143,7 +2186,7 @@ reference "tab:Previous-research"
 
 \end_inset
 
- contains previous research on A/B testing.
+ contains previous researches on A/B testing.
 \end_layout
 
 \begin_layout Standard

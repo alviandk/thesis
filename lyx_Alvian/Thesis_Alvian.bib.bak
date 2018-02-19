@@ -9,6 +9,12 @@
   Year                     = {2016}
 }
 
+@Article{anggraeni2012penerapan,
+  Title                    = {Penerapan Sistem Akuntansi Sederhana pada UKM Cireng Cageur Group Bogor},
+  Author                   = {Anggraeni, Intan},
+  Year                     = {2012}
+}
+
 @Book{davidson2015bayesian,
   Title                    = {Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference},
   Author                   = {Davidson-Pilon, C.},
@@ -101,7 +107,7 @@
   Title                    = {Peran Penting UKM Dorong Perekonomian Indonesia},
   Author                   = {Kemenkeu},
   Year                     = {2015},
-  Note                     = {[Online]. Available at: https://www.kemenkeu.go.id/Berita/peran-penting-ukm-dorong-perekonomian-indonesia. [Accessed 28 Agustus 2017]},
+  Note                     = {[Online]. Available at: https://www.kemenkeu.go.id/Berita/peran-penting-ukm-dorong-perekonomian-indonesia [Accessed 28 Agustus 2017]},
 
   Owner                    = {alvian},
   Timestamp                = {2018.02.17}
@@ -185,7 +191,7 @@
   Title                    = {Mekar FAQ},
   Author                   = {Mekar},
   Year                     = {2017},
-  Note                     = {[Online]. Available at: https://mekar.id/faq/. [Accessed 28 Agustus 2017]},
+  Note                     = {[Online]. Available at: https://mekar.id/faq/ [Accessed 28 Agustus 2017]},
 
   Owner                    = {alvian},
   Timestamp                = {2018.02.17}
