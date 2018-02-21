@@ -56,7 +56,7 @@
   {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 
 \newcommand{\Judul}{}
-\newcommand{\JudulInggris}{"A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha Using Bayesian Inference"}
+\newcommand{\JudulInggris}{A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha}
 \newcommand{\Name}{Alvian Dwi Kurnianto, S.Kom.}
 \newcommand{\NPM}{92216007}
 \newcommand{\NIRM}{}
@@ -343,8 +343,19 @@ vspace*{6mm}
 
 \series bold
 \size large
-A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha Using Bayesian
- Inference
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JudulInggris
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -692,6 +703,10 @@ Title
 
 \series bold
 \size small
+\begin_inset Quotes eld
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -702,6 +717,10 @@ status open
 JudulInggris
 \end_layout
 
+\end_inset
+
+
+\begin_inset Quotes erd
 \end_inset
 
 
@@ -1069,6 +1088,10 @@ noindent
 
 \series bold
 
+\begin_inset Quotes erd
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1085,6 +1108,10 @@ JudulInggris}
 
 
 \series default
+
+\begin_inset Quotes erd
+\end_inset
+
 .
 \end_layout
 
@@ -1295,6 +1322,10 @@ addcontentsline{toc}{chapter}{Acknowledgements}
 Praise and thanks raised to Allah SWT for all blessing and also utterance
  and good wishes sent to the prophet of Muhammad SAW so, with all the grants,
  author have finished this thesis, which is titled 
+\begin_inset Quotes eld
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -1305,6 +1336,10 @@ status open
 JudulInggris
 \end_layout
 
+\end_inset
+
+
+\begin_inset Quotes erd
 \end_inset
 
 .
@@ -1455,7 +1490,14 @@ Masalah mendasar UKM yang paling menonjol menyangkut menyediakan pembiayaan
  Lembaga keuangan bank adalah sumber modal terbesar yang dapat dimanfaatkan
  oleh pelaku usaha kecil.
  Namun untuk bermitra dengan bank, usaha kecil dituntut menyajikan proposal
- usaha yang feasible atau layak usaha dan menguntungkan.
+ usaha yang feasible atau layak usaha dan menguntungkan 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wuisan2017pengaruh"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1494,9 +1536,19 @@ an perubahan urutan pengisian data.
  versi A.
  Ketiga versi tersebut akan dilakukan A/B testing untuk mengetahui versi
  manakah yang menghasilkan presentasi konversi pelengkapan data terbanyak.
- A/B testing adalah prosedur populer yang digunakan untuk pengoptimalan
- situs web: dua versi halaman web, katakanlah A dan B, secara empiris dibandingk
-an dengan disajikan kepada pengguna.
+ A/B testing adalah proses yang digunakan dalam marketing untuk mengisolasi
+ dan menguji faktor-faktor yang mempengaruhi performa versi produk mana
+ yang memenuhi kriteria marketing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "dixon2015b"
+
+\end_inset
+
+.
+ A/B testing banyak digunakan untuk pengoptimalan situs web: dua versi halaman
+ web, katakanlah A dan B, secara empiris dibandingkan dengan disajikan kepada
+ pengguna.
  Setiap pengguna hanya melihat salah satu dari dua versi, dan tujuannya
  adalah untuk menentukan versi mana yang lebih baik.
  Tujuan yang ingin dicapai pada umumnya adalah untuk menentukan halaman
@@ -1541,8 +1593,8 @@ Formulation of the Problem
 
 \begin_layout Standard
 Adapun masalah yang dibahas pada penelitian ini adalah bagaimana metode
- yang dilakukan untuk melakukan a/b testing website mekargo.id pada PT Mekar
- Sampoerna Wirausaha, bagaimana cara menganalis hasil a/b testing dengan
+ yang dilakukan untuk melakukan A/B testing website mekargo.id pada PT Mekar
+ Sampoerna Wirausaha, bagaimana cara menganalis hasil A/B testing dengan
  metode bayesian inference dengan tools pymc3, dan varian manakah dari A/B
  testing yang menjadi varian terbaik.
 \end_layout
@@ -1556,26 +1608,26 @@ Adapun batasan masalah dari penelitian ini adalah sebagai berikut:
 \end_layout
 
 \begin_layout Enumerate
-Objek penelitian adalah website mekargo.id
+Objek penelitian adalah website mekargo.id.
 \end_layout
 
 \begin_layout Enumerate
-Penelitian dilakukan di PT Mekar Sampoerna Wirausaha
+Penelitian dilakukan di PT Mekar Sampoerna Wirausaha.
 \end_layout
 
 \begin_layout Enumerate
-Waktu penelitian antara agustus 2017 sampai januari 2018
+Waktu penelitian antara Agustus 2017 sampai Januari 2018.
 \end_layout
 
 \begin_layout Enumerate
-Penelitian menerapkan taknik a/b testing pada website mekargo.id dengan bantuan
- tools Google Analytics
+Penelitian menerapkan taknik A/B testing pada website mekargo.id dengan bantuan
+ tools Google Analytics.
 \end_layout
 
 \begin_layout Enumerate
 Data yang dihasilkan dari A/B testing dilakukan analisis dengan metode bayesian
  inference menggunakan tools library pymc3, numpy, figsize, matplotlib,
- scipy, jupyter dan IPython dengan bahasa pemrograman python
+ scipy, jupyter dan IPython dengan bahasa pemrograman python.
 \end_layout
 
 \begin_layout Enumerate
@@ -1593,8 +1645,8 @@ Research Purposes
 \end_layout
 
 \begin_layout Standard
-Tujuan dari penelitian ini adalah melakukan a/b testing website mekargo.id
- pada PT Mekar Sampoerna Wirausaha, melakukan analisis hasil a/b testing
+Tujuan dari penelitian ini adalah melakukan A/B testing website mekargo.id
+ pada PT Mekar Sampoerna Wirausaha, melakukan analisis hasil A/B testing
  dengan metode bayesian inference dengan pymc3, mengetahui variant pada
  A/B testing yang menjadi varian terbaik.
 \end_layout
@@ -1618,7 +1670,7 @@ Bagi peneliti lain, sebagai sumber literatur untuk penelitian yang sejenis.
 
 \begin_layout Enumerate
 Bagi perusahaan yang diteliti, memberikan saran perbaikan dengan terpilihnya
- varian a/b testing yang terbaik.
+ varian A/B testing yang terbaik.
 \end_layout
 
 \begin_layout Chapter
@@ -2347,7 +2399,7 @@ David Goldberg (eBay) and James E.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Great on Mathematical concept explanation
 \end_layout
 
 \end_inset
@@ -2356,7 +2408,7 @@ David Goldberg (eBay) and James E.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Lack of application example
 \end_layout
 
 \end_inset
@@ -2402,7 +2454,8 @@ Ramesh Johari, Leo Pekelis and David J.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Great on real world example and Mathematical concept explanation.
+ Also contains Supplementary Material
 \end_layout
 
 \end_inset
@@ -2411,7 +2464,7 @@ Ramesh Johari, Leo Pekelis and David J.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+There is no proof of theorem explanation
 \end_layout
 
 \end_inset
@@ -2456,7 +2509,7 @@ Ron Kohavi (Microsoft) and Roger Longbotham (Microsoft)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Great on real world example
 \end_layout
 
 \end_inset
@@ -2465,7 +2518,7 @@ Ron Kohavi (Microsoft) and Roger Longbotham (Microsoft)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Lack of Mathematical concept explanation
 \end_layout
 
 \end_inset
@@ -2511,7 +2564,7 @@ Ron Kohavi (Microsoft), Alex Deng (Microsoft), Brian Frasca (Microsoft),
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Great on real world example
 \end_layout
 
 \end_inset
@@ -2520,7 +2573,7 @@ Ron Kohavi (Microsoft), Alex Deng (Microsoft), Brian Frasca (Microsoft),
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Lack of Mathematical concept explanation
 \end_layout
 
 \end_inset
@@ -2567,7 +2620,7 @@ Emilie Kaufmann (LTCI, Télécom ParisTech & CNRS) , Olivier Cappé (LTCI,
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Great on Mathematical concept explanation
 \end_layout
 
 \end_inset
@@ -2576,7 +2629,7 @@ Emilie Kaufmann (LTCI, Télécom ParisTech & CNRS) , Olivier Cappé (LTCI,
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Lack of application example
 \end_layout
 
 \end_inset
@@ -2624,7 +2677,8 @@ James D.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Great on real world example and Mathematical concept explanation.
+ Also, completed with proof of theorem explanation
 \end_layout
 
 \end_inset
@@ -2633,7 +2687,7 @@ James D.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+There are no Supplementary Material
 \end_layout
 
 \end_inset
@@ -2667,7 +2721,7 @@ Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
  Objek pada peneltian ini adalah website mekargo.id PT Mekar Investama Sampoerna.
  Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
  Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
-sing versi a/b testing.
+sing versi A/B testing.
  Pengumpulan data dilakukan dengan tools google analytics.
  Data yang didapatkan selanjutnya akan dianalisis dengan metode bayesian
  inference dan tools pymc3.
@@ -2768,10 +2822,10 @@ Identify Problems
 
 \begin_layout Standard
 Masalah yang diidentifikasi adalah yang berhubungan dengan website yang
- akan dilakukan a/b testing.
+ akan dilakukan A/B testing.
  Masalah yang diangkat biasanya berhubungan dengan bisnis, marketing, atau
  convertion rate.
- Tergantung pada tujuan apa yang ingin dicapai pada pembuatan a/b testing
+ Tergantung pada tujuan apa yang ingin dicapai pada pembuatan A/B testing
  pada website tersebut.
  
 \end_layout
@@ -3579,7 +3633,7 @@ v
 \end_layout
 
 \begin_layout Standard
-Untuk membedakan versi a/b testing, digunakan suffik satu huruf alfabet
+Untuk membedakan versi A/B testing, digunakan suffik satu huruf alfabet
  (a atau b atau c) sesuai dengan jenis varian.
 \end_layout
 
@@ -3949,7 +4003,7 @@ Congrats Page
 \end_layout
 
 \begin_layout Standard
-jelaskan dan sebutkan setiap alur url a/b/c (bisa dalam bentuk chart)
+jelaskan dan sebutkan setiap alur url A/B/c (bisa dalam bentuk chart)
 \end_layout
 
 \begin_layout Standard
@@ -4071,7 +4125,7 @@ Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-pengujian a/b testing dilakukan dari tanggal 24 September 2017 sampai 23
+pengujian A/B testing dilakukan dari tanggal 24 September 2017 sampai 23
  Oktober 2017.
  Traffic tinggi terjadi pada tanggal ..., ..., dan ...
  Yang tertinggi pada tanggal ...

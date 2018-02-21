@@ -9,12 +9,6 @@
   Year                     = {2016}
 }
 
-@Article{anggraeni2012penerapan,
-  Title                    = {Penerapan Sistem Akuntansi Sederhana pada UKM Cireng Cageur Group Bogor},
-  Author                   = {Anggraeni, Intan},
-  Year                     = {2012}
-}
-
 @Book{davidson2015bayesian,
   Title                    = {Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference},
   Author                   = {Davidson-Pilon, C.},
@@ -275,6 +269,15 @@
   Author                   = {Wilson, James D and Uminsky, David T},
   Journal                  = {arXiv preprint arXiv:1710.03855},
   Year                     = {2017}
+}
+
+@Article{wuisan2017pengaruh,
+  Title                    = {PENGARUH KREDIT BANK TERHADAP PENDAPATAN PELAKU-PELAKU UMKM (KHUSUSNYA MEUBEL) DI DESA LEILEM, KEC. SONDER, KAB. MINAHASA},
+  Author                   = {Wuisan, Nahisen YA},
+  Journal                  = {JURNAL BERKALA ILMIAH EFISIENSI},
+  Year                     = {2017},
+  Number                   = {01},
+  Volume                   = {17}
 }
 
 @Article{yang2014tutorials,
