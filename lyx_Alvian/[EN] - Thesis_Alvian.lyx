@@ -2719,6 +2719,7 @@ Research Object
 \begin_layout Standard
 Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
  Objek pada peneltian ini adalah website mekargo.id PT Mekar Investama Sampoerna.
+ (jabarin mekargo dan mekar investama).
  Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
  Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
 sing versi A/B testing.
@@ -2817,7 +2818,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Subsection
-Identify Problems
+Identifying Problems
 \end_layout
 
 \begin_layout Standard
@@ -2831,7 +2832,7 @@ Masalah yang diidentifikasi adalah yang berhubungan dengan website yang
 \end_layout
 
 \begin_layout Subsection
-Define Website Measurement
+Defining Website Measurement
 \end_layout
 
 \begin_layout Standard
@@ -2848,7 +2849,7 @@ Business objective adalah bla bal bla.
 \end_layout
 
 \begin_layout Subsection
-Develop a Hypothesis 
+Developing a Hypothesis 
 \end_layout
 
 \begin_layout Standard
@@ -2870,11 +2871,84 @@ develop, menjelasin tool analytic, penjelasan proses percobaan.
 \end_layout
 
 \begin_layout Subsection
-Analyze Test Results
+Analyzing Test Results
 \end_layout
 
 \begin_layout Standard
 menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter
+\end_layout
+
+\begin_layout Subsubsection
+Bayessian Inference Algorithm
+\end_layout
+
+\begin_layout Enumerate
+Choose a probability density 
+\begin_inset Formula $\pi(\theta)$
+\end_inset
+
+ — called the prior distribution — that expresses beliefs about a parameter
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Choose a statistical model 
+\begin_inset Formula $p(x|\theta)$
+\end_inset
+
+ that reflects beliefs about x given 
+\begin_inset Formula $\theta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+After observing data 
+\begin_inset Formula $D_{n}=\left\{ X_{1},...,X_{n}\right\} $
+\end_inset
+
+, update beliefs and calculate the posterior distribution 
+\begin_inset Formula $p(\theta|D_{n})$
+\end_inset
+
+.
+ The posterior distribution can be written as: 
+\begin_inset Formula 
+\[
+p(\theta|X_{1},...,X_{n})=\frac{p(X_{1},...,X_{n}|\theta)\pi(\theta)}{p\left(X_{1},...,X_{n}\right)}=\frac{\mathcal{L}_{n}\left(\theta\right)\pi\left(\theta\right)}{c_{n}}\alpha\mathcal{L}_{n}\left(\theta\right)\pi\left(\theta\right)
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathcal{L}_{n}\left(\theta\right)=\prod_{i=1}^{n}p\left(X_{i}|\theta\right)$
+\end_inset
+
+ is the likelihood function and 
+\begin_inset Formula 
+\[
+c_{n}=p\left(X_{1},...,X_{n}\right)=\int p(X_{1},...,X_{n}|\theta)\pi(\theta)d\theta=\int\mathcal{L}_{n}\left(\theta\right)\pi\left(\theta\right)d\theta
+\]
+
+\end_inset
+
+is the normalizing constant, which is also called the evidedence 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "statisticalmachine"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Pymc3 Algorithm
 \end_layout
 
 \begin_layout Chapter

@@ -20,6 +20,17 @@
   Url                      = {https://books.google.co.id/books?id=rMKiCgAAQBAJ}
 }
 
+@Misc{dixon2015b,
+  Title                    = {A/B testing},
+
+  Author                   = {Dixon, Eleri and Enos, Emily and Brodmerkle, Scott},
+  Month                    = jul # {~7},
+  Note                     = {US Patent 9,077,780},
+  Year                     = {2015},
+
+  Publisher                = {Google Patents}
+}
+
 @Book{fandango2017python,
   Title                    = {Python Data Analysis - Second Edition},
   Author                   = {Fandango, A. and Idris, I.},
@@ -101,7 +112,7 @@
   Title                    = {Peran Penting UKM Dorong Perekonomian Indonesia},
   Author                   = {Kemenkeu},
   Year                     = {2015},
-  Note                     = {[Online]. Available at: https://www.kemenkeu.go.id/Berita/peran-penting-ukm-dorong-perekonomian-indonesia [Accessed 28 Agustus 2017]},
+  Note                     = {[Online]. Available at: https://www.kemenkeu.go.id/Berita/peran-penting-ukm-dorong-perekonomian-indonesia [Accessed 17 January 2018]},
 
   Owner                    = {alvian},
   Timestamp                = {2018.02.17}
@@ -148,6 +159,16 @@
   Journal                  = {Encyclopedia of machine learning and data mining},
   Year                     = {2015},
   Pages                    = {1--11}
+}
+
+@Book{statisticalmachine,
+  Title                    = {Statistical Machine Learning Chapter 12 Bayesian Inference},
+  Author                   = {Liu, Han and Wasserman, Larry},
+  Year                     = {2014},
+  Note                     = {[Online]. Available at: http://www.stat.cmu.edu/~larry/=sml/Bayes.pdf [Accessed 17 January 2018]},
+
+  Owner                    = {technonatura},
+  Timestamp                = {2018.02.23}
 }
 
 @Book{lubanovic2014introducing,
