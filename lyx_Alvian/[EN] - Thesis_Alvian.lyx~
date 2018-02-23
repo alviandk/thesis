@@ -27,8 +27,9 @@
 \captionsetup{width=0.9\linewidth}
 
 
-\usepackage{amsmath}
+
 \usepackage{amssymb}
+
 
 \usepackage{colortbl}
 \usepackage{color}
@@ -86,7 +87,7 @@
 \newcommand{\JumlahPustaka}{1}
 \newcommand{\JumlahHalaman}{54}
 \newcommand{\JumlahHalamanDepan}{xiii}
-\newcommand{\TahunPustaka}{2013-2017}
+\newcommand{\TahunPustaka}{2013-2018}
 %%
 %% Keterangan administratif sidang sarjana
 %%
@@ -2882,6 +2883,52 @@ menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter
 Bayessian Inference Algorithm
 \end_layout
 
+\begin_layout Standard
+Let 
+\begin_inset Formula $X_{1},...,X_{n}$
+\end_inset
+
+ be n observations sampled from a probability density 
+\begin_inset Formula $p(x|\theta)$
+\end_inset
+
+.
+ Write 
+\begin_inset Formula $p(x|\theta)$
+\end_inset
+
+ if 
+\begin_inset Formula $\theta$
+\end_inset
+
+ as a random variable and 
+\begin_inset Formula $p(x|\theta)$
+\end_inset
+
+ represents the conditional probability density of 
+\begin_inset Formula $X$
+\end_inset
+
+ conditioned on 
+\begin_inset Formula $\theta$
+\end_inset
+
+.
+ In contrast, write 
+\begin_inset Formula $p_{\theta}(x)$
+\end_inset
+
+ if 
+\begin_inset Formula $\theta$
+\end_inset
+
+ as a deterministic value.
+\end_layout
+
+\begin_layout Standard
+Bayesian inference algorithm can be described in the following way.
+\end_layout
+
 \begin_layout Enumerate
 Choose a probability density 
 \begin_inset Formula $\pi(\theta)$
@@ -2932,16 +2979,235 @@ where
  is the likelihood function and 
 \begin_inset Formula 
 \[
-c_{n}=p\left(X_{1},...,X_{n}\right)=\int p(X_{1},...,X_{n}|\theta)\pi(\theta)d\theta=\int\mathcal{L}_{n}\left(\theta\right)\pi\left(\theta\right)d\theta
+c_{n}=p\left(X_{1},...,X_{n}\right)=\int p(X_{1},...,X_{n}|\theta)\pi(\theta)d\theta=\mathcal{\int L}_{n}\left(\theta\right)\pi\left(\theta\right)d\theta
 \]
 
 \end_inset
 
-is the normalizing constant, which is also called the evidedence.
+is the normalizing constant, which is also called the evidedence 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "statisticalmachine"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Bernoulli Distribution
+\end_layout
+
+\begin_layout Standard
+Bernoulli distribution pada penelitian digunakan untuk ..., dibuat dengan library
+ scipy dengan pada modul scipy.stats.bernoulli
+\end_layout
+
+\begin_layout Standard
+The Bernoulli distribution is a discrete distribution having two possible
+ outcomes labelled by 
+\begin_inset Formula $n=0$
+\end_inset
+
+ and 
+\begin_inset Formula $n=1$
+\end_inset
+
+ in which 
+\begin_inset Formula $n=1$
+\end_inset
+
+ ("success") occurs with probability 
+\begin_inset Formula $p$
+\end_inset
+
+ and 
+\begin_inset Formula $n=0$
+\end_inset
+
+ ("failure") occurs with probability 
+\begin_inset Formula $q=1-p$
+\end_inset
+
+, where 
+\begin_inset Formula $0<p<1$
+\end_inset
+
+.
+ It therefore has probability density function
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p(n)=p^{n}(1-p)^{1-n}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The distribution of heads and tails in coin tossing is an example of a Bernoulli
+ distribution with 
+\begin_inset Formula $p=q=1/2$
+\end_inset
+
+.
+ The Bernoulli distribution is the simplest discrete distribution, and it
+ the building block for other more complicated discrete distributions 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "bernoulli"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection
 Pymc3 Algorithm
+\end_layout
+
+\begin_layout Standard
+uniform, metropolis,
+\end_layout
+
+\begin_layout Subsubsection
+Metropolis-Hastings Algorithm
+\end_layout
+
+\begin_layout Standard
+Metropolis-Hastings algorithm (MH) is one of special forms of the Hastings
+ algorithm.
+ The Hastings algorithm (HA) is a stochastic sampling technique widely used
+ throughout computational science.
+ As a Markov Chain Monte Carlo method, HA does not attempt to generate a
+ sequence of independent samples from a “target distribution” 
+\begin_inset Formula $\pi(\text{·})$
+\end_inset
+
+, defined on the state space
+\begin_inset Formula $(E,\varepsilon)$
+\end_inset
+
+, but rather a Markov chain 
+\begin_inset Formula $\left\{ Xn,n=1,2,3,...\right\} $
+\end_inset
+
+ having 
+\begin_inset Formula $\pi(\text{·})$
+\end_inset
+
+ as its invariant distribution.
+ Although variates in the chain are not independent, they may nonetheless
+ be used to estimate statistical expectations with respect to 
+\begin_inset Formula $\pi(\text{·})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $U$
+\end_inset
+
+(0, 1) represent the uniform distribution on (0, 1).
+ In order to use all subsequently described algorithms, given 
+\begin_inset Formula $X_{n}=x$
+\end_inset
+
+, we require a “proposal density” 
+\begin_inset Formula $\gamma(\text{·}|x)$
+\end_inset
+
+ which may (or may not) depend on 
+\begin_inset Formula $x$
+\end_inset
+
+, and whose variates can be generated by other means.
+\end_layout
+
+\begin_layout Standard
+Given 
+\begin_inset Formula $X_{n}=x$
+\end_inset
+
+ ∼ 
+\begin_inset Formula $\pi(\text{·})$
+\end_inset
+
+, we can generate 
+\begin_inset Formula $X_{n+1}$
+\end_inset
+
+ ∼ 
+\begin_inset Formula $\pi(\text{·})$
+\end_inset
+
+ by
+\end_layout
+
+\begin_layout Standard
+HA1.
+ generate 
+\begin_inset Formula $y$
+\end_inset
+
+ ∼
+\begin_inset Formula $\gamma(\text{·}|x)$
+\end_inset
+
+ and 
+\begin_inset Formula $r$
+\end_inset
+
+ ∼ 
+\begin_inset Formula $U$
+\end_inset
+
+(0, 1)
+\end_layout
+
+\begin_layout Standard
+HA2.
+ if 
+\begin_inset Formula $r\text{≤}α_{HA}(x,y)$
+\end_inset
+
+ , output 
+\begin_inset Formula $X_{n+1}=y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+HA3.
+ else, output 
+\begin_inset Formula $X_{n+1}=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where densities are assumed to be symmetric (that is, 
+\begin_inset Formula $\gamma(x|y)=\gamma(y|x)$
+\end_inset
+
+) and the acceptance probability in Step HA2 is, 
+\begin_inset Formula 
+\[
+α_{HA}(x,y)=min\left\{ \frac{p\left(y\right)}{p\left(x\right)},1\right\} .
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter

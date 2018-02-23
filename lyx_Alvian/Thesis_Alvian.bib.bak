@@ -206,10 +206,22 @@
   Title                    = {Mekar FAQ},
   Author                   = {Mekar},
   Year                     = {2017},
-  Note                     = {[Online]. Available at: https://mekar.id/faq/ [Accessed 28 Agustus 2017]},
+  Note                     = {[Online]. Available at: https://mekar.id/faq/ [Accessed 17 January 2018]},
 
   Owner                    = {alvian},
   Timestamp                = {2018.02.17}
+}
+
+@Article{minh2015understanding,
+  Title                    = {Understanding the Hastings algorithm},
+  Author                   = {Minh, David DL and Minh, Do Le},
+  Journal                  = {Communications in Statistics-Simulation and Computation},
+  Year                     = {2015},
+  Number                   = {2},
+  Pages                    = {332--349},
+  Volume                   = {44},
+
+  Publisher                = {Taylor \& Francis}
 }
 
 @Article{minh2015understanding,
@@ -274,6 +286,16 @@
   ISBN                     = {9781484202654},
   Lccn                     = {2017385162},
   Url                      = {https://books.google.co.id/books?id=YszjCgAAQBAJ}
+}
+
+@Book{bernoulli,
+  Title                    = {Bernoulli Distribution},
+  Author                   = {Weisstein, Eric W},
+  Year                     = {2018},
+  Note                     = {[Online]. Available at: http://mathworld.wolfram.com/BernoulliDistribution.html [Accessed 23 February 2018]},
+
+  Owner                    = {technonatura},
+  Timestamp                = {2018.02.23}
 }
 
 @InProceedings{wilson2014teaching,
