@@ -224,18 +224,6 @@
   Publisher                = {Taylor \& Francis}
 }
 
-@Article{minh2015understanding,
-  Title                    = {Understanding the Hastings algorithm},
-  Author                   = {Minh, David DL and Minh, Do Le},
-  Journal                  = {Communications in Statistics-Simulation and Computation},
-  Year                     = {2015},
-  Number                   = {2},
-  Pages                    = {332--349},
-  Volume                   = {44},
-
-  Publisher                = {Taylor \& Francis}
-}
-
 @Article{pourzanjani2017general,
   Title                    = {General Bayesian Inference over the Stiefel Manifold via the Givens Transform},
   Author                   = {Pourzanjani, Arya A and Jiang, Richard M and Atzberger, Paul J and Petzold, Linda R},
@@ -259,6 +247,26 @@
   Volume                   = {2},
 
   Publisher                = {PeerJ Inc.}
+}
+
+@Article{strickland2014pyssm,
+  Title                    = {PySSM: a Python module for Bayesian inference of linear Gaussian state space models},
+  Author                   = {Strickland, Christopher Mark and Burdett, Robert L and Denham, Robert and Mengersen, Kerrie L},
+  Journal                  = {Journal of Statistical Software},
+  Year                     = {2014},
+  Number                   = {6},
+  Volume                   = {57},
+
+  Publisher                = {American Statistical Association}
+}
+
+@Article{taylor2015bayesian,
+  Title                    = {Bayesian inference and data augmentation schemes for spatial, spatiotemporal and multivariate log-Gaussian Cox processes in R},
+  Author                   = {Taylor, Benjamin and Davies, Tilman and Rowlingson, Barry and Diggle, Peter},
+  Journal                  = {Journal of Statistical Software},
+  Year                     = {2015},
+  Pages                    = {1--48},
+  Volume                   = {63}
 }
 
 @Misc{van2016numpy,

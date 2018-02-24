@@ -1747,19 +1747,17 @@ Numpy
 \end_layout
 
 \begin_layout Standard
-Numpy is one of the fundamental packages used for scientific computing in
- Python.
- Numpy is used as an efficient multidimensional container of generic data.
- Arbitrary data types can be defined and integrated with a wide variety
- of databases 
+Numpy is a fundamental package that is extremely useful for scientific computing
+, and contains among other things a powerful N-dimensional array object
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "vo2015getting"
+key "strickland2014pyssm"
 
 \end_inset
 
 .
- The NumPy package, which comprises the NumPy array as well as a set of
+ The NumPy package, which comprises the Numpy array as well as a set of
  accompanying mathematical functions, has found wide-spread adoption in
  academia, national laboratories, and industry, with applications ranging
  from gaming to space exploration 
@@ -1937,8 +1935,20 @@ key "davidson2015bayesian"
 \begin_layout Standard
 Bayesian inference departs from the approach to statistical inference described
  in many textbooks, which is based on a retrospective evaluation of the
- procedure used to estimate θ (or ỹ) over the distribution of possible y
- values conditional on the true unknown value of θ.
+ procedure used to estimate 
+\begin_inset Formula $θ$
+\end_inset
+
+ (or 
+\begin_inset Formula $ỹ$
+\end_inset
+
+) over the distribution of possible y values conditional on the true unknown
+ value of 
+\begin_inset Formula $θ$
+\end_inset
+
+.
  Despite this difference, it will be seen that in many simple analyses,
  superficially similar conclusions result from the two approaches to statistical
  inference.
@@ -1987,6 +1997,99 @@ key "jimenez2017pygpgo"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+Some advantages of the Bayesian approach are: that it provides a transparent
+ framework for inference; secondly, it is flexible and often provides an
+ elegant and practical solution to inference arising from very complex statistic
+al models.
+ Note, in particular, that Bayesian methods make no formal distinction between
+ estimation oand prediction, and in this way naturally incorporate parameter
+ uncertainty into predictive inference.
+ Because, obtaining the sample can itself be a major challenge 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "taylor2015bayesian"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Markov Chain Monte Carlo
+\end_layout
+
+\begin_layout Standard
+Markov chain Monte Carlo methods are used to generate samples from a probability
+ distribution.
+ They are widely used nowadays in many aspects of optimization and numerical
+ integration, and are specially suitable for being used in sampling from
+ posterior distributions in Bayesian inference.
+ A key issue in MCMC is whether the chain has converged and is actu- ally
+ sampling from the target distribution.
+ There is not a single infallible test of convergence, but many formal and
+ informal ways to assess non-convergence 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "fernandez2016ggmcmc"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Markov chain Monte Carlo (MCMC) is a general method based on drawing values
+ of 
+\begin_inset Formula $\theta$
+\end_inset
+
+ from approximate distributions and then correcting those draws to better
+ approximate the target posterior distribution, 
+\begin_inset Formula $p(\theta|y)$
+\end_inset
+
+.
+ The sampling is done sequentially, with the distribution of the sampled
+ draws de- pending on the last value drawn; hence, the draws form a Markov
+ chain.
+ (As defined in probability theory, a Markov chain is a sequence of random
+ variables 
+\begin_inset Formula $\theta^{1}$
+\end_inset
+
+ , 
+\begin_inset Formula $\theta^{2}$
+\end_inset
+
+ , .
+ .
+ ., for which, for any t, the distribution of 
+\begin_inset Formula $\theta^{t}$
+\end_inset
+
+ given all previous 
+\begin_inset Formula $\theta$
+\end_inset
+
+’s depends only on the most recent value, 
+\begin_inset Formula $\theta^{t-1}$
+\end_inset
+
+ .) The key to the method’s success, however, is not the Markov property
+ but rather that the approximate distributions are improved at each step
+ in the simulation, in the sense of converging to the target distribution
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gelman2014bayesian"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Section
@@ -2327,7 +2430,7 @@ No
 \begin_inset Text
 
 \begin_layout Plain Layout
-Journal
+Article
 \end_layout
 
 \end_inset
@@ -3072,7 +3175,7 @@ Pymc3 Algorithm
 \end_layout
 
 \begin_layout Standard
-uniform, metropolis,
+uniform
 \end_layout
 
 \begin_layout Subsubsection
@@ -3105,6 +3208,13 @@ Metropolis-Hastings algorithm (MH) is one of special forms of the Hastings
  Although variates in the chain are not independent, they may nonetheless
  be used to estimate statistical expectations with respect to 
 \begin_inset Formula $\pi(\text{·})$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "minh2015understanding"
+
 \end_inset
 
 .
