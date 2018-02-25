@@ -1683,15 +1683,25 @@ Python
 \end_layout
 
 \begin_layout Standard
-Python is a general-purpose, high-level programming language.
- Pyuthon syntax is designed very readable, which is important for software
+Python is a dynamically typed programming language that has a focus on ease
+ of use and readability.
+ Due in part to this focus, it has become a popular language for scientific
+ computing and data science, with a broad ecosystem of libraries 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "meurer2017sympy"
+
+\end_inset
+
+.
+ Python syntax is designed very readable, which is important for software
  development.
  Every computer program is written only once, but read and revised many
  times, often by many people.
  Being readable also makes it easier to learn and remember, hence more writeable.
  Compared with other popular languages, Python has a gentle learning curve
- that makes developer more productive, yet it has depths that you can explore
- as you gain expertise
+ that makes developer more productive, yet it has depths that can be explored
+ and gain expertise 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lubanovic2014introducing"
@@ -1704,10 +1714,19 @@ key "lubanovic2014introducing"
 \begin_layout Standard
 People use python because have these several advantages: software quality,
  developer productivity, program portability, support libraries, component
- integration, and enjoyment
+ integration, and enjoyment 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lutz2013learning"
+
+\end_inset
+
+.
+ For application development, Python has advadtages of ease for development
+ and prototyping 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "vohl2016large"
 
 \end_inset
 
@@ -1725,17 +1744,21 @@ key "vo2015getting"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-Python in this research is used as probabilistic programming tools for bayesian
- method to build probabilistic models.
- Probabilistic programming offers an effective way to build complex models
- and allows us to focus more on model design, evaluation, and interpretation,
- and less on mathematical or computational details 
+ Python is the most popular programming languages in the scientific domains
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "martin2016bayesian"
+key "rougier2017sustainable"
+
+\end_inset
+
+.
+ The frequency of programming languages appearing in Journal of Open Source
+ Software (JOSS) articles show that Python appears the most with over half
+ of published articles in total 54 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "smith2018journal"
 
 \end_inset
 
@@ -1757,7 +1780,7 @@ key "strickland2014pyssm"
 \end_inset
 
 .
- The NumPy package, which comprises the Numpy array as well as a set of
+ The Numpy package, which comprises the Numpy array as well as a set of
  accompanying mathematical functions, has found wide-spread adoption in
  academia, national laboratories, and industry, with applications ranging
  from gaming to space exploration 
@@ -1908,7 +1931,7 @@ Bayesian Inference
 Bayesian inference is the process of fitting a probability model to a set
  of data and summarizing the result by a probability distribution on the
  parameters of the model and on unobserved quantities such as predictions
- for new observations
+ for new observations 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gelman2014bayesian"
@@ -1953,7 +1976,7 @@ Bayesian inference departs from the approach to statistical inference described
  superficially similar conclusions result from the two approaches to statistical
  inference.
  However, analyses obtained using Bayesian methods can be easily extended
- to more complex problems
+ to more complex problems 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gelman2014bayesian"
@@ -1989,7 +2012,7 @@ key "pourzanjani2017general"
 .
  Bayesian inference had been applied in many areas such as automatic machine-lea
 rning hyperparameter optimization, A/B testing or recommender systems, among
- others
+ others 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jimenez2017pygpgo"
@@ -2022,10 +2045,10 @@ Markov Chain Monte Carlo
 \end_layout
 
 \begin_layout Standard
-Markov chain Monte Carlo methods are used to generate samples from a probability
- distribution.
- They are widely used nowadays in many aspects of optimization and numerical
- integration, and are specially suitable for being used in sampling from
+Markov Chain Monte Carlo (MCMC) method is used to generate samples from
+ a probability distribution.
+ It is widely used nowadays in many aspects of optimization and numerical
+ integration, and is specially suitable for being used in sampling from
  posterior distributions in Bayesian inference.
  A key issue in MCMC is whether the chain has converged and is actually
  sampling from the target distribution.
@@ -2041,8 +2064,8 @@ key "fernandez2016ggmcmc"
 \end_layout
 
 \begin_layout Standard
-Markov chain Monte Carlo (MCMC) is a general method based on drawing values
- of 
+Markov chain Monte Carlo is a general method based on drawing values of
+ 
 \begin_inset Formula $\theta$
 \end_inset
 
@@ -2053,7 +2076,7 @@ Markov chain Monte Carlo (MCMC) is a general method based on drawing values
 
 .
  The sampling is done sequentially, with the distribution of the sampled
- draws de- pending on the last value drawn; hence, the draws form a Markov
+ draws depending on the last value drawn; hence, the draws form a Markov
  chain.
  (As defined in probability theory, a Markov chain is a sequence of random
  variables 
@@ -2113,7 +2136,7 @@ key "salvatier2016probabilistic"
 , 2010), either version 2.7 (or more recent) or 3.4 (or more recent).
  PyMC3 can be installed using ‘pip‘: pip install pymc3.
  PyMC3 depends on several third-party Python packages which will be automaticall
-y installed when installing via pip
+y installed when installing via pip 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "salvatier2016probabilistic"
@@ -3167,15 +3190,26 @@ key "bernoulli"
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Subsubsection
-Pymc3 Algorithm
+Pymc3
 \end_layout
 
 \begin_layout Standard
-uniform
+Pymc3 in analyzing test results of this research is used as probabilistic
+ programming tools for bayesian inference method to build probabilistic
+ models.
+ Probabilistic programming offers an effective way to build complex models
+ and allows us to focus more on model design, evaluation, and interpretation,
+ and less on mathematical or computational details 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "martin2016bayesian"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection

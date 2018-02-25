@@ -41,6 +41,17 @@
   Url                      = {https://books.google.co.id/books?id=YaFFMQAACAAJ}
 }
 
+@Article{fernandez2016ggmcmc,
+  Title                    = {ggmcmc: Analysis of MCMC samples and Bayesian inference},
+  Author                   = {Fern{\'a}ndez-i-Mar{\'\i}n, Xavier and others},
+  Journal                  = {Journal of Statistical Software},
+  Year                     = {2016},
+  Number                   = {9},
+  Volume                   = {70},
+
+  Publisher                = {Foundation for Open Access Statistics}
+}
+
 @Book{gelman2014bayesian,
   Title                    = {Bayesian data analysis},
   Author                   = {Gelman, Andrew and Carlin, John B and Stern, Hal S and Dunson, David B and Vehtari, Aki and Rubin, Donald B},
@@ -212,6 +223,17 @@
   Timestamp                = {2018.02.17}
 }
 
+@Article{meurer2017sympy,
+  Title                    = {SymPy: symbolic computing in Python},
+  Author                   = {Meurer, Aaron and Smith, Christopher P and Paprocki, Mateusz and {\v{C}}ert{\'\i}k, Ond{\v{r}}ej and Kirpichev, Sergey B and Rocklin, Matthew and Kumar, AMiT and Ivanov, Sergiu and Moore, Jason K and Singh, Sartaj and others},
+  Journal                  = {PeerJ Computer Science},
+  Year                     = {2017},
+  Pages                    = {e103},
+  Volume                   = {3},
+
+  Publisher                = {PeerJ Inc.}
+}
+
 @Article{minh2015understanding,
   Title                    = {Understanding the Hastings algorithm},
   Author                   = {Minh, David DL and Minh, Do Le},
@@ -236,6 +258,17 @@
   Author                   = {Ragan-Kelley, M and Perez, F and Granger, B and Kluyver, T and Ivanov, P and Frederic, J and Bussonnier, M},
   Booktitle                = {AGU Fall Meeting Abstracts},
   Year                     = {2014}
+}
+
+@Article{rougier2017sustainable,
+  Title                    = {Sustainable computational science: the ReScience initiative},
+  Author                   = {Rougier, Nicolas P and Hinsen, Konrad and Alexandre, Fr{\'e}d{\'e}ric and Arildsen, Thomas and Barba, Lorena A and Benureau, Fabien CY and Brown, C Titus and De Buyl, Pierre and Caglayan, Ozan and Davison, Andrew P and others},
+  Journal                  = {PeerJ Computer Science},
+  Year                     = {2017},
+  Pages                    = {e142},
+  Volume                   = {3},
+
+  Publisher                = {PeerJ Inc.}
 }
 
 @Article{salvatier2016probabilistic,
@@ -283,6 +316,17 @@
   Author                   = {Vo, TH and Czygan, Martin and others},
   Publisher                = {Packt Publ.},
   Year                     = {2015}
+}
+
+@Article{vohl2016large,
+  Title                    = {Large-scale comparative visualisation of sets of multidimensional data},
+  Author                   = {Vohl, Dany and Barnes, David G and Fluke, Christopher J and Poudel, Govinda and Georgiou-Karistianis, Nellie and Hassan, Amr H and Benovitski, Yuri and Wong, Tsz Ho and Kaluza, Owen L and Nguyen, Toan D and others},
+  Journal                  = {PeerJ Computer Science},
+  Year                     = {2016},
+  Pages                    = {e88},
+  Volume                   = {2},
+
+  Publisher                = {PeerJ Inc.}
 }
 
 @Book{weber2015practical,
