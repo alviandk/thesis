@@ -1765,6 +1765,63 @@ key "smith2018journal"
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/python popular.jpg
+	scale 500
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Python programming language usage in JOSS articles 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source: 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "smith2018journal"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Numpy
 \end_layout
@@ -1826,14 +1883,71 @@ key "vo2015getting"
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/matplotlib.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Some examples of matplotlib chart 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source: 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "hunter2014matplotlib"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Scipy
 \end_layout
 
 \begin_layout Standard
-SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source
+Scipy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source
  software for mathematics, science, and engineering.
- SciPy ecosystem includes general and specialised tools for data management
+ Scipy ecosystem includes general and specialised tools for data management
  and computation, productive experimentation and high-performance computing.
  The SciPy library, a collection of numerical algorithms and domain-specific
  toolboxes, including signal processing, optimization, statistics and much
@@ -1852,7 +1966,7 @@ Ipython
 \end_layout
 
 \begin_layout Standard
-IPython is an interactive browser-based environment where you can combine
+Ipython is an interactive browser-based environment where you can combine
  code execution, text, mathematics, plots, and rich media into a single
  document.
  Originally designed for use as an electronic lab notebook for computational
@@ -1921,6 +2035,56 @@ key "kluyver2016jupyter"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Jupyter notebook interface
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -3387,19 +3551,6 @@ RESULTS AND DISCUSSION
 \end_layout
 
 \begin_layout Standard
-Bab ini menjelaskan kegiatan hasil penelitian yang diperoleh seperti variabel
- yang diteliti, hasil analisis dan pengujian hipotesis dan pemrogramannya.
-\end_layout
-
-\begin_layout Standard
-Penyajian dapat dibantu dengan menggunakan tabel, gambar, diagram atau grafik
- yang diuraikan secara jelas dengan memasukkan hasil penafsiran, analisis
- deskripsi dan kesimpulan pengujian hipotesis (Bila ada).
- Di dalam pembahasan juga dapat mengemukakan argumentasi dengan mengacu
- ke sumber pustaka yang relevan.
-\end_layout
-
-\begin_layout Standard
 Adapun hasil dan pembahasan dari penelitian ini adalah sebagai berikut:
 \end_layout
 
@@ -4556,7 +4707,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
 Round robin class
 \begin_inset CommandInset label
 LatexCommand label
@@ -4687,7 +4837,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
 Google Analytics implementation
 \begin_inset CommandInset label
 LatexCommand label
@@ -4920,22 +5069,6 @@ Data yang didapat dari google analytic dilakukan pemrosesan dan analisa
  dengan metode bayesian inference dengan pymc.
  Mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, Ipython,
  matplotlib, dan scipy.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-FloatBarrier
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -5875,9 +6008,9 @@ Suggestions
 \end_layout
 
 \begin_layout Standard
-Saran dapat berupa saran yang diajukan terhadap persoalan yang diamati dan
- diteliti, yaitu usul pengembangan atau penyempurnaan penelitian.
- Saran dapat juga berupa alternatif yang diusulkan pada pihak-pihak terkait.
+Penelitian berikutnya dapat dicoba untuk melakukan A/B testing dengan varian
+ lebih banyak dan pengembangan metode bayesian inference dengan algoritma
+ multi-arm bandit.
 \end_layout
 
 \begin_layout Standard

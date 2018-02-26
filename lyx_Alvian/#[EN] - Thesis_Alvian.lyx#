@@ -1798,36 +1798,23 @@ centering
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Python programming language usage in JOSS articles 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Source: 
+Python programming language usage in JOSS articles Source: 
 \begin_inset CommandInset citation
 LatexCommand citealp
 key "smith2018journal"
 
 \end_inset
 
-
+ 
 \end_layout
 
 \end_inset
 
 
-\begin_inset ERT
-status open
+\end_layout
 
 \begin_layout Plain Layout
 
-
-\backslash
-FloatBarrier
 \end_layout
 
 \end_inset
@@ -1894,76 +1881,6 @@ key "vo2015getting"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/matplotlib.png
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Some examples of matplotlib chart 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Source: 
-\begin_inset CommandInset citation
-LatexCommand citealp
-key "hunter2014matplotlib"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-FloatBarrier
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -2104,17 +2021,8 @@ Jupyter notebook interface
 
 \end_layout
 
-\end_inset
-
-
-\begin_inset ERT
-status open
-
 \begin_layout Plain Layout
 
-
-\backslash
-FloatBarrier
 \end_layout
 
 \end_inset
@@ -5104,6 +5012,22 @@ Data yang didapat dari google analytic dilakukan pemrosesan dan analisa
  dengan metode bayesian inference dengan pymc.
  Mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, Ipython,
  matplotlib, dan scipy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
