@@ -12,8 +12,8 @@
 \usepackage{notoccite}
 \usepackage{lscape}
 \usepackage[titletoc]{appendix}
-\usepackage[nottoc]{tocbibind}
-\usepackage {textcomp}
+\usepackage{tocbibind}
+\usepackage{textcomp}
 \usepackage{bbding}
 \usepackage{xparse}
 \usepackage{url}
@@ -24,6 +24,7 @@
 \usepackage{longtable}
 \usepackage{indentfirst}
 \usepackage[justification=centering]{caption}
+\usepackage{hyperref}
 \captionsetup{width=0.9\linewidth}
 
 
@@ -1395,7 +1396,10 @@ Name
 
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -6060,7 +6064,8 @@ options "apalike"
 \end_layout
 
 \begin_layout Chapter*
-APPENDIX
+\start_of_appendix
+Appendix
 \end_layout
 
 \begin_layout Standard
@@ -6077,15 +6082,105 @@ addcontentsline{toc}{chapter}{Appendix}
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0} 
+\backslash
+renewcommand{
+\backslash
+thefigure}{A.
+\backslash
+arabic{figure}} 
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Letter of data and information permission request
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/surat izin/surat izin gundar.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Letter of data and information usage permission
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/surat izin/surat izin mekar.png
+	scale 60
+
+\end_inset
+
 
 \end_layout
 

@@ -12,8 +12,8 @@
 \usepackage{notoccite}
 \usepackage{lscape}
 \usepackage[titletoc]{appendix}
-\usepackage[nottoc]{tocbibind}
-\usepackage {textcomp}
+\usepackage{tocbibind}
+\usepackage{textcomp}
 \usepackage{bbding}
 \usepackage{xparse}
 \usepackage{url}
@@ -24,6 +24,7 @@
 \usepackage{longtable}
 \usepackage{indentfirst}
 \usepackage[justification=centering]{caption}
+\usepackage{hyperref}
 \captionsetup{width=0.9\linewidth}
 
 
@@ -116,6 +117,36 @@
 \cfoot{}
 \rfoot{}
 \renewcommand{\headrulewidth}{0pt}
+
+\listfiles
+\usepackage[titletoc]{appendix}
+\usepackage{tocloft}
+\usepackage{xpatch}
+\makeatletter
+\newcommand\listofappendixname{Table of \appendixname}
+
+\newcommand\listofappendices{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\listofappendixname
+        \@mkboth{%
+           \MakeUppercase\listofappendixname}{\MakeUppercase\listofappendixname}}%
+    \@starttoc{toa}%
+    \if@restonecol\twocolumn\fi
+    }
+\g@addto@macro\appendix{%
+  \addcontentsline{toc}{chapter}{\appendixname}%
+  \xpatchcmd{\@part}{\addcontentsline{toc}}{\addcontentsline{toa}}{}{}%
+  \xpatchcmd{\@part}{\addcontentsline{toc}}{\addcontentsline{toa}}{}{}%
+  \xpatchcmd{\@chapter}{\addcontentsline{toc}}{\addcontentsline{toa}}{}{}%
+  \xpatchcmd{\@chapter}{\addcontentsline{toc}}{\addcontentsline{toa}}{}{}%
+  \xpatchcmd{\@sect}{\addcontentsline{toc}}{\addcontentsline{toa}}{}{}%
+  \xpatchcmd{\@sect}{\addcontentsline{toc}}{\addcontentsline{toa}}{}{}%
+}
+\makeatother
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -1395,7 +1426,10 @@ Name
 
 \end_inset
 
- 
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -1416,6 +1450,24 @@ LatexCommand tableofcontents
 
 \lang english
 \begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+listofappendices
+\end_layout
 
 \end_inset
 
@@ -1820,6 +1872,19 @@ key "smith2018journal"
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1933,6 +1998,19 @@ key "hunter2014matplotlib"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
 \end_layout
 
 \end_inset
@@ -2078,8 +2156,17 @@ Jupyter notebook interface
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset ERT
+status open
+
 \begin_layout Plain Layout
 
+
+\backslash
+FloatBarrier
 \end_layout
 
 \end_inset
@@ -6025,7 +6112,8 @@ options "apalike"
 \end_layout
 
 \begin_layout Chapter*
-APPENDIX
+\start_of_appendix
+Appendix
 \end_layout
 
 \begin_layout Standard
@@ -6036,7 +6124,7 @@ status open
 
 
 \backslash
-addcontentsline{toc}{chapter}{Appendix}
+appendix
 \end_layout
 
 \end_inset
@@ -6045,12 +6133,105 @@ addcontentsline{toc}{chapter}{Appendix}
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{0} 
+\backslash
+renewcommand{
+\backslash
+thefigure}{A.
+\backslash
+arabic{figure}} 
+\end_layout
+
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Letter of data and information permission request
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/surat izin/surat izin gundar.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Letter of data and information usage permission
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/surat izin/surat izin mekar.png
+	scale 60
+
+\end_inset
+
 
 \end_layout
 
