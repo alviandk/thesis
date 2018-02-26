@@ -58,7 +58,7 @@
   {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 
 \newcommand{\Judul}{}
-\newcommand{\JudulInggris}{A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha}
+\newcommand{\JudulInggris}{A/B Testing Mekargo.id Website of Mekar PT Sampoerna Wirausaha with Bayesian Inference and Pymc3}
 \newcommand{\Name}{Alvian Dwi Kurnianto, S.Kom.}
 \newcommand{\NPM}{92216007}
 \newcommand{\NIRM}{}
@@ -2089,6 +2089,7 @@ centering
 
 \begin_inset Graphics
 	filename images/jupyter.png
+	lyxscale 70
 	scale 35
 
 \end_inset
@@ -6134,6 +6135,7 @@ Letter of data and information permission request
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/surat izin/surat izin gundar.png
+	lyxscale 10
 	scale 50
 
 \end_inset
@@ -6177,6 +6179,7 @@ Letter of data and information usage permission
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/surat izin/surat izin mekar.png
+	lyxscale 10
 	scale 60
 
 \end_inset
@@ -6214,24 +6217,41 @@ addcontentsline{toc}{chapter}{Curriculum Vitae}
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename images/CEMERLANG612x.jpg
+	lyxscale 4
+	scale 15
 
-\series bold
-PERSONAL INFORMATION-
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\series bold
+PERSONAL INFORMATION
+\end_layout
+
+\begin_layout Standard
+\noindent
 Name : Alvian Dwi Kurnianto 
 \end_layout
 
 \begin_layout Standard
+\noindent
 Birth Place and Date : Pekalongan, 4 September 1994
 \end_layout
 
 \begin_layout Standard
+\noindent
 Sex : Male
 \end_layout
 
 \begin_layout Standard
+\noindent
 NIM : 
 \begin_inset ERT
 status open
@@ -6249,18 +6269,35 @@ NPM
 \end_layout
 
 \begin_layout Standard
+\noindent
 Address : Depok, West Java
 \end_layout
 
 \begin_layout Standard
+\noindent
 Phone Number : 085840002746
 \end_layout
 
 \begin_layout Standard
+\noindent
 Email : alviandk@gmail.com
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1mm}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
 FORMAL EDUCATION
@@ -6269,18 +6306,25 @@ FORMAL EDUCATION
 \end_layout
 
 \begin_layout Standard
-(tahun) – (tahun) : 
+\noindent
+2012 - 2016 : Information System Bachelor Degree at Gunadarma University
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1mm}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-___ – ___ : 
-\end_layout
-
-\begin_layout Standard
-___ – ___ : 
-\end_layout
-
-\begin_layout Standard
+\noindent
 
 \series bold
 WORK EXPERIENCE
@@ -6289,64 +6333,53 @@ WORK EXPERIENCE
 \end_layout
 
 \begin_layout Standard
+\noindent
 2016 - now : Mekar, Sampoerna Wirausaha - Remote Django Developer
 \end_layout
 
 \begin_layout Standard
+\noindent
 2015 - 2017 : Coassets​ - ​Remote Django Developer 
 \end_layout
 
 \begin_layout Standard
+\noindent
 2014 - 2015 : Macroad​ - Django Developer Internship
 \end_layout
 
 \begin_layout Standard
+\noindent
 2014 - 2015 : Coding Indonesia​ - Programming Tutor
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1mm}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
 
 \series bold
 SCIENCE PUBLICATION (2016) 
 \end_layout
 
 \begin_layout Standard
-_____ _____ : 
-\begin_inset Separator latexpar
+\noindent
+2016 : Undergraduate Thesis titled 
+\begin_inset Quotes eld
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\align right
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{10mm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align right
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Name
-\end_layout
-
+Animetacchi Website Development with Django and Ajax
+\begin_inset Quotes erd
 \end_inset
 
 
