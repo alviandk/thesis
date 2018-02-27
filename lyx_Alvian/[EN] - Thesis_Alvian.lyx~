@@ -1525,7 +1525,7 @@ key "mekar"
  chat bot dan website Mekar Go.
  Website Mekar Go dengan alamat web https://mekargo.id/ merupakan website
  untuk menghimpun data UKM dan karyawan yang ingin mengajukan pinjaman ke
- MEKAR.
+ Mekar.
  Data yang telah dihimpun pada versi web saat ini menunjukkan konversi peminjam
  yang melengkapi pengisian data dari awal sampai akhir kurang dari 10%.
  Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
@@ -1600,8 +1600,8 @@ Formulation of the Problem
 Adapun masalah yang dibahas pada penelitian ini adalah bagaimana metode
  yang dilakukan untuk melakukan A/B testing website mekargo.id pada PT Mekar
  Sampoerna Wirausaha, bagaimana cara menganalis hasil A/B testing dengan
- metode bayesian inference dengan tools pymc3, dan varian manakah dari A/B
- testing yang menjadi varian terbaik.
+ metode bayesian inference dengan tools pymc3, dan versi manakah dari A/B
+ testing yang menjadi versi terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1652,8 +1652,8 @@ Research Purposes
 \begin_layout Standard
 Tujuan dari penelitian ini adalah melakukan A/B testing website mekargo.id
  pada PT Mekar Sampoerna Wirausaha, melakukan analisis hasil A/B testing
- dengan metode bayesian inference dengan pymc3, mengetahui variant pada
- A/B testing yang menjadi varian terbaik.
+ dengan metode bayesian inference dengan pymc3, mengetahui versi pada A/B
+ testing yang menjadi versi terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1675,7 +1675,7 @@ Bagi peneliti lain, sebagai sumber literatur untuk penelitian yang sejenis.
 
 \begin_layout Enumerate
 Bagi perusahaan yang diteliti, memberikan saran perbaikan dengan terpilihnya
- varian A/B testing yang terbaik.
+ versi A/B testing yang terbaik.
 \end_layout
 
 \begin_layout Chapter
@@ -2489,6 +2489,57 @@ key "yang2014tutorials"
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/google analytics.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Google Analytics dashboard
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 A/B Testing
 \end_layout
@@ -2570,6 +2621,11 @@ reference "tab:Previous-research"
 \end_inset
 
  contains previous researches on A/B testing.
+ It contains number, title of the article, authors of the article, and strength
+ and of the article from author point of view.
+ There are six articles that author discuss.
+ The point of view is composed from the mathematical concept explanation,
+ application example, and suplementary material of the articles.
 \end_layout
 
 \begin_layout Standard
@@ -3041,14 +3097,23 @@ Research Object
 
 \begin_layout Standard
 Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
- Objek pada peneltian ini adalah website mekargo.id PT Mekar Investama Sampoerna.
- (jabarin mekargo dan mekar investama).
- Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
+ Objek pada peneltian ini adalah website mekargo.id milik Mekar.
+ Mekar hadir melalui Mekar Go untuk memberikan solusi dalam membantu pelaku
+ UMKM dan konsumen lainnya untuk mendapatkan akses layanan keuangan atau
+ permodalan di Indonesia.
+ Mekar memberikan kemudahan akses melalui portal Mekar Go kepada lembaga
+ keuangan seperti Bank, perusahaan pembiayaan, dan Bank Perkreditan Rakyat
+ (BPR) dalam meningkatkan kualitas pelayanan kepada masyarakat secara mudah,
+ aman dan berkualitas.
+\end_layout
+
+\begin_layout Standard
+Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
  Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
 sing versi A/B testing.
  Pengumpulan data dilakukan dengan tools google analytics.
  Data yang didapatkan selanjutnya akan dianalisis dengan metode bayesian
- inference dan tools pymc3.
+ inference dan pymc3.
 \end_layout
 
 \begin_layout Section
@@ -3147,6 +3212,9 @@ Masalah yang diidentifikasi adalah yang berhubungan dengan website yang
  convertion rate.
  Tergantung pada tujuan apa yang ingin dicapai pada pembuatan A/B testing
  pada website tersebut.
+ Masalah yang dijabarkan biasanya dikarenakan ada suatu hal yang timbul
+ yang tidak sesuai tujuan.
+ Selain itu, dijabarkan pula kondisi saat ini dari website tersebut.
  
 \end_layout
 
@@ -3155,16 +3223,144 @@ Defining Website Measurement
 \end_layout
 
 \begin_layout Standard
-Website measurement terdiri dari penjelasan poin indikator bisnis yang terdiri
- dari business objective, website goal, key performance metric, dan target
- metric.
+Website measurement adalah pengukuran yang dilakukan untuk memberikan kejalasan
+ untuk mencapai target A/B testing yang diinginkan.
+ Website measurement terdiri dari beberapa poin indikator bisnis yang dijabarkan
+ dari hal yang umum sampai hal yang detil.
+ Poin indikator ini terdiri dari business objectives, website goals, key
+ performance metrics (KPIs), dan target metrics.
+ Dengan adanya penjabaran ini, akan lebih memperjelas apa hasil yang diinginkan
+ dari A/B testing ini.
+ Sehingga, seluruh anggota tim yang terlibat dapat menyatukan visi dalam
+ melakukan A/B testing ini.
+ Diagramnya dapat diilustrasikan pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Website-measurement"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Business objective adalah bla bal bla.
- Website goal adalah bla bla.
- Key performance metric adalah bla bla.
- Target metric adalah bla bla bla.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/website-measurement.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Website measurement
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Website-measurement"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source: 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "omniconvert"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Adapun penjabaran dari poin indikator website measurement tersebut adalah
+ sebagai berikut:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Business objectives
+\series default
+ adalah sasaran utama yang ingin dicapai pada pembuatan A/B testing.
+ Misalnya meningkatkan jumlah penjualan, menambah jumlah user yang mendaftar,
+ atau meningkatkan pengunjung pada tampilan halaman.
+ Poin ini bergantung pada jenis bisnis yang dijalankan dan tahap apa yang
+ sedang terdapat masalah.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Website goals
+\series default
+ adalah tindakan apa yang ingin dicapai atau ditingkatkan pada satu fitur
+ website yang dapat memenuhi sasaran poin business objective.
+ Jika ingin meningkatkan jumlah penjualan, maka website goal yang harus
+ dicapai adalah peningkatan fitur menambahkan barang ke chart sampai melakukan
+ pembayaran.
+ Website goal bergantung kepada poin business objective yang ingin dicapai.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Key performance metrics
+\series default
+ adalah ukuran yang menjadi pedoman keberhasilan terhadap hal yang ingin
+ dicapai.
+ Misalnya ingin meningkatkan penjualan, maka ukuran yang dipakai adalah
+ berapa jumlah barang yang dimasukkan ke dalam chart, berapa jumlah barang
+ pada chart yang dilakukan checkout pembayaran, dan sebagainya.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Target metrics
+\series default
+ adalah berapa target angka yang dijadikan target keberhasilan dari tiap
+ key performance metric disertai dengan jangka waktu yang menjadi batasan.
+ Misalnya, target jumlah barang yang dimasukkan ke dalam chart minimal 1.000.000
+ barang per hari.
+ Itu adalah salah satu contoh untuk perusahaan ecommerce yang sudah bersar.
+ Target angka yang dijadikan ukuran bergantung pada kondisi saat ini juga.
+ Yang terpenting adalah adanya peningkatan.
 \end_layout
 
 \begin_layout Subsection
@@ -3172,13 +3368,256 @@ Developing a Hypothesis
 \end_layout
 
 \begin_layout Standard
-lihat kata2 dari website
+A hypothesis will define why you believe a problem occurs.
+ Asumsi awal yang menjadi penyebab masalah pada point 3.3.1 disertai dengan
+ pengajuan solusi yang akan diterapkan.
+ Menyebutkan hasil akhir dari solusi yang diajukan disertai alasannya.
 \end_layout
 
 \begin_layout Standard
-Asumsi awal yang menjadi penyebab masalah pada point 3.3.1 disertai dengan
- pengajuan solusi yang akan diterapkan.
- Menyebutkan hasil akhir dari solusi yang diajukan disertai alasannya.
+Many of the variables specifically require you to bring data to the table
+ to prioritize your hypotheses.
+\end_layout
+
+\begin_layout Itemize
+Is it addressing an issue discovered via user testing? 
+\end_layout
+
+\begin_layout Itemize
+Is it addressing an issue discovered via qualitative feedback (surveys,
+ polls, interviews)? 
+\end_layout
+
+\begin_layout Itemize
+Is the hypothesis supported by mouse tracking heat maps or eye tracking?
+ 
+\end_layout
+
+\begin_layout Itemize
+Is it addressing insights found via digital analytics?
+\end_layout
+
+\begin_layout Standard
+Having weekly discussions on tests with these 4 questions asked from everyone
+ will quickly make people stop relying on just opinions.
+ There are also bounds placed on Ease of implementation by bracketing answers
+ according to the estimated time.
+ Ideally you’d have a test developer be part of prioritization discussions.
+\end_layout
+
+\begin_layout Standard
+A good hypothesis:
+\end_layout
+
+\begin_layout Enumerate
+Is testable – hypothesis is measurable, so that it can be used in testing
+ has a goal of solving conversion problems – Split testing is done to solve
+ specific conversion problems 
+\end_layout
+
+\begin_layout Enumerate
+Gains market insights – Besides increasing conversion rates, split testing
+ will give information about clients.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A well-articulated hypothesis will let split testing results give information
+ about customers.
+ 
+\end_layout
+
+\begin_layout Standard
+After you have defined your problem and articulated your hypothesis, you
+ can start to come up with specific split-testing variations.
+ Clearly defining your hypothesis will help you come up with testing variations
+ that give meaningful results 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "cxl"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+How to Develop Hypothesis
+\end_layout
+
+\begin_layout Standard
+ada 4 cara yaitu bla bla bla bla
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Case Studies
+\series default
+ : Conversion rate optimization relies heavily on case studies to guide
+ best practices and develop new hypothesis.
+ While it’s not always true, case studies often represent solutions that
+ might work in a given situation.
+ Since at the hypothesis stage, your job is to collect as many plausible
+ solutions as you can, digging through case studies can be extremely useful.
+ However, not every case study will actually yield actionable insights to
+ your specific case.
+ When evaluating a case study, consider these issues: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Relevancy
+\series default
+: Is the case study describing a problem that is relevant to your particular
+ problem? 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Audience overlap
+\series default
+: Is the case study about a website that has a similar audience to yours?
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Accuracy
+\series default
+: Are the results from the case study accurate enough? Was the testing carried
+ out to a high degree of confidence? Far too many times, you’ll find companies
+ promoting case studies that are not statistically accurate.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Recency
+\series default
+: Are the findings from the case study recent enough? Have new trends impacted
+ these results? What worked for a brand in 2006 might not hold true in 2016.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Scope
+\series default
+: Plenty of case studies focus on “small wins” or micro-conversions, such
+ as the CTR for a button.
+ Such results might look good, but unless they improve your target metrics,
+ they are effectively meaningless.
+ Always consider the scope of the study before borrowing its learnings in
+ your own tests.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Best Practices
+\series default
+: Best practices are just that - a practice assumed to be correct by default
+ in any non-specific case.
+ For example, placing your navigation bar at the top of the page is a “best
+ practice”.
+ Best practices spring from three things:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Convention
+\series default
+: Some design choices are made just because that’s the way things have always
+ been done.
+ In most cases, it’s better to follow conventions since your customers are
+ already used to it.
+ Breaking convention might cause confusion.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Theory
+\series default
+: Some design choices spring from theory.
+ For example, psychological theories state that we are likely to equate
+ strong social proof with trustworthiness.
+ Hence, including reviews, testimonials, etc.
+ has now become a “best practice”.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Testing
+\series default
+: When usability and CRO tests yield the same insights consistently, they
+ often become best practices.
+ For instance, testing shows that descriptive CTAs (such as “Download eBook”)
+ regularly perform better than plain CTAs (such as “Submit”).
+ This can now be said to be a “best practice”.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Theory
+\series default
+: Conversion rate optimization sits at the intersection of sales, design
+ and psychology.
+ As such, any hypothesis you come up with will likely involve theories from
+ each of these fields.
+ To give you an example, good UI/UX design relies heavily on Gestalt psychology
+ (such as the Law of Proximity and the Law of Similarity).
+ This also informs the decisions you make when designing a conversion-optimized
+ page.
+ A strong understanding of theory will help you create better hypotheses.
+ You don’t have to know all of the above, but a firm grasp of psychological
+ and emotional triggers that lead to sales will greatly help you improve
+ conversions.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Experience: 
+\series default
+All the case studies and theories in the world can’t make up for past experience.
+ This is why CRO is often best left to experts; they can bring insights
+ to the table that non-practitioners wouldn’t know.
+ It’s not unusual to find that the most successful hypothesis is usually
+ the one that springs from experience, not theory or case studies.
+ A CRO expert who has already dealt with a site similar to yours in the
+ same niche will likely have tons of ideas for improving your conversion
+ rates 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "omniconvert"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -3187,6 +3626,7 @@ Developing and Testing Page Variants
 
 \begin_layout Standard
 develop, menjelasin tool analytic, penjelasan proses percobaan.
+ round robin, google analytics, perubahan2 apa yang dilakukan
 \end_layout
 
 \begin_layout Subsection
@@ -3194,7 +3634,8 @@ Analyzing Test Results
 \end_layout
 
 \begin_layout Standard
-menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter
+menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter.,
+ prosedur pake jupyter
 \end_layout
 
 \begin_layout Subsubsection
@@ -3595,7 +4036,7 @@ Adapun hasil dan pembahasan dari penelitian ini adalah sebagai berikut:
 \end_layout
 
 \begin_layout Section
-Identify Problems
+Identifying Problems
 \end_layout
 
 \begin_layout Standard
@@ -3609,7 +4050,7 @@ presentase pendaftar yang menyelesaikan pengisian data masih belum mencapai
 \end_layout
 
 \begin_layout Section
-Define Website Measurement
+Defining Website Measurement
 \end_layout
 
 \begin_layout Subsection
@@ -3663,7 +4104,7 @@ Target Metric
 \end_layout
 
 \begin_layout Section
-Develop a Hypothesis
+Developing a Hypothesis
 \end_layout
 
 \begin_layout Standard
@@ -3685,7 +4126,7 @@ Developing Page Variants
 \end_layout
 
 \begin_layout Standard
-menjelaskan 3 versi, satu control 2 varian, dilihatin bentuk formnya.
+menjelaskan 3 versi, satu control 2 versi, dilihatin bentuk formnya.
 \end_layout
 
 \begin_layout Standard
@@ -4337,7 +4778,7 @@ v
 
 \begin_layout Standard
 Untuk membedakan versi A/B testing, digunakan suffik satu huruf alfabet
- (a atau b atau c) sesuai dengan jenis varian.
+ (a atau b atau c) sesuai dengan jenis versi.
 \end_layout
 
 \begin_layout Standard
@@ -5101,7 +5542,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Section
-Analyze Test Results
+Analyzing Test Results
 \end_layout
 
 \begin_layout Standard
@@ -6039,8 +6480,8 @@ Metode penelitian yang dilakukan untuk melakukan A/B testing pada website
  numerikal data berbentuk array, dan matplotlib sebagai penampil grafik
  hasil pengolahan data.
  Dari hasil akhir seluruh kombinasi probabilitas yang dihasilkan dapat disimpulk
-an bahwa varian B adalah hasil yang terbaik karena selalu lebih baik saat
- dibandingkan dengan varian A dan C.
+an bahwa versi B adalah hasil yang terbaik karena selalu lebih baik saat
+ dibandingkan dengan versi A dan C.
 \end_layout
 
 \begin_layout Section
@@ -6048,7 +6489,7 @@ Suggestions
 \end_layout
 
 \begin_layout Standard
-Penelitian berikutnya dapat dicoba untuk melakukan A/B testing dengan varian
+Penelitian berikutnya dapat dicoba untuk melakukan A/B testing dengan versi
  lebih banyak dan pengembangan metode bayesian inference dengan algoritma
  multi-arm bandit.
 \end_layout
@@ -6221,7 +6662,7 @@ addcontentsline{toc}{chapter}{Curriculum Vitae}
 \begin_inset Graphics
 	filename images/CEMERLANG612x.jpg
 	lyxscale 4
-	scale 15
+	width 3cm
 
 \end_inset
 
@@ -6281,10 +6722,6 @@ Phone Number : 085840002746
 \begin_layout Standard
 \noindent
 Email : alviandk@gmail.com
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset ERT
 status open
 
@@ -6297,6 +6734,11 @@ vspace*{1mm}
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 
 \series bold
 FORMAL EDUCATION
@@ -6307,10 +6749,6 @@ FORMAL EDUCATION
 \begin_layout Standard
 \noindent
 2012 - 2016 : Information System Bachelor Degree at Gunadarma University
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset ERT
 status open
 
@@ -6323,6 +6761,11 @@ vspace*{1mm}
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 
 \series bold
 WORK EXPERIENCE
@@ -6348,10 +6791,6 @@ WORK EXPERIENCE
 \begin_layout Standard
 \noindent
 2014 - 2015 : Coding Indonesia​ - Programming Tutor
-\end_layout
-
-\begin_layout Standard
-\noindent
 \begin_inset ERT
 status open
 
@@ -6364,6 +6803,11 @@ vspace*{1mm}
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 
 \series bold
 SCIENCE PUBLICATION (2016) 
