@@ -1593,7 +1593,7 @@ key "salvatier2016probabilistic"
 \end_layout
 
 \begin_layout Section
-Formulation of the Problem
+Problem Identification
 \end_layout
 
 \begin_layout Standard
@@ -2606,6 +2606,63 @@ key "goldberg2017decision"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/ab test.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A/B Testing ilustration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source: 
+\begin_inset CommandInset citation
+LatexCommand citealp
+key "omniconvert"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -5547,9 +5604,18 @@ Analyzing Test Results
 
 \begin_layout Standard
 Data yang didapat dari google analytic dilakukan pemrosesan dan analisa
- dengan metode bayesian inference dengan pymc.
- Mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, Ipython,
- matplotlib, dan scipy.
+ dengan metode bayesian inference dengan pymc3.
+ Langkah pertama untuk menganalisa hasil A/B tesing pada penelitian ini
+ adalah mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy,
+ Ipython, matplotlib, dan scipy pada environment jupyter notebook.
+ Syntaxnya seperti pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:import-library"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -5626,7 +5692,25 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Inisialisasi nilai pada versi A, B, dan C serta banyaknya sample yang digunakan.
+Inisialisasi nilai jumlah user yang menyelesaikan proses penyelesaian data
+ pada versi A, B, dan C serta banyaknya sample yang digunakan.
+ Nilai awal true_A sebanyak 120 user yang menyelesaikan proses pengisian
+ data pada versi A, nilai awal true_B sebanyak 129 user yang menyelesaikan
+ proses pengisian data pada versi B, dan nilai awal true_C sebanyak 84 user
+ yang menyelesaikan proses pengisian data pada versi C.
+ Sedangkan N_sample merupakan jumlah user yang melakukan proses pengisian
+ data atau disebut juga sebagai nilai sample yang digunakan pada setiap
+ versi A, B, dan C dengan nilai yang sama untuk seluruh versi.
+ Nilai sampelnya adalah 1156.
+ Syntax inisiasi nilai awal true_A, true_B, true_C, dan N_sample dapat dilihat
+ pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Initialize-sample"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -5703,8 +5787,14 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Menghitung nilai peluang A, B, dan C.
- Hasilnya adalah:
+Tahap ini merupakan langkah pertama pada algoritma bayesian inference yaitu
+ menentukan probability density atau yang disebut juga sebagai prior distributio
+n yang menggambarkan beliefs about a parameter.
+ Variable true_p_A merupakan prior distribution untuk versi A, variable
+ true_p_B merupakan prior distribution untuk versi B, dan variable true_p_C
+ merupakan prior distribution untuk versi C.
+ Adapun nilai prior distribution untuk masing-masing versi adalah sebagai
+ berikut: 
 \end_layout
 
 \begin_layout Standard
@@ -5716,7 +5806,21 @@ true_p_B = 0.1115916955017301
 \end_layout
 
 \begin_layout Standard
-true_p_C = 0.0726643598615917
+true_p_C = 0.0726643598615917 
+\end_layout
+
+\begin_layout Standard
+\noindent
+Nilai true_p_A, true_p_B, dan true_p_C didapat dengan melakukan operasi
+ perhitungan terhadap nilai inisiasi awal yang didapat sebelumnya.
+ Syntax operasi perhitungannya terdapat pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Calculate-probability"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -5789,8 +5893,30 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Melakukan observasi bernoulli terhadap nilai peluang A, B, dan C menggunakan
- method stats pada library scipy
+Tahap ini merupakan langkah kedua pada algoritma bayesian inference yaitu
+ memilih statistical model yang reflects beliefs dengan prior distribution
+ yang dipilih pada langkah sebelumnya.
+ Penelitian ini memilih statistical model bernoulli distribution untuk merefleks
+ikan keyakinan terhadap prior distribution pada langkah sebelumnya.
+ Implementasi pada syntax pythonnya menggunakan method stats yang diimport
+ dari library scipy.
+ Hasil dari bernoulli distributionnya adalah numpy array yang berisi angka
+ random 0 dan 1 yang digenerate sesuai prior distribution untuk masing-masing
+ versi A, B, dan C.
+ Angka 1 mewakili nilai true dan angka 0 mewakili nilai false.
+ Nilai bernoulli distribution yang dihasilkan dari scipy dipengaruhi oleh
+ inputan true_p_A, true_p_B, true_p_C dan N_sample.
+ Syntax pembuatan statistical model bernoulli distribution dan hasilnya
+ bisa dilihat pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Bernoulli-observation"
+
+\end_inset
+
+.
+ Nilai bernoulli distribution untuk setiap versi disimpan pada variable
+ observation_A, observation_B, dan observation_C.
 \end_layout
 
 \begin_layout Standard
@@ -5860,23 +5986,6 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Mencetak nilai jumlah dari nilai true yang dihasilkan oleh observasi bernoulli,
- dengan hasil sebagai berikut
-\end_layout
-
-\begin_layout Standard
-sum_true_p_A = 114 
-\end_layout
-
-\begin_layout Standard
-sum_true_p_B = 138 
-\end_layout
-
-\begin_layout Standard
-sum_true_p_C = 86
-\end_layout
-
-\begin_layout Standard
 Mencetak hasil nilai rata-rata observasi bernoulli dengan bantuan method
  mean pada library numpy.
  Nilai yang dihasilkan adalah:
@@ -5896,6 +6005,27 @@ mean_p_C = 0.0743944636678
 
 \begin_layout Standard
 Nilai rata rata ini sekaligus menjadi nilai true frequency
+\end_layout
+
+\begin_layout Standard
+Nilai true atau angka 1 merupakan representasi user yang menyelesaikan pros
+\end_layout
+
+\begin_layout Standard
+Mencetak nilai jumlah dari nilai true yang dihasilkan oleh observasi bernoulli,
+ dengan hasil sebagai berikut
+\end_layout
+
+\begin_layout Standard
+sum_true_p_A = 114 
+\end_layout
+
+\begin_layout Standard
+sum_true_p_B = 138 
+\end_layout
+
+\begin_layout Standard
+sum_true_p_C = 86
 \end_layout
 
 \begin_layout Standard
