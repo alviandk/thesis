@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -134,8 +134,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures false
 \graphics default
 \default_output_format default
 \output_sync 1
@@ -175,7 +173,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -188,10 +185,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
@@ -1368,7 +1362,7 @@ JudulInggris
 
 \begin_layout Standard
 \align right
-Depok, February 2018
+Depok, February 2017
 \end_layout
 
 \begin_layout Standard
@@ -1478,7 +1472,6 @@ Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kemenkeu"
-literal "true"
 
 \end_inset
 
@@ -1506,7 +1499,6 @@ Masalah mendasar UKM yang paling menonjol menyangkut menyediakan pembiayaan
 \begin_inset CommandInset citation
 LatexCommand citep
 key "wuisan2017pengaruh"
-literal "true"
 
 \end_inset
 
@@ -1522,7 +1514,6 @@ Mekar (PT Sampoerna Wirausaha) didirikan pada 2010 dan dimiliki secara penuh
 \begin_inset CommandInset citation
 LatexCommand citep
 key "mekar"
-literal "true"
 
 \end_inset
 
@@ -1556,7 +1547,6 @@ an perubahan urutan pengisian data.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "dixon2015b"
-literal "true"
 
 \end_inset
 
@@ -1573,7 +1563,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kaufmann2014complexity"
-literal "true"
 
 \end_inset
 
@@ -1586,7 +1575,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "yang2014tutorials"
-literal "true"
 
 \end_inset
 
@@ -1598,7 +1586,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "salvatier2016probabilistic"
-literal "true"
 
 \end_inset
 
@@ -1707,7 +1694,6 @@ Python is a dynamically typed programming language that has a focus on ease
 \begin_inset CommandInset citation
 LatexCommand citep
 key "meurer2017sympy"
-literal "true"
 
 \end_inset
 
@@ -1723,7 +1709,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lubanovic2014introducing"
-literal "true"
 
 \end_inset
 
@@ -1737,7 +1722,6 @@ People use python because have these several advantages: software quality,
 \begin_inset CommandInset citation
 LatexCommand citep
 key "lutz2013learning"
-literal "true"
 
 \end_inset
 
@@ -1747,7 +1731,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "vohl2016large"
-literal "true"
 
 \end_inset
 
@@ -1761,7 +1744,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "vo2015getting"
-literal "true"
 
 \end_inset
 
@@ -1771,7 +1753,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "rougier2017sustainable"
-literal "true"
 
 \end_inset
 
@@ -1782,7 +1763,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "smith2018journal"
-literal "true"
 
 \end_inset
 
@@ -1851,7 +1831,6 @@ Source:
 \begin_inset CommandInset citation
 LatexCommand citealp
 key "smith2018journal"
-literal "true"
 
 \end_inset
 
@@ -1887,7 +1866,6 @@ Numpy is a fundamental package that is extremely useful for scientific computing
 \begin_inset CommandInset citation
 LatexCommand citep
 key "strickland2014pyssm"
-literal "true"
 
 \end_inset
 
@@ -1899,7 +1877,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "van2016numpy"
-literal "true"
 
 \end_inset
 
@@ -1919,7 +1896,6 @@ Matplotlib is a python 2D plotting library which produces publication quality
 \begin_inset CommandInset citation
 LatexCommand citep
 key "hunter2014matplotlib"
-literal "true"
 
 \end_inset
 
@@ -1934,7 +1910,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "vo2015getting"
-literal "true"
 
 \end_inset
 
@@ -2003,7 +1978,6 @@ Source:
 \begin_inset CommandInset citation
 LatexCommand citealp
 key "hunter2014matplotlib"
-literal "true"
 
 \end_inset
 
@@ -2043,7 +2017,6 @@ Scipy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jones2014scipy"
-literal "true"
 
 \end_inset
 
@@ -2065,7 +2038,6 @@ Ipython is an interactive browser-based environment where you can combine
 \begin_inset CommandInset citation
 LatexCommand citep
 key "wilson2014teaching"
-literal "true"
 
 \end_inset
 
@@ -2079,7 +2051,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "ragan2014jupyter"
-literal "true"
 
 \end_inset
 
@@ -2102,7 +2073,6 @@ Jupyter Notebook, provides a tool to create and share web pages with text,
 \begin_inset CommandInset citation
 LatexCommand citep
 key "fandango2017python"
-literal "true"
 
 \end_inset
 
@@ -2123,7 +2093,6 @@ Jupyter Notebook is accessed through a modern web browser.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kluyver2016jupyter"
-literal "true"
 
 \end_inset
 
@@ -2217,7 +2186,6 @@ Bayesian inference is the process of fitting a probability model to a set
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gelman2014bayesian"
-literal "true"
 
 \end_inset
 
@@ -2231,7 +2199,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "davidson2015bayesian"
-literal "true"
 
 \end_inset
 
@@ -2264,7 +2231,6 @@ Bayesian inference departs from the approach to statistical inference described
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gelman2014bayesian"
-literal "true"
 
 \end_inset
 
@@ -2291,7 +2257,6 @@ The Bayesian modeling paradigm involves setting up a probabilistic model
 \begin_inset CommandInset citation
 LatexCommand citep
 key "pourzanjani2017general"
-literal "true"
 
 \end_inset
 
@@ -2302,7 +2267,6 @@ rning hyperparameter optimization, A/B testing or recommender systems, among
 \begin_inset CommandInset citation
 LatexCommand citep
 key "jimenez2017pygpgo"
-literal "true"
 
 \end_inset
 
@@ -2321,7 +2285,6 @@ al models.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "taylor2015bayesian"
-literal "true"
 
 \end_inset
 
@@ -2345,7 +2308,6 @@ Markov Chain Monte Carlo (MCMC) method is used to generate samples from
 \begin_inset CommandInset citation
 LatexCommand citep
 key "fernandez2016ggmcmc"
-literal "true"
 
 \end_inset
 
@@ -2397,7 +2359,6 @@ Markov chain Monte Carlo is a general method based on drawing values of
 \begin_inset CommandInset citation
 LatexCommand citep
 key "gelman2014bayesian"
-literal "true"
 
 \end_inset
 
@@ -2418,7 +2379,6 @@ PyMC3 is a new, open-source probabilistic programming framework with an
 \begin_inset CommandInset citation
 LatexCommand citep
 key "salvatier2016probabilistic"
-literal "true"
 
 \end_inset
 
@@ -2431,7 +2391,6 @@ y installed when installing via pip
 \begin_inset CommandInset citation
 LatexCommand citep
 key "salvatier2016probabilistic"
-literal "true"
 
 \end_inset
 
@@ -2460,7 +2419,6 @@ The majority of the heavy lifting done by PyMC3 is taken care of with the
 \begin_inset CommandInset citation
 LatexCommand citep
 key "davidson2015bayesian"
-literal "true"
 
 \end_inset
 
@@ -2520,7 +2478,6 @@ The interface to Theano is Python, a powerful and flexible language that
 \begin_inset CommandInset citation
 LatexCommand citep
 key "al2016theano"
-literal "true"
 
 \end_inset
 
@@ -2545,7 +2502,6 @@ Google Analytics (GA) is an easy-to-use tool to measure activity on a website.
 \begin_inset CommandInset citation
 LatexCommand citep
 key "weber2015practical"
-literal "true"
 
 \end_inset
 
@@ -2559,7 +2515,6 @@ Google Analytics is free, and it is always increasing in power, to rival
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kelsey2017introduction"
-literal "true"
 
 \end_inset
 
@@ -2575,7 +2530,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "yang2014tutorials"
-literal "true"
 
 \end_inset
 
@@ -2659,7 +2613,6 @@ A/B testing has widely become the standard controlled experimentation framework
 \begin_inset CommandInset citation
 LatexCommand citep
 key "wilson2017power"
-literal "true"
 
 \end_inset
 
@@ -2672,7 +2625,6 @@ literal "true"
 \begin_inset CommandInset citation
 LatexCommand citep
 key "goldberg2017decision"
-literal "true"
 
 \end_inset
 
@@ -2694,7 +2646,6 @@ A/B testing started to be used in the late 1990s with the growth of the
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kohavi2017online"
-literal "true"
 
 \end_inset
 
@@ -2713,7 +2664,6 @@ In A/B testing, one has a proposed new version of a software platform and
 \begin_inset CommandInset citation
 LatexCommand citep
 key "goldberg2017decision"
-literal "true"
 
 \end_inset
 
@@ -2781,7 +2731,6 @@ Source:
 \begin_inset CommandInset citation
 LatexCommand citealp
 key "omniconvert"
-literal "true"
 
 \end_inset
 
@@ -2949,7 +2898,6 @@ A Decision Theoretic Approach to A/B Testing
 \begin_inset CommandInset citation
 LatexCommand citep
 key "goldberg2017decision"
-literal "true"
 
 \end_inset
 
@@ -3005,7 +2953,6 @@ Always Valid Inference: Bringing Sequential Analysis to A/B Testing
 \begin_inset CommandInset citation
 LatexCommand citep
 key "johari2015always"
-literal "true"
 
 \end_inset
 
@@ -3062,7 +3009,6 @@ Online Controlled Experiments and A/B Testing
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kohavi2017online"
-literal "true"
 
 \end_inset
 
@@ -3117,7 +3063,6 @@ Online Controlled Experiments at Large Scale
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kohavi2013online"
-literal "true"
 
 \end_inset
 
@@ -3173,7 +3118,6 @@ On the Complexity of A/B Testing
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kaufmann2014complexity"
-literal "true"
 
 \end_inset
 
@@ -3230,7 +3174,6 @@ The Power of A/B Testing under Interference
 \begin_inset CommandInset citation
 LatexCommand citep
 key "wilson2017power"
-literal "true"
 
 \end_inset
 
@@ -3487,7 +3430,6 @@ Source:
 \begin_inset CommandInset citation
 LatexCommand citealp
 key "omniconvert"
-literal "true"
 
 \end_inset
 
@@ -3627,7 +3569,6 @@ After you have defined your problem and articulated your hypothesis, you
 \begin_inset CommandInset citation
 LatexCommand citep
 key "cxl"
-literal "true"
 
 \end_inset
 
@@ -3807,7 +3748,6 @@ All the case studies and theories in the world can’t make up for past experien
 \begin_inset CommandInset citation
 LatexCommand citep
 key "omniconvert"
-literal "true"
 
 \end_inset
 
@@ -3820,8 +3760,7 @@ Developing and Testing Page Variants
 
 \begin_layout Standard
 develop, menjelasin tool analytic, penjelasan proses percobaan.
- round robin, google analytics, perubahan2 apa yang dilakukan.
- django mvc design patterns.
+ round robin, google analytics, perubahan2 apa yang dilakukan
 \end_layout
 
 \begin_layout Subsection
@@ -3960,7 +3899,6 @@ is the normalizing constant, which is also called the evidedence
 \begin_inset CommandInset citation
 LatexCommand citep
 key "statisticalmachine"
-literal "true"
 
 \end_inset
 
@@ -4042,7 +3980,6 @@ The distribution of heads and tails in coin tossing is an example of a Bernoulli
 \begin_inset CommandInset citation
 LatexCommand citep
 key "bernoulli"
-literal "true"
 
 \end_inset
 
@@ -4063,7 +4000,6 @@ Pymc3 in analyzing test results of this research is used as probabilistic
 \begin_inset CommandInset citation
 LatexCommand citep
 key "martin2016bayesian"
-literal "true"
 
 \end_inset
 
@@ -4202,7 +4138,7 @@ Else, output
 \begin_inset Formula $\gamma(x|y)=\gamma(y|x)$
 \end_inset
 
-) and the acceptance probability in step 2 is 
+) and the acceptance probability in Step 3 is 
 \begin_inset Formula $\alpha_{HA}(x,y)=min\left\{ \frac{p\left(y\right)}{p\left(x\right)},1\right\} $
 \end_inset
 
@@ -4210,7 +4146,6 @@ Else, output
 \begin_inset CommandInset citation
 LatexCommand citep
 key "minh2015understanding"
-literal "true"
 
 \end_inset
 
@@ -6202,7 +6137,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Nilai rata-rata dari hasil observasi bernoulli didapat dengan bantuan method
+Mencetak hasil nilai rata-rata observasi bernoulli dengan bantuan method
  mean pada library numpy.
  Nilai yang dihasilkan adalah:
 \end_layout
@@ -6220,18 +6155,28 @@ mean_p_C = 0.0743944636678
 \end_layout
 
 \begin_layout Standard
-Nilai rata-rata observasi bernoulli ini menjadi pembaruan nilai belief sesuai
- pada langkah ketiga algoritma bayessian inference.
- Nilai rata-rata observasi bernoulli disebut juga nilai true frequency.
- Nilai true frequency pada kasus ini adalah nilai peluang sebenarnya user
- menyelesaikan pengisian data sampai akhir yang bernilai true.
- Nilai sum observasi bernoulli menunjukkan berapa banyak nilai true yang
- dihasilkan pada distribusi.
- Adapun banyaknya nilai true dari setiap versi adalah sebagai berikut: versi
- A diwakili variabel sum_true_p_A sebanyak 114 kali true, versi B diwakili
- variabel sum_true_p_B sebanyak 138 kali true, dan versi C diwakili variabel
- sum_true_p_C sebanyak 86 kali true.
- Setelah itu, melakukan perhitungan posterior distribution.
+Nilai rata rata ini sekaligus menjadi nilai true frequency
+\end_layout
+
+\begin_layout Standard
+Nilai true atau angka 1 merupakan representasi user yang menyelesaikan pros
+\end_layout
+
+\begin_layout Standard
+Mencetak nilai jumlah dari nilai true yang dihasilkan oleh observasi bernoulli,
+ dengan hasil sebagai berikut
+\end_layout
+
+\begin_layout Standard
+sum_true_p_A = 114 
+\end_layout
+
+\begin_layout Standard
+sum_true_p_B = 138 
+\end_layout
+
+\begin_layout Standard
+sum_true_p_C = 86
 \end_layout
 
 \begin_layout Standard
@@ -6301,31 +6246,10 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Perhitungan posterior distribution dengan algorithma Metropolis-Hastings
- pada pymc probability models.
- Syntaxnya terdapat pada figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Pymc-probabilistic-model"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- Syntax pada bagian ini tidak mencerminkan secara runtut sesuai algoritma
- Metropolis-Hastings.
- Syntax yang ditampilkan hanya memberikan nilai inputan apa saja yang diperlukan
- disertai dengan penggunaan metode probability models dari pymc yang digunakan.
- Proses algoritma dilakukan di balik layar oleh metode probability models
- dari pymc.
- Jadi, algoritma Metropolis-Hastings dijalankan di balik layar oleh metode
- pm.Metropolis().
- Sample algoritma Metropolis-Hastings yang digunakan sebanyak 2000.
- Arti dari trace[1000:] artinya diambil nilai sampling dari nilai ke 1000
- sampai terakhir, hal ini untuk mengambil 95% sample dan mengabaikan 0,05
- (1000 dibagi 20000) sample awal karena dianggap belum konvergen.
+Pymc probability models, jelasin dari model uniform sampling, deterministik
+ nilai posterior a-b, a-c, bc.
+ deterministik bernouli ke model, metropolis dan sampling total data 20000
+ diambil 1000 awal
 \end_layout
 
 \begin_layout Standard
@@ -6361,7 +6285,7 @@ centering
 Pymc probabilistic model results
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Pymc-probabilistic-model-result"
+name "fig:Pymc-probabilistik-model"
 
 \end_inset
 
@@ -6392,38 +6316,8 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Output dari figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Pymc-probabilistic-model"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- adalah hasil posterior distribution yang dibutuhkan untuk proses analisa.
- Output tersebut diekstrak ke dalam beberapa variable, seperti pada figure
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Pymc-probabilistic-model-result"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- Variabel p_A_samples adalah nilai akhir posterior distribution versi A.
- Variabel p_B_samples adalah nilai akhir posterior distribution versi B.
- Variabel p_C_samples adalah nilai akhir posterior distribution versi C.
- Variabel delta_A_B_samples adalah nilai akhir posterior distribution perbanding
-an antara versi A dan versi B.
- Variabel delta_A_C_samples adalah nilai akhir posterior distribution perbanding
-an antara versi A dan versi C.
- Variabel delta_B_C_samples adalah nilai akhir posterior distribution perbanding
-an antara versi B dan versi C.
+menyimpan hasil processing pymc probabilistik model ke variable - variable
+ sebagai bentuk visualisasi dan hasil analisis data
 \end_layout
 
 \begin_layout Standard
@@ -6497,24 +6391,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Posteriror-distribution-P_A"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- merupakan visualisasi posterior distribution probabilistik untuk versi
- A.
- Axis x diplot pada range 0,06 sampai 0,2, Akan tetapi distribusi nilai
- posterior untuk versi A berada diantara 0,07 smpai 0,13.
- Garis vertikal putus-putus merupakan letak nilai prior distribution versi
- A pada variabel true_p_A = 0.10380622837370242 yang sudah dideklarasikan
- pada bagian awal.
- Nilai posterior terbanyak terdapat pada sekitar 0,092.
+posterior distribution probabilistik A, deskripsiin isi codingan
 \end_layout
 
 \begin_layout Standard
@@ -6584,25 +6461,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Posteriror-distribution-P_B"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- merupakan visualisasi posterior distribution probabilistik untuk versi
- B.
- Axis x diplot pada range 0,06 sampai 0,2.
- Akan tetapi, distribusi nilai posterior untuk versi B berada diantara 0,09
- smpai 0,15.
- Garis vertikal putus-putus merupakan letak nilai prior distribution versi
- B pada variabel true_p_B = 0.1115916955017301 yang sudah dideklarasikan
- pada bagian awal.
- Nilai posterior terbanyak terdapat pada sekitar 0,118.
+posterior distribution probabilistik B, deskripsiin isi codingan
 \end_layout
 
 \begin_layout Standard
@@ -6672,25 +6531,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Posteriror-distribution-P_C"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- merupakan visualisasi posterior distribution probabilistik untuk versi
- C.
- Axis x diplot pada range 0,00 sampai 0,1.
- Akan tetapi, distribusi nilai posterior untuk versi C berada diantara 0,05
- smpai 0,09.
- Garis vertikal putus-putus merupakan letak nilai prior distribution versi
- C pada variabel true_p_C = 0.0726643598615917 yang sudah dideklarasikan
- pada bagian awal.
- Nilai posterior terbanyak terdapat pada sekitar 0,072.
+posterior distribution probabilistik C, deskripsiin isi codingan
 \end_layout
 
 \begin_layout Standard
