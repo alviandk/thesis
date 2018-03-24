@@ -6510,7 +6510,7 @@ noprefix "false"
  merupakan visualisasi posterior distribution probabilistik untuk versi
  A.
  Axis x diplot pada range 0,06 sampai 0,2, Akan tetapi distribusi nilai
- posterior untuk versi A berada diantara 0,07 smpai 0,13.
+ posterior untuk versi A berada diantara 0,07 sampai 0,13.
  Garis vertikal putus-putus merupakan letak nilai prior distribution versi
  A pada variabel true_p_A = 0.10380622837370242 yang sudah dideklarasikan
  pada bagian awal.
@@ -6598,7 +6598,7 @@ noprefix "false"
  B.
  Axis x diplot pada range 0,06 sampai 0,2.
  Akan tetapi, distribusi nilai posterior untuk versi B berada diantara 0,09
- smpai 0,15.
+ sampai 0,15.
  Garis vertikal putus-putus merupakan letak nilai prior distribution versi
  B pada variabel true_p_B = 0.1115916955017301 yang sudah dideklarasikan
  pada bagian awal.
@@ -6686,11 +6686,50 @@ noprefix "false"
  C.
  Axis x diplot pada range 0,00 sampai 0,1.
  Akan tetapi, distribusi nilai posterior untuk versi C berada diantara 0,05
- smpai 0,09.
+ sampai 0,09.
  Garis vertikal putus-putus merupakan letak nilai prior distribution versi
  C pada variabel true_p_C = 0.0726643598615917 yang sudah dideklarasikan
  pada bagian awal.
  Nilai posterior terbanyak terdapat pada sekitar 0,072.
+\end_layout
+
+\begin_layout Standard
+Beberapa grafik selanjutnya (figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriror-distribution-deltaAB"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriror-distribution-deltaAC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, dan 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriror-distribution-deltaBC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) merupakan visualisasi posterior distribution kombinasi perbandingan seluruh
+ versi.
+ Kombinasi perbandingan dilakukan untuk setiap dua versi.
+ Kombinasi perbandingan yang dihasilkan adalah perbandingan antara versi
+ A dan B disebut delta A-B, perbandingan antara versi A dan C disebut juga
+ delta A-C, dan perbandingan antara versi B dan C disebut juga delta B-C.
 \end_layout
 
 \begin_layout Standard
@@ -6760,7 +6799,213 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-posterior distribution delta A-B, deskripsiin isi codingan
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriror-distribution-deltaAB"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ merupakan visualisasi posterior distribution probabilistik untuk delta
+ A-B.
+ Distribusi nilai posterior untuk delta A-B berada diantara -0,05 sampai
+ 0,02.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution delta
+ A-B berada pada nilai sekitar -0.01.
+ Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
+ Persebaran posterior distribution lebih banyak berada pada sebelah kiri
+ nilai 0 atau pada nilai negatif.
+ Artinya, variabel pengurang dari perbandingan delta A-B menjadi versi yang
+ lebih baik.
+ Versi B menjadi versi yang lebih baik dibandingkan versi A karena versi
+ B sebagai pengurang pada delta A-B.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/12.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Posteriror distribution delta A-C
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriror-distribution-deltaAC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriror-distribution-deltaAC"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ merupakan visualisasi posterior distribution probabilistik untuk delta
+ A-B.
+ Distribusi nilai posterior untuk delta A-C berada diantara -0,015 sampai
+ 0,06.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution delta
+ A-C berada pada nilai sekitar 0.031.
+ Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
+ Persebaran posterior distribution lebih banyak berada pada sebelah kanan
+ nilai 0 atau pada nilai positif.
+ Artinya, variabel yang dikurangi dari perbandingan delta A-C menjadi versi
+ yang lebih baik.
+ Versi A menjadi versi yang lebih baik dibandingkan versi C karena versi
+ A yang dikurangi pada delta A-C.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/jupyter_code/13.png
+	scale 48
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Posteriror distribution delta B-C
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posteriror-distribution-deltaBC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posteriror-distribution-deltaAB"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ merupakan visualisasi posterior distribution probabilistik untuk delta
+ A-B.
+ Distribusi nilai posterior untuk delta A-B berada diantara 0,01 sampai
+ 0,082.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution delta
+ A-B berada pada nilai sekitar 0.038.
+ Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
+ Persebaran posterior distribution seluruhnya berada pada sebelah kanan
+ nilai 0 atau pada nilai positif.
+ Artinya, variabel yang dikurangi dari perbandingan delta B-C menjadi versi
+ yang lebih baik.
+ Versi B menjadi versi yang lebih baik dibandingkan versi C karena versi
+ B yang dikurangi pada pada delta B-C.
 \end_layout
 
 \begin_layout Standard
@@ -6830,8 +7075,27 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Hasil akhir kombinasi probabilitas seluruh versi.
- 
+Hasil analisa perbandingan postireior distribution sebelumnya sudah mengungkapka
+n bagaimana peringkat perbandingan seluruh versi.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Final-result-combination"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ menunjukan nilai presentase keyakinan untuk seluruh kombinasi perbandingan.
+ Versi A dibanding versi B pemenangnya adalah versi B, dengan keyakinan
+ versi A lebih buruk 96,1 persen (0,961) persen dari versi B.
+ Versi A dibanding versi C pemenangnya adalah versi A, dengan keyakinan
+ versi A lebih baik 97,5 persen (0,975) dari versi C.
+ Versi B dibanding versi C pemenangnya adalah versi B, dengan keyakinan
+ versi B lebih baik 100 persen (1,00) dari versi C.
+ Jadi, versi yang paling baik adalah versi B karena versi B> versi A> versi
+ C.
 \end_layout
 
 \begin_layout Chapter
