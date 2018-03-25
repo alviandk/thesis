@@ -3893,7 +3893,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bayesian inference algorithm
+Bayesian inference algorithm 
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Bayesian-inference-algorithm"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4153,7 +4160,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Metropolis-Hastings Algorithm
+Metropolis-Hastings algorithm 
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Metropolis-Hastings-algorithm"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4299,7 +4313,8 @@ Target Metric
 \end_layout
 
 \begin_layout Standard
-500 pendaftar selama sebulan, presentase penyelesaian data di atas 10%.
+500 unique visitor setiap versi selama satu bulan, presentase penyelesaian
+ data di atas 10%.
 \end_layout
 
 \begin_layout Section
@@ -5084,7 +5099,7 @@ Site C (/ukm/c/)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Survey Page 
+Survey Needs Page 
 \end_layout
 
 \end_inset
@@ -5358,15 +5373,19 @@ jelaskan dan sebutkan setiap alur url A/B/c (bisa dalam bentuk chart urutan
 \end_layout
 
 \begin_layout Standard
-a Survey Page, 
+versi A: Survey Needs Page - Detail Needs Page - Personal Information Page
+ - Thanks Page - Detail Loan Access Page - Ekstra Pesonal Detail Information
+ Page - Congrats Page
 \end_layout
 
 \begin_layout Standard
-b Survey Page, Personal Information Page
+veesi B: Personal Information Page - Detail Loan Access Page - Thanks Page
+ - Survey Needs Page - Detail Needs Page - Congrats Page
 \end_layout
 
 \begin_layout Standard
-c Survey Page,
+versi C: Detail Loan Access Page - Personal Information Page - Thanks Page
+ - Survey Needs Page - Detail Needs Page - Congrats Page
 \end_layout
 
 \begin_layout Standard
@@ -5374,10 +5393,14 @@ kasih reference ke lampiran gambar
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 pembagian traffic round robbin
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset listings
 inline false
 status open
@@ -5491,12 +5514,42 @@ else:
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-penerapan data collection dengan google analytic.
+Testing page variant dilakukan dengan bantuan Google Analytics.
+ Script Google Analytics diterapkan pada setiap step halaman untuk seluruh
+ versi.
+ Syntax script Google Analytic yang digunakan terdapat pada listing program
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "lis:Google-Analytics-implementation"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Pada syntax 
+\begin_inset Quotes eld
+\end_inset
+
+gtag('config', 'UA-70057602-1');
+\begin_inset Quotes erd
+\end_inset
+
+ merupakan penanda tracking yang dimiliki mekargo.
+ Code unik UA-70057602-1 didapat dari dashboard Google Analytic pada akun
+ Google PT Mekar.
  
 \end_layout
 
@@ -5592,15 +5645,23 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-pengujian A/B testing dilakukan dari tanggal 24 September 2017 sampai 23
- Oktober 2017.
- Traffic tinggi terjadi pada tanggal ..., ..., dan ...
- Yang tertinggi pada tanggal ...
- dan yang terendah pada tanggal ...
-\end_layout
+Tracking Google Analytic dilakukan dari tanggal 24 September 2017 sampai
+ 23 Oktober 2017.
+ Traffic tinggi terjadi pada tanggal 3 September 2017, 9-10 Oktober 2017,
+ 13 Oktober 2017 dan 16 Oktober 2017.
+ Grafik fluktuasi traffic pengunjung website mekargo pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Graphic-google-analytics"
+plural "false"
+caps "false"
+noprefix "false"
 
-\begin_layout Standard
-cleaning data membuang dari bot
+\end_inset
+
+ didapat dari dashboard akun Google Analytics PT Mekar.
+ Traffic yang ditunjukkan adalah traffic gabungan untuk seluruh versi A,
+ B, dan C.
 \end_layout
 
 \begin_layout Standard
@@ -5670,8 +5731,36 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-menjelaskan gambar.
- 
+Di bawah grafik traffic terdapat tabel detail statistik pengunjung pada
+ setiap halaman.
+ Tabel statistik pengunjung yang terdapat pada dashboard Google Analytic
+ terlihat seperti pada figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-google-analytics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Tidak seluruh data yang terdapat pada tabel digunakan untuk proses analysis
+ A/B testing.
+ Row yang digunakan dari tabel statistik pengunujung adalah row unique pageviews.
+ Hal ini agar sesuai dengan target metric yang mengukur unique visitor.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-google-analytics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ menunjukkan bahwa tiga data awal unique visitor pada versi A, B dan C sudah
+ memnuhi target unique visitor lebih besar dari 500.
 \end_layout
 
 \begin_layout Standard
@@ -6010,7 +6099,17 @@ reference "fig:Calculate-probability"
 
 \end_inset
 
- merupakan langkah pertama pada algoritma bayesian inference.
+ merupakan langkah pertama pada algoritma bayesian inference 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Bayesian-inference-algorithm"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Hasil operasi syntax ini menentukan nilai probability density atau yang
  disebut juga sebagai prior distribution yang menggambarkan beliefs about
  a parameter.
@@ -6109,8 +6208,17 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Tahap ini merupakan langkah kedua pada algoritma bayesian inference yaitu
- memilih statistical model yang reflects beliefs dengan prior distribution
+Tahap ini merupakan langkah kedua pada algoritma bayesian inference 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Bayesian-inference-algorithm"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ yaitu memilih statistical model yang reflects beliefs dengan prior distribution
  yang dipilih pada langkah sebelumnya.
  Penelitian ini memilih statistical model bernoulli distribution untuk merefleks
 ikan keyakinan terhadap prior distribution pada langkah sebelumnya.
@@ -6221,7 +6329,17 @@ mean_p_C = 0.0743944636678
 
 \begin_layout Standard
 Nilai rata-rata observasi bernoulli ini menjadi pembaruan nilai belief sesuai
- pada langkah ketiga algoritma bayessian inference.
+ pada langkah ketiga algoritma bayessian inference 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Bayesian-inference-algorithm"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Nilai rata-rata observasi bernoulli disebut juga nilai true frequency.
  Nilai true frequency pada kasus ini adalah nilai peluang sebenarnya user
  menyelesaikan pengisian data sampai akhir yang bernilai true.
@@ -6302,6 +6420,16 @@ FloatBarrier
 
 \begin_layout Standard
 Perhitungan posterior distribution dengan algorithma Metropolis-Hastings
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Metropolis-Hastings-algorithm"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
  pada pymc probability models.
  Syntaxnya terdapat pada figure 
 \begin_inset CommandInset ref
@@ -6315,7 +6443,17 @@ noprefix "false"
 
 .
  Syntax pada bagian ini tidak mencerminkan secara runtut sesuai algoritma
- Metropolis-Hastings.
+ Metropolis-Hastings 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Metropolis-Hastings-algorithm"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Syntax yang ditampilkan hanya memberikan nilai inputan apa saja yang diperlukan
  disertai dengan penggunaan metode probability models dari pymc yang digunakan.
  Proses algoritma dilakukan di balik layar oleh metode probability models
