@@ -1639,7 +1639,7 @@ Waktu penelitian antara Agustus 2017 sampai Januari 2018.
 \end_layout
 
 \begin_layout Enumerate
-Penelitian menerapkan taknik A/B testing pada website mekargo.id dengan bantuan
+Penelitian menerapkan teknik A/B testing pada website mekargo.id dengan bantuan
  tools Google Analytics.
 \end_layout
 
@@ -2162,7 +2162,7 @@ centering
 \begin_inset Graphics
 	filename images/jupyter.png
 	lyxscale 70
-	scale 35
+	scale 34
 
 \end_inset
 
@@ -3637,10 +3637,6 @@ literal "true"
 
 \begin_layout Subsubsection
 How to Develop Hypothesis
-\end_layout
-
-\begin_layout Standard
-ada 4 cara yaitu bla bla bla bla
 \end_layout
 
 \begin_layout Standard
