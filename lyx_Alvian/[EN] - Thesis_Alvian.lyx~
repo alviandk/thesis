@@ -1535,8 +1535,9 @@ literal "true"
  Website Mekar Go dengan alamat web https://mekargo.id/ merupakan website
  untuk menghimpun data UKM dan karyawan yang ingin mengajukan pinjaman ke
  Mekar.
- Data yang telah dihimpun pada versi web saat ini menunjukkan konversi peminjam
- yang melengkapi pengisian data dari awal sampai akhir kurang dari 10%.
+ Data yang telah dihimpun pada versi web Mekar GO saat ini menunjukkan konversi
+ peminjam yang melengkapi pengisian data dari awal sampai akhir kurang dari
+ 10%.
  Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
 kan.
  
@@ -1610,11 +1611,11 @@ Problem Identification
 \end_layout
 
 \begin_layout Standard
-Adapun masalah yang dibahas pada penelitian ini adalah bagaimana metode
- yang dilakukan untuk melakukan A/B testing website mekargo.id pada PT Mekar
- Sampoerna Wirausaha, bagaimana cara menganalis hasil A/B testing dengan
- metode bayesian inference dengan tools pymc3, dan versi manakah dari A/B
- testing yang menjadi versi terbaik.
+Adapun masalah yang dibahas pada penelitian ini diantaranya adalah bagaimana
+ metode yang dilakukan untuk melakukan A/B testing website mekargo.id pada
+ PT Mekar Sampoerna Wirausaha, bagaimana cara menganalis hasil A/B testing
+ dengan metode bayesian inference dengan tools pymc3, dan versi manakah
+ dari A/B testing yang menjadi versi terbaik.
 \end_layout
 
 \begin_layout Section
@@ -1663,10 +1664,10 @@ Research Purposes
 \end_layout
 
 \begin_layout Standard
-Tujuan dari penelitian ini adalah melakukan A/B testing website mekargo.id
- pada PT Mekar Sampoerna Wirausaha, melakukan analisis hasil A/B testing
- dengan metode bayesian inference dengan pymc3, mengetahui versi pada A/B
- testing yang menjadi versi terbaik.
+Tujuan dari penelitian ini adalah melakukan A/B testing web mekargo.id pada
+ PT Mekar Sampoerna Wirausaha, melakukan analisis hasil A/B testing dengan
+ metode bayesian inference dengan pymc3, mengetahui versi pada A/B testing
+ yang menjadi versi terbaik.
 \end_layout
 
 \begin_layout Section
@@ -3294,8 +3295,8 @@ Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
  permodalan di Indonesia.
  Mekar memberikan kemudahan akses melalui portal Mekar Go kepada lembaga
  keuangan seperti Bank, perusahaan pembiayaan, dan Bank Perkreditan Rakyat
- (BPR) dalam meningkatkan kualitas pelayanan kepada masyarakat secara mudah,
- aman dan berkualitas.
+ dalam meningkatkan kualitas pelayanan kepada masyarakat secara mudah, aman
+ dan berkualitas.
 \end_layout
 
 \begin_layout Standard
@@ -3819,18 +3820,22 @@ Developing and Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-develop, menjelasin tool analytic, penjelasan proses percobaan.
- round robin, google analytics, perubahan2 apa yang dilakukan.
- django mvc design patterns.
+Developing test variants berisi perubahan field pada form dari versi yang
+ sebelumnya.
+ Selain itu, terdapat juga pendefinisian nama halaman disertai url yang
+ merepresentasi halaman tersebut.
+ Perbedaan versi A, B, dan C ditentukan dari perbedaan urutan url dalam
+ pengisian data peminjam.
+ Cara pembagian traffic untuk setiap versi agar jumlah pengunjung berimbang
+ juga dijelaskan.
+ Testing page variants berisi penjelasan implementasi Google Analytics pada
+ seluruh halaman.
+ Hasil implementasinya dilihat pada dashboard akun Google Analytics dan
+ dilakukan ekstrakting data.
 \end_layout
 
 \begin_layout Subsection
 Analyzing Test Results
-\end_layout
-
-\begin_layout Standard
-menjelasin konsep, metode, algoritma, dan tools program di pymc jupyter.,
- prosedur pake jupyter
 \end_layout
 
 \begin_layout Subsubsection
@@ -3884,10 +3889,6 @@ Let
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -3972,10 +3973,6 @@ literal "true"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -4151,6 +4148,7 @@ Let
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Float algorithm
 wide false
 sideways false
@@ -4212,7 +4210,34 @@ Else, output
 \begin_inset Formula $X_{n+1}=x$
 \end_inset
 
- where densities are assumed to be symmetric (that is, 
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+where densities are assumed to be symmetric (that is, 
 \begin_inset Formula $\gamma(x|y)=\gamma(y|x)$
 \end_inset
 
@@ -4231,21 +4256,8 @@ literal "true"
 .
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter
 RESULTS AND DISCUSSION
-\end_layout
-
-\begin_layout Standard
-Adapun hasil dan pembahasan dari penelitian ini adalah sebagai berikut:
 \end_layout
 
 \begin_layout Section
@@ -4253,13 +4265,16 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-jelaskan versi sebelum ab testing seperti apa, kondisinya bagaimana, yang
- dihasilkan, dan masalahnya apa, yang timbul dan penyebab kira kira 
-\end_layout
-
-\begin_layout Standard
-presentase pendaftar yang menyelesaikan pengisian data masih belum mencapai
- presentase minimal yang ditetapkan.
+PT Mekar atau Sampoerna Wirausaha adalah perusahan fintech yang menjalankan
+ bisnis dengan platform pinjaman peer-to-peer.
+ Dalam pinjam meminjam terdapat peminjam dan pemberi dana.
+ Mekar Go adalah website yang digunakan untuk menghimpun data peminjam.
+ Data yang telah dihimpun pada versi web Mekar GO saat ini menunjukkan konversi
+ peminjam yang melengkapi pengisian data dari awal sampai akhir kurang dari
+ 10%.
+ Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
+kan.
+ 
 \end_layout
 
 \begin_layout Section
@@ -4271,12 +4286,8 @@ Business Objective
 \end_layout
 
 \begin_layout Standard
-Menambah jumlah peminjam yang akan diberikan pinjaman peer-to-peer lending.
-\end_layout
-
-\begin_layout Standard
-To test which site is the highest successfully completed Loan Access and
- Survey submitted? 
+Business objective yang diinginkan adalah menambah jumlah peminjam yang
+ akan diberikan pinjaman peer-to-peer lending.
 \end_layout
 
 \begin_layout Subsection
@@ -4284,10 +4295,9 @@ Website Goal
 \end_layout
 
 \begin_layout Standard
-Meningkatkan jumlah peminjam yang mendaftar, meningkatkan presentase penyelesaia
-n pengisian form pendaftaran oleh peminjam.
- Macro Goal: visitors completed submitting on loan access; Micro Goal: visitors
- completed submitting survey; 
+Website goal yang diinginkan diantaranya adalah: meningkatkan jumlah peminjam
+ yang mendaftar, meningkatkan presentase penyelesaian pengisian form pendaftaran
+ oleh peminjam.
 \end_layout
 
 \begin_layout Subsection
@@ -4295,17 +4305,9 @@ Key Performance Metric
 \end_layout
 
 \begin_layout Standard
-jumlah pendaftar per bulan, presentase penyelesaian pengisian form oleh
- peminjam saat pengisian form pendaftaran.
-\end_layout
-
-\begin_layout Standard
-Traffic Level, High and Low Traffic during the test period.
- 
-\end_layout
-
-\begin_layout Standard
-conversion level 
+Metric yang digunakan sebagai key performance metric adalah: jumlah pendaftar
+ per bulan dan presentase penyelesaian pengisian form oleh peminjam saat
+ pengisian form pendaftaran.
 \end_layout
 
 \begin_layout Subsection
@@ -4313,8 +4315,9 @@ Target Metric
 \end_layout
 
 \begin_layout Standard
-500 unique visitor setiap versi selama satu bulan, presentase penyelesaian
- data di atas 10%.
+Target yang diharapkan adalah 500 unique visitor yang mendaftar untuk setiap
+ versi dan presentase penyelesaian data di atas 10% untuk setiap versi.
+ Kedua target tersebut diuji dalam satu bulan.
 \end_layout
 
 \begin_layout Section
@@ -4340,12 +4343,39 @@ Developing Page Variants
 \end_layout
 
 \begin_layout Standard
-menjelaskan 3 versi, satu control 2 versi, dilihatin bentuk formnya.
+Field yang dilakukan perubahan data dari versi yang sebelumnya terdapat
+ pada tabel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Data-fields-changes"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Bagian perubahan data dikategorikan menjadi dua yaitu personal detail informati
+on dan jaminan.
+ Jenis perubahan yang dilakukan adalah removing data untuk data yang dianggap
+ tidak dibutuhkan.
+ Optional adalah bagian yang diubah menjadi tidak wajib diisi, tapi fieldnya
+ masih ada.
+ Yang terakhir adalah new untuk field baru yang tidak ada pada versi sebelumnya.
+ Perubahan field ini berlaku untuk seluruh versi A, B, dan C.
 \end_layout
 
 \begin_layout Standard
-perubahan yang dilakukan: Remove unnecessary data fields and some data fields
- are changed to optional 
+Perubahan yang dilakukan pada personal detail information adalah meremove
+ field alamat usaha atau tempat bekerja, bidang jenis usaha atau jenis pekerjaan
+, lama usaha atau lama bekerja, jumlah karyawan, foto tempat usaha, status
+ karyawan.
+ Perubahan field yang dijadikan field optional pada bagian personal detail
+ information adalah field email dan foto KTP.
+ Field baru yang ditambahkan pada bagian personal detail information adalah
+ field tanggal lahir.
+ Lalu, bagian jaminan hanya dilakukan perubahan field menjadi optional pada
+ field foto tanah dan bangunan serta foto kendaraan bermotor.
 \end_layout
 
 \begin_layout Standard
@@ -4991,8 +5021,28 @@ v
 \end_layout
 
 \begin_layout Standard
-Untuk membedakan versi A/B testing, digunakan suffik satu huruf alfabet
- (a atau b atau c) sesuai dengan jenis versi.
+Alur pengisian data untuk versi A, B, dan C didefinisikan pada tabel 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Url-definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Setiap halaman dianggap juga sebagai langkah atau step dan diberi nama
+ untuk setiap stepnya.
+ Step pengisian data seluruh versi terdiri dari: survey needs page, detail
+ needs page, personal information page, detail loan access page, ekstra
+ pesonal detail information page, dan congrats page.
+ Versi B dan C tidak terdapat step ekstra pesonal detail information page
+ karena disatukan pada step pesonal detail information page.
+ Url untuk seluruh step hampir sama, yang menjadi pembeda adalah suffik
+ alfabet a atau b atau c setelah /ukm/ pada definisi urlnya.
+ Pembedaan suffix ini untuk memudahkan saat membedakan traffic di Google
+ Analytics dashboard.
 \end_layout
 
 \begin_layout Standard
@@ -5368,39 +5418,59 @@ Congrats Page
 \end_layout
 
 \begin_layout Standard
-jelaskan dan sebutkan setiap alur url A/B/c (bisa dalam bentuk chart urutan
- step)
+Pembeda dari A/B testing ini adalah alur pengisian data dari seluruh versi.
+ Versi A urutan pengisian datanya sama dengan versi sebelumnya.
+ Sedangkan, versi B dan C adalah versi baru yang akan dibandingkan hasilnya
+ manakah yang lebih baik.
+ Adapun urutan alur pengisian data untuk setiap versi adalah sebagai berikut:
+\end_layout
+
+\begin_layout Itemize
+Alur pengisian data versi A: survey needs page - detail needs page - personal
+ information page - thanks page - detail loan access page - ekstra pesonal
+ detail information page - congrats page.
+\end_layout
+
+\begin_layout Itemize
+Alur pengisian data versi B: personal information page - detail loan access
+ page - thanks page - survey needs page - detail needs page - congrats page.
+\end_layout
+
+\begin_layout Itemize
+Alur pengisian data versi C: detail loan access page - personal information
+ page - thanks page - survey needs page - detail needs page - congrats page.
 \end_layout
 
 \begin_layout Standard
-versi A: Survey Needs Page - Detail Needs Page - Personal Information Page
- - Thanks Page - Detail Loan Access Page - Ekstra Pesonal Detail Information
- Page - Congrats Page
+Pembagian traffic agar seimbang untuk versi A, B, dan C dilakukan di bagian
+ server.
+ Bahasa pemrograman bagian server yang digunakan adalah bahasa pemrograman
+ python.
+ Syntax implementasi pembagian traffic terdapat pada listing 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "lis:Round-robin-class"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Logika yang diimplementasikan adalah: pengunjung pertama akan diarahkan
+ ke versi A.
+ Lalu, untuk pengunjung berikutnya, dilakukan query ke database untuk mengetahui
+ versi apa yang terakhir di kunjungi.
+ Jika versi A adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
+ akan diarahkan ke versi B.
+ Jika versi B adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
+ akan diarahkan ke versi C.
+ Jika versi C adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
+ akan diarahkan ke versi A.
+ 
 \end_layout
 
 \begin_layout Standard
-veesi B: Personal Information Page - Detail Loan Access Page - Thanks Page
- - Survey Needs Page - Detail Needs Page - Congrats Page
-\end_layout
-
-\begin_layout Standard
-versi C: Detail Loan Access Page - Personal Information Page - Thanks Page
- - Survey Needs Page - Detail Needs Page - Congrats Page
-\end_layout
-
-\begin_layout Standard
-kasih reference ke lampiran gambar
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-pembagian traffic round robbin
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset listings
 inline false
 status open
@@ -5410,7 +5480,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Round robin class
+Traffic splitting
 \begin_inset CommandInset label
 LatexCommand label
 name "lis:Round-robin-class"
@@ -5514,11 +5584,6 @@ else:
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Testing Page Variants
 \end_layout
@@ -5547,7 +5612,7 @@ gtag('config', 'UA-70057602-1');
 \begin_inset Quotes erd
 \end_inset
 
- merupakan penanda tracking yang dimiliki mekargo.
+ merupakan penanda tracking yang dimiliki Mekar GO.
  Code unik UA-70057602-1 didapat dari dashboard Google Analytic pada akun
  Google PT Mekar.
  
@@ -5649,7 +5714,7 @@ Tracking Google Analytic dilakukan dari tanggal 24 September 2017 sampai
  23 Oktober 2017.
  Traffic tinggi terjadi pada tanggal 3 September 2017, 9-10 Oktober 2017,
  13 Oktober 2017 dan 16 Oktober 2017.
- Grafik fluktuasi traffic pengunjung website mekargo pada figure 
+ Grafik fluktuasi traffic pengunjung website Mekar GO pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Graphic-google-analytics"
@@ -5749,6 +5814,18 @@ noprefix "false"
  A/B testing.
  Row yang digunakan dari tabel statistik pengunujung adalah row unique pageviews.
  Hal ini agar sesuai dengan target metric yang mengukur unique visitor.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-google-analytics"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ menunjukkan bahwa tiga data awal unique visitor pada versi A, B dan C sudah
+ memnuhi target unique visitor lebih besar dari 500.
 \end_layout
 
 \begin_layout Standard
@@ -6127,6 +6204,16 @@ true_p_C = 0.0726643598615917
 \noindent
 Nilai true_p_A, true_p_B, dan true_p_C didapat dengan melakukan operasi
  perhitungan terhadap nilai inisiasi awal yang didapat sebelumnya.
+ Nilai ini menunjukan presentase penyelesaian pengisian data sampai akhir
+ yang berhasil untuk setiap versi.
+ Variabel true_p_A menunjukan presentase penyelesaian pengisian data versi
+ A sebanyak 10,38%.
+ Variabel true_p_B menunjukan presentase penyelesaian pengisian data versi
+ A sebanyak 11,16%.
+ Variabel true_p_C menunjukan presentase penyelesaian pengisian data versi
+ A sebanyak 7,27%.
+ Versi A dan B sudah memenuhi target metrik yang menginginkan presentase
+ penyelesaian pengisian data di atas 10 persen.
 \end_layout
 
 \begin_layout Standard
@@ -6298,8 +6385,8 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Nilai rata-rata dari hasil observasi bernoulli didapat dengan bantuan method
- mean pada library numpy.
+Nilai rata-rata dari hasil observasi bernoulli didapat dengan bantuan library
+ numpy dengan method mean.
  Nilai yang dihasilkan adalah:
 \end_layout
 
@@ -6316,8 +6403,8 @@ mean_p_C = 0.0743944636678
 \end_layout
 
 \begin_layout Standard
-Nilai rata-rata observasi bernoulli ini menjadi pembaruan nilai belief sesuai
- pada langkah ketiga algoritma bayessian inference 
+Nilai rata-rata observasi bernoulli ini menjadi pembaruan nilai belief pada
+ langkah ketiga algoritma bayessian inference 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
