@@ -1611,11 +1611,10 @@ Problem Identification
 \end_layout
 
 \begin_layout Standard
-Adapun masalah yang dibahas pada penelitian ini diantaranya adalah bagaimana
- metode yang dilakukan untuk melakukan A/B testing website mekargo.id pada
- PT Mekar Sampoerna Wirausaha, bagaimana cara menganalis hasil A/B testing
- dengan metode bayesian inference dengan tools pymc3, dan versi manakah
- dari A/B testing yang menjadi versi terbaik.
+Adapun masalah yang dibahas pada penelitian ini adalah menentukan versi
+ manakah dari website mekargo.id pada PT Mekar Sampoerna Wirausaha dengan
+ A/B testing yang menjadi versi terbaik dengan metode bayesian inference
+ dengan tools pymc3.
 \end_layout
 
 \begin_layout Section
@@ -1664,10 +1663,9 @@ Research Purposes
 \end_layout
 
 \begin_layout Standard
-Tujuan dari penelitian ini adalah melakukan A/B testing web mekargo.id pada
- PT Mekar Sampoerna Wirausaha, melakukan analisis hasil A/B testing dengan
- metode bayesian inference dengan pymc3, mengetahui versi pada A/B testing
- yang menjadi versi terbaik.
+Tujuan dari penelitian ini adalah mengetahui versi pada A/B testing yang
+ menjadi versi terbaik website mekargo.id pada PT Mekar Sampoerna Wirausaha
+ dengan metode bayesian inference dengan pymc3, .
 \end_layout
 
 \begin_layout Section
@@ -1680,16 +1678,17 @@ Manfaat yang didapat dari penelitian ini adalah:
 
 \begin_layout Enumerate
 Bagi peneliti, menjadi panduan atau referensi penelitian di bidang sistem
- informasi pada penelitian selanjutnya.
+ informasi pada penelitian A/B testing dengan metode bayessian inference.
 \end_layout
 
 \begin_layout Enumerate
-Bagi peneliti lain, sebagai sumber literatur untuk penelitian yang sejenis.
+Bagi peneliti lain, sebagai sumber literatur untuk penelitian A/B testing
+ dengan metode bayessian inference.
 \end_layout
 
 \begin_layout Enumerate
-Bagi perusahaan yang diteliti, memberikan saran perbaikan dengan terpilihnya
- versi A/B testing yang terbaik.
+Bagi perusahaan yang diteliti, memberikan alternatif pemecahan masalah pemilihan
+ versi terbaik dengan A/B testing.
 \end_layout
 
 \begin_layout Chapter
@@ -3637,10 +3636,6 @@ literal "true"
 
 \begin_layout Subsubsection
 How to Develop Hypothesis
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -6906,6 +6901,181 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row caption="true">
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+List of variables of A,B, and C version
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row endhead="true" endfirsthead="true">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Variable name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Beberapa grafik selanjutnya (figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7319,18 +7489,18 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-Metode penelitian yang dilakukan untuk melakukan A/B testing pada website
- mekargo.id meliputi: identifying problems, defining website measurement,
- developing a hypothesis, developing and testing page variants, dan analyzing
- test results.
- Cara menganalis hasil A/B testing dengan metode bayesian inference dan
+Setelah melakukan A/B testing pada website mekargo.id dengan tahapan metode
+ penelitian yang dilakukan meliputi: identifying problems, defining website
+ measurement, developing a hypothesis, developing and testing page variants,
+ dan analyzing test results.
+ Serta menganalis hasil A/B testing dengan metode bayesian inference dan
  tools pymc3 dilakukan melalui Metropolis-Hastings algorithm sebagai teknik
  sampling, ipython dan jupyter notebook sebagai environment pemrograman,
- scipy untuk memopulasi bernoulli distribution, numpy sebagai penyimpan
+ scipy untuk menghasilkan distribusi bernoulli, numpy sebagai penyimpan
  numerikal data berbentuk array, dan matplotlib sebagai penampil grafik
  hasil pengolahan data.
- Dari hasil akhir seluruh kombinasi probabilitas yang dihasilkan dapat disimpulk
-an bahwa versi B adalah hasil yang terbaik karena selalu lebih baik saat
+ Dapat disimpulkan bahwa hasil akhir seluruh kombinasi probabilitas yang
+ dihasilkan versi B adalah hasil yang terbaik karena selalu lebih baik saat
  dibandingkan dengan versi A dan C.
 \end_layout
 
