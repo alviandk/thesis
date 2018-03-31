@@ -1466,14 +1466,14 @@ Background
 \end_layout
 
 \begin_layout Standard
-Usaha Kecil Menengah (UKM) memiliki peran penting dalam mendorong pertumbuhan
- perekonomian Indonesia.
- Dengan adanya sektor UKM, pengangguran akibat angkatan kerja yang tidak
- terserap dalam dunia kerja menjadi berkurang.
- Sektor UKM pun telah terbukti menjadi pilar perekonomian yang tangguh.
- Kontribusi sektor UKM dalam menentukan Produk Domestik Bruto (PDB) dan
- sektor penghasil devisa negara juga tak perlu diragukan lagi.
- Saat ini, UKM telah dijadikan agenda utama pembangunan ekonomi Indonesia
+Small Medium Enterprise (SMEs) has an important role in encouraging the
+ growth of the Indonesian economy.
+ As presence of SMEs sector, unemployment due to the unabsorbed labor force
+ in the workforce is reduced.
+ SMEs sector has proven to be a pillar of a strong economy.
+ The contribution of the SMEs sector in determining GDP and the country's
+ foreign exchange earning sector is also unquestionable.
+ Currently, SMEs have been the main agenda of Indonesia's economic development
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1487,22 +1487,23 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Masalah mendasar UKM yang paling menonjol menyangkut menyediakan pembiayaan
- usaha alias modal usaha.
- Kebutuhan modal sangat terasa pada saat seseorang ingin memulai usaha baru.
- Alhasil, biasanya bila motivasinya kuat, seseorang akan tetap memulai usaha
- dengan modal seadanya.
- Pada usaha yang sudah berjalan, modal tetap menjadi kendala lanjutan untuk
- berkembang.
- Masalah yang menghadang UKM menyangkut kemampuan akses pembiayaan, akses
- pasar dan pemasaran, tata kelola manajemen usaha kecil serta akses informasi.
- Kesulitan UKM mengakses sumber-sumber modal karena keterbatasan informasi
- dan kemampuan menembus sumber modal tersebut.
- Padahal pilihan sumber modal sangat banyak dan beragam.
- Lembaga keuangan bank adalah sumber modal terbesar yang dapat dimanfaatkan
- oleh pelaku usaha kecil.
- Namun untuk bermitra dengan bank, usaha kecil dituntut menyajikan proposal
- usaha yang feasible atau layak usaha dan menguntungkan 
+The most prominent issue of SMEs involves providing business financing or
+ business capital.
+ Business capital needs are felt when someone wants to start a new business.
+ As a result, usually when the motivation is strong, someone will still
+ start a business with makeshift capital.
+ In the business that has been running, the capital remains a further constraint
+ to develop.
+ Problems facing SMEs concerning the ability of access to finance, market
+ access and marketing, management of small business management and access
+ to information.
+ The difficulties of SMEs to access capital resources because of limited
+ information and ability to penetrate the source of capital.
+ Despite the choice of capital resources are numerous and varied.
+ Bank institutions are the largest source of capital that can be utilized
+ by small business actors.
+ However, to partner with banks, small businesses are required to present
+ business proposals that are feasible or feasible and profitable 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "wuisan2017pengaruh"
@@ -1515,10 +1516,13 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Mekar (PT Sampoerna Wirausaha) didirikan pada 2010 dan dimiliki secara penuh
- oleh Putera Sampoerna Foundation, Mekar bertujuan untuk mempermudah akses
- finansial bagi para pelaku UKM Indonesia sehingga memiliki dampak sosial
- dan ekonomi yang positif di Indonesia 
+Mekar (PT Mekar Investama Sampoerna) is fully supported by the Putera Sampoerna
+ Foundation.
+ Mekar aims to improve access to finance to small businesses that have a
+ positive economic and social impact in Indonesia.
+ We do this by connecting funders with businesses needing finance.
+ To enable this we partner closely with (non-bank) financial institutions
+ which are present all over Indonesia 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "mekar"
@@ -1527,33 +1531,30 @@ literal "true"
 \end_inset
 
 .
- Mekar memberikan solusi dalam membantu Pelaku Usaha Mikro Kecil dan Menengah
- (UMKM) dan Konsumen lainnya untuk mendapatkan Akses Layanan Keuangan atau
- Permodalan di Indonesia.
- Beberapa produk yang dimiliki Mekar diantaranya website utama Mekar.id,
- chat bot dan website Mekar Go.
- Website Mekar Go dengan alamat web https://mekargo.id/ merupakan website
- untuk menghimpun data UKM dan karyawan yang ingin mengajukan pinjaman ke
- Mekar.
- Data yang telah dihimpun pada versi web Mekar GO saat ini menunjukkan konversi
- peminjam yang melengkapi pengisian data dari awal sampai akhir kurang dari
- 10%.
- Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
-kan.
+ Mekar provides solutions to SMEs and other Consumers to get Financial Services
+ Access or Capital in Indonesia.
+ Some products owned by Mekar include Mekar.id main website, chat bot and
+ website of Mekar Go.
+ Mekar Go Website with web address https://mekargo.id/ is a website to collect
+ data of SMEs and employees who want to apply for a loan to Mekar.
+ The data collected on the current version of GO's Web bloom shows the conversio
+n of a borrower who completes the data filling from start to finish less
+ than 10%.
+ This conversion percentage is too small and needs to be improved.
  
 \end_layout
 
 \begin_layout Standard
-Untuk meningkatkan presentase konversi pelengkapan data, tim marketing mengusulk
-an perubahan urutan pengisian data.
- Perubahan urutan pengisian data dibuat menjadi dua versi baru yang selanjutnya
- disebut sebagai versi B dan versi C, dan versi saat ini disebut sebagai
- versi A.
- Ketiga versi tersebut akan dilakukan A/B testing untuk mengetahui versi
- manakah yang menghasilkan presentasi konversi pelengkapan data terbanyak.
- A/B testing adalah proses yang digunakan dalam marketing untuk mengisolasi
- dan menguji faktor-faktor yang mempengaruhi performa versi produk mana
- yang memenuhi kriteria marketing 
+To improve the percentage of data completion conversions, the marketing
+ team proposes changing the order of data filling.
+ The change of the data filling completion is made into two new versions
+ referred to as version B and version C, and the current version is referred
+ to as version A.
+ All three versions will have A / B testing to find out which version produced
+ the most data conversion completion presentation.
+ A / B testing is a process used in marketing to isolate and test factors
+ that affect the performance of which version of a product meets marketing
+ criteria 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "dixon2015b"
@@ -1562,15 +1563,13 @@ literal "true"
 \end_inset
 
 .
- A/B testing banyak digunakan untuk pengoptimalan situs web: dua versi halaman
- web, katakanlah A dan B, secara empiris dibandingkan dengan disajikan kepada
- pengguna.
- Setiap pengguna hanya melihat salah satu dari dua versi, dan tujuannya
- adalah untuk menentukan versi mana yang lebih baik.
- Tujuan yang ingin dicapai pada umumnya adalah untuk menentukan halaman
- web mana yang memiliki tingkat konversi tertinggi (kemungkinan pengguna
- benar-benar menjadi pelanggan) dengan menerima umpan balik dari pengguna
- 
+ A / B testing is widely used for website optimization: two versions of
+ a web page, say A and B, empirically compared to presented to the user.
+ Each user only sees one of two versions, and the goal is to determine which
+ version is better.
+ The goal to be achieved in general is to determine which web page has the
+ highest conversion rate (the possibility of the user actually being a customer)
+ by receiving feedback from the user 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "kaufmann2014complexity"
@@ -1579,11 +1578,10 @@ literal "true"
 \end_inset
 
 .
- Dalam penelitian ini, pengumpulan data umpan balik dari pengguna dibantu
- dengan tools Google Analytics.
- Google Analytics merupakan analytics tool yang dibuat oleh Google, digunakan
- untuk mengukur performa website dan perilaku pengguna saat mengunjungi
- website 
+ In this research, collecting user feedback data is done with Google Analytics
+ tools.
+ Google Analytics is an analytics tool created by Google, used to measure
+ website performance and user behavior while visiting the website 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "yang2014tutorials"
@@ -1592,10 +1590,10 @@ literal "true"
 \end_inset
 
 .
- Setelah data yang dikumpulkan oleh Google Analytics terpenuhi, dilakukan
- proses analisis data dengan metode bayessian inference dan tools pymc3.
- Pymc3 adalah framework probabilistik programming dengan bayessian inference
- yang ditulis dalam bahasa pemrograman python 
+ Once the data collected by Google Analytics is met the expectation, a data
+ analysis process using the bayessian inference and pymc3 as the tools.
+ Pymc3 is a probabilistic programming framework with bayessian inference
+ written in the python programming language 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "salvatier2016probabilistic"
@@ -1611,10 +1609,9 @@ Problem Identification
 \end_layout
 
 \begin_layout Standard
-Adapun masalah yang dibahas pada penelitian ini adalah menentukan versi
- manakah dari website mekargo.id pada PT Mekar Sampoerna Wirausaha dengan
- A/B testing yang menjadi versi terbaik dengan metode bayesian inference
- dengan tools pymc3.
+The problem discussed in this research is to determine which version of
+ mekargo.id website at PT Mekar Sampoerna Wirausaha with A / B testing which
+ become the best version with bayesian inference method with pymc3 tools.
 \end_layout
 
 \begin_layout Section
@@ -1622,40 +1619,40 @@ Scope of Problem
 \end_layout
 
 \begin_layout Standard
-Adapun batasan masalah dari penelitian ini adalah sebagai berikut:
+The problem limitation of this research is as follows:
 \end_layout
 
 \begin_layout Enumerate
-Objek penelitian adalah website mekargo.id.
+The object of research is the website mekargo.id.
 \end_layout
 
 \begin_layout Enumerate
-Penelitian dilakukan di PT Mekar Sampoerna Wirausaha.
+The research was conducted at PT Mekar Sampoerna Wirausaha.
 \end_layout
 
 \begin_layout Enumerate
-Waktu penelitian antara Agustus 2017 sampai Januari 2018.
+Study time between August 2017 to January 2018.
 \end_layout
 
 \begin_layout Enumerate
-Penelitian menerapkan teknik A/B testing pada website mekargo.id dengan bantuan
- tools Google Analytics.
+Data collection method for A / B testing techniques on mekargo.id website
+ with the help of Google Analytics tools.
 \end_layout
 
 \begin_layout Enumerate
-Data yang dihasilkan dari A/B testing dilakukan analisis dengan metode bayesian
- inference menggunakan tools library pymc3, numpy, matplotlib, scipy, jupyter
- dan Ipython dengan bahasa pemrograman python.
+The generated data from A / B testing is analyzed by Bayesian inference
+ analysis using pymc3, numpy, matplotlib, scipy, jupyter and Ipython tools
+ with python programming language.
 \end_layout
 
 \begin_layout Enumerate
-Fitur website mekargo.id yang dibahas adalah fitur pengisian data peminjam.
+Mekargo.id website features that studied is a feature of charging data borrower.
 \end_layout
 
 \begin_layout Enumerate
-Fitur website mekargo.id yang tidak dibahas adalah fitur static page yang
- berisi halaman home, about us, terms and conditions, privacy policy dan
- contact us.
+Mekargo.id website feature that is not discussed is a static page feature
+ that contains the home page, about us, terms and conditions, privacy policy
+ and contact us.
 \end_layout
 
 \begin_layout Section
@@ -1663,9 +1660,9 @@ Research Purposes
 \end_layout
 
 \begin_layout Standard
-Tujuan dari penelitian ini adalah mengetahui versi pada A/B testing yang
- menjadi versi terbaik website mekargo.id pada PT Mekar Sampoerna Wirausaha
- dengan metode bayesian inference dengan pymc3, .
+The purpose of this research is to know the version of A / B testing which
+ is the best version of mekargo.id website at PT Mekar Sampoerna Entrepreneurship
+ with bayesian inference method with pymc3.
 \end_layout
 
 \begin_layout Section
@@ -1673,22 +1670,22 @@ Research Benefits
 \end_layout
 
 \begin_layout Standard
-Manfaat yang didapat dari penelitian ini adalah:
+The benefits of this research are:
 \end_layout
 
 \begin_layout Enumerate
-Bagi peneliti, menjadi panduan atau referensi penelitian di bidang sistem
- informasi pada penelitian A/B testing dengan metode bayessian inference.
+For the researcher, be a guide or research reference in the field of information
+ system in A / B testing with bayessian inference method.
 \end_layout
 
 \begin_layout Enumerate
-Bagi peneliti lain, sebagai sumber literatur untuk penelitian A/B testing
- dengan metode bayessian inference.
+For other researchers, as a literature source for A / B testing with bayessian
+ inference method.
 \end_layout
 
 \begin_layout Enumerate
-Bagi perusahaan yang diteliti, memberikan alternatif pemecahan masalah pemilihan
- versi terbaik dengan A/B testing.
+For the company under study, provide an alternative to solving the problem
+ of choosing the best version with A / B testing.
 \end_layout
 
 \begin_layout Chapter
@@ -6951,7 +6948,7 @@ name "tab:List-of-variables"
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7093,7 +7090,7 @@ noprefix "false"
 
 \end_inset
 
- menunjukkan ...
+ menunjukkan perbandingan variable pada versi A, B, dan C.
 \end_layout
 
 \begin_layout Standard
