@@ -1670,22 +1670,22 @@ Research Benefits
 \end_layout
 
 \begin_layout Standard
-Manfaat yang didapat dari penelitian ini adalah:
+The benefits of this research are:
 \end_layout
 
 \begin_layout Enumerate
-Bagi peneliti, menjadi panduan atau referensi penelitian di bidang sistem
- informasi pada penelitian A/B testing dengan metode bayessian inference.
+For the researcher, be a guide or research reference in the field of information
+ system in A / B testing with bayessian inference method.
 \end_layout
 
 \begin_layout Enumerate
-Bagi peneliti lain, sebagai sumber literatur untuk penelitian A/B testing
- dengan metode bayessian inference.
+For other researchers, as a literature source for A / B testing with bayessian
+ inference method.
 \end_layout
 
 \begin_layout Enumerate
-Bagi perusahaan yang diteliti, memberikan alternatif pemecahan masalah pemilihan
- versi terbaik dengan A/B testing.
+For the company under study, provide an alternative to solving the problem
+ of choosing the best version with A / B testing.
 \end_layout
 
 \begin_layout Chapter
@@ -3284,24 +3284,23 @@ Research Object
 \end_layout
 
 \begin_layout Standard
-Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
- Objek pada peneltian ini adalah website mekargo.id milik Mekar.
- Mekar hadir melalui Mekar Go untuk memberikan solusi dalam membantu pelaku
- UMKM dan konsumen lainnya untuk mendapatkan akses layanan keuangan atau
- permodalan di Indonesia.
- Mekar memberikan kemudahan akses melalui portal Mekar Go kepada lembaga
- keuangan seperti Bank, perusahaan pembiayaan, dan Bank Perkreditan Rakyat
- dalam meningkatkan kualitas pelayanan kepada masyarakat secara mudah, aman
- dan berkualitas.
+The time of the study was conducted between August 2017 and January 2018.
+ The object of this research is Mekar's Mekargo.id website.
+ Mekar through Mekar Go provide solutions in assisting SMEs and other consumers
+ to gain access to financial services or capital access in Indonesia.
+ Mekar provides easy access through portal Mekar Go to financial institutions
+ such as Banks, finance companies, and Rural Banks in improving the quality
+ of service to the community easily, safely and quality.
 \end_layout
 
 \begin_layout Standard
-Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
- Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
-sing versi A/B testing.
- Pengumpulan data dilakukan dengan tools google analytics.
- Data yang didapatkan selanjutnya akan dianalisis dengan metode bayesian
- inference dan pymc3.
+The feature studied in this research is the registration feature for the
+ borrower.
+ The data used is the url address that the registrant visits for each version
+ of A / B testing.
+ Data collection is done with google analytics tools.
+ The data obtained will then be analyzed by bayesian inference and pymc3
+ as tool.
 \end_layout
 
 \begin_layout Section
@@ -3309,11 +3308,11 @@ Research Methodology
 \end_layout
 
 \begin_layout Standard
-Metode penelitian yang dilakukan meliputi: identifying problems, defining
- website measurement, developing a hypothesis, developing and testing page
- variants, dan analyzing test results.
- Gambaran langkah metode penelitian yang dilakukan dapat diilustrasikan
- oleh figure 
+Research methods include: identifying problems, defining website measurement,
+ developing a hypothesis, developing and testing page variants, and analyzing
+ test results.
+ The description of the steps of the research method can be illustrated
+ by figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:ResearchMethod"
@@ -3394,16 +3393,14 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-Masalah yang diidentifikasi adalah yang berhubungan dengan website yang
- akan dilakukan A/B testing.
- Masalah yang diangkat biasanya berhubungan dengan bisnis, marketing, atau
- convertion rate.
- Tergantung pada tujuan apa yang ingin dicapai pada pembuatan A/B testing
- pada website tersebut.
- Masalah yang dijabarkan biasanya dikarenakan ada suatu hal yang timbul
- yang tidak sesuai tujuan.
- Selain itu, dijabarkan pula kondisi saat ini dari website tersebut.
- 
+Issues identified are issues related to the website to be performed A /
+ B testing.
+ The issues raised are usually related to business, marketing, or convertion
+ rate.
+ Depending on what goals to be achieved on making A / B testing on the website.
+ The problem described is usually because there is something that arises
+ that does not match the goal.
+ In addition, also described the current conditions of the website.
 \end_layout
 
 \begin_layout Subsection
@@ -3411,17 +3408,17 @@ Defining Website Measurement
 \end_layout
 
 \begin_layout Standard
-Website measurement adalah pengukuran yang dilakukan untuk memberikan kejalasan
- untuk mencapai target A/B testing yang diinginkan.
- Website measurement terdiri dari beberapa poin indikator bisnis yang dijabarkan
- dari hal yang umum sampai hal yang detil.
- Poin indikator ini terdiri dari business objectives, website goals, key
- performance metrics (KPIs), dan target metrics.
- Dengan adanya penjabaran ini, akan lebih memperjelas apa hasil yang diinginkan
- dari A/B testing ini.
- Sehingga, seluruh anggota tim yang terlibat dapat menyatukan visi dalam
- melakukan A/B testing ini.
- Diagramnya dapat diilustrasikan pada figure 
+Website measurement is a measurement done to provide a goal to achieve the
+ desired A / B testing objectives.
+ Website measurement consists of several business indicator points outlined
+ from the general to the details.
+ This indicator point consists of business objectives, website goals, key
+ performance metrics (KPIs), and target metrics.
+ Given this description, it will be more clear what the desired results
+ of A / B testing are.
+ Thus, all members of the team involved can unify the vision in performing
+ this A / B testing.
+ The diagram can be illustrated in figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Website-measurement"
@@ -3497,8 +3494,8 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-Adapun penjabaran dari poin indikator website measurement tersebut adalah
- sebagai berikut:
+The description of the measurement website indicator points are as follows
+ :
 \end_layout
 
 \begin_layout Itemize
@@ -3506,11 +3503,11 @@ Adapun penjabaran dari poin indikator website measurement tersebut adalah
 \series bold
 Business objectives
 \series default
- adalah sasaran utama yang ingin dicapai pada pembuatan A/B testing.
- Misalnya meningkatkan jumlah penjualan, menambah jumlah user yang mendaftar,
- atau meningkatkan pengunjung pada tampilan halaman.
- Poin ini bergantung pada jenis bisnis yang dijalankan dan tahap apa yang
- sedang terdapat masalah.
+ are the main targets to be achieved in making A / B testing.
+ For example increasing the number of sales, increasing the number of users
+ who register, or increase visitors on page views.
+ This point depends on the type of business being run and what stage is
+ the problem.
 \end_layout
 
 \begin_layout Itemize
@@ -3518,12 +3515,12 @@ Business objectives
 \series bold
 Website goals
 \series default
- adalah tindakan apa yang ingin dicapai atau ditingkatkan pada satu fitur
- website yang dapat memenuhi sasaran poin business objective.
- Jika ingin meningkatkan jumlah penjualan, maka website goal yang harus
- dicapai adalah peningkatan fitur menambahkan barang ke chart sampai melakukan
- pembayaran.
- Website goal bergantung kepada poin business objective yang ingin dicapai.
+ are what actions to achieve or improve on a single website feature that
+ can meet the objectives of a business objective.
+ If you want to increase the number of sales, then the goal website that
+ must be achieved is an increase feature add items to the chart until making
+ payment.
+ Website goals depend on the business objective points to be achieved.
 \end_layout
 
 \begin_layout Itemize
@@ -3531,11 +3528,10 @@ Website goals
 \series bold
 Key performance metrics
 \series default
- adalah ukuran yang menjadi pedoman keberhasilan terhadap hal yang ingin
- dicapai.
- Misalnya ingin meningkatkan penjualan, maka ukuran yang dipakai adalah
- berapa jumlah barang yang dimasukkan ke dalam chart, berapa jumlah barang
- pada chart yang dilakukan checkout pembayaran, dan sebagainya.
+ are measures that guide the success of what you want to achieve.
+ For example want to increase sales, then the size used is how many items
+ entered into the chart, how many items on the chart made checkout payment,
+ and so forth.
 \end_layout
 
 \begin_layout Itemize
@@ -3543,13 +3539,13 @@ Key performance metrics
 \series bold
 Target metrics
 \series default
- adalah berapa target angka yang dijadikan target keberhasilan dari tiap
- key performance metric disertai dengan jangka waktu yang menjadi batasan.
- Misalnya, target jumlah barang yang dimasukkan ke dalam chart minimal 1.000.000
- barang per hari.
- Itu adalah salah satu contoh untuk perusahaan ecommerce yang sudah bersar.
- Target angka yang dijadikan ukuran bergantung pada kondisi saat ini juga.
- Yang terpenting adalah adanya peningkatan.
+ are how many target numbers are targeted for success of each key performance
+ metric accompanied by a timeframe that becomes the limit.
+ For example, target the quantity of goods inserted into a chart of at least
+ 1,000,000 items per day.
+ That is one example for ecommerce companies that already bersar.
+ The targeted number of numbers depends on the current state.
+ The most important is the increase.
 \end_layout
 
 \begin_layout Subsection
@@ -3812,18 +3808,18 @@ Developing and Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-Developing test variants berisi perubahan field pada form dari versi yang
- sebelumnya.
- Selain itu, terdapat juga pendefinisian nama halaman disertai url yang
- merepresentasi halaman tersebut.
- Perbedaan versi A, B, dan C ditentukan dari perbedaan urutan url dalam
- pengisian data peminjam.
- Cara pembagian traffic untuk setiap versi agar jumlah pengunjung berimbang
- juga dijelaskan.
- Testing page variants berisi penjelasan implementasi Google Analytics pada
- seluruh halaman.
- Hasil implementasinya dilihat pada dashboard akun Google Analytics dan
- dilakukan ekstrakting data.
+Developing test variants contain field changes on the form from the previous
+ version.
+ In addition, there is also the definition of the page name accompanied
+ by the url that represents the page.
+ The different versions of A, B, and C are determined by the difference
+ in url sequence in the borrower's data.
+ The way traffic is distributed for each version so that the number of balanced
+ visitors is also explained.
+ Testing page variants contains an explanation of the implementation of
+ Google Analytics on the entire page.
+ The results of its implementation are seen in the dashboard of Google Analytics
+ account and extracting data.
 \end_layout
 
 \begin_layout Subsection
@@ -4257,15 +4253,15 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-PT Mekar atau Sampoerna Wirausaha adalah perusahan fintech yang menjalankan
- bisnis dengan platform pinjaman peer-to-peer.
- Dalam pinjam meminjam terdapat peminjam dan pemberi dana.
- Mekar Go adalah website yang digunakan untuk menghimpun data peminjam.
- Data yang telah dihimpun pada versi web Mekar GO saat ini menunjukkan konversi
- peminjam yang melengkapi pengisian data dari awal sampai akhir kurang dari
- 10%.
- Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
-kan.
+PT Mekar or Sampoerna Wirausaha is a fintech company running a business
+ with a peer-to-peer loan platform.
+ In borrowing lending there are borrowers and lenders.
+ Mekar Go is a website used to collect borrower data.
+ The data collected on the current version of GO's Web blooms shows the
+ conversion of a borrower who completes data filling from start to finish
+ less than 10%.
+ This conversion percentage by the marketing team is too small and needs
+ to be improved.
  
 \end_layout
 
@@ -4278,8 +4274,8 @@ Business Objective
 \end_layout
 
 \begin_layout Standard
-Business objective yang diinginkan adalah menambah jumlah peminjam yang
- akan diberikan pinjaman peer-to-peer lending.
+The desired business objective is to increase the number of borrowers that
+ will be given a peer-to-peer lending loan.
 \end_layout
 
 \begin_layout Subsection
@@ -4287,9 +4283,9 @@ Website Goal
 \end_layout
 
 \begin_layout Standard
-Website goal yang diinginkan diantaranya adalah: meningkatkan jumlah peminjam
- yang mendaftar, meningkatkan presentase penyelesaian pengisian form pendaftaran
- oleh peminjam.
+The desired website goal is: increase the number of borrowers who register,
+ increase the percentage completion of filling the registration form by
+ the borrower.
 \end_layout
 
 \begin_layout Subsection
@@ -4297,9 +4293,9 @@ Key Performance Metric
 \end_layout
 
 \begin_layout Standard
-Metric yang digunakan sebagai key performance metric adalah: jumlah pendaftar
- per bulan dan presentase penyelesaian pengisian form oleh peminjam saat
- pengisian form pendaftaran.
+The metric used as the key performance metric is: the number of registrants
+ per month and the percentage completion of form filling by the borrower
+ upon filling in the registration form.
 \end_layout
 
 \begin_layout Subsection
@@ -4307,9 +4303,9 @@ Target Metric
 \end_layout
 
 \begin_layout Standard
-Target yang diharapkan adalah 500 unique visitor yang mendaftar untuk setiap
- versi dan presentase penyelesaian data di atas 10% untuk setiap versi.
- Kedua target tersebut diuji dalam satu bulan.
+The expected target is 500 unique visitors who register for each version
+ and percentage of data completion above 10% for each version.
+ Both targets are tested within a month.
 \end_layout
 
 \begin_layout Section
@@ -4317,13 +4313,13 @@ Developing a Hypothesis
 \end_layout
 
 \begin_layout Standard
-Presentase penyelesaian pengisian form pendaftaran dipengaruhi oleh urutan
- pengisian form.
- Apabila diubah akan meningkatkan presentasenya.
- Solusi yang diajukan adalah melakukan pengujian A/B testing terhadap dua
- versi baru disertai dengan penyederhanaan dan penyingkatan pengisian data.
- Asumsi awal, salah satu dari dua versi baru ini akan lebih baik daripada
- versi yang sebelumnya.
+The completion percentage of the registration form filling is influenced
+ by the order of form filling.
+ When changed will increase the percentage.
+ The proposed solution is to test A / B testing against two new versions
+ along with simplification and increment of data filling.
+ The initial assumption, one of the two new versions will be better than
+ the previous version.
 \end_layout
 
 \begin_layout Section
@@ -4335,8 +4331,7 @@ Developing Page Variants
 \end_layout
 
 \begin_layout Standard
-Field yang dilakukan perubahan data dari versi yang sebelumnya terdapat
- pada tabel 
+The field that changes the data from the previous version in the table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Data-fields-changes"
@@ -4347,27 +4342,26 @@ noprefix "false"
 \end_inset
 
 .
- Bagian perubahan data dikategorikan menjadi dua yaitu personal detail informati
-on dan jaminan.
- Jenis perubahan yang dilakukan adalah removing data untuk data yang dianggap
- tidak dibutuhkan.
- Optional adalah bagian yang diubah menjadi tidak wajib diisi, tapi fieldnya
- masih ada.
- Yang terakhir adalah new untuk field baru yang tidak ada pada versi sebelumnya.
- Perubahan field ini berlaku untuk seluruh versi A, B, dan C.
+ The data changes section is categorized into two: personal details information
+ and warranties.
+ The type of change made is the removal of data for data that is considered
+ unneeded.
+ Optional is the part changed to not required, but the field still exists.
+ The latter is new for new fields that do not exist in previous versions.
+ This field change applies to all versions of A, B, and C.
 \end_layout
 
 \begin_layout Standard
-Perubahan yang dilakukan pada personal detail information adalah meremove
- field alamat usaha atau tempat bekerja, bidang jenis usaha atau jenis pekerjaan
-, lama usaha atau lama bekerja, jumlah karyawan, foto tempat usaha, status
- karyawan.
- Perubahan field yang dijadikan field optional pada bagian personal detail
- information adalah field email dan foto KTP.
- Field baru yang ditambahkan pada bagian personal detail information adalah
- field tanggal lahir.
- Lalu, bagian jaminan hanya dilakukan perubahan field menjadi optional pada
- field foto tanah dan bangunan serta foto kendaraan bermotor.
+Changes made to personal details information are to remove the business
+ address field or place of employment, field of business type or type of
+ work, length of business or duration of employment, number of employees,
+ photos of place of business, employee status.
+ Changes to fields that are made field optional on the personal details
+ information is email field and photo ID card.
+ The new field added to the personal details information section is the
+ birth date field.
+ Then, the security section is only made field changes to be optional on
+ the field of land and building photos and photos of motor vehicles.
 \end_layout
 
 \begin_layout Standard
@@ -5013,7 +5007,7 @@ v
 \end_layout
 
 \begin_layout Standard
-Alur pengisian data untuk versi A, B, dan C didefinisikan pada tabel 
+The data flow flows for versions A, B, and C are defined in the table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Url-definition"
@@ -5024,17 +5018,17 @@ noprefix "false"
 \end_inset
 
 .
- Setiap halaman dianggap juga sebagai langkah atau step dan diberi nama
- untuk setiap stepnya.
- Step pengisian data seluruh versi terdiri dari: survey needs page, detail
- needs page, personal information page, detail loan access page, ekstra
- pesonal detail information page, dan congrats page.
- Versi B dan C tidak terdapat step ekstra pesonal detail information page
- karena disatukan pada step pesonal detail information page.
- Url untuk seluruh step hampir sama, yang menjadi pembeda adalah suffik
- alfabet a atau b atau c setelah /ukm/ pada definisi urlnya.
- Pembedaan suffix ini untuk memudahkan saat membedakan traffic di Google
- Analytics dashboard.
+ Each page is also considered a step or step and is named for each step.
+ Step fill of all versions of data consists of: survey needs page, detail
+ needs page, personal information page, detail loan access page, extra pesonal
+ detail information page, and congrats page.
+ Version B and C there is no extra step pesonal detail information page
+ because put together in step pesonal detail information page.
+ The url for all the steps is almost identical, the distinguish is the alphabeti
+cal a or b or c after the / ukm / on the url definition.
+ This distinction of suffix makes it easy to differentiate traffic on the
+ Google Analytics dashboard.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -5410,27 +5404,29 @@ Congrats Page
 \end_layout
 
 \begin_layout Standard
-Pembeda dari A/B testing ini adalah alur pengisian data dari seluruh versi.
- Versi A urutan pengisian datanya sama dengan versi sebelumnya.
- Sedangkan, versi B dan C adalah versi baru yang akan dibandingkan hasilnya
- manakah yang lebih baik.
- Adapun urutan alur pengisian data untuk setiap versi adalah sebagai berikut:
+The differentiator from A / B testing is the flow of data from all versions.
+ Version A sequence of data filling is the same as the previous version.
+ Meanwhile, B and C versions are new versions that will be compared which
+ results are better.
+ The sequence of data filling flow for each version is as follows:
 \end_layout
 
 \begin_layout Itemize
-Alur pengisian data versi A: survey needs page - detail needs page - personal
- information page - thanks page - detail loan access page - ekstra pesonal
- detail information page - congrats page.
+Data completion flow of version A: survey needs page - detail needs page
+ - personal information page - thanks page - detail loan access page - ekstra
+ pesonal detail information page - congrats page.
 \end_layout
 
 \begin_layout Itemize
-Alur pengisian data versi B: personal information page - detail loan access
- page - thanks page - survey needs page - detail needs page - congrats page.
+Data completion flow of version B: personal information page - detail loan
+ access page - thanks page - survey needs page - detail needs page - congrats
+ page.
 \end_layout
 
 \begin_layout Itemize
-Alur pengisian data versi C: detail loan access page - personal information
- page - thanks page - survey needs page - detail needs page - congrats page.
+Data completion flow of version C: detail loan access page - personal informatio
+n page - thanks page - survey needs page - detail needs page - congrats
+ page.
 \end_layout
 
 \begin_layout Standard
@@ -5581,11 +5577,9 @@ Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-Testing page variant dilakukan dengan bantuan Google Analytics.
- Script Google Analytics diterapkan pada setiap step halaman untuk seluruh
- versi.
- Syntax script Google Analytic yang digunakan terdapat pada listing program
- 
+Testing page variant is done with the help of Google Analytics.
+ The Google Analytics script applies to each page step for all versions.
+ The Google Analytic Syntax script used in the listing listings 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "lis:Google-Analytics-implementation"
@@ -5596,18 +5590,10 @@ noprefix "false"
 \end_inset
 
 .
- Pada syntax 
-\begin_inset Quotes eld
-\end_inset
-
-gtag('config', 'UA-70057602-1');
-\begin_inset Quotes erd
-\end_inset
-
- merupakan penanda tracking yang dimiliki Mekar GO.
- Code unik UA-70057602-1 didapat dari dashboard Google Analytic pada akun
- Google PT Mekar.
- 
+ PIn syntax "gtag ('config', 'UA-70057602-1');" is a tracking marker owned
+ by Mekar GO.
+ Unique code UA-70057602-1 is obtained from Google Analytic's dashboard
+ on PT Mekar's Google account.
 \end_layout
 
 \begin_layout Standard
@@ -5702,11 +5688,11 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Tracking Google Analytic dilakukan dari tanggal 24 September 2017 sampai
- 23 Oktober 2017.
- Traffic tinggi terjadi pada tanggal 3 September 2017, 9-10 Oktober 2017,
- 13 Oktober 2017 dan 16 Oktober 2017.
- Grafik fluktuasi traffic pengunjung website Mekar GO pada figure 
+Google Analytic Tracking is conducted from September 24, 2017 to October
+ 23, 2017.
+ High traffic occurs on September 3, 2017, October 9-10, 2017, October 13,
+ 2017 and October 16, 2017.
+ Graph fluctuations of visitors traffic website bloom GO in figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Graphic-google-analytics"
@@ -5716,9 +5702,8 @@ noprefix "false"
 
 \end_inset
 
- didapat dari dashboard akun Google Analytics PT Mekar.
- Traffic yang ditunjukkan adalah traffic gabungan untuk seluruh versi A,
- B, dan C.
+ obtained from the dashboard of PT Mekar's Google Analytics account.
+ The traffic shown is the combined traffic for all versions A, B, and C.
 \end_layout
 
 \begin_layout Standard
@@ -5788,10 +5773,10 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Di bawah grafik traffic terdapat tabel detail statistik pengunjung pada
- setiap halaman.
- Tabel statistik pengunjung yang terdapat pada dashboard Google Analytic
- terlihat seperti pada figure 
+Below the traffic graph there is a detailed table of visitor statistics
+ on each page.
+ The visitor statistics table on the Google Analytic dashboard looks like
+ in figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Table-google-analytics"
@@ -5802,10 +5787,9 @@ noprefix "false"
 \end_inset
 
 .
- Tidak seluruh data yang terdapat pada tabel digunakan untuk proses analysis
- A/B testing.
- Row yang digunakan dari tabel statistik pengunujung adalah row unique pageviews.
- Hal ini agar sesuai dengan target metric yang mengukur unique visitor.
+ Not all data contained in the table is used for A / B testing process analysis.
+ The row used from the statistics table of pengunujung is row unique pageviews.
+ This is to match the target metrics that measure unique visitors.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -5816,8 +5800,8 @@ noprefix "false"
 
 \end_inset
 
- menunjukkan bahwa tiga data awal unique visitor pada versi A, B dan C sudah
- memnuhi target unique visitor lebih besar dari 500.
+ shows that three initial data of unique visitor on version A, B and C have
+ fulfilled the target of unique visitor greater than 500.
 \end_layout
 
 \begin_layout Standard
@@ -5891,9 +5875,8 @@ Analyzing Test Results
 \end_layout
 
 \begin_layout Standard
-Data yang didapat dari google analytics dilakukan pemrosesan dan analisa
- dengan metode bayesian inference dengan pymc3.
- 
+Data obtained from google analytics is done processing and analysis with
+ bayesian inference method with pymc3.
 \end_layout
 
 \begin_layout Standard
@@ -5970,11 +5953,11 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Syntax pertama untuk menganalisa hasil A/B tesing pada penelitian ini adalah
- mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, Ipython,
- matplotlib, dan scipy.
- Syntax ini ditulis pada environment jupyter notebook.
- Syntaxnya terdapat pada figure 
+he first syntax to analyze A / B test results in this study is to import
+ all required python libraries ie pymc3, numpy, Ipython, matplotlib, and
+ scipy.
+ This syntax is written in the notebook jupyter environment.
+ The syntax is in the figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:import-library"
@@ -6065,18 +6048,20 @@ reference "fig:Initialize-sample"
 
 \end_inset
 
- berisi syntax inisialisasi nilai awal true_A, true_B, true_C, dan N_sample.
- Nilai awal true_A, true_B, dan true_C berfungsi sebagai variabel penyimpan
- nilai jumlah user yang menyelesaikan proses penyelesaian data pada versi
- A, B, dan C.
- Sedangkan, N_sample sebagai variabel penyimpan banyaknya sample yang digunakan.
- Nilai awal true_A sebanyak 120 user yang menyelesaikan proses pengisian
- data pada versi A, nilai awal true_B sebanyak 129 user yang menyelesaikan
- proses pengisian data pada versi B, dan nilai awal true_C sebanyak 84 user
- yang menyelesaikan proses pengisian data pada versi C.
- Sedangkan, N_sample sebanyak 1156 user sebagai sampel yang melakukan proses
- pengisian data pada setiap versi A, B, dan C.
- Sampel yang digunakan nilainya sama untuk seluruh versi.
+ contains initialization syntax initial value true_A, true_B, true_C, and
+ N_sample.
+ Initial value true_A, true_B, and true_C function as a storage variable
+ value of the number of users completing the data completion process on
+ versions A, B, and C.
+ Meanwhile, N_sample as the storage variable of the number of samples used.
+ Initial value true_A as many as 120 users who completed the process of
+ charging data on version A, the initial value true_B as many as 129 users
+ who completed the process of data filling in version B, and the initial
+ value true_C as many as 84 users who completed the process of data filling
+ in version C.
+ Meanwhile, N_sample 1156 users as samples that perform the process of filling
+ data on each version A, B, and C.
+ Sample used the same value for all versions.
 \end_layout
 
 \begin_layout Standard
@@ -6149,14 +6134,14 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Syntax operasi perhitungan yang terdapat pada figure 
+The syntax of the calculation operation found in figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Calculate-probability"
 
 \end_inset
 
- merupakan langkah pertama pada algoritma bayesian inference 
+ is the first step in bayesian inference algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -6167,17 +6152,15 @@ noprefix "false"
 \end_inset
 
 .
- Hasil operasi syntax ini menentukan nilai probability density atau yang
- disebut juga sebagai prior distribution yang menggambarkan beliefs about
- a parameter.
- Dalam hal ini mengenai jumlah user yang menyelesaikan pengisian data dibandingk
-an jumlah total user yang melakukan pengisian data (yang menyelesaikan ditambah
- yang tidak).
- Variable true_p_A merupakan prior distribution untuk versi A, variable
- true_p_B merupakan prior distribution untuk versi B, dan variable true_p_C
- merupakan prior distribution untuk versi C.
- Adapun nilai prior distribution untuk masing-masing versi adalah sebagai
- berikut: 
+ The result of this syntax operation determines the probability density
+ value or the so-called prior distribution describing beliefs about a parameter.
+ In this case the number of users completing the charging data compared
+ to the total number of users who do the data (which completed plus the
+ not).
+ Variable true_p_A is prior distribution for version A, variable true_p_B
+ is prior distribution for version B, and variable true_p_C is prior distributio
+n for version C.
+ The priority distribution for each version is as follows: 
 \end_layout
 
 \begin_layout Standard
@@ -6194,18 +6177,18 @@ true_p_C = 0.0726643598615917
 
 \begin_layout Standard
 \noindent
-Nilai true_p_A, true_p_B, dan true_p_C didapat dengan melakukan operasi
- perhitungan terhadap nilai inisiasi awal yang didapat sebelumnya.
- Nilai ini menunjukan presentase penyelesaian pengisian data sampai akhir
- yang berhasil untuk setiap versi.
- Variabel true_p_A menunjukan presentase penyelesaian pengisian data versi
- A sebanyak 10,38%.
- Variabel true_p_B menunjukan presentase penyelesaian pengisian data versi
- A sebanyak 11,16%.
- Variabel true_p_C menunjukan presentase penyelesaian pengisian data versi
- A sebanyak 7,27%.
- Versi A dan B sudah memenuhi target metrik yang menginginkan presentase
- penyelesaian pengisian data di atas 10 persen.
+The values true_p_A, true_p_B, and true_p_C are obtained by performing a
+ calculation operation against the initial initiation values gained previously.
+ This value indicates the completion percentage of completing the completed
+ data for each version.
+ The variable true_p_A indicates the completion percentage of A version
+ of data charging as much as 10.38%.
+ The variable true_p_B indicates the completion percentage of data charging
+ A version of 11.16%.
+ The variable true_p_C shows the completion percentage of A version of data
+ filling as much as 7.27%.
+ Versions A and B have met the metric targets that want a percentage completion
+ of data charging above 10 percent.
 \end_layout
 
 \begin_layout Standard
@@ -6275,7 +6258,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Tahap ini merupakan langkah kedua pada algoritma bayesian inference 
+This stage is the second step in the Bayesian inference algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -6285,20 +6268,20 @@ noprefix "false"
 
 \end_inset
 
- yaitu memilih statistical model yang reflects beliefs dengan prior distribution
- yang dipilih pada langkah sebelumnya.
- Penelitian ini memilih statistical model bernoulli distribution untuk merefleks
-ikan keyakinan terhadap prior distribution pada langkah sebelumnya.
- Implementasi pada syntax pythonnya menggunakan method stats yang diimport
- dari library scipy.
- Hasil dari bernoulli distributionnya adalah numpy array yang berisi angka
- random 0 dan 1 yang digenerate sesuai prior distribution untuk masing-masing
- versi A, B, dan C.
- Angka 1 mewakili nilai true dan angka 0 mewakili nilai false.
- Nilai bernoulli distribution yang dihasilkan dari scipy dipengaruhi oleh
- inputan true_p_A, true_p_B, true_p_C dan N_sample.
- Syntax pembuatan statistical model bernoulli distribution dan hasilnya
- bisa dilihat pada figure 
+ that is selecting the statistical model that reflects beliefs with the
+ prior distribution selected in the previous step.
+ This study chose statistical model of bernoulli distribution to reflect
+ belief on prior distribution in the previous step.
+ Implementation on python syntax using stats method imported from library
+ scipy.
+ The result of the bernoulli distribution is the numpy array containing
+ the random numbers 0 and 1 generated according to the prior distribution
+ for each version A, B, and C.
+ The number 1 represents true and the number 0 represents the false value.
+ The value of the bernoulli distribution generated from scipy is affected
+ by the input of true_p_A, true_p_B, true_p_C and N_sample.
+ The syntax of statistical modeling of the bernoulli distribution and the
+ result can be seen in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Bernoulli-observation"
@@ -6306,8 +6289,8 @@ reference "fig:Bernoulli-observation"
 \end_inset
 
 .
- Nilai bernoulli distribution untuk setiap versi disimpan pada variable
- observation_A, observation_B, dan observation_C.
+ The bernoulli distribution value for each version is stored in observation_A,
+ observation_B, and observation_C variables.
 \end_layout
 
 \begin_layout Standard
@@ -6377,9 +6360,9 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Nilai rata-rata dari hasil observasi bernoulli didapat dengan bantuan library
- numpy dengan method mean.
- Nilai yang dihasilkan adalah:
+The average value of the observations of bernoulli is obtained with the
+ help of the numpy library with the mean method.
+ The values are:
 \end_layout
 
 \begin_layout Standard
@@ -6395,8 +6378,8 @@ mean_p_C = 0.0743944636678
 \end_layout
 
 \begin_layout Standard
-Nilai rata-rata observasi bernoulli ini menjadi pembaruan nilai belief pada
- langkah ketiga algoritma bayessian inference 
+The average value of these noulli observations becomes an update of belief
+ values in the third step of the bayessian inference algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -6407,16 +6390,16 @@ noprefix "false"
 \end_inset
 
 .
- Nilai rata-rata observasi bernoulli disebut juga nilai true frequency.
- Nilai true frequency pada kasus ini adalah nilai peluang sebenarnya user
- menyelesaikan pengisian data sampai akhir yang bernilai true.
- Nilai sum observasi bernoulli menunjukkan berapa banyak nilai true yang
- dihasilkan pada distribusi.
- Adapun banyaknya nilai true dari setiap versi adalah sebagai berikut: versi
- A diwakili variabel sum_true_p_A sebanyak 114 kali true, versi B diwakili
- variabel sum_true_p_B sebanyak 138 kali true, dan versi C diwakili variabel
- sum_true_p_C sebanyak 86 kali true.
- Setelah itu, melakukan perhitungan posterior distribution.
+ The average value of noulli observations is called true frequency.
+ The true frequency value in this case is the actual opportunity value of
+ the user completing the data filling until the end is true.
+ The observation value of noulli shows how much true value is generated
+ on the distribution.
+ The true value of each version is as follows: version A is represented
+ as sum_true_p_A variable 114 times true, version B represented sum_true_p_B
+ variable as 138 times true, and C version represented sum_true_p_C variable
+ as much as 86 times true.
+ After that, perform posterior distribution calculations.
 \end_layout
 
 \begin_layout Standard
@@ -6486,7 +6469,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Perhitungan posterior distribution dengan algorithma MH 
+Posterior distribution calculation with MH algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Metropolis-Hastings-algorithm"
@@ -6496,8 +6479,8 @@ noprefix "false"
 
 \end_inset
 
- pada pymc probability models.
- Syntaxnya terdapat pada figure 
+ on pymc probability models.
+ The syntax is found in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pymc-probabilistic-model"
@@ -6508,8 +6491,8 @@ noprefix "false"
 \end_inset
 
 .
- Syntax pada bagian ini tidak mencerminkan secara runtut sesuai algoritma
- Metropolis-Hastings 
+ Syntax in this section does not reflect coherently according to the MH
+ algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Metropolis-Hastings-algorithm"
@@ -6520,16 +6503,16 @@ noprefix "false"
 \end_inset
 
 .
- Syntax yang ditampilkan hanya memberikan nilai inputan apa saja yang diperlukan
- disertai dengan penggunaan metode probability models dari pymc yang digunakan.
- Proses algoritma dilakukan di balik layar oleh metode probability models
- dari pymc.
- Jadi, algoritma Metropolis-Hastings dijalankan di balik layar oleh metode
- pm.Metropolis().
- Sample algoritma Metropolis-Hastings yang digunakan sebanyak 2000.
- Arti dari trace[1000:] artinya diambil nilai sampling dari nilai ke 1000
- sampai terakhir, hal ini untuk mengambil 95% sample dan mengabaikan 0,05
- (1000 dibagi 20000) sample awal karena dianggap belum konvergen.
+ he displayed syntax only provides the value of any input required with
+ the use of the probability models of pymc used.
+ The algorithm process is performed behind the scenes by the probability
+ models of pymc.
+ Thus, the Metropolis-Hastings algorithm is executed behind the scenes by
+ the method of pm.Metropolis ().
+ The sample of the Metropolis-Hastings algorithm used is 2000.
+ The meaning of trace [1000:] means that sampling values are taken from
+ 1000 to last, this is to take 95% sample and ignore 0.05 (1000 divided by
+ 20000) convergent.
 \end_layout
 
 \begin_layout Standard
@@ -6596,7 +6579,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Output dari figure 
+The output of figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pymc-probabilistic-model"
@@ -6606,9 +6589,8 @@ noprefix "false"
 
 \end_inset
 
- adalah hasil posterior distribution yang dibutuhkan untuk proses analisa.
- Output tersebut diekstrak ke dalam beberapa variable, seperti pada figure
- 
+ is the posterior distribution result required for the analysis process.
+ The output is extracted into several variables, as in figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pymc-probabilistic-model-result"
@@ -6619,15 +6601,18 @@ noprefix "false"
 \end_inset
 
 .
- Variabel p_A_samples adalah nilai akhir posterior distribution versi A.
- Variabel p_B_samples adalah nilai akhir posterior distribution versi B.
- Variabel p_C_samples adalah nilai akhir posterior distribution versi C.
- Variabel delta_A_B_samples adalah nilai akhir posterior distribution perbanding
-an antara versi A dan versi B.
- Variabel delta_A_C_samples adalah nilai akhir posterior distribution perbanding
-an antara versi A dan versi C.
- Variabel delta_B_C_samples adalah nilai akhir posterior distribution perbanding
-an antara versi B dan versi C.
+ The variable p_A_samples is the posterior end value of the distribution
+ of version A.
+ The variable p_B_samples is the posterior end value of the distribution
+ of version B.
+ The p_C_samples variable is the final value of the posterior distribution
+ version C.
+ The variable delta_A_B_samples is the posterior end value of the comparison
+ distribution between version A and version B.
+ The delta_A_C_samples variable is the final value posterior distribution
+ comparison between version A and version C.
+ The delta_B_C_samples variable is the final value of the posterior distribution
+ comparison between version B and version C.
 \end_layout
 
 \begin_layout Standard
@@ -6711,14 +6696,13 @@ noprefix "false"
 
 \end_inset
 
- merupakan visualisasi posterior distribution probabilistik untuk versi
- A.
- Axis x diplot pada range 0,06 sampai 0,2, Akan tetapi distribusi nilai
- posterior untuk versi A berada diantara 0,07 sampai 0,13.
- Garis vertikal putus-putus merupakan letak nilai prior distribution versi
- A pada variabel true_p_A = 0.10380622837370242 yang sudah dideklarasikan
- pada bagian awal.
- Nilai posterior terbanyak terdapat pada sekitar 0,092.
+ is a visualization of posterior distribution for version A.
+ Axis x is plotted in the range of 0.06 to 0.2, but the posterior value distributi
+on for version A lies between 0.07 and 0.13.
+ The dotted vertical line is the location of the prior distribution value
+ of A on the variable true_p_A = 0.10380622837370242 that has been declared
+ at the beginning.
+ The most posterior value is at about 0.092.
 \end_layout
 
 \begin_layout Standard
@@ -6798,15 +6782,14 @@ noprefix "false"
 
 \end_inset
 
- merupakan visualisasi posterior distribution probabilistik untuk versi
- B.
- Axis x diplot pada range 0,06 sampai 0,2.
- Akan tetapi, distribusi nilai posterior untuk versi B berada diantara 0,09
- sampai 0,15.
- Garis vertikal putus-putus merupakan letak nilai prior distribution versi
- B pada variabel true_p_B = 0.1115916955017301 yang sudah dideklarasikan
- pada bagian awal.
- Nilai posterior terbanyak terdapat pada sekitar 0,118.
+ is a visualization of posterior distribution for version B.
+ Axis x is plotted in the range of 0.06 to 0.2.
+ However, the posterior value distribution for version B lies between 0.09
+ and 0.15.
+ The dotted vertical line is the location of the prior distribution value
+ of B on the variable true_p_B = 0.1115916955017301 which has been declared
+ at the beginning.
+ The most posterior value is present at about 0.118.
 \end_layout
 
 \begin_layout Standard
@@ -6886,15 +6869,14 @@ noprefix "false"
 
 \end_inset
 
- merupakan visualisasi posterior distribution probabilistik untuk versi
- C.
- Axis x diplot pada range 0,00 sampai 0,1.
- Akan tetapi, distribusi nilai posterior untuk versi C berada diantara 0,05
- sampai 0,09.
- Garis vertikal putus-putus merupakan letak nilai prior distribution versi
- C pada variabel true_p_C = 0.0726643598615917 yang sudah dideklarasikan
- pada bagian awal.
- Nilai posterior terbanyak terdapat pada sekitar 0,072.
+ is a visualization of posterior distribution for version C.
+ Axis x is plotted in the range of 0.00 to 0.1.
+ However, the posterior value distribution for version C lies between 0.05
+ and 0.09.
+ The dashed vertical line is the location of the prior distribution value
+ of C on the variable true_p_C = 0.0726643598615917 which has been declared
+ at the beginning.
+ The most posterior value is present at about 0.072.
 \end_layout
 
 \begin_layout Standard
@@ -7094,7 +7076,7 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-Beberapa grafik selanjutnya (figure 
+The next few graphs(figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Posteriror-distribution-deltaAB"
@@ -7114,7 +7096,7 @@ noprefix "false"
 
 \end_inset
 
-, dan 
+, and 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Posteriror-distribution-deltaBC"
@@ -7124,12 +7106,13 @@ noprefix "false"
 
 \end_inset
 
-) merupakan visualisasi posterior distribution kombinasi perbandingan seluruh
- versi.
- Kombinasi perbandingan dilakukan untuk setiap dua versi.
- Kombinasi perbandingan yang dihasilkan adalah perbandingan antara versi
- A dan B disebut delta A-B, perbandingan antara versi A dan C disebut juga
- delta A-C, dan perbandingan antara versi B dan C disebut juga delta B-C.
+) are the posterior visualization of the combination combinations of all
+ versions.
+ Combination combinations are performed for each of the two versions.
+ The resulting comparison combination is the comparison between versions
+ A and B called delta A-B, the comparison between versions A and C is also
+ called A-C delta, and the comparison between versions B and C is also called
+ B-C delta.
 \end_layout
 
 \begin_layout Standard
@@ -7209,19 +7192,17 @@ noprefix "false"
 
 \end_inset
 
- merupakan visualisasi posterior distribution probabilistik untuk delta
- A-B.
- Distribusi nilai posterior untuk delta A-B berada diantara -0,05 sampai
- 0,02.
- Garis vertikal putus-putus merupakan letak nilai prior distribution delta
- A-B berada pada nilai sekitar -0.01.
- Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
- Persebaran posterior distribution lebih banyak berada pada sebelah kiri
- nilai 0 atau pada nilai negatif.
- Artinya, variabel pengurang dari perbandingan delta A-B menjadi versi yang
- lebih baik.
- Versi B menjadi versi yang lebih baik dibandingkan versi A karena versi
- B sebagai pengurang pada delta A-B.
+ is a visualization of probabilistic distribution for delta A-B.
+ The posterior value distribution for the A-B delta is between -0.05 to 0.02.
+ Dotted vertical line is where the prior distribution value of delta A-B
+ is at a value of about -0.01.
+ The unbroken vertical line shows the value 0 in axis x.
+ Posterior distribution of distribution is more on the left value of 0 or
+ on a negative value.
+ That is, the subtracting variable from the A-B delta comparison becomes
+ the better version.
+ Version B becomes a better version than version A because version B as
+ a delimiter on the A-B delta.
 \end_layout
 
 \begin_layout Standard
@@ -7301,19 +7282,17 @@ noprefix "false"
 
 \end_inset
 
- merupakan visualisasi posterior distribution probabilistik untuk delta
- A-B.
- Distribusi nilai posterior untuk delta A-C berada diantara -0,015 sampai
- 0,06.
- Garis vertikal putus-putus merupakan letak nilai prior distribution delta
- A-C berada pada nilai sekitar 0.031.
- Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
- Persebaran posterior distribution lebih banyak berada pada sebelah kanan
- nilai 0 atau pada nilai positif.
- Artinya, variabel yang dikurangi dari perbandingan delta A-C menjadi versi
- yang lebih baik.
- Versi A menjadi versi yang lebih baik dibandingkan versi C karena versi
- A yang dikurangi pada delta A-C.
+ is a visualization of probabilistic distribution for delta A-B.
+ The posterior value distribution for the A-C delta is between -0.015 to
+ 0.06.
+ Dotted vertical line is where the prior distribution value of delta A-C
+ is at value around 0.031.
+ The unbroken vertical line shows the value 0 in axis x.
+ Posterior distribution of distribution is more to the right of value 0
+ or to a positive value.
+ That is, the reduced variables from the A-C delta ratio to the better versions.
+ Version A becomes a better version than version C because version A is
+ reduced on the A-C delta.
 \end_layout
 
 \begin_layout Standard
@@ -7393,19 +7372,16 @@ noprefix "false"
 
 \end_inset
 
- merupakan visualisasi posterior distribution probabilistik untuk delta
- A-B.
- Distribusi nilai posterior untuk delta A-B berada diantara 0,01 sampai
- 0,082.
- Garis vertikal putus-putus merupakan letak nilai prior distribution delta
- A-B berada pada nilai sekitar 0.038.
- Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
- Persebaran posterior distribution seluruhnya berada pada sebelah kanan
- nilai 0 atau pada nilai positif.
- Artinya, variabel yang dikurangi dari perbandingan delta B-C menjadi versi
- yang lebih baik.
- Versi B menjadi versi yang lebih baik dibandingkan versi C karena versi
- B yang dikurangi pada pada delta B-C.
+ is a visualization of probabilistic distribution for delta A-B.
+ The posterior value distribution for the A-B delta is between 0.01 and 0.082.
+ Dotted vertical line is where the prior distribution value of delta A-B
+ is at a value of about 0.038.
+ The solid vertical line shows the value 0 in axis x.
+ The posterior distribution of the distribution is all to the right of value
+ 0 or to a positive value.
+ That is, the reduced variables of the B-C delta ratio become better versions.
+ Version B is a better version than version C because version B is reduced
+ on the B-C delta.
 \end_layout
 
 \begin_layout Standard
@@ -7475,8 +7451,8 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Hasil analisa perbandingan postireior distribution sebelumnya sudah mengungkapka
-n bagaimana peringkat perbandingan seluruh versi.
+The result of postireior distribution comparison analysis has been conducted,
+ disclose how the rankings of all versions.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7487,15 +7463,15 @@ noprefix "false"
 
 \end_inset
 
- menunjukan nilai presentase keyakinan untuk seluruh kombinasi perbandingan.
- Versi A dibanding versi B pemenangnya adalah versi B, dengan keyakinan
- versi A lebih buruk 96,1 persen (0,961) persen dari versi B.
- Versi A dibanding versi C pemenangnya adalah versi A, dengan keyakinan
- versi A lebih baik 97,5 persen (0,975) dari versi C.
- Versi B dibanding versi C pemenangnya adalah versi B, dengan keyakinan
- versi B lebih baik 100 persen (1,00) dari versi C.
- Jadi, versi yang paling baik adalah versi B karena versi B > versi A >
- versi C.
+ shows the value of the percentage of confidence for all combinations of
+ comparisons.
+ Version A compared to version B the winner is version B, with confidence
+ version A worse 96.1 percent (0.961) percent of version B.
+ Version A compared to version C the winner is version A, with confidence
+ version A better 97.5 percent (0.975) than version C.
+ Version B compared to version C the winner is version B, with confidence
+ version B is better 100 percent (1.00) of version C.
+ So the best version is version B because version B > version A > C version.
 \end_layout
 
 \begin_layout Chapter
@@ -7507,19 +7483,18 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-Setelah melakukan A/B testing pada website mekargo.id dengan tahapan metode
- penelitian yang dilakukan meliputi: identifying problems, defining website
- measurement, developing a hypothesis, developing and testing page variants,
- dan analyzing test results.
- Serta menganalis hasil A/B testing dengan metode bayesian inference dan
- tools pymc3 dilakukan melalui Metropolis-Hastings algorithm sebagai teknik
- sampling, ipython dan jupyter notebook sebagai environment pemrograman,
- scipy untuk menghasilkan distribusi bernoulli, numpy sebagai penyimpan
- numerikal data berbentuk array, dan matplotlib sebagai penampil grafik
- hasil pengolahan data.
- Dapat disimpulkan bahwa hasil akhir seluruh kombinasi probabilitas yang
- dihasilkan versi B adalah hasil yang terbaik karena selalu lebih baik saat
- dibandingkan dengan versi A dan C.
+After performing A / B testing on the website mekargo.id with stages of research
+ methods conducted include: identifying problems, defining website measurement,
+ developing a hypothesis, developing and testing page variants, and analyzing
+ test results.
+ And analyzing the results of A / B testing with bayesian inference and
+ pymc3 tools is done through Metropolis-Hastings algorithm as sampling technique
+, ipython and jupyter notebook as programming environment, scipy to produce
+ bernoulli distribution, numpy as numerical data storage in array form,
+ and matplotlib as viewer graph of result of data processing.
+ It can be concluded that the final result of all combinations of probabilities
+ generated by version B is the best result because it is always better when
+ compared with versions A and C.
 \end_layout
 
 \begin_layout Section
@@ -7527,9 +7502,9 @@ Suggestions
 \end_layout
 
 \begin_layout Standard
-Penelitian berikutnya dapat dicoba untuk melakukan A/B testing dengan versi
- lebih banyak dan pengembangan metode bayesian inference dengan algoritma
- multi-arm bandit.
+Subsequent research can be attempted to perform A / B testing with more
+ versions and development of bayesian inference method with multi-arm bandit
+ algorithm.
 \end_layout
 
 \begin_layout Standard
