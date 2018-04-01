@@ -5430,11 +5430,11 @@ n page - thanks page - survey needs page - detail needs page - congrats
 \end_layout
 
 \begin_layout Standard
-Pembagian traffic agar seimbang untuk versi A, B, dan C dilakukan di bagian
- server.
- Bahasa pemrograman bagian server yang digunakan adalah bahasa pemrograman
- python.
- Syntax implementasi pembagian traffic terdapat pada listing 
+Traffic sharing for balanced versions A, B, and C is done on the server
+ side.
+ The programming language of the server part used is the python programming
+ language.
+ Syntax implementation of traffic sharing is in listing 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "lis:Round-robin-class"
@@ -5445,17 +5445,16 @@ noprefix "false"
 \end_inset
 
 .
- Logika yang diimplementasikan adalah: pengunjung pertama akan diarahkan
- ke versi A.
- Lalu, untuk pengunjung berikutnya, dilakukan query ke database untuk mengetahui
- versi apa yang terakhir di kunjungi.
- Jika versi A adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
- akan diarahkan ke versi B.
- Jika versi B adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
- akan diarahkan ke versi C.
- Jika versi C adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
- akan diarahkan ke versi A.
- 
+ The logic being implemented is: the first visitor will be directed to version
+ A.
+ Then, for the next visitor, query to the database to find out what version
+ was last visited.
+ If version A is the last visited, then the next visitor will be directed
+ to version B.
+ If version B is the last one visited, then the next visitor will be redirected
+ to version C.
+ If the C version is the last one visited, then the next visitors will be
+ directed to version A.
 \end_layout
 
 \begin_layout Standard
