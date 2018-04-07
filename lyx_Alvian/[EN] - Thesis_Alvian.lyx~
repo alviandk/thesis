@@ -453,31 +453,25 @@ Name
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\paragraph_spacing single
+\align center
 
-\begin_layout Plain Layout
-
- 
-\backslash
-vspace*{1cm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
+\series bold
+\begin_inset VSpace vfill
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
 \align center
 
 \series bold
 \size huge
 MASTER DEGREE PROGRAM
+\size tiny
+ 
 \end_layout
 
 \begin_layout Standard
@@ -606,47 +600,6 @@ status open
 
 \backslash
 vspace*{10mm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{12mm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{6mm}
 \end_layout
 
 \end_inset
@@ -930,6 +883,10 @@ Magister Degree of Information System Management
 
 \series bold
 Concentrating on Information System Software
+\begin_inset VSpace vfill
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

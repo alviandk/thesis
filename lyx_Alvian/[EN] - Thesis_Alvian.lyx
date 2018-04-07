@@ -68,6 +68,7 @@
 \newcommand{\Department}{Information System Software}
 %\newcommand{\Prodi}{Direktorat Program Diploma Tiga Teknologi Informasi}
 \newcommand{\Program}{Master Degree Program}
+\newcommand{\Universitas}{Gunadarma Unibersity}
 \newcommand{\Tahun}{2018}
 \newcommand{\Bulan}{February}
 \newcommand{\Tanggal}{12}
@@ -464,22 +465,67 @@ Name
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
-\size huge
-MASTER DEGREE PROGRAM
-\size tiny
- 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Program
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \series bold
-\size huge
-GUNADARMA UNIVERSITY
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Universitas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -552,6 +598,19 @@ Tahun
 
 \series default
 \size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Cover}
+\end_layout
+
+\end_inset
+
 
 \begin_inset ERT
 status open
@@ -894,21 +953,67 @@ Concentrating on Information System Software
 \align center
 
 \series bold
-\size huge
-MASTER DEGREE PROGRAM
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Program
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
-\size huge
-GUNADARMA UNIVERSITY
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Universitas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
@@ -941,7 +1046,6 @@ Kota
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
@@ -971,8 +1075,14 @@ Tahun
 \end_inset
 
 
-\size small
+\end_layout
 
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\series bold
+\size small
 \begin_inset Newpage pagebreak
 \end_inset
 
