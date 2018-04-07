@@ -71,7 +71,7 @@
 \newcommand{\Tahun}{2018}
 \newcommand{\Bulan}{February}
 \newcommand{\Tanggal}{12}
-\newcommand{\Kota}{Depok}
+\newcommand{\Kota}{Jakarta}
 \newcommand{\KataKunci}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
 \newcommand{\KeyWords}{A/B Testing, Bayesian Inference, Pymc3, Website, Google Analytics.}
 \newcommand{\KoordinatorPI}{}
@@ -86,7 +86,7 @@
 \newcommand{\AnggotaUjianC}{}
 \newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
 \newcommand{\JumlahPustaka}{1}
-\newcommand{\JumlahHalaman}{54}
+\newcommand{\JumlahHalaman}{52}
 \newcommand{\JumlahHalamanDepan}{xiii}
 \newcommand{\TahunPustaka}{2013-2018}
 %%
@@ -269,6 +269,346 @@ vspace*{10mm}
 \align center
 
 \series bold
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JudulInggris
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{12mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/LogoGunadarma.png
+	width 35mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{6mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="13cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Written by:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vspace*{1cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Program}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Kota
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\series default
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sloppy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
 \size huge
 GUNADARMA UNIVERSITY
 \end_layout
@@ -305,21 +645,6 @@ status open
 \backslash
 vspace*{12mm}
 \end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename images/LogoGunadarma.png
-	width 35mm
 
 \end_inset
 
@@ -666,6 +991,10 @@ vspace*{1mm}
 Tahun
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1099,22 +1428,8 @@ noindent
 \begin_inset Quotes erd
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-MakeUppercase{
-\backslash
-JudulInggris}
-\end_layout
-
-\end_inset
-
-
+A/B TESTING MEKARGO.ID WEBSITE OF MEKAR PT SAMPOERNA WI- RAUSAHA WITH BAYESIAN
+ INFERENCE AND PYMC3
 \series default
 
 \begin_inset Quotes erd
@@ -1125,58 +1440,39 @@ JudulInggris}
 
 \begin_layout Standard
 \paragraph_spacing single
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
+\begin_inset VSpace medskip
 \end_inset
 
- Master Thesis, 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-Fakultas
 \end_layout
 
+\begin_layout Standard
+\paragraph_spacing single
+Mekar Go with address https://mekargo.id/ is a website to collect data of
+ SMEs and employees who want to apply for a loan to Mekar.
+ The current version of Mekar Go shows the conversion of a borrower who
+ completes the data filling completion less than 10% which needs to be improved.
+ To improve it, changing the order of data filling completion is developed
+ with some different versions.
+ All versions will have A / B testing to find out which version produced
+ the most data conversion completion presentation.
+ Data is collected by Google Analytics and analyzed using bayessian inference
+ algorithm.
+ Bayesian inference analysis is using pymc3, numpy, matplotlib, scipy, jupyter
+ and Ipython tools with python programming language.
+ Markov Chain Monte Carlo method is used to generate samples from a probability
+ distribution.
+ Metropolis-Hastings algorithm as the stochastic sampling technique.
+ Bernoulli distribution as a discrete distribution.
+ Stages of research methods conducted include: identifying problems, defining
+ website measurement, developing a hypothesis, developing and testing page
+ variants, and analyzing test results.
+ The final result is the best version of all probabilities combinations
+ between versions.
+\begin_inset VSpace medskip
 \end_inset
 
-, 
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-Department
-\end_layout
-
-\end_inset
-
- , Gunadarma University, 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Tahun
-\end_layout
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Standard
@@ -1351,8 +1647,8 @@ JudulInggris
 \end_inset
 
 .
- This undergraduate thesis is intended to complete the requirement to finish
- my study in the Informatics Engineering Department, Gunadarma University.
+ This thesis is intended to complete the requirement to finish my study
+ in the Business Information System Department, Gunadarma University.
  This writing would not have been possible without the support and encouragement
  from people around me.
  Therefore, I would like to say thank to:
@@ -1368,7 +1664,7 @@ JudulInggris
 
 \begin_layout Standard
 \align right
-Depok, February 2018
+Depok, April 2018
 \end_layout
 
 \begin_layout Standard
@@ -1537,9 +1833,9 @@ literal "true"
  website of Mekar Go.
  Mekar Go Website with web address https://mekargo.id/ is a website to collect
  data of SMEs and employees who want to apply for a loan to Mekar.
- The data collected on the current version of GO's Web bloom shows the conversio
-n of a borrower who completes the data filling from start to finish less
- than 10%.
+ The data collected on the current version of Mekar Go Website shows the
+ conversion of a borrower who completes the data filling from start to finish
+ less than 10%.
  This conversion percentage is too small and needs to be improved.
  
 \end_layout
@@ -2052,9 +2348,9 @@ Ipython
 \end_layout
 
 \begin_layout Standard
-Ipython is an interactive browser-based environment where you can combine
- code execution, text, mathematics, plots, and rich media into a single
- document.
+Ipython is an interactive browser-based environment where developer can
+ combine code execution, text, mathematics, plots, and rich media into a
+ single document.
  Originally designed for use as an electronic lab notebook for computational
  science, it is increasingly being used in teaching as well, and a rich
  ecosystem of open source plugins and extensions for teaching is growing
@@ -2441,10 +2737,9 @@ The majority of the heavy lifting done by PyMC3 is taken care of with the
  The notation in theano is remarkably similar to NumPy.
  It also supports many of the familiar computational elements of NumPy.
  However, while NumPy directly executes computations, e.g.
- when you run a + b, theano instead builds up a "compute graph" that tracks
- that you want to perform the + operation on the elements a and b.
- Only when you eval() a theano expression does the computation take place
- (i.e.
+ when run a + b, theano instead builds up a "compute graph" that tracks
+ that  to perform the + operation on the elements a and b.
+ Only when eval() a theano expression does the computation take place (i.e.
  theano is lazy evaluated).
  Once the compute graph is built, we can perform all kinds of mathematical
  optimizations (e.g.
@@ -3517,8 +3812,8 @@ Website goals
 \series default
  are what actions to achieve or improve on a single website feature that
  can meet the objectives of a business objective.
- If you want to increase the number of sales, then the goal website that
- must be achieved is an increase feature add items to the chart until making
+ If want to increase the number of sales, then the goal website that must
+ be achieved is an increase feature add items to the chart until making
  payment.
  Website goals depend on the business objective points to be achieved.
 \end_layout
@@ -3528,7 +3823,7 @@ Website goals
 \series bold
 Key performance metrics
 \series default
- are measures that guide the success of what you want to achieve.
+ are measures that guide the success of what to be achieved.
  For example want to increase sales, then the size used is how many items
  entered into the chart, how many items on the chart made checkout payment,
  and so forth.
@@ -3553,15 +3848,8 @@ Developing a Hypothesis
 \end_layout
 
 \begin_layout Standard
-A hypothesis will define why you believe a problem occurs.
- Asumsi awal yang menjadi penyebab masalah pada point 3.3.1 disertai dengan
- pengajuan solusi yang akan diterapkan.
- Menyebutkan hasil akhir dari solusi yang diajukan disertai alasannya.
-\end_layout
-
-\begin_layout Standard
-Many of the variables specifically require you to bring data to the table
- to prioritize your hypotheses.
+Many of the variables specifically require to bring data to the table to
+ prioritize hypotheses.
 \end_layout
 
 \begin_layout Itemize
@@ -3587,7 +3875,6 @@ Having weekly discussions on tests with these 4 questions asked from everyone
  will quickly make people stop relying on just opinions.
  There are also bounds placed on Ease of implementation by bracketing answers
  according to the estimated time.
- Ideally you’d have a test developer be part of prioritization discussions.
 \end_layout
 
 \begin_layout Standard
@@ -3613,9 +3900,9 @@ A well-articulated hypothesis will let split testing results give information
 \end_layout
 
 \begin_layout Standard
-After you have defined your problem and articulated your hypothesis, you
- can start to come up with specific split-testing variations.
- Clearly defining your hypothesis will help you come up with testing variations
+After the problem have defined and hypothesis is articulated, A/B testing
+ can be started to come up with specific split-testing variations.
+ Clearly defining hypothesis will help yo come up with testing variations
  that give meaningful results 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3640,10 +3927,11 @@ Case Studies
  best practices and develop new hypothesis.
  While it’s not always true, case studies often represent solutions that
  might work in a given situation.
- Since at the hypothesis stage, your job is to collect as many plausible
- solutions as you can, digging through case studies can be extremely useful.
+ Since at the hypothesis stage, the job is to collect as many plausible
+ solutions as many as can, digging through case studies can be extremely
+ useful.
  However, not every case study will actually yield actionable insights to
- your specific case.
+ specific case.
  When evaluating a case study, consider these issues: 
 \end_layout
 
@@ -3652,7 +3940,7 @@ Case Studies
 \series bold
 Relevancy
 \series default
-: Is the case study describing a problem that is relevant to your particular
+: Is the case study describing a problem that is relevant to particular
  problem? 
 \end_layout
 
@@ -3661,8 +3949,7 @@ Relevancy
 \series bold
 Audience overlap
 \series default
-: Is the case study about a website that has a similar audience to yours?
- 
+: Is the case study about a website that has a similar audience? 
 \end_layout
 
 \begin_layout Itemize
@@ -3671,7 +3958,7 @@ Audience overlap
 Accuracy
 \series default
 : Are the results from the case study accurate enough? Was the testing carried
- out to a high degree of confidence? Far too many times, you’ll find companies
+ out to a high degree of confidence? Far too many times, many companies
  promoting case studies that are not statistically accurate.
  
 \end_layout
@@ -3693,10 +3980,10 @@ Scope
 \series default
 : Plenty of case studies focus on “small wins” or micro-conversions, such
  as the CTR for a button.
- Such results might look good, but unless they improve your target metrics,
- they are effectively meaningless.
+ Such results might look good, but unless they improve target metrics, they
+ are effectively meaningless.
  Always consider the scope of the study before borrowing its learnings in
- your own tests.
+ the developed tests.
 \end_layout
 
 \begin_layout Standard
@@ -3713,8 +4000,7 @@ Best Practices
 \series default
 : Best practices are just that - a practice assumed to be correct by default
  in any non-specific case.
- For example, placing your navigation bar at the top of the page is a “best
- practice”.
+ For example, placing navigation bar at the top of the page is a “best practice”.
  Best practices spring from three things:
 \end_layout
 
@@ -3725,8 +4011,8 @@ Convention
 \series default
 : Some design choices are made just because that’s the way things have always
  been done.
- In most cases, it’s better to follow conventions since your customers are
- already used to it.
+ In most cases, it’s better to follow conventions since customers are already
+ used to it.
  Breaking convention might cause confusion.
 \end_layout
 
@@ -3768,16 +4054,16 @@ Theory
 \series default
 : Conversion rate optimization sits at the intersection of sales, design
  and psychology.
- As such, any hypothesis you come up with will likely involve theories from
+ As such, any hypothesis  come up with will likely involve theories from
  each of these fields.
- To give you an example, good UI/UX design relies heavily on Gestalt psychology
+ To give an example, good UI/UX design relies heavily on Gestalt psychology
  (such as the Law of Proximity and the Law of Similarity).
- This also informs the decisions you make when designing a conversion-optimized
+ This also informs the decisions make when designing a conversion-optimized
  page.
- A strong understanding of theory will help you create better hypotheses.
- You don’t have to know all of the above, but a firm grasp of psychological
- and emotional triggers that lead to sales will greatly help you improve
- conversions.
+ A strong understanding of theory will help create better hypotheses.
+ All of the above knowledges is not required to know, but a firm grasp of
+ psychological and emotional triggers that lead to sales will greatly help
+ improve conversions.
 \end_layout
 
 \begin_layout Standard
@@ -3790,9 +4076,8 @@ All the case studies and theories in the world can’t make up for past experien
  to the table that non-practitioners wouldn’t know.
  It’s not unusual to find that the most successful hypothesis is usually
  the one that springs from experience, not theory or case studies.
- A CRO expert who has already dealt with a site similar to yours in the
- same niche will likely have tons of ideas for improving your conversion
- rates 
+ A CRO expert who has already dealt with a site similar to in the same niche
+ will likely have tons of ideas for improving conversion rates 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "omniconvert"
@@ -3970,11 +4255,6 @@ literal "true"
 
 \begin_layout Subsubsection
 Bernoulli Distribution
-\end_layout
-
-\begin_layout Standard
-Bernoulli distribution pada penelitian digunakan untuk ..., dibuat dengan library
- scipy dengan pada modul scipy.stats.bernoulli
 \end_layout
 
 \begin_layout Standard
@@ -4257,7 +4537,7 @@ PT Mekar or Sampoerna Wirausaha is a fintech company running a business
  with a peer-to-peer loan platform.
  In borrowing lending there are borrowers and lenders.
  Mekar Go is a website used to collect borrower data.
- The data collected on the current version of GO's Web blooms shows the
+ The data collected on the current version of Mekar Go website shows the
  conversion of a borrower who completes data filling from start to finish
  less than 10%.
  This conversion percentage by the marketing team is too small and needs
@@ -5691,7 +5971,7 @@ Google Analytic Tracking is conducted from September 24, 2017 to October
  23, 2017.
  High traffic occurs on September 3, 2017, October 9-10, 2017, October 13,
  2017 and October 16, 2017.
- Graph fluctuations of visitors traffic website bloom GO in figure
+ Graph fluctuations of visitors traffic Mekar Go Website website in figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Graphic-google-analytics"
@@ -6223,7 +6503,7 @@ centering
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bernoulli observation
+Bernoulli distribution observation
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Bernoulli-observation"
@@ -6322,7 +6602,7 @@ centering
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Sum and mean of bernoulli observation
+Sum and mean of bernoulli distribution observation
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Sum-and-mean"
@@ -6880,7 +7160,7 @@ noprefix "false"
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="4">
+<lyxtabular version="3" rows="6" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="3cm">
@@ -6982,7 +7262,7 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+users completing the data completion 
 \end_layout
 
 \end_inset
@@ -6991,7 +7271,11 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
+true_A
+\end_layout
 
+\begin_layout Plain Layout
+120
 \end_layout
 
 \end_inset
@@ -7000,7 +7284,11 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
+true_B
+\end_layout
 
+\begin_layout Plain Layout
+129
 \end_layout
 
 \end_inset
@@ -7009,7 +7297,111 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
+true_C
+\end_layout
 
+\begin_layout Plain Layout
+84
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+completion percentage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+true_p_A
+\end_layout
+
+\begin_layout Plain Layout
+0.103806228 37370242
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+true_p_B
+\end_layout
+
+\begin_layout Plain Layout
+0.1115916955 017301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+true_p_C
+\end_layout
+
+\begin_layout Plain Layout
+0.0726643 598615917
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+average of the bernoulli observations
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sum_true_p_A
+\end_layout
+
+\begin_layout Plain Layout
+114
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sum_true_p_B
+\end_layout
+
+\begin_layout Plain Layout
+138
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sum_true_p_C
+\end_layout
+
+\begin_layout Plain Layout
+86
 \end_layout
 
 \end_inset
@@ -7020,7 +7412,7 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+mean of the bernoulli observations
 \end_layout
 
 \end_inset
@@ -7029,7 +7421,11 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
+mean_p_A
+\end_layout
 
+\begin_layout Plain Layout
+0.098615916955
 \end_layout
 
 \end_inset
@@ -7038,7 +7434,11 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
+mean_p_B
+\end_layout
 
+\begin_layout Plain Layout
+0.11937716263
 \end_layout
 
 \end_inset
@@ -7047,7 +7447,11 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
+mean_p_C
+\end_layout
 
+\begin_layout Plain Layout
+0.07439446366 78
 \end_layout
 
 \end_inset
