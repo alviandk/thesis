@@ -86,8 +86,8 @@
 \newcommand{\AnggotaUjianC}{}
 \newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
 \newcommand{\JumlahPustaka}{1}
-\newcommand{\JumlahHalaman}{52}
-\newcommand{\JumlahHalamanDepan}{xiii}
+\newcommand{\JumlahHalaman}{53}
+\newcommand{\JumlahHalamanDepan}{xi}
 \newcommand{\TahunPustaka}{2013-2018}
 %%
 %% Keterangan administratif sidang sarjana
@@ -453,52 +453,32 @@ Name
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
+\paragraph_spacing single
+\align center
 
-\begin_layout Plain Layout
+\series bold
+\begin_inset VSpace vfill
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\series bold
+\size huge
+MASTER DEGREE PROGRAM
+\size tiny
  
-\backslash
-vspace*{1cm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \series bold
-\size largest
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-MakeUppercase{
-\backslash
-Program}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size largest
+\size huge
 GUNADARMA UNIVERSITY
 \end_layout
 
@@ -506,7 +486,19 @@ GUNADARMA UNIVERSITY
 \align center
 
 \series bold
-\size largest
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -526,7 +518,19 @@ Kota
 \align center
 
 \series bold
-\size largest
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -539,6 +543,8 @@ Tahun
 
 \end_inset
 
+
+\size largest
 
 \begin_inset Newpage pagebreak
 \end_inset
@@ -594,72 +600,6 @@ status open
 
 \backslash
 vspace*{10mm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size huge
-GUNADARMA UNIVERSITY
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size larger
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-MakeUppercase{
-\backslash
-Program}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{12mm}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{6mm}
 \end_layout
 
 \end_inset
@@ -922,6 +862,7 @@ vspace*{1cm}
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
 \align center
 
 \series bold
@@ -929,6 +870,7 @@ Submitted as a Partial Fulllment of the Requirements for
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
 \align center
 
 \series bold
@@ -936,17 +878,40 @@ Magister Degree of Information System Management
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
 \align center
 
 \series bold
 Concentrating on Information System Software
+\begin_inset VSpace vfill
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
 \align center
 
 \series bold
-\size small
+\size huge
+MASTER DEGREE PROGRAM
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\series bold
+\size huge
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\series bold
 \begin_inset ERT
 status open
 
@@ -954,8 +919,14 @@ status open
 
 
 \backslash
-vspace*{2mm}
+huge
 \end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
@@ -970,10 +941,10 @@ Kota
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
 \align center
 
 \series bold
-\size small
 \begin_inset ERT
 status open
 
@@ -981,8 +952,14 @@ status open
 
 
 \backslash
-vspace*{1mm}
+huge
 \end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
 
@@ -994,7 +971,317 @@ Tahun
 \end_inset
 
 
+\size small
+
 \begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+ORIGINALITY STATEMENTS AND PUBLICATIONS 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Originality Statements and Publications}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+I, the undersigned below:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="45mm">
+<column alignment="center" valignment="top" width="1mm">
+<column alignment="left" valignment="top" width="80mm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+NPM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Title
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JudulInggris
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Date of Thesis Defence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+April
+\size small
+, 22 2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Date of Graduation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+stated that this research is my own work and can be published entirely by
+ Gunadarma University.
+ All quotations of any kind have followed the rules and ethics of the day.
+ Content and writing are the responsibility of the author.
+\end_layout
+
+\begin_layout Standard
+\noindent
+This statement is made in truth and with full awareness.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+Jakarta, 16, April 2018
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 2.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Name
+\end_layout
+
 \end_inset
 
 
@@ -1005,11 +1292,28 @@ PAGE OF APPROVAL
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Page of Approval}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
+<lyxtabular version="3" rows="5" columns="3">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="35mm">
+<column alignment="left" valignment="top" width="45mm">
 <column alignment="center" valignment="top" width="1mm">
 <column alignment="left" valignment="top" width="80mm">
 <row>
@@ -1165,7 +1469,7 @@ NPM
 \begin_layout Plain Layout
 
 \size small
-Date of Graduation
+Date of Thesis Defence
 \end_layout
 
 \end_inset
@@ -1183,9 +1487,40 @@ Date of Graduation
 \begin_inset Text
 
 \begin_layout Plain Layout
-M
+April
 \size small
-ay, 12 2017
+, 22 2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Date of Graduation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1654,6 +1989,92 @@ JudulInggris
  Therefore, I would like to say thank to:
 \end_layout
 
+\begin_layout Enumerate
+Prof.
+ Dr.
+ Hj.
+ E.S.
+ Margianti, SE., MM, as Rector of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+Prof.
+ Dr.
+ Yuhara Sukra MSc, as Coordinator of Postgraduate Program of Gunadarma Universit
+y.
+\end_layout
+
+\begin_layout Enumerate
+Prof.
+ Dr.
+ Dharma Tintri Ediraras, as Director of Postgraduate Program of Gunadarma
+ University.
+\end_layout
+
+\begin_layout Enumerate
+Dr.
+ Yuhilza Hanum SSi, SKom, MEng, Diploma Program’s Chief of Post- graduate
+ Program of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+Remi Senjaya, ST., MMSI, as Secretary of Sarjana Magister (Sarmag) Program.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Supervisor
+\end_layout
+
+\end_inset
+
+ as supervisor of this work, for her pa- tience has guided the author and
+ examined the author’s work in finish- ing this thesis.
+\end_layout
+
+\begin_layout Enumerate
+My lovely wife Dyah Ayu Sukmawati for a lot of supports and kindness that
+ always burns up my spirit to finish my thesis.
+\end_layout
+
+\begin_layout Enumerate
+My beloved family, Father, Mother, Brother, Mother in Law, Father in Law,
+ Brothers and Sisters in law for all supports, kindness, motivations and
+ great affection that they have given.
+\end_layout
+
+\begin_layout Enumerate
+PT Mekar Sampoerna Wirausaha, Dandi Rusli (CTO) and all others team members
+ who gave permission to do research and help my development as a software
+ developer.
+\end_layout
+
+\begin_layout Enumerate
+All my friends, especially in Sarjana Magister (SarMag) SI - 03 for a lot
+ of supports, sharings, jokes, and brother-sister hood.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Author realizes that there are no perfect things in the world, same as this
+ work which may has many mistakes.
+ Therefore, Author still looking forward to get some criticism and suggestion
+ from anyone to make this work better in the future.
+ Hopefully, this work can bring some advantages to readers.
+\end_layout
+
 \begin_layout Standard
 .
 \begin_inset Separator latexpar
@@ -1664,7 +2085,7 @@ JudulInggris
 
 \begin_layout Standard
 \align right
-Depok, April 2018
+Jakarta, April 2018
 \end_layout
 
 \begin_layout Standard
