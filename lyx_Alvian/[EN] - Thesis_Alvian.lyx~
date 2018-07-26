@@ -68,6 +68,7 @@
 \newcommand{\Department}{Information System Software}
 %\newcommand{\Prodi}{Direktorat Program Diploma Tiga Teknologi Informasi}
 \newcommand{\Program}{Master Degree Program}
+\newcommand{\Universitas}{Gunadarma University}
 \newcommand{\Tahun}{2018}
 \newcommand{\Bulan}{February}
 \newcommand{\Tanggal}{12}
@@ -86,7 +87,7 @@
 \newcommand{\AnggotaUjianC}{}
 \newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
 \newcommand{\JumlahPustaka}{1}
-\newcommand{\JumlahHalaman}{53}
+\newcommand{\JumlahHalaman}{52}
 \newcommand{\JumlahHalamanDepan}{xi}
 \newcommand{\TahunPustaka}{2013-2018}
 %%
@@ -464,22 +465,67 @@ Name
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
-\size huge
-MASTER DEGREE PROGRAM
-\size tiny
- 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Program
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \series bold
-\size huge
-GUNADARMA UNIVERSITY
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Universitas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -552,6 +598,19 @@ Tahun
 
 \series default
 \size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Cover}
+\end_layout
+
+\end_inset
+
 
 \begin_inset ERT
 status open
@@ -678,7 +737,7 @@ Written by:
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="3">
+<lyxtabular version="3" rows="2" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -737,7 +796,7 @@ Name
 \begin_layout Plain Layout
 
 \series bold
-Student Id
+NPM
 \end_layout
 
 \end_inset
@@ -767,53 +826,6 @@ status open
 
 \backslash
 NPM
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Supervisor
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Supervisor
 \end_layout
 
 \end_inset
@@ -894,21 +906,67 @@ Concentrating on Information System Software
 \align center
 
 \series bold
-\size huge
-MASTER DEGREE PROGRAM
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Program
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
-\size huge
-GUNADARMA UNIVERSITY
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Universitas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
@@ -941,7 +999,6 @@ Kota
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
@@ -971,8 +1028,14 @@ Tahun
 \end_inset
 
 
-\size small
+\end_layout
 
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\series bold
+\size small
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -2001,20 +2064,20 @@ Prof.
 Prof.
  Dr.
  Yuhara Sukra MSc, as Coordinator of Postgraduate Program of Gunadarma Universit
-y.
-\end_layout
-
-\begin_layout Enumerate
-Prof.
- Dr.
- Dharma Tintri Ediraras, as Director of Postgraduate Program of Gunadarma
- University.
+y
 \end_layout
 
 \begin_layout Enumerate
 Dr.
- Yuhilza Hanum SSi, SKom, MEng, Diploma Program’s Chief of Post- graduate
- Program of Gunadarma University.
+ Tubagus Maulana Kusuma, SKom., MEngSc., as Director of Postgraduate Program
+ of Gunadarma University Dr.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Yuhilza Hanum SSi, SKom, MEng, Diploma Program’s Head of Postgraduate Program
+ of Gunadarma University.
+ 
 \end_layout
 
 \begin_layout Enumerate
@@ -2034,8 +2097,8 @@ Supervisor
 
 \end_inset
 
- as supervisor of this work, for her pa- tience has guided the author and
- examined the author’s work in finish- ing this thesis.
+ as supervisor of this work, for his patience has guided the author and
+ examined the author’s work in finis ing this thesis.
 \end_layout
 
 \begin_layout Enumerate
@@ -2363,7 +2426,7 @@ The generated data from A / B testing is analyzed by Bayesian inference
 \end_layout
 
 \begin_layout Enumerate
-Mekargo.id website features that studied is a feature of charging data borrower.
+Mekargo.id website features that studied is a feature of input data by borrower.
 \end_layout
 
 \begin_layout Enumerate
@@ -2988,9 +3051,9 @@ literal "true"
 
 \begin_layout Standard
 The Bayesian modeling paradigm involves setting up a probabilistic model
- describing how data was gen- erated, assigning prior distributions over
- unknown model parameters, and then calculating a posterior distribution
- over these parameters.
+ describing how data was generated, assigning prior distributions over unknown
+ model parameters, and then calculating a posterior distribution over these
+ parameters.
  In practice, this posterior distribution is often intractable to compute
  exactly except for the simplest models.
  This often requires one to resort to approximate posterior inference algorithms
@@ -4795,6 +4858,14 @@ Metropolis-Hastings algorithm (MH) is one of special forms of the Hastings
 \begin_inset Formula $\pi(\text{·})$
 \end_inset
 
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "minh2015understanding"
+literal "true"
+
+\end_inset
+
 .
 \end_layout
 
@@ -4932,14 +5003,6 @@ where densities are assumed to be symmetric (that is,
 
 ) and the acceptance probability in step 2 is 
 \begin_inset Formula $\alpha_{HA}(x,y)=min\left\{ \frac{p\left(y\right)}{p\left(x\right)},1\right\} $
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "minh2015understanding"
-literal "true"
-
 \end_inset
 
 .
@@ -8329,9 +8392,8 @@ Suggestions
 \end_layout
 
 \begin_layout Standard
-Subsequent research can be attempted to perform A / B testing with more
- versions and development of bayesian inference method with multi-arm bandit
- algorithm.
+Future research can be attempted to perform A / B testing with more versions
+ and development of bayesian inference method with multi-arm bandit algorithm.
 \end_layout
 
 \begin_layout Standard
@@ -8402,15 +8464,6 @@ centering
 \end_inset
 
 
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Letter of data and information permission request
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -8418,6 +8471,15 @@ Letter of data and information permission request
 	filename images/surat izin/surat izin gundar.png
 	lyxscale 10
 	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Letter of data and information permission request
+\end_layout
 
 \end_inset
 
@@ -8446,22 +8508,19 @@ centering
 \end_inset
 
 
+\begin_inset Graphics
+	filename images/surat izin/surat izin mekar.png
+	lyxscale 10
+	scale 60
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Letter of data and information usage permission
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename images/surat izin/surat izin mekar.png
-	lyxscale 10
-	scale 60
 
 \end_inset
 
