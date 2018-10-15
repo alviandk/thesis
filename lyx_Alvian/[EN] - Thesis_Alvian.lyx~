@@ -3062,7 +3062,7 @@ The Bayesian modeling paradigm involves setting up a probabilistic model
  state-of-the-art algorithms such as Hamiltonian Monte Carlo sampling (HMC),
  the No-U-Turn Sampler (NUTS), Automatic Differentiation VI (ADVI) and Black
  Box VI.
- These algorithms are applica- ble to a wide class of models and are readily
+ These algorithms are applicable to a wide class of models and are readily
  available in popular Probabilistic Programming languages such as Stan,
  Edward, and PyMC3 
 \begin_inset CommandInset citation
@@ -5019,7 +5019,6 @@ Identifying Problems
 \begin_layout Standard
 PT Mekar or Sampoerna Wirausaha is a fintech company running a business
  with a peer-to-peer loan platform.
- In borrowing lending there are borrowers and lenders.
  Mekar Go is a website used to collect borrower data.
  The data collected on the current version of Mekar Go website shows the
  conversion of a borrower who completes data filling from start to finish
@@ -7266,7 +7265,7 @@ noprefix "false"
 \end_inset
 
 .
- he displayed syntax only provides the value of any input required with
+ The displayed syntax only provides the value of any input required with
  the use of the probability models of pymc used.
  The algorithm process is performed behind the scenes by the probability
  models of pymc.
@@ -7846,7 +7845,7 @@ true_p_C
 \begin_inset Text
 
 \begin_layout Plain Layout
-average of the bernoulli observations
+sum of the True value from bernoulli observations
 \end_layout
 
 \end_inset
