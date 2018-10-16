@@ -68,11 +68,10 @@
 \newcommand{\Department}{Information System Software}
 %\newcommand{\Prodi}{Direktorat Program Diploma Tiga Teknologi Informasi}
 \newcommand{\Program}{Master Degree Program}
-\newcommand{\Universitas}{Gunadarma University}
 \newcommand{\Tahun}{2018}
 \newcommand{\Bulan}{February}
 \newcommand{\Tanggal}{12}
-\newcommand{\Kota}{Jakarta}
+\newcommand{\Kota}{Depok}
 \newcommand{\KataKunci}{Music Player, Application, Android, Soundcloud, API, Responsive web, Mobile Application, Music.}
 \newcommand{\KeyWords}{A/B Testing, Bayesian Inference, Pymc3, Website, Google Analytics.}
 \newcommand{\KoordinatorPI}{}
@@ -87,8 +86,8 @@
 \newcommand{\AnggotaUjianC}{}
 \newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
 \newcommand{\JumlahPustaka}{1}
-\newcommand{\JumlahHalaman}{52}
-\newcommand{\JumlahHalamanDepan}{xi}
+\newcommand{\JumlahHalaman}{54}
+\newcommand{\JumlahHalamanDepan}{xiii}
 \newcommand{\TahunPustaka}{2013-2018}
 %%
 %% Keterangan administratif sidang sarjana
@@ -270,7 +269,15 @@ vspace*{10mm}
 \align center
 
 \series bold
-\size large
+\size huge
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
 \begin_inset ERT
 status open
 
@@ -278,7 +285,9 @@ status open
 
 
 \backslash
-JudulInggris
+MakeUppercase{
+\backslash
+Program}
 \end_layout
 
 \end_inset
@@ -338,339 +347,6 @@ vspace*{6mm}
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{1cm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="1">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="middle" width="13cm">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Written by:
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="3">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="left" valignment="top">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-Name
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Name
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\paragraph_spacing single
-\align center
-
-\series bold
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Program
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Universitas
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Kota
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Tahun
-\end_layout
-
-\end_inset
-
-
-\size largest
-
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\series default
-\size default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Cover}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-sloppy
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagenumbering{roman}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace*{10mm}
-\end_layout
-
-\end_inset
-
-
-\begin_inset Separator latexpar
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \align center
 
 \series bold
@@ -737,7 +413,7 @@ Written by:
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="3">
+<lyxtabular version="3" rows="3" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
@@ -796,7 +472,7 @@ Name
 \begin_layout Plain Layout
 
 \series bold
-NPM
+Student Id
 \end_layout
 
 \end_inset
@@ -826,6 +502,53 @@ status open
 
 \backslash
 NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Supervisor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Supervisor
 \end_layout
 
 \end_inset
@@ -874,7 +597,6 @@ vspace*{1cm}
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
@@ -882,7 +604,6 @@ Submitted as a Partial Fulllment of the Requirements for
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
@@ -890,54 +611,17 @@ Magister Degree of Information System Management
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
 \align center
 
 \series bold
 Concentrating on Information System Software
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\paragraph_spacing single
-\align center
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Program
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 
 \series bold
+\size small
 \begin_inset ERT
 status open
 
@@ -945,46 +629,8 @@ status open
 
 
 \backslash
-huge
+vspace*{2mm}
 \end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Universitas
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-huge
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
 
 \begin_layout Plain Layout
 
@@ -1002,6 +648,7 @@ Kota
 \align center
 
 \series bold
+\size small
 \begin_inset ERT
 status open
 
@@ -1009,14 +656,8 @@ status open
 
 
 \backslash
-huge
+vspace*{1mm}
 \end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
 
 \begin_layout Plain Layout
 
@@ -1030,353 +671,16 @@ Tahun
 
 \end_layout
 
-\begin_layout Standard
-\paragraph_spacing single
-\align center
-
-\series bold
-\size small
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter*
-ORIGINALITY STATEMENTS AND PUBLICATIONS 
-\end_layout
-
-\begin_layout Standard
-\paragraph_spacing single
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Originality Statements and Publications}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-I, the undersigned below:
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="45mm">
-<column alignment="center" valignment="top" width="1mm">
-<column alignment="left" valignment="top" width="80mm">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Name
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size small
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Name
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-NPM
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size small
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-NPM
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Title
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size small
-\begin_inset Quotes eld
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-JudulInggris
-\end_layout
-
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Date of Thesis Defence
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-April
-\size small
-, 22 2018
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-Date of Graduation
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-stated that this research is my own work and can be published entirely by
- Gunadarma University.
- All quotations of any kind have followed the rules and ethics of the day.
- Content and writing are the responsibility of the author.
-\end_layout
-
-\begin_layout Standard
-\noindent
-This statement is made in truth and with full awareness.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-Jakarta, 16, April 2018
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace 2.5cm
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Name
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter*
 PAGE OF APPROVAL
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing single
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addcontentsline{toc}{chapter}{Page of Approval}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
+<lyxtabular version="3" rows="4" columns="3">
 <features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="45mm">
+<column alignment="left" valignment="top" width="35mm">
 <column alignment="center" valignment="top" width="1mm">
 <column alignment="left" valignment="top" width="80mm">
 <row>
@@ -1532,39 +836,6 @@ NPM
 \begin_layout Plain Layout
 
 \size small
-Date of Thesis Defence
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
-October, 18 2018
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\size small
 Date of Graduation
 \end_layout
 
@@ -1579,11 +850,13 @@ Date of Graduation
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+M
+\size small
+ay, 12 2017
 \end_layout
 
 \end_inset
@@ -1826,8 +1099,22 @@ noindent
 \begin_inset Quotes erd
 \end_inset
 
-A/B TESTING MEKARGO.ID WEBSITE OF MEKAR PT SAMPOERNA WI- RAUSAHA WITH BAYESIAN
- INFERENCE AND PYMC3
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+JudulInggris}
+\end_layout
+
+\end_inset
+
+
 \series default
 
 \begin_inset Quotes erd
@@ -1838,39 +1125,58 @@ A/B TESTING MEKARGO.ID WEBSITE OF MEKAR PT SAMPOERNA WI- RAUSAHA WITH BAYESIAN
 
 \begin_layout Standard
 \paragraph_spacing single
-\begin_inset VSpace medskip
-\end_inset
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
 
 
+\backslash
+noindent
 \end_layout
 
-\begin_layout Standard
-\paragraph_spacing single
-Mekar Go with address https://mekargo.id/ is a website to collect data of
- SMEs and employees who want to apply for a loan to Mekar.
- The current version of Mekar Go shows the conversion of a borrower who
- completes the data filling completion less than 10% which needs to be improved.
- To improve it, changing the order of data filling completion is developed
- with some different versions.
- All versions will have A / B testing to find out which version produced
- the most data conversion completion presentation.
- Data is collected by Google Analytics and analyzed using bayessian inference
- algorithm.
- Bayesian inference analysis is using pymc3, numpy, matplotlib, scipy, jupyter
- and Ipython tools with python programming language.
- Markov Chain Monte Carlo method is used to generate samples from a probability
- distribution.
- Metropolis-Hastings algorithm as the stochastic sampling technique.
- Bernoulli distribution as a discrete distribution.
- Stages of research methods conducted include: identifying problems, defining
- website measurement, developing a hypothesis, developing and testing page
- variants, and analyzing test results.
- The final result is the best version of all probabilities combinations
- between versions.
-\begin_inset VSpace medskip
 \end_inset
 
+ Master Thesis, 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+Fakultas
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Department
+\end_layout
+
+\end_inset
+
+ , Gunadarma University, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2045,97 +1351,11 @@ JudulInggris
 \end_inset
 
 .
- This thesis is intended to complete the requirement to finish my study
- in the Business Information System Department, Gunadarma University.
+ This undergraduate thesis is intended to complete the requirement to finish
+ my study in the Informatics Engineering Department, Gunadarma University.
  This writing would not have been possible without the support and encouragement
  from people around me.
  Therefore, I would like to say thank to:
-\end_layout
-
-\begin_layout Enumerate
-Prof.
- Dr.
- Hj.
- E.S.
- Margianti, SE., MM, as Rector of Gunadarma University.
-\end_layout
-
-\begin_layout Enumerate
-Prof.
- Dr.
- Yuhara Sukra MSc, as Coordinator of Postgraduate Program of Gunadarma Universit
-y
-\end_layout
-
-\begin_layout Enumerate
-Dr.
- Tubagus Maulana Kusuma, SKom., MEngSc., as Director of Postgraduate Program
- of Gunadarma University Dr.
- 
-\end_layout
-
-\begin_layout Enumerate
-Yuhilza Hanum SSi, SKom, MEng, Diploma Program’s Head of Postgraduate Program
- of Gunadarma University.
- 
-\end_layout
-
-\begin_layout Enumerate
-Remi Senjaya, ST., MMSI, as Secretary of Sarjana Magister (Sarmag) Program.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-Supervisor
-\end_layout
-
-\end_inset
-
- as supervisor of this work, for his patience has guided the author and
- examined the author’s work in finis ing this thesis.
-\end_layout
-
-\begin_layout Enumerate
-My lovely wife Dyah Ayu Sukmawati for a lot of supports and kindness that
- always burns up my spirit to finish my thesis.
-\end_layout
-
-\begin_layout Enumerate
-My beloved family, Father, Mother, Brother, Mother in Law, Father in Law,
- Brothers and Sisters in law for all supports, kindness, motivations and
- great affection that they have given.
-\end_layout
-
-\begin_layout Enumerate
-PT Mekar Sampoerna Wirausaha, Dandi Rusli (CTO) and all others team members
- who gave permission to do research and help my development as a software
- developer.
-\end_layout
-
-\begin_layout Enumerate
-All my friends, especially in Sarjana Magister (SarMag) SI - 03 for a lot
- of supports, sharings, jokes, and brother-sister hood.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Author realizes that there are no perfect things in the world, same as this
- work which may has many mistakes.
- Therefore, Author still looking forward to get some criticism and suggestion
- from anyone to make this work better in the future.
- Hopefully, this work can bring some advantages to readers.
 \end_layout
 
 \begin_layout Standard
@@ -2148,7 +1368,7 @@ Author realizes that there are no perfect things in the world, same as this
 
 \begin_layout Standard
 \align right
-Jakarta, October 2018
+Depok, February 2018
 \end_layout
 
 \begin_layout Standard
@@ -2317,9 +1537,9 @@ literal "true"
  website of Mekar Go.
  Mekar Go Website with web address https://mekargo.id/ is a website to collect
  data of SMEs and employees who want to apply for a loan to Mekar.
- The data collected on the current version of Mekar Go Website shows the
- conversion of a borrower who completes the data filling from start to finish
- less than 10%.
+ The data collected on the current version of GO's Web bloom shows the conversio
+n of a borrower who completes the data filling from start to finish less
+ than 10%.
  This conversion percentage is too small and needs to be improved.
  
 \end_layout
@@ -2426,7 +1646,7 @@ The generated data from A / B testing is analyzed by Bayesian inference
 \end_layout
 
 \begin_layout Enumerate
-Mekargo.id website features that studied is a feature of input data by borrower.
+Mekargo.id website features that studied is a feature of charging data borrower.
 \end_layout
 
 \begin_layout Enumerate
@@ -2832,9 +2052,9 @@ Ipython
 \end_layout
 
 \begin_layout Standard
-Ipython is an interactive browser-based environment where developer can
- combine code execution, text, mathematics, plots, and rich media into a
- single document.
+Ipython is an interactive browser-based environment where you can combine
+ code execution, text, mathematics, plots, and rich media into a single
+ document.
  Originally designed for use as an electronic lab notebook for computational
  science, it is increasingly being used in teaching as well, and a rich
  ecosystem of open source plugins and extensions for teaching is growing
@@ -3051,9 +2271,9 @@ literal "true"
 
 \begin_layout Standard
 The Bayesian modeling paradigm involves setting up a probabilistic model
- describing how data was generated, assigning prior distributions over unknown
- model parameters, and then calculating a posterior distribution over these
- parameters.
+ describing how data was gen- erated, assigning prior distributions over
+ unknown model parameters, and then calculating a posterior distribution
+ over these parameters.
  In practice, this posterior distribution is often intractable to compute
  exactly except for the simplest models.
  This often requires one to resort to approximate posterior inference algorithms
@@ -3062,7 +2282,7 @@ The Bayesian modeling paradigm involves setting up a probabilistic model
  state-of-the-art algorithms such as Hamiltonian Monte Carlo sampling (HMC),
  the No-U-Turn Sampler (NUTS), Automatic Differentiation VI (ADVI) and Black
  Box VI.
- These algorithms are applicable to a wide class of models and are readily
+ These algorithms are applica- ble to a wide class of models and are readily
  available in popular Probabilistic Programming languages such as Stan,
  Edward, and PyMC3 
 \begin_inset CommandInset citation
@@ -3221,9 +2441,10 @@ The majority of the heavy lifting done by PyMC3 is taken care of with the
  The notation in theano is remarkably similar to NumPy.
  It also supports many of the familiar computational elements of NumPy.
  However, while NumPy directly executes computations, e.g.
- when run a + b, theano instead builds up a "compute graph" that tracks
- that  to perform the + operation on the elements a and b.
- Only when eval() a theano expression does the computation take place (i.e.
+ when you run a + b, theano instead builds up a "compute graph" that tracks
+ that you want to perform the + operation on the elements a and b.
+ Only when you eval() a theano expression does the computation take place
+ (i.e.
  theano is lazy evaluated).
  Once the compute graph is built, we can perform all kinds of mathematical
  optimizations (e.g.
@@ -4063,23 +3284,24 @@ Research Object
 \end_layout
 
 \begin_layout Standard
-The time of the study was conducted between August 2017 and January 2018.
- The object of this research is Mekar's Mekargo.id website.
- Mekar through Mekar Go provide solutions in assisting SMEs and other consumers
- to gain access to financial services or capital access in Indonesia.
- Mekar provides easy access through portal Mekar Go to financial institutions
- such as Banks, finance companies, and Rural Banks in improving the quality
- of service to the community easily, safely and quality.
+Waktu penelitian dilakukan antara bulan Agustus 2017 sampai Januari 2018.
+ Objek pada peneltian ini adalah website mekargo.id milik Mekar.
+ Mekar hadir melalui Mekar Go untuk memberikan solusi dalam membantu pelaku
+ UMKM dan konsumen lainnya untuk mendapatkan akses layanan keuangan atau
+ permodalan di Indonesia.
+ Mekar memberikan kemudahan akses melalui portal Mekar Go kepada lembaga
+ keuangan seperti Bank, perusahaan pembiayaan, dan Bank Perkreditan Rakyat
+ dalam meningkatkan kualitas pelayanan kepada masyarakat secara mudah, aman
+ dan berkualitas.
 \end_layout
 
 \begin_layout Standard
-The feature studied in this research is the registration feature for the
- borrower.
- The data used is the url address that the registrant visits for each version
- of A / B testing.
- Data collection is done with google analytics tools.
- The data obtained will then be analyzed by bayesian inference and pymc3
- as tool.
+Fitur yang diteliti adalah fitur pendaftaran bagi peminjam.
+ Data yang digunakan adalah alamat url yang dikunjungi pendaftar untuk masing-ma
+sing versi A/B testing.
+ Pengumpulan data dilakukan dengan tools google analytics.
+ Data yang didapatkan selanjutnya akan dianalisis dengan metode bayesian
+ inference dan pymc3.
 \end_layout
 
 \begin_layout Section
@@ -4087,11 +3309,11 @@ Research Methodology
 \end_layout
 
 \begin_layout Standard
-Research methods include: identifying problems, defining website measurement,
- developing a hypothesis, developing and testing page variants, and analyzing
- test results.
- The description of the steps of the research method can be illustrated
- by figure
+Metode penelitian yang dilakukan meliputi: identifying problems, defining
+ website measurement, developing a hypothesis, developing and testing page
+ variants, dan analyzing test results.
+ Gambaran langkah metode penelitian yang dilakukan dapat diilustrasikan
+ oleh figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:ResearchMethod"
@@ -4172,14 +3394,16 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-Problems identified are issues related to the website to be performed A
- / B testing.
- The problems are usually related to business, marketing, or convertion
- rate.
- Depending on what goals to be achieved on making A / B testing on the website.
- The problem described is usually because there is something that arises
- that does not match the goal.
- In addition, also described the current conditions of the website.
+Masalah yang diidentifikasi adalah yang berhubungan dengan website yang
+ akan dilakukan A/B testing.
+ Masalah yang diangkat biasanya berhubungan dengan bisnis, marketing, atau
+ convertion rate.
+ Tergantung pada tujuan apa yang ingin dicapai pada pembuatan A/B testing
+ pada website tersebut.
+ Masalah yang dijabarkan biasanya dikarenakan ada suatu hal yang timbul
+ yang tidak sesuai tujuan.
+ Selain itu, dijabarkan pula kondisi saat ini dari website tersebut.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -4187,17 +3411,17 @@ Defining Website Measurement
 \end_layout
 
 \begin_layout Standard
-Website measurement is a measurement done to provide a goal to achieve the
- desired A / B testing objectives.
- Website measurement consists of several business indicator points outlined
- from the general to the details.
- This indicator point consists of business objectives, website goals, key
- performance metrics (KPIs), and target metrics.
- Given this description, it will be more clear what the desired results
- of A / B testing are.
- Thus, all members of the team involved can unify the vision in performing
- this A / B testing.
- The diagram can be illustrated in figure
+Website measurement adalah pengukuran yang dilakukan untuk memberikan kejalasan
+ untuk mencapai target A/B testing yang diinginkan.
+ Website measurement terdiri dari beberapa poin indikator bisnis yang dijabarkan
+ dari hal yang umum sampai hal yang detil.
+ Poin indikator ini terdiri dari business objectives, website goals, key
+ performance metrics (KPIs), dan target metrics.
+ Dengan adanya penjabaran ini, akan lebih memperjelas apa hasil yang diinginkan
+ dari A/B testing ini.
+ Sehingga, seluruh anggota tim yang terlibat dapat menyatukan visi dalam
+ melakukan A/B testing ini.
+ Diagramnya dapat diilustrasikan pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Website-measurement"
@@ -4273,8 +3497,8 @@ literal "true"
 \end_layout
 
 \begin_layout Standard
-The description of the measurement website indicator points are as follows
- :
+Adapun penjabaran dari poin indikator website measurement tersebut adalah
+ sebagai berikut:
 \end_layout
 
 \begin_layout Itemize
@@ -4282,11 +3506,11 @@ The description of the measurement website indicator points are as follows
 \series bold
 Business objectives
 \series default
- are the main targets to be achieved in making A / B testing.
- For example increasing the number of sales, increasing the number of users
- who register, or increase visitors on page views.
- This point depends on the type of business being run and what stage is
- the problem.
+ adalah sasaran utama yang ingin dicapai pada pembuatan A/B testing.
+ Misalnya meningkatkan jumlah penjualan, menambah jumlah user yang mendaftar,
+ atau meningkatkan pengunjung pada tampilan halaman.
+ Poin ini bergantung pada jenis bisnis yang dijalankan dan tahap apa yang
+ sedang terdapat masalah.
 \end_layout
 
 \begin_layout Itemize
@@ -4294,12 +3518,12 @@ Business objectives
 \series bold
 Website goals
 \series default
- are what actions to achieve or improve on a single website feature that
- can meet the objectives of a business objective.
- If want to increase the number of sales, then the goal website that must
- be achieved is an increase feature add items to the chart until making
- payment.
- Website goals depend on the business objective points to be achieved.
+ adalah tindakan apa yang ingin dicapai atau ditingkatkan pada satu fitur
+ website yang dapat memenuhi sasaran poin business objective.
+ Jika ingin meningkatkan jumlah penjualan, maka website goal yang harus
+ dicapai adalah peningkatan fitur menambahkan barang ke chart sampai melakukan
+ pembayaran.
+ Website goal bergantung kepada poin business objective yang ingin dicapai.
 \end_layout
 
 \begin_layout Itemize
@@ -4307,10 +3531,11 @@ Website goals
 \series bold
 Key performance metrics
 \series default
- are measures that guide the success of what to be achieved.
- For example want to increase sales, then the size used is how many items
- entered into the chart, how many items on the chart made checkout payment,
- and so forth.
+ adalah ukuran yang menjadi pedoman keberhasilan terhadap hal yang ingin
+ dicapai.
+ Misalnya ingin meningkatkan penjualan, maka ukuran yang dipakai adalah
+ berapa jumlah barang yang dimasukkan ke dalam chart, berapa jumlah barang
+ pada chart yang dilakukan checkout pembayaran, dan sebagainya.
 \end_layout
 
 \begin_layout Itemize
@@ -4318,13 +3543,13 @@ Key performance metrics
 \series bold
 Target metrics
 \series default
- are how many target numbers are targeted for success of each key performance
- metric accompanied by a timeframe that becomes the limit.
- For example, target the quantity of goods inserted into a chart of at least
- 1,000,000 items per day.
- That is one example for ecommerce companies that already bersar.
- The targeted number of numbers depends on the current state.
- The most important is the increase.
+ adalah berapa target angka yang dijadikan target keberhasilan dari tiap
+ key performance metric disertai dengan jangka waktu yang menjadi batasan.
+ Misalnya, target jumlah barang yang dimasukkan ke dalam chart minimal 1.000.000
+ barang per hari.
+ Itu adalah salah satu contoh untuk perusahaan ecommerce yang sudah bersar.
+ Target angka yang dijadikan ukuran bergantung pada kondisi saat ini juga.
+ Yang terpenting adalah adanya peningkatan.
 \end_layout
 
 \begin_layout Subsection
@@ -4332,8 +3557,15 @@ Developing a Hypothesis
 \end_layout
 
 \begin_layout Standard
-Many of the variables specifically require to bring data to the table to
- prioritize hypotheses.
+A hypothesis will define why you believe a problem occurs.
+ Asumsi awal yang menjadi penyebab masalah pada point 3.3.1 disertai dengan
+ pengajuan solusi yang akan diterapkan.
+ Menyebutkan hasil akhir dari solusi yang diajukan disertai alasannya.
+\end_layout
+
+\begin_layout Standard
+Many of the variables specifically require you to bring data to the table
+ to prioritize your hypotheses.
 \end_layout
 
 \begin_layout Itemize
@@ -4359,6 +3591,7 @@ Having weekly discussions on tests with these 4 questions asked from everyone
  will quickly make people stop relying on just opinions.
  There are also bounds placed on Ease of implementation by bracketing answers
  according to the estimated time.
+ Ideally you’d have a test developer be part of prioritization discussions.
 \end_layout
 
 \begin_layout Standard
@@ -4384,9 +3617,9 @@ A well-articulated hypothesis will let split testing results give information
 \end_layout
 
 \begin_layout Standard
-After the problem have defined and hypothesis is articulated, A/B testing
- can be started to come up with specific split-testing variations.
- Clearly defining hypothesis will help yo come up with testing variations
+After you have defined your problem and articulated your hypothesis, you
+ can start to come up with specific split-testing variations.
+ Clearly defining your hypothesis will help you come up with testing variations
  that give meaningful results 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -4411,11 +3644,10 @@ Case Studies
  best practices and develop new hypothesis.
  While it’s not always true, case studies often represent solutions that
  might work in a given situation.
- Since at the hypothesis stage, the job is to collect as many plausible
- solutions as many as can, digging through case studies can be extremely
- useful.
+ Since at the hypothesis stage, your job is to collect as many plausible
+ solutions as you can, digging through case studies can be extremely useful.
  However, not every case study will actually yield actionable insights to
- specific case.
+ your specific case.
  When evaluating a case study, consider these issues: 
 \end_layout
 
@@ -4424,7 +3656,7 @@ Case Studies
 \series bold
 Relevancy
 \series default
-: Is the case study describing a problem that is relevant to particular
+: Is the case study describing a problem that is relevant to your particular
  problem? 
 \end_layout
 
@@ -4433,7 +3665,8 @@ Relevancy
 \series bold
 Audience overlap
 \series default
-: Is the case study about a website that has a similar audience? 
+: Is the case study about a website that has a similar audience to yours?
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -4442,7 +3675,7 @@ Audience overlap
 Accuracy
 \series default
 : Are the results from the case study accurate enough? Was the testing carried
- out to a high degree of confidence? Far too many times, many companies
+ out to a high degree of confidence? Far too many times, you’ll find companies
  promoting case studies that are not statistically accurate.
  
 \end_layout
@@ -4464,10 +3697,10 @@ Scope
 \series default
 : Plenty of case studies focus on “small wins” or micro-conversions, such
  as the CTR for a button.
- Such results might look good, but unless they improve target metrics, they
- are effectively meaningless.
+ Such results might look good, but unless they improve your target metrics,
+ they are effectively meaningless.
  Always consider the scope of the study before borrowing its learnings in
- the developed tests.
+ your own tests.
 \end_layout
 
 \begin_layout Standard
@@ -4484,7 +3717,8 @@ Best Practices
 \series default
 : Best practices are just that - a practice assumed to be correct by default
  in any non-specific case.
- For example, placing navigation bar at the top of the page is a “best practice”.
+ For example, placing your navigation bar at the top of the page is a “best
+ practice”.
  Best practices spring from three things:
 \end_layout
 
@@ -4495,8 +3729,8 @@ Convention
 \series default
 : Some design choices are made just because that’s the way things have always
  been done.
- In most cases, it’s better to follow conventions since customers are already
- used to it.
+ In most cases, it’s better to follow conventions since your customers are
+ already used to it.
  Breaking convention might cause confusion.
 \end_layout
 
@@ -4538,16 +3772,16 @@ Theory
 \series default
 : Conversion rate optimization sits at the intersection of sales, design
  and psychology.
- As such, any hypothesis  come up with will likely involve theories from
+ As such, any hypothesis you come up with will likely involve theories from
  each of these fields.
- To give an example, good UI/UX design relies heavily on Gestalt psychology
+ To give you an example, good UI/UX design relies heavily on Gestalt psychology
  (such as the Law of Proximity and the Law of Similarity).
- This also informs the decisions make when designing a conversion-optimized
+ This also informs the decisions you make when designing a conversion-optimized
  page.
- A strong understanding of theory will help create better hypotheses.
- All of the above knowledges is not required to know, but a firm grasp of
- psychological and emotional triggers that lead to sales will greatly help
- improve conversions.
+ A strong understanding of theory will help you create better hypotheses.
+ You don’t have to know all of the above, but a firm grasp of psychological
+ and emotional triggers that lead to sales will greatly help you improve
+ conversions.
 \end_layout
 
 \begin_layout Standard
@@ -4560,8 +3794,9 @@ All the case studies and theories in the world can’t make up for past experien
  to the table that non-practitioners wouldn’t know.
  It’s not unusual to find that the most successful hypothesis is usually
  the one that springs from experience, not theory or case studies.
- A CRO expert who has already dealt with a site similar to in the same niche
- will likely have tons of ideas for improving conversion rates 
+ A CRO expert who has already dealt with a site similar to yours in the
+ same niche will likely have tons of ideas for improving your conversion
+ rates 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "omniconvert"
@@ -4577,18 +3812,18 @@ Developing and Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-Developing test variants contain field changes on the form from the previous
- version.
- In addition, there is also the definition of the page name accompanied
- by the url that represents the page.
- The different versions of A, B, and C are determined by the difference
- in url sequence in the borrower's data.
- The way traffic is distributed for each version so that the number of balanced
- visitors is also explained.
- Testing page variants contains an explanation of the implementation of
- Google Analytics on the entire page.
- The results of its implementation are seen in the dashboard of Google Analytics
- account and extracting data.
+Developing test variants berisi perubahan field pada form dari versi yang
+ sebelumnya.
+ Selain itu, terdapat juga pendefinisian nama halaman disertai url yang
+ merepresentasi halaman tersebut.
+ Perbedaan versi A, B, dan C ditentukan dari perbedaan urutan url dalam
+ pengisian data peminjam.
+ Cara pembagian traffic untuk setiap versi agar jumlah pengunjung berimbang
+ juga dijelaskan.
+ Testing page variants berisi penjelasan implementasi Google Analytics pada
+ seluruh halaman.
+ Hasil implementasinya dilihat pada dashboard akun Google Analytics dan
+ dilakukan ekstrakting data.
 \end_layout
 
 \begin_layout Subsection
@@ -4742,6 +3977,11 @@ Bernoulli Distribution
 \end_layout
 
 \begin_layout Standard
+Bernoulli distribution pada penelitian digunakan untuk ..., dibuat dengan library
+ scipy dengan pada modul scipy.stats.bernoulli
+\end_layout
+
+\begin_layout Standard
 The Bernoulli distribution is a discrete distribution having two possible
  outcomes labelled by 
 \begin_inset Formula $n=0$
@@ -4856,14 +4096,6 @@ Metropolis-Hastings algorithm (MH) is one of special forms of the Hastings
  Although variates in the chain are not independent, they may nonetheless
  be used to estimate statistical expectations with respect to 
 \begin_inset Formula $\pi(\text{·})$
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "minh2015understanding"
-literal "true"
-
 \end_inset
 
 .
@@ -5005,6 +4237,14 @@ where densities are assumed to be symmetric (that is,
 \begin_inset Formula $\alpha_{HA}(x,y)=min\left\{ \frac{p\left(y\right)}{p\left(x\right)},1\right\} $
 \end_inset
 
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "minh2015understanding"
+literal "true"
+
+\end_inset
+
 .
 \end_layout
 
@@ -5017,14 +4257,15 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-PT Mekar or Sampoerna Wirausaha is a fintech company running a business
- with a peer-to-peer loan platform.
- Mekar Go is a website used to collect borrower data.
- The data collected on the current version of Mekar Go website shows the
- conversion of a borrower who completes data filling from start to finish
- less than 10%.
- This conversion percentage by the marketing team is too small and needs
- to be improved.
+PT Mekar atau Sampoerna Wirausaha adalah perusahan fintech yang menjalankan
+ bisnis dengan platform pinjaman peer-to-peer.
+ Dalam pinjam meminjam terdapat peminjam dan pemberi dana.
+ Mekar Go adalah website yang digunakan untuk menghimpun data peminjam.
+ Data yang telah dihimpun pada versi web Mekar GO saat ini menunjukkan konversi
+ peminjam yang melengkapi pengisian data dari awal sampai akhir kurang dari
+ 10%.
+ Presentase konversi ini menurut tim marketing terlalu kecil dan perlu ditingkat
+kan.
  
 \end_layout
 
@@ -5037,8 +4278,8 @@ Business Objective
 \end_layout
 
 \begin_layout Standard
-The desired business objective is to increase the number of borrowers that
- will be given a peer-to-peer lending loan.
+Business objective yang diinginkan adalah menambah jumlah peminjam yang
+ akan diberikan pinjaman peer-to-peer lending.
 \end_layout
 
 \begin_layout Subsection
@@ -5046,9 +4287,9 @@ Website Goal
 \end_layout
 
 \begin_layout Standard
-The desired website goal is: increase the number of borrowers who register,
- increase the percentage completion of filling the registration form by
- the borrower.
+Website goal yang diinginkan diantaranya adalah: meningkatkan jumlah peminjam
+ yang mendaftar, meningkatkan presentase penyelesaian pengisian form pendaftaran
+ oleh peminjam.
 \end_layout
 
 \begin_layout Subsection
@@ -5056,9 +4297,9 @@ Key Performance Metric
 \end_layout
 
 \begin_layout Standard
-The metric used as the key performance metric is: the number of registrants
- per month and the percentage completion of form filling by the borrower
- upon filling in the registration form.
+Metric yang digunakan sebagai key performance metric adalah: jumlah pendaftar
+ per bulan dan presentase penyelesaian pengisian form oleh peminjam saat
+ pengisian form pendaftaran.
 \end_layout
 
 \begin_layout Subsection
@@ -5066,9 +4307,9 @@ Target Metric
 \end_layout
 
 \begin_layout Standard
-The expected target is 500 unique visitors who register for each version
- and percentage of data completion above 10% for each version.
- Both targets are tested within a month.
+Target yang diharapkan adalah 500 unique visitor yang mendaftar untuk setiap
+ versi dan presentase penyelesaian data di atas 10% untuk setiap versi.
+ Kedua target tersebut diuji dalam satu bulan.
 \end_layout
 
 \begin_layout Section
@@ -5076,13 +4317,13 @@ Developing a Hypothesis
 \end_layout
 
 \begin_layout Standard
-The completion percentage of the registration form filling is influenced
- by the order of form filling.
- When changed will increase the percentage.
- The proposed solution is to test A / B testing against two new versions
- along with simplification and increment of data filling.
- The initial assumption, one of the two new versions will be better than
- the previous version.
+Presentase penyelesaian pengisian form pendaftaran dipengaruhi oleh urutan
+ pengisian form.
+ Apabila diubah akan meningkatkan presentasenya.
+ Solusi yang diajukan adalah melakukan pengujian A/B testing terhadap dua
+ versi baru disertai dengan penyederhanaan dan penyingkatan pengisian data.
+ Asumsi awal, salah satu dari dua versi baru ini akan lebih baik daripada
+ versi yang sebelumnya.
 \end_layout
 
 \begin_layout Section
@@ -5094,7 +4335,8 @@ Developing Page Variants
 \end_layout
 
 \begin_layout Standard
-The field that changes the data from the previous version in the table 
+Field yang dilakukan perubahan data dari versi yang sebelumnya terdapat
+ pada tabel 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Data-fields-changes"
@@ -5105,26 +4347,27 @@ noprefix "false"
 \end_inset
 
 .
- The data changes section is categorized into two: personal details information
- and warranties.
- The type of change made is the removal of data for data that is considered
- unneeded.
- Optional is the part changed to not required, but the field still exists.
- New fields is additional fields that do not exist in previous versions.
- This field change applies to all versions of A, B, and C.
+ Bagian perubahan data dikategorikan menjadi dua yaitu personal detail informati
+on dan jaminan.
+ Jenis perubahan yang dilakukan adalah removing data untuk data yang dianggap
+ tidak dibutuhkan.
+ Optional adalah bagian yang diubah menjadi tidak wajib diisi, tapi fieldnya
+ masih ada.
+ Yang terakhir adalah new untuk field baru yang tidak ada pada versi sebelumnya.
+ Perubahan field ini berlaku untuk seluruh versi A, B, dan C.
 \end_layout
 
 \begin_layout Standard
-Changes made to personal details information are removing the business address
- fields or employment address, business type or type of job, length of business
- or duration of employment, number of employees, photos of place of business,
- employee status.
- Changes for optional fields are the personal details information is email
- field and photo ID card.
- The new field added to the personal details information section is the
- birth date field.
- Then, change on the warranty section is only changes the field of land
- and building photos also photos of motor vehicles to be optional.
+Perubahan yang dilakukan pada personal detail information adalah meremove
+ field alamat usaha atau tempat bekerja, bidang jenis usaha atau jenis pekerjaan
+, lama usaha atau lama bekerja, jumlah karyawan, foto tempat usaha, status
+ karyawan.
+ Perubahan field yang dijadikan field optional pada bagian personal detail
+ information adalah field email dan foto KTP.
+ Field baru yang ditambahkan pada bagian personal detail information adalah
+ field tanggal lahir.
+ Lalu, bagian jaminan hanya dilakukan perubahan field menjadi optional pada
+ field foto tanah dan bangunan serta foto kendaraan bermotor.
 \end_layout
 
 \begin_layout Standard
@@ -5770,7 +5013,7 @@ v
 \end_layout
 
 \begin_layout Standard
-The data flows for versions A, B, and C are defined in the table 
+Alur pengisian data untuk versi A, B, dan C didefinisikan pada tabel 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Url-definition"
@@ -5781,17 +5024,17 @@ noprefix "false"
 \end_inset
 
 .
- Each page is also considered a step and is named for each step.
- Step to be filled of all versions of data consists of: survey needs page,
- detail needs page, personal information page, detail loan access page,
- extra pesonal detail information page, and congrats page.
- On version B and C there is no extra step pesonal detail information page
- because it is put together in the pesonal detail information page.
- The url for all the steps is almost identical, the distinguish is the alphabeti
-cal a or b or c after the / ukm / on the url definition.
- This distinction of suffix makes it easy to differentiate traffic on the
- Google Analytics dashboard.
- 
+ Setiap halaman dianggap juga sebagai langkah atau step dan diberi nama
+ untuk setiap stepnya.
+ Step pengisian data seluruh versi terdiri dari: survey needs page, detail
+ needs page, personal information page, detail loan access page, ekstra
+ pesonal detail information page, dan congrats page.
+ Versi B dan C tidak terdapat step ekstra pesonal detail information page
+ karena disatukan pada step pesonal detail information page.
+ Url untuk seluruh step hampir sama, yang menjadi pembeda adalah suffik
+ alfabet a atau b atau c setelah /ukm/ pada definisi urlnya.
+ Pembedaan suffix ini untuk memudahkan saat membedakan traffic di Google
+ Analytics dashboard.
 \end_layout
 
 \begin_layout Standard
@@ -6167,36 +5410,35 @@ Congrats Page
 \end_layout
 
 \begin_layout Standard
-The differentiator from A / B testing is the flow of data from all versions.
- Version A sequence of data filling is the same as the previous version.
- Meanwhile, B and C versions are new versions that will be compared which
- results are better.
- The sequence of data filling flow for each version is as follows:
+Pembeda dari A/B testing ini adalah alur pengisian data dari seluruh versi.
+ Versi A urutan pengisian datanya sama dengan versi sebelumnya.
+ Sedangkan, versi B dan C adalah versi baru yang akan dibandingkan hasilnya
+ manakah yang lebih baik.
+ Adapun urutan alur pengisian data untuk setiap versi adalah sebagai berikut:
 \end_layout
 
 \begin_layout Itemize
-Data completion flow of version A: survey needs page - detail needs page
- - personal information page - thanks page - detail loan access page - ekstra
- pesonal detail information page - congrats page.
+Alur pengisian data versi A: survey needs page - detail needs page - personal
+ information page - thanks page - detail loan access page - ekstra pesonal
+ detail information page - congrats page.
 \end_layout
 
 \begin_layout Itemize
-Data completion flow of version B: personal information page - detail loan
- access page - thanks page - survey needs page - detail needs page - congrats
- page.
+Alur pengisian data versi B: personal information page - detail loan access
+ page - thanks page - survey needs page - detail needs page - congrats page.
 \end_layout
 
 \begin_layout Itemize
-Data completion flow of version C: detail loan access page - personal informatio
-n page - thanks page - survey needs page - detail needs page - congrats
- page.
+Alur pengisian data versi C: detail loan access page - personal information
+ page - thanks page - survey needs page - detail needs page - congrats page.
 \end_layout
 
 \begin_layout Standard
-Traffic sharing for balanced versions A, B, and C is done on the server
- side.
- The programming language of the server is python programming language.
- Syntax implementation of traffic sharing is in listing 
+Pembagian traffic agar seimbang untuk versi A, B, dan C dilakukan di bagian
+ server.
+ Bahasa pemrograman bagian server yang digunakan adalah bahasa pemrograman
+ python.
+ Syntax implementasi pembagian traffic terdapat pada listing 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "lis:Round-robin-class"
@@ -6207,16 +5449,17 @@ noprefix "false"
 \end_inset
 
 .
- The logic being implemented is: the first visitor will be directed to version
- A.
- Then, for the next visitor, query to the database to find out what version
- was last visited.
- If version A is the last visited, then the next visitor will be directed
- to version B.
- If version B is the last one visited, then the next visitor will be redirected
- to version C.
- If the C version is the last one visited, then the next visitors will be
- directed to version A.
+ Logika yang diimplementasikan adalah: pengunjung pertama akan diarahkan
+ ke versi A.
+ Lalu, untuk pengunjung berikutnya, dilakukan query ke database untuk mengetahui
+ versi apa yang terakhir di kunjungi.
+ Jika versi A adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
+ akan diarahkan ke versi B.
+ Jika versi B adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
+ akan diarahkan ke versi C.
+ Jika versi C adalah yang terakhir yang dikunjungi, maka pengunjung selanjutnya
+ akan diarahkan ke versi A.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -6338,9 +5581,11 @@ Testing Page Variants
 \end_layout
 
 \begin_layout Standard
-Testing page variant is done with the help of Google Analytics.
- The Google Analytics script applies to each page step for all versions.
- The Google Analytic Syntax script used in the listing listings 
+Testing page variant dilakukan dengan bantuan Google Analytics.
+ Script Google Analytics diterapkan pada setiap step halaman untuk seluruh
+ versi.
+ Syntax script Google Analytic yang digunakan terdapat pada listing program
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "lis:Google-Analytics-implementation"
@@ -6351,10 +5596,18 @@ noprefix "false"
 \end_inset
 
 .
- Syntax "gtag ('config', 'UA-70057602-1');" is a tracking marker for Mekar
- GO website.
- Unique code UA-70057602-1 is obtained from Google Analytic's dashboard
- on PT Mekar's Google account.
+ Pada syntax 
+\begin_inset Quotes eld
+\end_inset
+
+gtag('config', 'UA-70057602-1');
+\begin_inset Quotes erd
+\end_inset
+
+ merupakan penanda tracking yang dimiliki Mekar GO.
+ Code unik UA-70057602-1 didapat dari dashboard Google Analytic pada akun
+ Google PT Mekar.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -6449,11 +5702,11 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Google Analytic Tracking is conducted from September 24, 2017 to October
- 23, 2017.
- High traffic occurs on September 3, 2017, October 9-10, 2017, October 13,
- 2017 and October 16, 2017.
- Graph fluctuations of visitors traffic Mekar Go Website website in figure
+Tracking Google Analytic dilakukan dari tanggal 24 September 2017 sampai
+ 23 Oktober 2017.
+ Traffic tinggi terjadi pada tanggal 3 September 2017, 9-10 Oktober 2017,
+ 13 Oktober 2017 dan 16 Oktober 2017.
+ Grafik fluktuasi traffic pengunjung website Mekar GO pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Graphic-google-analytics"
@@ -6463,8 +5716,9 @@ noprefix "false"
 
 \end_inset
 
- obtained from the dashboard of PT Mekar's Google Analytics account.
- The traffic shown is the combined traffic for all versions A, B, and C.
+ didapat dari dashboard akun Google Analytics PT Mekar.
+ Traffic yang ditunjukkan adalah traffic gabungan untuk seluruh versi A,
+ B, dan C.
 \end_layout
 
 \begin_layout Standard
@@ -6534,10 +5788,10 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Below the traffic graph there is a detailed table of visitor statistics
- on each page.
- The visitor statistics table on the Google Analytic dashboard looks like
- in figure
+Di bawah grafik traffic terdapat tabel detail statistik pengunjung pada
+ setiap halaman.
+ Tabel statistik pengunjung yang terdapat pada dashboard Google Analytic
+ terlihat seperti pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Table-google-analytics"
@@ -6548,9 +5802,10 @@ noprefix "false"
 \end_inset
 
 .
- Not all data contained in the table is used for A / B testing process analysis.
- The row used from the statistics table of pengunujung is row unique pageviews.
- This is to match the target metrics that measure unique visitors.
+ Tidak seluruh data yang terdapat pada tabel digunakan untuk proses analysis
+ A/B testing.
+ Row yang digunakan dari tabel statistik pengunujung adalah row unique pageviews.
+ Hal ini agar sesuai dengan target metric yang mengukur unique visitor.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -6561,8 +5816,8 @@ noprefix "false"
 
 \end_inset
 
- shows that three initial data of unique visitor on version A, B and C have
- fulfilled the target of unique visitor greater than 500.
+ menunjukkan bahwa tiga data awal unique visitor pada versi A, B dan C sudah
+ memnuhi target unique visitor lebih besar dari 500.
 \end_layout
 
 \begin_layout Standard
@@ -6636,8 +5891,9 @@ Analyzing Test Results
 \end_layout
 
 \begin_layout Standard
-Data obtained from google analytics is processed and analized with bayesian
- inference method with pymc3.
+Data yang didapat dari google analytics dilakukan pemrosesan dan analisa
+ dengan metode bayesian inference dengan pymc3.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -6714,11 +5970,11 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-The first syntax to analyze A / B test results in this study is to import
- all required python libraries which are pymc3, numpy, Ipython, matplotlib,
- and scipy.
- This syntax is written in the notebook jupyter environment.
- The syntax is in the figure 
+Syntax pertama untuk menganalisa hasil A/B tesing pada penelitian ini adalah
+ mengimport seluruh library python yang dibutuhkan yaitu pymc3, numpy, Ipython,
+ matplotlib, dan scipy.
+ Syntax ini ditulis pada environment jupyter notebook.
+ Syntaxnya terdapat pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:import-library"
@@ -6809,20 +6065,18 @@ reference "fig:Initialize-sample"
 
 \end_inset
 
- contains initialization syntax initial value true_A, true_B, true_C, and
- N_sample.
- Initial value true_A, true_B, and true_C function as a storage variable
- value of the number of users completing the data completion process on
- versions A, B, and C.
- Meanwhile, N_sample as the storage variable of the number of samples used.
- Initial value true_A as many as 120 users who completed the process of
- charging data on version A, the initial value true_B as many as 129 users
- who completed the process of data filling in version B, and the initial
- value true_C as many as 84 users who completed the process of data filling
- in version C.
- Meanwhile, N_sample 1156 users as samples that perform the process of filling
- data on each version A, B, and C.
- Sample used the same value for all versions.
+ berisi syntax inisialisasi nilai awal true_A, true_B, true_C, dan N_sample.
+ Nilai awal true_A, true_B, dan true_C berfungsi sebagai variabel penyimpan
+ nilai jumlah user yang menyelesaikan proses penyelesaian data pada versi
+ A, B, dan C.
+ Sedangkan, N_sample sebagai variabel penyimpan banyaknya sample yang digunakan.
+ Nilai awal true_A sebanyak 120 user yang menyelesaikan proses pengisian
+ data pada versi A, nilai awal true_B sebanyak 129 user yang menyelesaikan
+ proses pengisian data pada versi B, dan nilai awal true_C sebanyak 84 user
+ yang menyelesaikan proses pengisian data pada versi C.
+ Sedangkan, N_sample sebanyak 1156 user sebagai sampel yang melakukan proses
+ pengisian data pada setiap versi A, B, dan C.
+ Sampel yang digunakan nilainya sama untuk seluruh versi.
 \end_layout
 
 \begin_layout Standard
@@ -6895,15 +6149,14 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-The syntax of the calculation operation found in figure
+Syntax operasi perhitungan yang terdapat pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Calculate-probability"
 
 \end_inset
 
-.
- It is the first step in bayesian inference algorithm 
+ merupakan langkah pertama pada algoritma bayesian inference 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -6914,15 +6167,17 @@ noprefix "false"
 \end_inset
 
 .
- The result of this syntax operation determines the probability density
- value or the so-called prior distribution describing beliefs about a parameter.
- In this case the number of users completing the charging data compared
- to the total number of users who do the data (which completed plus the
- not).
- Variable true_p_A is prior distribution for version A, variable true_p_B
- is prior distribution for version B, and variable true_p_C is prior distributio
-n for version C.
- The priority distribution for each version is as follows: 
+ Hasil operasi syntax ini menentukan nilai probability density atau yang
+ disebut juga sebagai prior distribution yang menggambarkan beliefs about
+ a parameter.
+ Dalam hal ini mengenai jumlah user yang menyelesaikan pengisian data dibandingk
+an jumlah total user yang melakukan pengisian data (yang menyelesaikan ditambah
+ yang tidak).
+ Variable true_p_A merupakan prior distribution untuk versi A, variable
+ true_p_B merupakan prior distribution untuk versi B, dan variable true_p_C
+ merupakan prior distribution untuk versi C.
+ Adapun nilai prior distribution untuk masing-masing versi adalah sebagai
+ berikut: 
 \end_layout
 
 \begin_layout Standard
@@ -6939,18 +6194,18 @@ true_p_C = 0.0726643598615917
 
 \begin_layout Standard
 \noindent
-The values true_p_A, true_p_B, and true_p_C are obtained by performing a
- calculation operation against the initiation values gained previously.
- This value indicates the completion percentage of completing the data for
- each version.
- The variable true_p_A indicates the completion percentage of version A
- is equal to 10.38%.
- The variable true_p_B indicates the completion percentage of version B
- is equal to 11.16%.
- The variable true_p_C shows the completion percentage of version C is equal
- to 7.27%.
- Versions A and B have met the metric targets which is percentage completion
- of data is above 10 percent.
+Nilai true_p_A, true_p_B, dan true_p_C didapat dengan melakukan operasi
+ perhitungan terhadap nilai inisiasi awal yang didapat sebelumnya.
+ Nilai ini menunjukan presentase penyelesaian pengisian data sampai akhir
+ yang berhasil untuk setiap versi.
+ Variabel true_p_A menunjukan presentase penyelesaian pengisian data versi
+ A sebanyak 10,38%.
+ Variabel true_p_B menunjukan presentase penyelesaian pengisian data versi
+ B sebanyak 11,16%.
+ Variabel true_p_C menunjukan presentase penyelesaian pengisian data versi
+ C sebanyak 7,27%.
+ Versi A dan B sudah memenuhi target metrik yang menginginkan presentase
+ penyelesaian pengisian data di atas 10 persen.
 \end_layout
 
 \begin_layout Standard
@@ -6986,7 +6241,7 @@ centering
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Bernoulli distribution observation
+Bernoulli observation
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Bernoulli-observation"
@@ -7020,7 +6275,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-This stage is the second step in the Bayesian inference algorithm 
+Tahap ini merupakan langkah kedua pada algoritma bayesian inference 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -7030,21 +6285,20 @@ noprefix "false"
 
 \end_inset
 
- which is selecting the statistical model that reflects beliefs with the
- prior distribution selected in the previous step.
- This study chose statistical model of bernoulli distribution to reflect
- belief on prior distribution in the previous step.
- Implementation on python syntax using stats method imported from library
- scipy.
- The result of the bernoulli distribution is the numpy array containing
- the random numbers 0 and 1 generated according to the prior distribution
- for each version A, B, and C.
- The number 1 represents true value and the number 0 represents the false
- value.
- The value of the bernoulli distribution generated from scipy is affected
- by the input of true_p_A, true_p_B, true_p_C and N_sample.
- The syntax of statistical modeling of the bernoulli distribution and the
- result can be seen in figure 
+ yaitu memilih statistical model yang reflects beliefs dengan prior distribution
+ yang dipilih pada langkah sebelumnya.
+ Penelitian ini memilih statistical model bernoulli distribution untuk merefleks
+ikan keyakinan terhadap prior distribution pada langkah sebelumnya.
+ Implementasi pada syntax pythonnya menggunakan method stats yang diimport
+ dari library scipy.
+ Hasil dari bernoulli distributionnya adalah numpy array yang berisi angka
+ random 0 dan 1 yang digenerate sesuai prior distribution untuk masing-masing
+ versi A, B, dan C.
+ Angka 1 mewakili nilai true dan angka 0 mewakili nilai false.
+ Nilai bernoulli distribution yang dihasilkan dari scipy dipengaruhi oleh
+ inputan true_p_A, true_p_B, true_p_C dan N_sample.
+ Syntax pembuatan statistical model bernoulli distribution dan hasilnya
+ bisa dilihat pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Bernoulli-observation"
@@ -7052,8 +6306,8 @@ reference "fig:Bernoulli-observation"
 \end_inset
 
 .
- The bernoulli distribution value for each version is stored in observation_A,
- observation_B, and observation_C variables.
+ Nilai bernoulli distribution untuk setiap versi disimpan pada variable
+ observation_A, observation_B, dan observation_C.
 \end_layout
 
 \begin_layout Standard
@@ -7086,7 +6340,7 @@ centering
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Sum and mean of bernoulli distribution observation
+Sum and mean of bernoulli observation
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Sum-and-mean"
@@ -7123,9 +6377,9 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-The mean value of the observations of bernoulli is obtained with the help
- of the numpy library with the mean method.
- The values are:
+Nilai rata-rata dari hasil observasi bernoulli didapat dengan bantuan library
+ numpy dengan method mean.
+ Nilai yang dihasilkan adalah:
 \end_layout
 
 \begin_layout Standard
@@ -7141,8 +6395,8 @@ mean_p_C = 0.0743944636678
 \end_layout
 
 \begin_layout Standard
-The mean value of these bernoulli observations becomes an update of belief
- values in the third step of the bayessian inference algorithm 
+Nilai rata-rata observasi bernoulli ini menjadi pembaruan nilai belief pada
+ langkah ketiga algoritma bayessian inference 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -7153,16 +6407,16 @@ noprefix "false"
 \end_inset
 
 .
- The average value of bernoulli observations is called true frequency.
- The true frequency value in this case is the actual probability value of
- the user completing the data filling until the end is true.
- The observation value of bernoulli shows how much true value is generated
- on the distribution.
- The true value of each version is as follows: version A is represented
- as sum_true_p_A variable 114 times true, version B represented sum_true_p_B
- variable as 138 times true, and C version represented sum_true_p_C variable
- as much as 86 times true.
- After that, perform posterior distribution calculations.
+ Nilai rata-rata observasi bernoulli disebut juga nilai true frequency.
+ Nilai true frequency pada kasus ini adalah nilai peluang sebenarnya user
+ menyelesaikan pengisian data sampai akhir yang bernilai true.
+ Nilai sum observasi bernoulli menunjukkan berapa banyak nilai true yang
+ dihasilkan pada distribusi.
+ Adapun banyaknya nilai true dari setiap versi adalah sebagai berikut: versi
+ A diwakili variabel sum_true_p_A sebanyak 114 kali true, versi B diwakili
+ variabel sum_true_p_B sebanyak 138 kali true, dan versi C diwakili variabel
+ sum_true_p_C sebanyak 86 kali true.
+ Setelah itu, melakukan perhitungan posterior distribution.
 \end_layout
 
 \begin_layout Standard
@@ -7232,7 +6486,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-Posterior distribution calculation with MH algorithm 
+Perhitungan posterior distribution dengan algorithma MH 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Metropolis-Hastings-algorithm"
@@ -7242,8 +6496,8 @@ noprefix "false"
 
 \end_inset
 
- on pymc probability models.
- The syntax is found in figure 
+ pada pymc probability models.
+ Syntaxnya terdapat pada figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pymc-probabilistic-model"
@@ -7254,8 +6508,8 @@ noprefix "false"
 \end_inset
 
 .
- Syntax in this section does not reflect coherently according to the MH
- algorithm 
+ Syntax pada bagian ini tidak mencerminkan secara runtut sesuai algoritma
+ Metropolis-Hastings 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Metropolis-Hastings-algorithm"
@@ -7266,16 +6520,16 @@ noprefix "false"
 \end_inset
 
 .
- The displayed syntax only provides the value of any input required with
- the use of the probability models of pymc used.
- The algorithm process is performed behind the scenes by the probability
- models of pymc.
- Thus, the Metropolis-Hastings algorithm is executed behind the scenes by
- the method of pm.Metropolis().
- The sample of the Metropolis-Hastings algorithm used is 20000.
- The meaning of trace [1000:] means that sampling values are taken from
- 1000 to last, this is to take 95% sample and ignore 0.05 (1000 divided by
- 20000) convergent.
+ Syntax yang ditampilkan hanya memberikan nilai inputan apa saja yang diperlukan
+ disertai dengan penggunaan metode probability models dari pymc yang digunakan.
+ Proses algoritma dilakukan di balik layar oleh metode probability models
+ dari pymc.
+ Jadi, algoritma Metropolis-Hastings dijalankan di balik layar oleh metode
+ pm.Metropolis().
+ Sample algoritma Metropolis-Hastings yang digunakan sebanyak 2000.
+ Arti dari trace[1000:] artinya diambil nilai sampling dari nilai ke 1000
+ sampai terakhir, hal ini untuk mengambil 95% sample dan mengabaikan 0,05
+ (1000 dibagi 20000) sample awal karena dianggap belum konvergen.
 \end_layout
 
 \begin_layout Standard
@@ -7342,7 +6596,7 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-The output of figure 
+Output dari figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pymc-probabilistic-model"
@@ -7352,8 +6606,9 @@ noprefix "false"
 
 \end_inset
 
- is the posterior distribution result required for the analysis process.
- The output is extracted into several variables, as in figure 
+ adalah hasil posterior distribution yang dibutuhkan untuk proses analisa.
+ Output tersebut diekstrak ke dalam beberapa variable, seperti pada figure
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Pymc-probabilistic-model-result"
@@ -7364,18 +6619,15 @@ noprefix "false"
 \end_inset
 
 .
- The variable p_A_samples is the posterior end value of the distribution
- of version A.
- The variable p_B_samples is the posterior end value of the distribution
- of version B.
- The p_C_samples variable is the final value of the posterior distribution
- version C.
- The variable delta_A_B_samples is the posterior end value of the comparison
- distribution between version A and version B.
- The delta_A_C_samples variable is the final value posterior distribution
- comparison between version A and version C.
- The delta_B_C_samples variable is the final value of the posterior distribution
- comparison between version B and version C.
+ Variabel p_A_samples adalah nilai akhir posterior distribution versi A.
+ Variabel p_B_samples adalah nilai akhir posterior distribution versi B.
+ Variabel p_C_samples adalah nilai akhir posterior distribution versi C.
+ Variabel delta_A_B_samples adalah nilai akhir posterior distribution perbanding
+an antara versi A dan versi B.
+ Variabel delta_A_C_samples adalah nilai akhir posterior distribution perbanding
+an antara versi A dan versi C.
+ Variabel delta_B_C_samples adalah nilai akhir posterior distribution perbanding
+an antara versi B dan versi C.
 \end_layout
 
 \begin_layout Standard
@@ -7459,13 +6711,14 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of posterior distribution for version A.
- Axis x is plotted in the range of 0.06 to 0.2, but the posterior value distributi
-on for version A lies between 0.07 and 0.13.
- The dotted vertical line is the location of the prior distribution value
- of A on the variable true_p_A = 0.10380622837370242 that has been declared
- at the beginning.
- The most posterior value is at about 0.092.
+ merupakan visualisasi posterior distribution probabilistik untuk versi
+ A.
+ Axis x diplot pada range 0,06 sampai 0,2, Akan tetapi distribusi nilai
+ posterior untuk versi A berada diantara 0,07 sampai 0,13.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution versi
+ A pada variabel true_p_A = 0.10380622837370242 yang sudah dideklarasikan
+ pada bagian awal.
+ Nilai posterior terbanyak terdapat pada sekitar 0,092.
 \end_layout
 
 \begin_layout Standard
@@ -7545,14 +6798,15 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of posterior distribution for version B.
- Axis x is plotted in the range of 0.06 to 0.2.
- However, the posterior value distribution for version B lies between 0.09
- and 0.15.
- The dotted vertical line is the location of the prior distribution value
- of B on the variable true_p_B = 0.1115916955017301 which has been declared
- at the beginning.
- The most posterior value is present at about 0.118.
+ merupakan visualisasi posterior distribution probabilistik untuk versi
+ B.
+ Axis x diplot pada range 0,06 sampai 0,2.
+ Akan tetapi, distribusi nilai posterior untuk versi B berada diantara 0,09
+ sampai 0,15.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution versi
+ B pada variabel true_p_B = 0.1115916955017301 yang sudah dideklarasikan
+ pada bagian awal.
+ Nilai posterior terbanyak terdapat pada sekitar 0,118.
 \end_layout
 
 \begin_layout Standard
@@ -7632,19 +6886,20 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of posterior distribution for version C.
- Axis x is plotted in the range of 0.00 to 0.1.
- However, the posterior value distribution for version C lies between 0.05
- and 0.09.
- The dashed vertical line is the location of the prior distribution value
- of C on the variable true_p_C = 0.0726643598615917 which has been declared
- at the beginning.
- The most posterior value is present at about 0.072.
+ merupakan visualisasi posterior distribution probabilistik untuk versi
+ C.
+ Axis x diplot pada range 0,00 sampai 0,1.
+ Akan tetapi, distribusi nilai posterior untuk versi C berada diantara 0,05
+ sampai 0,09.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution versi
+ C pada variabel true_p_C = 0.0726643598615917 yang sudah dideklarasikan
+ pada bagian awal.
+ Nilai posterior terbanyak terdapat pada sekitar 0,072.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="4">
+<lyxtabular version="3" rows="4" columns="4">
 <features islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="3cm">
@@ -7746,7 +7001,7 @@ Version C
 \begin_inset Text
 
 \begin_layout Plain Layout
-users completing the data completion 
+
 \end_layout
 
 \end_inset
@@ -7755,11 +7010,7 @@ users completing the data completion
 \begin_inset Text
 
 \begin_layout Plain Layout
-true_A
-\end_layout
 
-\begin_layout Plain Layout
-120
 \end_layout
 
 \end_inset
@@ -7768,11 +7019,7 @@ true_A
 \begin_inset Text
 
 \begin_layout Plain Layout
-true_B
-\end_layout
 
-\begin_layout Plain Layout
-129
 \end_layout
 
 \end_inset
@@ -7781,111 +7028,7 @@ true_B
 \begin_inset Text
 
 \begin_layout Plain Layout
-true_C
-\end_layout
 
-\begin_layout Plain Layout
-84
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-completion percentage
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-true_p_A
-\end_layout
-
-\begin_layout Plain Layout
-0.103806228 37370242
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-true_p_B
-\end_layout
-
-\begin_layout Plain Layout
-0.1115916955 017301
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-true_p_C
-\end_layout
-
-\begin_layout Plain Layout
-0.0726643 598615917
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-sum of the True value from bernoulli observations
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-sum_true_p_A
-\end_layout
-
-\begin_layout Plain Layout
-114
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-sum_true_p_B
-\end_layout
-
-\begin_layout Plain Layout
-138
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-sum_true_p_C
-\end_layout
-
-\begin_layout Plain Layout
-86
 \end_layout
 
 \end_inset
@@ -7896,7 +7039,7 @@ sum_true_p_C
 \begin_inset Text
 
 \begin_layout Plain Layout
-mean of the bernoulli observations
+
 \end_layout
 
 \end_inset
@@ -7905,11 +7048,7 @@ mean of the bernoulli observations
 \begin_inset Text
 
 \begin_layout Plain Layout
-mean_p_A
-\end_layout
 
-\begin_layout Plain Layout
-0.098615916955
 \end_layout
 
 \end_inset
@@ -7918,11 +7057,7 @@ mean_p_A
 \begin_inset Text
 
 \begin_layout Plain Layout
-mean_p_B
-\end_layout
 
-\begin_layout Plain Layout
-0.11937716263
 \end_layout
 
 \end_inset
@@ -7931,11 +7066,7 @@ mean_p_B
 \begin_inset Text
 
 \begin_layout Plain Layout
-mean_p_C
-\end_layout
 
-\begin_layout Plain Layout
-0.07439446366 78
 \end_layout
 
 \end_inset
@@ -7959,14 +7090,11 @@ noprefix "false"
 
 \end_inset
 
- shows the comparison of variables in versions A, B, and C.
- The variables which compared are about users completing the data completion,
- completion percentage, average of the bernoulli observations and mean of
- the bernoulli observations.
+ menunjukkan perbandingan variable pada versi A, B, dan C.
 \end_layout
 
 \begin_layout Standard
-The next few graphs(figure 
+Beberapa grafik selanjutnya (figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Posteriror-distribution-deltaAB"
@@ -7986,7 +7114,7 @@ noprefix "false"
 
 \end_inset
 
-, and 
+, dan 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Posteriror-distribution-deltaBC"
@@ -7996,12 +7124,12 @@ noprefix "false"
 
 \end_inset
 
-) are the posterior visualization of the comparison combination of all versions.
- Comparison combination are performed for each of the two versions.
- The resulting comparison combination is the comparison between versions
- A and B called delta A-B, the comparison between versions A and C is also
- called A-C delta, and the comparison between versions B and C is also called
- B-C delta.
+) merupakan visualisasi posterior distribution kombinasi perbandingan seluruh
+ versi.
+ Kombinasi perbandingan dilakukan untuk setiap dua versi.
+ Kombinasi perbandingan yang dihasilkan adalah perbandingan antara versi
+ A dan B disebut delta A-B, perbandingan antara versi A dan C disebut juga
+ delta A-C, dan perbandingan antara versi B dan C disebut juga delta B-C.
 \end_layout
 
 \begin_layout Standard
@@ -8081,17 +7209,19 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of probabilistic distribution for delta A-B.
- The posterior value distribution for the A-B delta is between -0.05 to 0.02.
- Dotted vertical line is where the prior distribution value of delta A-B
- is at a value of about -0.01.
- The unbroken vertical line shows the value 0 in axis x.
- Posterior distribution of distribution is more on the left value of 0 or
- on a negative value.
- That is, the subtracting variable from the A-B delta comparison becomes
- the better version.
- Version B becomes a better version than version A because version B as
- a delimiter on the A-B delta.
+ merupakan visualisasi posterior distribution probabilistik untuk delta
+ A-B.
+ Distribusi nilai posterior untuk delta A-B berada diantara -0,05 sampai
+ 0,02.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution delta
+ A-B berada pada nilai sekitar -0.01.
+ Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
+ Persebaran posterior distribution lebih banyak berada pada sebelah kiri
+ nilai 0 atau pada nilai negatif.
+ Artinya, variabel pengurang dari perbandingan delta A-B menjadi versi yang
+ lebih baik.
+ Versi B menjadi versi yang lebih baik dibandingkan versi A karena versi
+ B sebagai pengurang pada delta A-B.
 \end_layout
 
 \begin_layout Standard
@@ -8171,17 +7301,19 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of probabilistic distribution for delta A-B.
- The posterior value distribution for the A-C delta is between -0.015 to
- 0.06.
- Dotted vertical line is where the prior distribution value of delta A-C
- is at value around 0.031.
- The unbroken vertical line shows the value 0 in axis x.
- Posterior distribution of distribution is more to the right of value 0
- or to a positive value.
- That is, the reduced variables from the A-C delta ratio to the better versions.
- Version A becomes a better version than version C because version A is
- reduced on the A-C delta.
+ merupakan visualisasi posterior distribution probabilistik untuk delta
+ A-B.
+ Distribusi nilai posterior untuk delta A-C berada diantara -0,015 sampai
+ 0,06.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution delta
+ A-C berada pada nilai sekitar 0.031.
+ Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
+ Persebaran posterior distribution lebih banyak berada pada sebelah kanan
+ nilai 0 atau pada nilai positif.
+ Artinya, variabel yang dikurangi dari perbandingan delta A-C menjadi versi
+ yang lebih baik.
+ Versi A menjadi versi yang lebih baik dibandingkan versi C karena versi
+ A yang dikurangi pada delta A-C.
 \end_layout
 
 \begin_layout Standard
@@ -8261,16 +7393,19 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of probabilistic distribution for delta A-B.
- The posterior value distribution for the A-B delta is between 0.01 and 0.082.
- Dotted vertical line is where the prior distribution value of delta A-B
- is at a value of about 0.038.
- The solid vertical line shows the value 0 in axis x.
- The posterior distribution of the distribution is all to the right of value
- 0 or to a positive value.
- That is, the reduced variables of the B-C delta ratio become better versions.
- Version B is a better version than version C because version B is reduced
- on the B-C delta.
+ merupakan visualisasi posterior distribution probabilistik untuk delta
+ A-B.
+ Distribusi nilai posterior untuk delta A-B berada diantara 0,01 sampai
+ 0,082.
+ Garis vertikal putus-putus merupakan letak nilai prior distribution delta
+ A-B berada pada nilai sekitar 0.038.
+ Garis vertikal tanpa putus-putus menunjukkan nilai 0 pada axis x.
+ Persebaran posterior distribution seluruhnya berada pada sebelah kanan
+ nilai 0 atau pada nilai positif.
+ Artinya, variabel yang dikurangi dari perbandingan delta B-C menjadi versi
+ yang lebih baik.
+ Versi B menjadi versi yang lebih baik dibandingkan versi C karena versi
+ B yang dikurangi pada pada delta B-C.
 \end_layout
 
 \begin_layout Standard
@@ -8340,8 +7475,8 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-The result of postireior distribution comparison analysis has been conducted,
- disclose how the rankings of all versions.
+Hasil analisa perbandingan postireior distribution sebelumnya sudah mengungkapka
+n bagaimana peringkat perbandingan seluruh versi.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -8352,15 +7487,15 @@ noprefix "false"
 
 \end_inset
 
- shows the value of the percentage of confidence for all combinations of
- comparisons.
- Version A compared to version B the winner is version B, with confidence
- version A worse 96.1 percent (0.961) percent of version B.
- Version A compared to version C the winner is version A, with confidence
- version A better 97.5 percent (0.975) than version C.
- Version B compared to version C the winner is version B, with confidence
- version B is better 100 percent (1.00) of version C.
- So the best version is version B because version B > version A > C version.
+ menunjukan nilai presentase keyakinan untuk seluruh kombinasi perbandingan.
+ Versi A dibanding versi B pemenangnya adalah versi B, dengan keyakinan
+ versi A lebih buruk 96,1 persen (0,961) persen dari versi B.
+ Versi A dibanding versi C pemenangnya adalah versi A, dengan keyakinan
+ versi A lebih baik 97,5 persen (0,975) dari versi C.
+ Versi B dibanding versi C pemenangnya adalah versi B, dengan keyakinan
+ versi B lebih baik 100 persen (1,00) dari versi C.
+ Jadi, versi yang paling baik adalah versi B karena versi B > versi A >
+ versi C.
 \end_layout
 
 \begin_layout Chapter
@@ -8372,18 +7507,19 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-After performing A / B testing on the website mekargo.id with stages of research
- methods conducted include: identifying problems, defining website measurement,
- developing a hypothesis, developing and testing page variants, and analyzing
- test results.
- And analyzing the results of A / B testing with bayesian inference and
- pymc3 tools is done through Metropolis-Hastings algorithm as sampling technique
-, ipython and jupyter notebook as programming environment, scipy to produce
- bernoulli distribution, numpy as numerical data storage in array form,
- and matplotlib as viewer graph of result of data processing.
- It can be concluded that the final result of all combinations of probabilities
- generated by version B is the best result because it is always better when
- compared with versions A and C.
+Setelah melakukan A/B testing pada website mekargo.id dengan tahapan metode
+ penelitian yang dilakukan meliputi: identifying problems, defining website
+ measurement, developing a hypothesis, developing and testing page variants,
+ dan analyzing test results.
+ Serta menganalis hasil A/B testing dengan metode bayesian inference dan
+ tools pymc3 dilakukan melalui Metropolis-Hastings algorithm sebagai teknik
+ sampling, ipython dan jupyter notebook sebagai environment pemrograman,
+ scipy untuk menghasilkan distribusi bernoulli, numpy sebagai penyimpan
+ numerikal data berbentuk array, dan matplotlib sebagai penampil grafik
+ hasil pengolahan data.
+ Dapat disimpulkan bahwa hasil akhir seluruh kombinasi probabilitas yang
+ dihasilkan versi B adalah hasil yang terbaik karena selalu lebih baik saat
+ dibandingkan dengan versi A dan C.
 \end_layout
 
 \begin_layout Section
@@ -8391,9 +7527,9 @@ Suggestions
 \end_layout
 
 \begin_layout Standard
-Future research can be attempted to perform A / B testing with more versions
- and use another method of bayesian inference method with multi-arm bandit
- algorithm for more complex problem.
+Penelitian berikutnya dapat dicoba untuk melakukan A/B testing dengan versi
+ lebih banyak dan pengembangan metode bayesian inference dengan algoritma
+ multi-arm bandit.
 \end_layout
 
 \begin_layout Standard
@@ -8464,6 +7600,15 @@ centering
 \end_inset
 
 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Letter of data and information permission request
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -8471,15 +7616,6 @@ centering
 	filename images/surat izin/surat izin gundar.png
 	lyxscale 10
 	scale 50
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Letter of data and information permission request
-\end_layout
 
 \end_inset
 
@@ -8508,19 +7644,22 @@ centering
 \end_inset
 
 
-\begin_inset Graphics
-	filename images/surat izin/surat izin mekar.png
-	lyxscale 10
-	scale 60
-
-\end_inset
-
-
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 Letter of data and information usage permission
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/surat izin/surat izin mekar.png
+	lyxscale 10
+	scale 60
 
 \end_inset
 

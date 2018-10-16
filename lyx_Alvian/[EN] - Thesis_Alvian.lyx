@@ -1247,9 +1247,9 @@ Date of Thesis Defence
 \begin_inset Text
 
 \begin_layout Plain Layout
-April
+
 \size small
-, 22 2018
+October, 18 2018
 \end_layout
 
 \end_inset
@@ -1550,9 +1550,9 @@ Date of Thesis Defence
 \begin_inset Text
 
 \begin_layout Plain Layout
-April
+
 \size small
-, 22 2018
+October, 18 2018
 \end_layout
 
 \end_inset
@@ -2148,7 +2148,7 @@ Author realizes that there are no perfect things in the world, same as this
 
 \begin_layout Standard
 \align right
-Jakarta, April 2018
+Jakarta, October 2018
 \end_layout
 
 \begin_layout Standard
@@ -4172,9 +4172,9 @@ Identifying Problems
 \end_layout
 
 \begin_layout Standard
-Issues identified are issues related to the website to be performed A /
- B testing.
- The issues raised are usually related to business, marketing, or convertion
+Problems identified are issues related to the website to be performed A
+ / B testing.
+ The problems are usually related to business, marketing, or convertion
  rate.
  Depending on what goals to be achieved on making A / B testing on the website.
  The problem described is usually because there is something that arises
@@ -5110,21 +5110,21 @@ noprefix "false"
  The type of change made is the removal of data for data that is considered
  unneeded.
  Optional is the part changed to not required, but the field still exists.
- The latter is new for new fields that do not exist in previous versions.
+ New fields is additional fields that do not exist in previous versions.
  This field change applies to all versions of A, B, and C.
 \end_layout
 
 \begin_layout Standard
-Changes made to personal details information are to remove the business
- address field or place of employment, field of business type or type of
- work, length of business or duration of employment, number of employees,
- photos of place of business, employee status.
- Changes to fields that are made field optional on the personal details
- information is email field and photo ID card.
+Changes made to personal details information are removing the business address
+ fields or employment address, business type or type of job, length of business
+ or duration of employment, number of employees, photos of place of business,
+ employee status.
+ Changes for optional fields are the personal details information is email
+ field and photo ID card.
  The new field added to the personal details information section is the
  birth date field.
- Then, the security section is only made field changes to be optional on
- the field of land and building photos and photos of motor vehicles.
+ Then, change on the warranty section is only changes the field of land
+ and building photos also photos of motor vehicles to be optional.
 \end_layout
 
 \begin_layout Standard
@@ -5770,7 +5770,7 @@ v
 \end_layout
 
 \begin_layout Standard
-The data flow flows for versions A, B, and C are defined in the table 
+The data flows for versions A, B, and C are defined in the table 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Url-definition"
@@ -5781,12 +5781,12 @@ noprefix "false"
 \end_inset
 
 .
- Each page is also considered a step or step and is named for each step.
- Step fill of all versions of data consists of: survey needs page, detail
- needs page, personal information page, detail loan access page, extra pesonal
- detail information page, and congrats page.
- Version B and C there is no extra step pesonal detail information page
- because put together in step pesonal detail information page.
+ Each page is also considered a step and is named for each step.
+ Step to be filled of all versions of data consists of: survey needs page,
+ detail needs page, personal information page, detail loan access page,
+ extra pesonal detail information page, and congrats page.
+ On version B and C there is no extra step pesonal detail information page
+ because it is put together in the pesonal detail information page.
  The url for all the steps is almost identical, the distinguish is the alphabeti
 cal a or b or c after the / ukm / on the url definition.
  This distinction of suffix makes it easy to differentiate traffic on the
@@ -6195,8 +6195,7 @@ n page - thanks page - survey needs page - detail needs page - congrats
 \begin_layout Standard
 Traffic sharing for balanced versions A, B, and C is done on the server
  side.
- The programming language of the server part used is the python programming
- language.
+ The programming language of the server is python programming language.
  Syntax implementation of traffic sharing is in listing 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -6352,8 +6351,8 @@ noprefix "false"
 \end_inset
 
 .
- PIn syntax "gtag ('config', 'UA-70057602-1');" is a tracking marker owned
- by Mekar GO.
+ Syntax "gtag ('config', 'UA-70057602-1');" is a tracking marker for Mekar
+ GO website.
  Unique code UA-70057602-1 is obtained from Google Analytic's dashboard
  on PT Mekar's Google account.
 \end_layout
@@ -6715,9 +6714,9 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-he first syntax to analyze A / B test results in this study is to import
- all required python libraries ie pymc3, numpy, Ipython, matplotlib, and
- scipy.
+The first syntax to analyze A / B test results in this study is to import
+ all required python libraries which are pymc3, numpy, Ipython, matplotlib,
+ and scipy.
  This syntax is written in the notebook jupyter environment.
  The syntax is in the figure 
 \begin_inset CommandInset ref
@@ -6903,7 +6902,8 @@ reference "fig:Calculate-probability"
 
 \end_inset
 
- is the first step in bayesian inference algorithm 
+.
+ It is the first step in bayesian inference algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "alg:Bayesian-inference-algorithm"
@@ -6940,17 +6940,17 @@ true_p_C = 0.0726643598615917
 \begin_layout Standard
 \noindent
 The values true_p_A, true_p_B, and true_p_C are obtained by performing a
- calculation operation against the initial initiation values gained previously.
- This value indicates the completion percentage of completing the completed
- data for each version.
- The variable true_p_A indicates the completion percentage of A version
- of data charging as much as 10.38%.
- The variable true_p_B indicates the completion percentage of data charging
- A version of 11.16%.
- The variable true_p_C shows the completion percentage of A version of data
- filling as much as 7.27%.
- Versions A and B have met the metric targets that want a percentage completion
- of data charging above 10 percent.
+ calculation operation against the initiation values gained previously.
+ This value indicates the completion percentage of completing the data for
+ each version.
+ The variable true_p_A indicates the completion percentage of version A
+ is equal to 10.38%.
+ The variable true_p_B indicates the completion percentage of version B
+ is equal to 11.16%.
+ The variable true_p_C shows the completion percentage of version C is equal
+ to 7.27%.
+ Versions A and B have met the metric targets which is percentage completion
+ of data is above 10 percent.
 \end_layout
 
 \begin_layout Standard
@@ -7030,7 +7030,7 @@ noprefix "false"
 
 \end_inset
 
- that is selecting the statistical model that reflects beliefs with the
+ which is selecting the statistical model that reflects beliefs with the
  prior distribution selected in the previous step.
  This study chose statistical model of bernoulli distribution to reflect
  belief on prior distribution in the previous step.
@@ -7039,7 +7039,8 @@ noprefix "false"
  The result of the bernoulli distribution is the numpy array containing
  the random numbers 0 and 1 generated according to the prior distribution
  for each version A, B, and C.
- The number 1 represents true and the number 0 represents the false value.
+ The number 1 represents true value and the number 0 represents the false
+ value.
  The value of the bernoulli distribution generated from scipy is affected
  by the input of true_p_A, true_p_B, true_p_C and N_sample.
  The syntax of statistical modeling of the bernoulli distribution and the
@@ -7122,8 +7123,8 @@ FloatBarrier
 \end_layout
 
 \begin_layout Standard
-The average value of the observations of bernoulli is obtained with the
- help of the numpy library with the mean method.
+The mean value of the observations of bernoulli is obtained with the help
+ of the numpy library with the mean method.
  The values are:
 \end_layout
 
@@ -7140,7 +7141,7 @@ mean_p_C = 0.0743944636678
 \end_layout
 
 \begin_layout Standard
-The average value of these noulli observations becomes an update of belief
+The mean value of these bernoulli observations becomes an update of belief
  values in the third step of the bayessian inference algorithm 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -7152,10 +7153,10 @@ noprefix "false"
 \end_inset
 
 .
- The average value of noulli observations is called true frequency.
- The true frequency value in this case is the actual opportunity value of
+ The average value of bernoulli observations is called true frequency.
+ The true frequency value in this case is the actual probability value of
  the user completing the data filling until the end is true.
- The observation value of noulli shows how much true value is generated
+ The observation value of bernoulli shows how much true value is generated
  on the distribution.
  The true value of each version is as follows: version A is represented
  as sum_true_p_A variable 114 times true, version B represented sum_true_p_B
@@ -7270,8 +7271,8 @@ noprefix "false"
  The algorithm process is performed behind the scenes by the probability
  models of pymc.
  Thus, the Metropolis-Hastings algorithm is executed behind the scenes by
- the method of pm.Metropolis ().
- The sample of the Metropolis-Hastings algorithm used is 2000.
+ the method of pm.Metropolis().
+ The sample of the Metropolis-Hastings algorithm used is 20000.
  The meaning of trace [1000:] means that sampling values are taken from
  1000 to last, this is to take 95% sample and ignore 0.05 (1000 divided by
  20000) convergent.
@@ -7995,9 +7996,8 @@ noprefix "false"
 
 \end_inset
 
-) are the posterior visualization of the combination combinations of all
- versions.
- Combination combinations are performed for each of the two versions.
+) are the posterior visualization of the comparison combination of all versions.
+ Comparison combination are performed for each of the two versions.
  The resulting comparison combination is the comparison between versions
  A and B called delta A-B, the comparison between versions A and C is also
  called A-C delta, and the comparison between versions B and C is also called
@@ -8392,7 +8392,8 @@ Suggestions
 
 \begin_layout Standard
 Future research can be attempted to perform A / B testing with more versions
- and development of bayesian inference method with multi-arm bandit algorithm.
+ and use another method of bayesian inference method with multi-arm bandit
+ algorithm for more complex problem.
 \end_layout
 
 \begin_layout Standard
