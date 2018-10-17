@@ -7364,13 +7364,13 @@ noprefix "false"
 \end_inset
 
 .
- The variable p_A_samples is the posterior end value of the distribution
- of version A.
- The variable p_B_samples is the posterior end value of the distribution
- of version B.
+ The variable p_A_samples is the posterior value of the distribution of
+ version A.
+ The variable p_B_samples is the posterior value of the distribution of
+ version B.
  The p_C_samples variable is the final value of the posterior distribution
  version C.
- The variable delta_A_B_samples is the posterior end value of the comparison
+ The variable delta_A_B_samples is the posterior value of the comparison
  distribution between version A and version B.
  The delta_A_C_samples variable is the final value posterior distribution
  comparison between version A and version C.
@@ -8091,7 +8091,7 @@ noprefix "false"
  That is, the subtracting variable from the A-B delta comparison becomes
  the better version.
  Version B becomes a better version than version A because version B as
- a delimiter on the A-B delta.
+ a subtractor on the A-B delta.
 \end_layout
 
 \begin_layout Standard
@@ -8171,7 +8171,7 @@ noprefix "false"
 
 \end_inset
 
- is a visualization of probabilistic distribution for delta A-B.
+ is a visualization of probabilistic distribution for delta A-C.
  The posterior value distribution for the A-C delta is between -0.015 to
  0.06.
  Dotted vertical line is where the prior distribution value of delta A-C
@@ -8254,16 +8254,16 @@ FloatBarrier
 Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Posteriror-distribution-deltaAB"
+reference "fig:Posteriror-distribution-deltaBC"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
- is a visualization of probabilistic distribution for delta A-B.
- The posterior value distribution for the A-B delta is between 0.01 and 0.082.
- Dotted vertical line is where the prior distribution value of delta A-B
+ is a visualization of probabilistic distribution for delta B-C.
+ The posterior value distribution for the B-C delta is between 0.01 and 0.082.
+ Dotted vertical line is where the prior distribution value of delta B-C
  is at a value of about 0.038.
  The solid vertical line shows the value 0 in axis x.
  The posterior distribution of the distribution is all to the right of value
